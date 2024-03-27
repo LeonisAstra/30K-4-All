@@ -1263,6 +1263,7 @@ Shooting:
 Assault:
 - May declare Charges.
 - Please note, if a knight or titan made a ranged attack during the Shooting Phase, then it may only declare a charge against any of the units it declared as targets during the Shooting Phase.
+- All models with the Knight Unit Type gains Hammer of Wrath (3) Special Rule.
 - Cannot be locked in combat.
 - Any hits are resolved against its Front AV.
 - Gains +1 attack for each Melee weapon after the first
@@ -1281,6 +1282,9 @@ Reactions:
 - May not perform Death or Glory Reactions</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="6a68-5dd3-0589-f4dc" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule"/>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="4280-2d8-16c6-d60b" name="Titan Sub-type" hidden="false">
       <infoLinks>
