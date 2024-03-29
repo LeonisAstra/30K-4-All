@@ -2914,17 +2914,23 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ee5-066a-ed0e-fd0b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1c1b-ef61-5306-5dcf" name="Fellblade Accelerator Autocannon - HE Shell" publicationId="a716-c1c4-7b26-8424" page="128" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="1c1b-ef61-5306-5dcf" name="Fellblade Accelerator Autocannon - HE Shell" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">100&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Pinning, Rending (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="f475-5c5f-0dbd-b4ae" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+            <infoLink id="1b9a-246a-2396-40d5" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+            <infoLink id="4ee2-9b22-6b25-d2c4" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Rending (6+)"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
@@ -2936,12 +2942,12 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1041-1507-e32e-0716" type="max"/>
           </constraints>
           <profiles>
-            <profile id="903d-8174-33b5-3c85" name="Fellblade Accelerator Autocannon - AE Shell" publicationId="a716-c1c4-7b26-8424" page="128" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="903d-8174-33b5-3c85" name="Fellblade Accelerator Autocannon - AE Shell" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">100&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Armourbane (Ranged), Exoshock (4+), Blast (3&quot;)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Armourbane (Ranged), Exoshock (4+), Blast (3&quot;), Brutal (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2955,6 +2961,11 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
             <infoLink id="4b60-cd78-348f-5527" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Exoshock (4+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9e6f-93a9-e0e9-80a3" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Brutal (3)"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -7691,12 +7702,12 @@ A. No.</description>
     </selectionEntry>
     <selectionEntry id="0541-5826-5219-c190" name="Baneblade Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ab97-57d4-692d-6b96" name="Baneblade Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="ab97-57d4-692d-6b96" name="Baneblade Cannon" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Rending (6+), Pinning</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Rending (6+), Pinning</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7745,11 +7756,11 @@ A. No.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e29-78c7-836f-8fc0" name="Hellhammer cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9e29-78c7-836f-8fc0" name="Hellhammer Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1ad7-8c18-9aa1-5b66" name="Hellhammer cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="1ad7-8c18-9aa1-5b66" name="Hellhammer Cannon" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Sunder, Rending (5+), Brutal (3)</characteristic>
@@ -8131,20 +8142,21 @@ A. No.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7638-4f76-51f0-b0fa" name="Battle Cannon" publicationId="d0df-7166-5cd3-89fd" page="29" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7638-4f76-51f0-b0fa" name="Battle Cannon" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7d29-66bb-2c6c-bd1f" name="Battle Cannon" publicationId="d0df-7166-5cd3-89fd" page="29" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="7d29-66bb-2c6c-bd1f" name="Battle Cannon" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Pinning</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Breaching (6+), Pinning</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1b98-e720-d21f-5c12" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="3460-c89e-6aaa-a409" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="566b-cb2c-af1c-f443" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
@@ -9063,12 +9075,12 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
     </selectionEntry>
     <selectionEntry id="8339-4003-fe88-b536" name="Adrathic Destructor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e7e2-d04f-4361-8e89" name="Adrathic Destructor" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="e7e2-d04f-4361-8e89" name="Adrathic Destructor" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9080,6 +9092,11 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
           </modifiers>
         </infoLink>
         <infoLink id="b1fa-07a0-2176-f6fb" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="f934-8645-e8af-46a0" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
@@ -9132,6 +9149,11 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <infoLink id="1313-d4ac-6cbd-9b6c" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6c82-8060-42a5-a8ec" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -10342,6 +10364,68 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="363d-7173-cf11-066b" name="Multi-Melta w/ Suspensor Web" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d401-ec55-0b39-3811" name="Multi-Melta w/ Suspensor Web" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Melta), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="35f5-9767-fc21-c602" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Melta)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6ecc-8efb-fa4b-b34d" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="1afb-1ccc-bfc4-c2a1" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="120" hidden="false" targetId="733b-dd18-cf6a-a256" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c98-c35c-98be-d27f" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="123" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="733b-dd18-cf6a-a256" name="Suspensor Web" publicationId="9fab-fea7-a93c-2074" page="123" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A weapon with a Suspensor Web may be fired as an Assault weapon at half range or less. If a weapon fired in this manner has any Special Rules that rely on range (such as Armourbane (Melta)) then the range required to trigger this Special Rule is calculated based on the weapon’s original range, not the modified range from the Suspensor Web’s effects.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b054-ed51-e2f6-dd80" name="Adrathic Devastor" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="df87-31cb-f414-0f16" name="Adrathic Devastor" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Armourbane (Ranged), Gets Hot, Breaching 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7499-075e-aecd-741a" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ec3f-a49e-b819-39c0" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6aec-11da-4a71-a35f" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="cb92-f2a6-9243-fe31" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -15560,6 +15644,123 @@ Once assigned to a unit, the Legion Techmarine is considered part of that unit a
     </rule>
     <rule id="d789-8a0c-7182-79c4" name="Countermeasures" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
       <description>A model with this Special Rule has a 5+ Invulnerable Save against any Shooting Attacks which have the Skyfire Special Rule made against it. A model with this Special Rule which does not make a Zoom move in the Controlling Player’s Movement Phase cannot claim the benefit of this Special Rule during the rest of the Controlling Player’s turn, as well as the Opposing Player’s turn.</description>
+    </rule>
+    <rule id="798b-c61b-8e53-1776" name="Indiscriminate Fire!" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model with this Special Rule ignores all effects and penalties applied by the Night Fighting rules.</description>
+    </rule>
+    <rule id="7506-bcf8-fdb8-345e" name="Afterburner" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>Once per game at the start of the Movement Phase, a model with this Special Rule may elect to fire its Afterburner. If it does so, the model may make an additional move after its normal move, up to its normal movement Characteristic. Note that for this additional move, the Movement value cannot be modified in any way.</description>
+    </rule>
+    <rule id="fde9-c473-d6c9-0e69" name="Armoured Superstructure" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>Whenever a roll is made on the Vehicle Damage Table against a model with this Special Rule, subtract -1 from the result rolled.</description>
+    </rule>
+    <rule id="a373-9d03-0a41-339e" name="Artillery Spotters" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>A unit with this Special Rule may grant the benefits of a Cognis Signum it has purchased to a single unit with at least one model within 6” of a model from this unit, instead of using the benefit itself.
+Note that the unit must be from the same Tercio as it to grant it the benefits of the Cognis Signum in this way.</description>
+    </rule>
+    <rule id="c34b-6064-a6d0-cfd7" name="Augmetics (X)" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>When a model with this Special Rule suffers an unsaved Wound, it can make a special Augmetics roll to avoid being wounded (this is not a Saving Throw and so can be used against attacks that state that ‘no Saves of any kind are allowed’).
+Roll a D6 each time an unsaved Wound is suffered. On a result that is equal to or greater than the value in brackets, the unsaved Wound is discounted – treat it as having been Saved. On any other result, the Wound is taken as normal. For example, a unit with the Augmetics (6+) Special Rule would need to score a 6 in order to discount a Wound inflicted upon it.
+If on any unit this rule is presented simply as Augmetics, without a value in brackets, then count it as Augmetics (6+).
+This is a Damage Mitigation roll – any model may make only a single Damage Mitigation roll of any type for any given Wound (see page 174).</description>
+    </rule>
+    <rule id="9539-a183-36d3-142e" name="Auto-Servo Tracking" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>A weapon with this Special Rule can fire at a different target to the other weapons the model is armed with.</description>
+    </rule>
+    <rule id="c10a-a327-c9d6-1ea8" name="Born of Steel" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>A model with this Special Rule may be given the Patris Cybernetica Special Rule at no additional cost in points - this must be decided
+at the start of the battle before any models are deployed and may not be changed during the battle.</description>
+    </rule>
+    <rule id="b325-1f3d-84ad-0ec8" name="Brittle" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>If a model armed with a weapon with this Special Rule hits with all attacks made with this weapon in a single phase, the blade’s edge is blunted – at the end of the phase, the weapon’s AP value drops to AP 4 and it loses any variant of the Rending (X) Special Rule it possesses for the rest of the battle.</description>
+    </rule>
+    <rule id="1cf9-e10e-5e33-1de6" name="Broken Soul" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>A model with this Special Rule may be given the Corrupted Sub-type at no additional cost in points - this must be decided at the start of the battle before any models are deployed and may not be changed during the battle.</description>
+    </rule>
+    <rule id="f8ac-9ec9-64e9-30b1" name="Caestus Prow" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>A model with this Special Rule may declare a Ramming attack in the same manner as a Tank, regardless of its actual unit type. This
+attack must be declared at the start of the Movement Phase, after you have decided whether or not the will fire its Afterburner (if it has the Afterburner Special Rule). When conducting a Ramming attack, the hit is automatically resolved at Strength 10, AP 3, and adds +1 to any rolls on the Vehicle Damage table it inflicts. If the model fired its Afterburner this turn, add +2 instead.
+In addition, the model has an Invulnerable Save of 5+ against any attacks against its Front Armour, including any damage it suffers as a result of it Ramming or being Rammed itself.
+A model with this Special Rule is immune to the effects of the Armourbane (Melta) Special Rule – meaning that no extra D6 for armour penetration can be rolled against the model as a result of this Special Rule.</description>
+    </rule>
+    <rule id="eaa8-00f0-e3b1-ea62" name="Consul (X)" publicationId="9fab-fea7-a93c-2074" page="164" hidden="false">
+      <description>A model with this Special Rule is counted as having the named Legiones Consularis Upgrade as indicated in brackets in the Special Rule for all intents and purposes, including Rites of War, Special Rules, and wargear limitations which either require there to be one to be present in a detachment, or prevent it. Note that this does not confer any of the benefits normally gained from that upgrade to the model themselves from any such sources.</description>
+    </rule>
+    <rule id="130b-ba36-a77d-15ed" name="Crew-Served Weapon" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model with this Special Rule may Embark on models with the Transport Unit Sub-Type and Infantry Transport Special Rule, contrary to the restriction on models with the Bulky (X) Special Rule rule, but still must take into account their size due to the Bulky (X) Special Rule.</description>
+    </rule>
+    <rule id="dbed-7708-c5d8-865e" name="Dimensional Edge (X)" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>Weapons with this Special Rule can only ever cause a Wound on the number indicated in brackets.
+No Saves or Damage Mitigation rolls of any kind may be taken against Wounds caused by this weapon.</description>
+    </rule>
+    <rule id="52e6-6329-a9fd-e9a3" name="Close-Quarters Boarding Protocol" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A unit with this Special Rule may be chosen as part of a detachment using the Zone Mortalis Engagement Force Organisation Chart despite having more than 15 models. However, this unit cannot be expanded above its starting size.</description>
+    </rule>
+    <rule id="5bf0-13d2-0548-80a9" name="Emperor&apos;s Chosen" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model with this Special Rule that suffers an unsaved wound with the Instant Death Special Rule is not immediately removed as a
+casualty, but instead loses D3 wounds instead of one for each unsaved wound with the Instant Death Special Rule inflicted on it.</description>
+    </rule>
+    <rule id="f449-f80d-050d-1926" name="Exposed Compartment" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>Any rolls on the Vehicle Damage Table that target a model with this Special Rule add +1 to the result.</description>
+    </rule>
+    <rule id="ad54-95a5-f4b3-d8a8" name="Felling Blow" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>When a model equipped with a weapon with this Special Rule makes a Melee attack, it may choose to halve the number of attacks it makes. If it does so, those attacks gain the Murderous Strike (5+) Special Rule.</description>
+    </rule>
+    <rule id="1443-0133-1cc7-825f" name="Gyrocoil Charge" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>Attacks made with a weapon with this Special Rule incur a -2 Initiative Penalty.</description>
+    </rule>
+    <rule id="6b35-420c-3763-812c" name="Hardwired Defences" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A Fortification with this Special Rule may not be claimed by a player which did not originally select them as part of their army.</description>
+    </rule>
+    <rule id="a676-e911-8581-8a72" name="Immobile" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model with this Special Rule may not move for any reason, including making Run moves, declaring or otherwise making Charge moves, falling back, or make Reactions which would allow it to move. If it would be forced to do so, the model is immediately destroyed.</description>
+    </rule>
+    <rule id="3c1b-aa1b-505c-8c29" name="Legiones Astartes Command Tank" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model with this Special Rule is selected as a separate unit, but during the deployment or the game they may join a unit composed
+entirely of models with the Vehicle Unit Type as though they had the Character Sub-type and Independent Character Special Rule, although they do not gain any additional benefits from these Special Rules or Sub-types.
+A model with this Special Rule may not join a unit containing any model with a Hull Points Characteristic of 6 or higher.</description>
+    </rule>
+    <rule id="e053-84f7-23bf-75ef" name="No Witness" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model with this Special Rule may never issue or accept Challenges, and ignores any effects or Special Rules that would force it to do so. If the Opposing Player issues a Challenge, a model with this Special Rule may never be chosen as the model who declined it.</description>
+    </rule>
+    <rule id="9d13-234c-1a73-798c" name="Makeshift Weapon" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
+      <description>A model equipped with a weapon with this Special Rule may only make a single attack at Initiative Step 1 with it, and may not gain a bonus attack for Charging or from any Special Rules that would normally grant additional Attacks.</description>
+    </rule>
+    <rule id="dade-cddf-4b38-8fe4" name="Inertia Suppression Clamps" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>A model with this Special Rule can carry models in any type of Legion Terminator armour and that have the Bulky (2) Special
+Rule as though they did not have that Special Rule.
+Note that this includes Legion Specific Terminator units.</description>
+    </rule>
+    <rule id="6a8f-6ca1-72f4-5be0" name="Paired Weapons" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>A model armed with a weapon with this Special Rule gains an extra Attack.</description>
+    </rule>
+    <rule id="9f34-bb3b-e63b-299a" name="Predator&apos;s Gaze" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>When issuing a challenge, a model with this Special Rule selects the enemy character that accepts the challenge from any models which are eligible to respond.</description>
+    </rule>
+    <rule id="33c9-6e05-39be-8577" name="Psychic Mastery (X)" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>A model with this Special Rule may cast an amount of Psychic Powers per phase, up to the number indicated in brackets, in spite of the normal limitations on doing so. Note that a Psychic Power counted as a Shooting Attack counts as a single power for the purposes of this Special Rule.</description>
+    </rule>
+    <rule id="6d2c-cbe5-dbd9-40da" name="Reinforced Shell" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>When a model with this Special Rule loses its last Hull Point, but before resolving the Super-Heavy Explosion, roll a D6. On a Result of a 4+, the model does not explode as normal, but instead its shell is treated from this point onward as a ruined building rather than a vehicle wreck, with its two doorways counted as being open access points to the interior.</description>
+    </rule>
+    <rule id="74b4-fe3c-8ad6-3940" name="Riposte (X)" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>Models making an attack against a model wielding a weapon with this Special Rule must subtract X from their Weapon Skill.</description>
+    </rule>
+    <rule id="ced3-6b8d-80a2-a6fd" name="Soul-Death" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>When attacking a model with the Daemon, Psyker, or Corrupted Unit Type or Sub-types, a weapon with this Special Rule gains the Fleshbane, Instant Death, and Breaching (3+) Special Rules.</description>
+    </rule>
+    <rule id="89cc-21e0-bee2-6a89" name="Skill Rider" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>A model with this Special Rule may opt to run in the Movement Phase and still fire a single ranged weapon in the Shooting Phase.
+These shots are made at BS2. The To-Hit rolls for these shots cannot be improved by any source.
+Note that if a unit makes use of this Special Rule, they may not claim the benefits of the Firing Protocols (X) Special Rule in the same Game Turn.</description>
+    </rule>
+    <rule id="f690-0d4f-dae7-d730" name="Tank Desant" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>While a model is embarked in the Transport Capacity of a model with this Special Rule, it may fire its ranged weapons as though it
+is not embarked in a vehicle. All ranges should be measured from the hull of the Transport.</description>
+    </rule>
+    <rule id="9049-4422-5120-ef52" name="Warp Resplendent" publicationId="9fab-fea7-a93c-2074" page="166" hidden="false">
+      <description>A model with this Special Rule treats any weapons it is equipped with with a range of “Template” as having a range of “Hellstorm” instead, and any weapons with the “Blast (3”)” Special Rule as having the “Large Blast (5”)” Special Rule instead.
+In addition, any weapons a model with this Special Rule is equipped with which do not meet either of these conditions instead count their range characteristic as being twice that specified in the weapon’s profile.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
