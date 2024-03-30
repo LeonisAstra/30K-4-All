@@ -4643,6 +4643,14 @@ In additon, a Contekar Terminator Squad may be selected as a Retinue Squad in a 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Teleport Strike" hidden="false" id="61e7-71a-f6f6-95f5" collective="false" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9988-7f0c-b5b7-81e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" hidden="false" id="3191-df74-97fa-cb0b" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="64da-2062-c2fd-ef53" name="Dedicated Transport:" hidden="false" collective="false" import="true">
