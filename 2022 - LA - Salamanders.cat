@@ -3371,7 +3371,7 @@
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Two-handed, Armourbane (Melee), Instant Death</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Two-handed, Armourbane (Melee), Instant Death, Brutal (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3384,6 +3384,11 @@
               </modifiers>
             </infoLink>
             <infoLink id="5a92-5530-1be3-6d87" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+            <infoLink name="Brutal (X)" hidden="false" id="b7a-f83a-f3a4-b32c" type="rule" targetId="5079-1fec-d32b-8b84">
+              <modifiers>
+                <modifier type="set" value="Brutal (2)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

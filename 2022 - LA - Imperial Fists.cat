@@ -4278,7 +4278,6 @@
             <modifier type="set" field="name" value="Adamantium Will (3+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="ec08-f75e-b050-ab03" name="Eternal Warrior" hidden="false" targetId="000b-fe96-31f8-c0ad" type="rule"/>
         <infoLink id="1443-2899-365f-7fca" name="Fearless" hidden="false" targetId="b48c-d7e1-2a83-2f5b" type="rule"/>
         <infoLink id="33ce-89c8-fab1-7a2f" name="Legiones Astartes (Imperial Fists)" hidden="false" targetId="e876-4f8f-a30f-8b22" type="rule"/>
         <infoLink id="ceec-7dfb-3406-2c0e" name="Precision Strikes (X)" hidden="false" targetId="2206-8497-8fe1-e973" type="rule">
@@ -4286,6 +4285,7 @@
             <modifier type="set" field="name" value="Precision Strikes (3+)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Emperor&apos;s Chosen" hidden="false" id="899e-fe2e-f196-1a2" type="rule" targetId="5bf0-13d2-0548-80a9" publicationId="9fab-fea7-a93c-2074" page="125"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0f9a-794e-6027-b9cf" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -5664,9 +5664,8 @@ Both weapons are counted as ‘Power’ weapons for those rules that affect such
       <profiles>
         <profile id="5ddf-1487-f93e-b061" name="Vigil Storm Shield" publicationId="817a-6288-e016-7469" page="228" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any model with both the Legiones Astartes (Imperial Fists) and Independent Character special rules that does not have the Unique unit Sub-type may take a Vigil storm shield for +20 points. Additionally, any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Tartaros Terminator Squad, or Legion Tartaros Command Squad may exchange a combi-bolter for a Vigil storm shield for +15 points each. Any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Cataphractii Terminator Squad or Legion Cataphractii Command Squad may exchange a combi-bolter for a Vigil storm shield for +10 points each.
-
-A model with a Vigil storm shield gains a 3+ Invulnerable Save – Invulnerable Saves granted by a Vigil storm shield do not stack with other Invulnerable Saves and cannot be modified by any other special rule. If a model has another Invulnerable Save then the controlling player must choose one to use. A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any model with both the Independent Character and Legiones Astartes (Imperial Fists) Special Rule that does not also have the Unique Unit Sub-type may take a Vigil Storm Shield for +15 points. Any model with the Legiones Astartes (Imperial Fists) Special Rule and Legion Cataphractii or Legion Tartaros Terminator Armour may exchange a Combi-Bolter for a Vigil Storm Shield for +10 points each.
+A Vigil Storm Shield provides a 5+ Invulnerable Save or increases an Invulnerable Save the model already has by one step (for example, from 5+ to 4+, to a maximum of 3+). A model with a Vigil Storm Shield may not claim an additional attack for a second weapon in close combat or make attacks with any weapon that has the Two-handed Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>

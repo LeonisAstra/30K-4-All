@@ -4030,7 +4030,7 @@ Rite of War must use the Deep Strike option and must be assigned to a Deep Strik
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Brutal (2)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Paired Talons, Brutal (2)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4045,6 +4045,11 @@ Rite of War must use the Deep Strike option and must be assigned to a Deep Strik
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
+              <rules>
+                <rule name="Paired Talons" hidden="false" id="7f5a-57bd-9e99-4ac4" publicationId="9fab-fea7-a93c-2074" page="174">
+                  <description>A model armed with two of a weapon with this special rule gains +2 attacks, instead of the normal +1 for having two weapons.</description>
+                </rule>
+              </rules>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -5558,7 +5563,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c1fb-61b4-5212-ecfb" name="Dawnbreaker w/ Falling-Star Power Spear" hidden="false" collective="false" import="true" type="upgrade">
@@ -5601,7 +5606,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
               </costs>
               <infoLinks>
                 <infoLink id="e7de-3ade-8f9a-9c0c" name="Dawnbreaker" targetId="13ce-3207-bb2e-eaf0" type="profile"/>
@@ -5611,7 +5616,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c117-96cb-919f-f806" name="Equinox Power Blade Case" hidden="false" collective="true" import="true" type="upgrade">
