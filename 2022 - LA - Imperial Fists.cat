@@ -5513,6 +5513,61 @@ Both weapons are counted as ‘Power’ weapons for those rules that affect such
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" hidden="false" id="b906-a9f1-d718-838c" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2cb-f441-441e-9a81" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Land Raider Proteus Carrier" hidden="false" id="1409-2430-35d3-59e1" collective="false" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="2c36-fde3-14ed-4db4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="greaterThan" value="10" field="selections" scope="parent" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="a621-2c8c-3df0-89d3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Dreadclaw Drop Pod" hidden="false" id="7547-d258-cf7e-523b" collective="false" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="2c36-fde3-14ed-4db4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="a621-2c8c-3df0-89d3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="greaterThan" value="10" field="selections" scope="parent" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Land Raider Spartan" hidden="true" id="8468-b539-6674-f07e" collective="false" targetId="bac1-f30e-2c04-d27d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0cdb-0319-9152-4f7e" name="Deepstike (Hammerfall Strike Force)" hidden="false" collective="false" import="true" targetId="11a8-be80-4f59-f00e" type="selectionEntry">
