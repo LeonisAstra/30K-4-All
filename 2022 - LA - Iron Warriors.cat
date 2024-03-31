@@ -3988,7 +3988,7 @@
               <profiles>
                 <profile id="bc85-da3e-2182-44e6" name="Omni-scope" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an omni-scope ignores all the effects of Night Fighting, and when a unit that includes one or more models with this special rule makes the Interceptor Advanced Reaction, the reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an Omni-Scope has the Night Vision Special Rule. In addition, when a unit that includes one or more models equipped with an Omni-Scope makes the Interceptor Advanced Reaction, the reaction does not cost the Controlling Player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the Controlling Player to exceed the normal three Reactions limit in a given Phase.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="ad40-f3a3-dfb2-f9c1" name="Siege Master" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">

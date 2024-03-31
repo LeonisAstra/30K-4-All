@@ -592,7 +592,7 @@ During Reactions made in any Phase, a unit equipped with Jump PAcks may not acti
           <description>• Models with the Corrupted Unit Sub-type gain the Fear (1) special rule.
 • Any Hits inflicted on a model with the Corrupted Unit sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
 • Any unit composed entirely of models with the Corrupted Unit Sub-type is immune to the effects of the Fear (X) special rule. When a unit composed entirely of models with the Corrupted Unit Sub-type fails a Morale check it does not Fall Back as per the standard rules, but instead suffers D3 automatic wounds with no saves or Damage Mitigation rolls of any kind allowed.
-• No model that does not also have the Corrupted Unit Sub-type or the Daemon Unit Type may join a unit that includes one or more models with the Corrupted Unit Sub-type</description>
+• No unit that does not also have the Corrupted Unit Sub-type or the Daemon Unit Type may join a unit that includes one or more models with the Corrupted Unit Sub-type.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -15780,7 +15780,7 @@ While Embarked on any model, a unit gains no benefit from any Hexagrammaton Unit
       <description>Flawless Execution: On a Turn in which they make a successful Charge, even if that Charge is considered a Disordered Charge, models with the Legiones astartes (Emperor&apos;s children) special rule make their attacks in an assult at on initiative step higher than normal - after any initiative modifiers from other special rules have been taken into account. Models with the Legiones Astartes (Emperor&apos;s Children) special rule and Vehicle unit type gain a bonus of +1 to all To Hit rolls made for Defensive Weapons when making a Shooting Attack as part of a reaction.</description>
     </rule>
     <rule id="405d-019f-9ef6-423c" name="Legiones Astartes (World Eaters)" publicationId="09c5-eeae-f398-b653" page="214" hidden="false">
-      <description>Violence Incarnate: On any turn in which a unit with this special rule makes a successful Charge it gains +1 Attack for the remainder of that turn in addition to any other bonuses, even if that Charge is considered a Disordered Charge.</description>
+      <description>Violence Incarnate: On any turn in which a model with this Special Rule makes a successful Charge, it gains +1 Attack for the remainder of that turn in addition to any other bonuses, even if that Charge is considered a Disordered Charge.</description>
     </rule>
     <rule id="e876-4f8f-a30f-8b22" name="Legiones Astartes (Imperial Fists)" publicationId="817a-6288-e016-7469" page="224" hidden="false">
       <description>Discipline and Resolve: Models with this special rule gain a bonus of +1 to all To Hit rolls with any Auto weapon or Bolt weapon as part ofany Shooting Attack (including as part of any Reaction).</description>

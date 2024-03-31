@@ -3777,7 +3777,7 @@
       </constraints>
       <rules>
         <rule id="06a1-0713-e45f-c817" name="The Power of the Word" hidden="false">
-          <description>Any Legion Command Squad, Legion Cataphractii Command Squad or Legion Tartaros Command Squad selected as a Retinue Squad with Lorgar as it&apos;s leader gains the Fearless and Feel No Pain (4+) special rules.
+          <description>Any unit with the Retinue Special Rule selected as a Retinue Squad with Lorgar as its Leader gains the Fearless and Feel No Pain (4+) Special Rules.
 
 In addition, once per battle, one friendly unit composed entirely of models with the Infantry or Cavalry Unit Type with at least one model within 18&quot; of Lorgar (But not a unit that includes Lorgar himself) may be selected at the start of any Game Turn. The chosen units gain the Fearless and Feel No Pain (4+) special rules for the duration of that Game Turn.</description>
         </rule>
@@ -4505,11 +4505,14 @@ In addition, once per battle, one friendly unit composed entirely of models with
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c05-1de4-d6f4-5787" type="max"/>
           </constraints>
           <profiles>
-            <profile id="712c-b5e0-e925-51af" name="Umbral Pinions" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+            <profile id="712c-b5e0-e925-51af" name="Umbral Pinions" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" publicationId="9fab-fea7-a93c-2074" page="131">
               <characteristics>
                 <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, Argel Tal’s Movement Characteristic may be set to a value of 14 for the duration of the controlling player’s turn. This allows Argel Tal to move up to 14&quot;, regardless of the Movement Characteristic shown on his profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, when moving in this fashion, Argel Tal ignores terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending his movement in Dangerous Terrain. On turns when this option is in use, Argel Tal may move over both friendly and enemy models or units without penalty – but must end his movement at least 1&quot; away from any model from another unit.
 
-Argel Tal may still Run while using this special rule, if he would normally be able to Run, moving up to 19&quot; and ignoring terrain and models from other units while doing so. If Argel Tal Runs while using this special rule, he may not make Shooting Attacks or Declare a Charge in the same turn. During a Reaction made in any Phase, a player may not choose to use this special rule to gain any bonus to their Movement Characteristic</characteristic>
+Argel Tal may still Run while using this special rule, if he would normally be able to Run, moving up to 19&quot; and ignoring terrain and models from other units while doing so. If Argel Tal Runs while using this special rule, he may not make Shooting Attacks or Declare a Charge in the same turn. During a Reaction made in any Phase, a player may not choose to use this special rule to gain any bonus to their Movement Characteristic.
+
+
+Argel Tal is counted as having a Legion Warhawk Jump Pack for rules and interactions that affect or require that wargear.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6123,7 +6126,7 @@ A Warlord with this Trait modifies his Strength and Toughness by a value determi
               <profiles>
                 <profile id="1197-c7cc-8278-c08d" name="Unswerving Devotion" publicationId="09c5-eeae-f398-b653" page="304" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
-                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any units that include at least one model with the Legiones Astartes (Word Bearers) special rule and have at least one model within 6&quot; of a Warlord with this Trait (including the Warlord himself and any unit he has joined) automatically pass the first failed Morale check or Pinning test they are called upon to make each turn. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Shooting phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units that include at least one model with the Legiones Astartes (Word Bearers) special rule and have at least one model within 6&quot; of a Warlord with this Trait (including the Warlord himself and any unit he has joined) automatically pass the first failed Morale check or Pinning test they are called upon to make each turn. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing players Shooting phase as long as the Warlord has not been removed as a casualty.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
