@@ -5059,8 +5059,8 @@ then he gains +1 to his Attacks Characteristic.</description>
           <entryLinks>
             <entryLink id="fac2-096b-ca3e-9da9" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry"/>
             <entryLink id="7c5f-8a55-7cb3-dc9f" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry"/>
-            <entryLink id="f161-d3a8-e0d2-b274" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry"/>
             <entryLink id="957b-ffdf-b69d-cbfb" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="43f5-3815-6b3a-a363" type="selectionEntry"/>
+            <entryLink import="true" name="Multi-Melta w/ Suspensor Web" hidden="false" id="f53b-b069-7b47-4788" type="selectionEntry" targetId="363d-7173-cf11-066b"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>

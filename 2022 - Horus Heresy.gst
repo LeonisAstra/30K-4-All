@@ -3068,9 +3068,6 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
       </costs>
     </selectionEntry>
     <selectionEntry id="333a-6c28-1031-9134" name="Quad Launcher - Frag" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="70a2-7998-684d-4fbb" type="max"/>
-      </constraints>
       <profiles>
         <profile id="5396-d261-b760-363a" name="Quad Launcher - Frag" publicationId="a716-c1c4-7b26-8424" page="129" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -10531,6 +10528,90 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2013-7e81-b563-e7ac" name="Gravis Heavy Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="160d-e043-8a1f-f957" name="Gravis Heavy Lascannon" publicationId="a716-c1c4-7b26-8424" page="132" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b398-14b6-fbce-a771" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea4a-7e8d-4ea3-a24c" name="Vanquisher Battle Cannon w/ Co-Axial Autocannon" publicationId="d0df-7166-5cd3-89fd" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6011-97ab-e45b-df7b" name="Vanquisher Battle Cannon" publicationId="d0df-7166-5cd3-89fd" page="29" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Co-Axial Autocannon" hidden="false" id="5180-7684-b80f-b3f4" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="9fab-fea7-a93c-2074" page="133">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Rending (6+), Co-Axial</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7575-f91d-97f8-b626" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="7f1-949-79cd-7947" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3e5f-c3ea-9831-1edf" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1815-c1cd-170-1d3" name="Earthshaker Battery" publicationId="d0df-7166-5cd3-89fd" page="25" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="229a-df32-4b69-1ed9" name="Earthshaker Battery" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot; - 240&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Barrage, Large Blast (5&quot;), Shred, Pinning, Breaching (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7f1f-3d17-c209-bbf" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="4c78-b414-2306-9779" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9082-f36e-72ac-10" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="f61a-ef84-6422-201d" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="4770-f5dd-83f8-680d" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -15708,7 +15789,10 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>Penetrating Hits caused by attacks made with weapons or models with this special rule add +1 to the result of any rolls on the Vehicle or Building Damage tables.</description>
     </rule>
     <rule id="97aa-da60-3ccc-7152" name="Sentry Protocols" publicationId="d0df-7166-5cd3-89fd" page="16" hidden="false">
-      <description>A unit that includes any models with this special rule must make a Shooting Attack targeting the enemy unit which has the closest model in line of sight to any model in the attacking unit in the controlling player’s Shooting phase.</description>
+      <description>A model with this Special Rule must target the closest enemy model as per the following limitations and restrictions:
+- Any model armed with a weapon of Strength 7 or more must target the nearest enemy model with the Vehicle, Automata, or Dreadnought Sub-types.
+- Any model armed with a weapon of Strength 6 or below must target the nearest enemy model without the Vehicle, Automata, or Dreadnought Sub-types.
+- Any model armed with a weapon with the Skyfire Special Rule must target the nearest enemy model with the Flyer Sub-type. If no such target is in range, then the Controlling Player may select a target as normal.</description>
     </rule>
     <rule id="c036-66e2-4e07-c2b8" name="Automated Artillery Sub-type" publicationId="e77a-823a-da94-16b9" page="16" hidden="false">
       <description>The following rules apply to all models with the Automated Artillery Sub-type:
@@ -15724,7 +15808,10 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>A unit that includes at least one model with the Psyker Unit Sub-type or Daemon Unit Type, and which suffers one of more unsaved Wound from a weapon with this special rule also suffers Perils of the Warp (see page 201 of the Horus Heresy: Age of Darkness rulebook). Any given unit may only suffer Perils of the Warp once per Phase due to the effects of this special rule, regardless of how many enemy units attack that unit or how many weapons with this special rule are present in the attacking units.</description>
     </rule>
     <rule id="64ca-719e-b563-e3df" name="Independent Fire Control" publicationId="15a4-fc68-502d-48a9" hidden="false">
-      <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a nummber of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondaary Shooting Attack targeting a different enemy unit of any combination - however,each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.</description>
+      <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a number of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondary Shooting Attack targeting a different enemy unit of any combination - however, each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.
+
+
+Instead of the above, in a turn in which a model with this Special Rule either remained Stationary or moved at Combat Speed during the Controlling Player’s Movement Phase, then for the duration of the Controlling Player’s following Shooting Phase, it may make Shooting Attacks as if it had the Super Heavy Sub-Type.</description>
     </rule>
     <rule id="71fa-da0d-0056-9072" name="Kharash" hidden="false">
       <modifiers>
