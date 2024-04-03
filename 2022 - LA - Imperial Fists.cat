@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d371-14a7-bf2b-1f20" name="LA -   VII: Imperial Fists" revision="2032" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d371-14a7-bf2b-1f20" name="LA -   VII: Imperial Fists" revision="2032" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="b3e4-1487-4ab7-7515" name="Alexis Polux" hidden="false" collective="false" import="false" targetId="9229-b4f9-2213-9672" type="selectionEntry">
       <modifiers>

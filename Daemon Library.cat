@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ef0a-91e4-838c-3973" name="Daemon Library" revision="2003" battleScribeVersion="2.03" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="ef0a-91e4-838c-3973" name="Daemon Library" revision="2003" battleScribeVersion="2.03" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="c42-1919-c37e-51f0" name="Encroaching Ruin" hidden="false"/>
     <categoryEntry id="f074-f60a-9aa6-c52a" name="Heedless Slaughter" hidden="false"/>
