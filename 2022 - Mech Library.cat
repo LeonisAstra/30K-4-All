@@ -1200,7 +1200,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <entryLink id="401c-5426-a78a-877f" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2001"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2000"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
