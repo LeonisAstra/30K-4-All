@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7265-8b7a-50ae-51ec" name="Mech Library" revision="2043" battleScribeVersion="2.03" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="7265-8b7a-50ae-51ec" name="Mech Library" revision="2043" battleScribeVersion="2.03" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="4086-0589-f010-e688" name="Titan Legion Min Troop/LoW" hidden="false"/>
     <categoryEntry id="57a1-ae47-ff1b-36e4" name="Cybertheurgist" publicationId="bde1-6db1-163b-3b76" page="92-96" hidden="false"/>
@@ -1200,7 +1200,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <entryLink id="401c-5426-a78a-877f" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2000"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2001"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
