@@ -620,7 +620,7 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
           <description>Archmagos Draykavac has the Artificia Machina and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
         </rule>
         <rule id="cf9e-42d8-ee4d-f5f3" name="High Techno-arcana: Stataraga" publicationId="bde1-6db1-163b-3b76" page="61" hidden="false">
-          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included</description>
+          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included. In addition, when selected as a Troops Choice in a Questoris Knights Detachment, Archmagos Draykavac gains the Patris Cybernetica Special Rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5058,7 +5058,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="467a-4d09-3317-b057" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (2)"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -5074,6 +5074,13 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                         <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c009-b44c-eae9-d23e" type="min"/>
                         <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63b3-1672-08f3-2354" type="max"/>
                       </constraints>
+                      <infoLinks>
+                        <infoLink name="Brutal (X)" hidden="false" id="8524-4cf9-5b-94d0" type="rule" targetId="5079-1fec-d32b-8b84">
+                          <modifiers>
+                            <modifier type="set" value="Brutal (2)" field="name"/>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
                     </entryLink>
                     <entryLink id="48b8-3982-5332-1179" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
                       <constraints>
@@ -5148,9 +5155,15 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="47a6-bf07-a5c0-fa73" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (2)"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink name="Brutal (X)" hidden="false" id="4b7d-bb4-c398-ebda" type="rule" targetId="5079-1fec-d32b-8b84">
+                      <modifiers>
+                        <modifier type="set" value="Brutal (2)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Shock Charger" hidden="false" id="c5ee-56b-9ea6-2cbd" type="profile" targetId="6a03-3816-0065-83ff"/>
                   </infoLinks>
                   <entryLinks>
                     <entryLink id="1476-9dd5-0b18-0c13" name="Graviton Ram" hidden="false" collective="false" import="true" targetId="f610-008f-5046-ea99" type="selectionEntry">
@@ -5201,7 +5214,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
               </costs>
             </entryLink>
           </entryLinks>
