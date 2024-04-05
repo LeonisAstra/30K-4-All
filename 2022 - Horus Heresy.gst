@@ -965,13 +965,28 @@ In addition, when a Fast Vehicle moves, it may choose to move at Flat-out:</desc
     <categoryEntry id="d82b-1980-74f8-5dac" name="Allied Detachment" hidden="false"/>
     <categoryEntry id="d615-c0e4-6d17-107e" name="Assassin Sub-Type" publicationId="15a4-fc68-502d-48a9" page="128" hidden="false">
       <rules>
-        <rule id="9522-1b3d-f849-fd60" name="Assassin Sub-Type" publicationId="15a4-fc68-502d-48a9" page="128" hidden="false">
+        <rule id="9522-1b3d-f849-fd60" name="Assassin Sub-Type" publicationId="9fab-fea7-a93c-2074" page="148" hidden="false">
           <description>• Models with the Assassin Sub-type ignore all movement penalties when moving or Charging through terrain of any kind and automatically pass all Dangerous Terrain tests they are called upon to make.
 • Models with the Independant Character special rule may not join a unit composed only of models with the Assassin Sub-type.
 • Models with the Assassin Sub-type may not Embark on any model with the Transport Sub-type.
-• Modesl with the Assassin Sub-type may never be selected as an army&apos;s Warlord</description>
+• Models with the Assassin Sub-type may never be selected as an army&apos;s Warlord
+• Models with the Assassin Sub-type gain the Precision Shots (2+),
+Precision Strikes (2+), and Predator’s Gaze Special Rule</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink name="Precision Shots (X)" hidden="false" id="85d3-81b6-9e35-890c" type="rule" targetId="4b71-81ee-31f4-fa09">
+          <modifiers>
+            <modifier type="set" value="Precision Shots (2+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision Strikes (X)" hidden="false" id="10c9-a753-b291-90b9" type="rule" targetId="2206-8497-8fe1-e973">
+          <modifiers>
+            <modifier type="set" value="Precision Strikes (2+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Predator&apos;s Gaze" hidden="false" id="8ef5-4127-7ecf-e0b0" type="rule" targetId="9f34-bb3b-e63b-299a"/>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="0af0-ea84-09d7-2b1f" name="Close-order Sub-type" publicationId="15a4-fc68-502d-48a9" page="129" hidden="false">
       <rules>
