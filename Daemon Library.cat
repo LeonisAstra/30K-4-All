@@ -144,7 +144,7 @@ Additionally, a unit entirely composed of models with this special rule adds +1 
               <description>When selecting a combat at the beginning of the Fight sub-phase, roll a D3 for each unit entirely composed of models with this special rule that is locked in combat. All close combat attacks made by models in the combat with this special rule gain additional special rules corresponding to the D3 roll until the end of that combat phase:
 D3 - Result
 1 - Coruscating Ectoplasma: Concussive (1), Lance
-2 - Lashing Pseudopods: Reach (1)
+2 - Lashing Pseudopods: Reach (1), Rending (6+)
 3 - Vorpal Talons: Shred, Sunder</description>
             </rule>
           </rules>
@@ -172,6 +172,11 @@ D3 - Result
             <infoLink id="9144-7ca8-3e67-ee6e" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Sunder (Formless Distortion)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Rending (X)" hidden="false" id="4da3-9be4-7ffe-ff3f" targetId="0ac9-fab7-aef3-de1d" type="rule">
+              <modifiers>
+                <modifier type="set" value="Rending (6+) (Formless Distortion)" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>

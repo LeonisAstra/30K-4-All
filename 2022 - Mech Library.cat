@@ -142,7 +142,10 @@
       <profiles>
         <profile id="d6e7-9365-6336-6a51" name="Ionic Deflector" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an ionic deflector gains a 5+ Invulnerable Save, and any model with an ionic deflector and a Wounds Characteristic gains the Eternal Warrior special rule. In addition, when a model with an ionic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3&quot; suffer an automatic Hit atStr 8, AP -.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Ionic Deflector gains a 5+ Invulnerable Save, and any model with an Ionic Deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death Special Rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death Special Rule inflicted on it.
+
+
+In addition, when a model with an Ionic Deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -656,6 +659,16 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Bulky (X)" hidden="false" id="6d80-c1e4-5865-e3da" type="rule" targetId="676c-7b75-4b6f-9405">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="8b4c-01f4-f39f-7c55" childId="9dd5-bfd0-50c9-25c2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Bulky (4)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="535d-121f-5839-a712" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -796,13 +809,16 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="156e-c211-5f2a-c2d3" type="max"/>
       </constraints>
       <rules>
-        <rule id="84d6-404e-e083-d165" name="Binaric Stratagems*" publicationId="bde1-6db1-163b-3b76" page="102" hidden="false">
+        <rule id="84d6-404e-e083-d165" name="Binaric Stratagems*" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
           <description>At the start of the battle, once both armies have set up all their models, including any units with the Infiltrator special rule, a player that controls any models with this special rule may select one of the effects listed below as part of this special rule. All units with the Kyropatris field generator item of Wargear in the Detachment that includes the model with this special rule gain the chosen effect for the duration of the battle. Note that only a single bonus may be given to the units, regardless of how many models with this special rule are present in the Detachment. If an army includes multiple Detachments that include any models with this special rule, the controlling player must select an effect for each such Detachment and may select the same or different effects for each Detachment:
 
 • Pain Suppression Override: Affected models gain the Feel No Pain (5+) special rule.
 • Explorator Synaesthesis: Models in affected units gain the Move Through Cover special rule.
 • Deconstructive Confluence: Models in affected units gain the Wrecker special rule.
-• Extinction Interlock: Models in the affected units gain the Preferred Enemy (Infantry) special rule.</description>
+• Extinction Interlock: Models in the affected units gain the Preferred Enemy (Infantry) special rule.
+
+
+Note: If a model is not equipped with a Kyropatris Field Generator, they may not claim the benefits of any Special Rule or effect provided by the Binaric Stratagems Special Rule - even if these Special Rules or effects would normally be conferred, such as the Preferred Enemy (X) Special Rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1376,7 +1392,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="eeba-8a20-d62c-cacb" name="Void Shields" hidden="false" targetId="c503-f5b8-3da0-16e6" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Void Shields (6)"/>
+                <modifier type="set" field="name" value="Void Shields (8)"/>
               </modifiers>
             </infoLink>
             <infoLink id="5b96-ad84-3640-2604" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
@@ -1627,9 +1643,17 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="8cb2-7235-fc34-9983" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="8cb2-7235-fc34-9983" childId="1682-2560-347c-e798" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="8cb2-7235-fc34-9983" childId="3dc3-9018-b7a3-8cf9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="8cb2-7235-fc34-9983" childId="4b90-1389-3b29-3fca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="8cb2-7235-fc34-9983" childId="e78c-787d-54ca-82c2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="8cb2-7235-fc34-9983" childId="f4a8-b2a3-1c3c-9761" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Character">
               <conditionGroups>
@@ -1682,7 +1706,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         <categoryLink id="c1ce-c546-51c-7a97" name="Knight Sub-type" hidden="false" targetId="437f-7773-a0d0-6061" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8f56-23e7-36bc-47ca" name="Hull (Front) Mounted Twin-Linked Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f56-23e7-36bc-47ca" name="Two Hull (Front) Mounted Magna Lascannon" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5557-d98a-72c1-c698" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb0-9d27-cf87-d08c" type="max"/>
@@ -1690,7 +1714,11 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="d466-e7c9-b31a-a118" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
             <infoLink id="3fb0-bdb9-2497-6ed0" name="Ordnance" hidden="false" targetId="6c55-22c8-1b01-2105" type="rule"/>
-            <infoLink id="7d6c-1807-4bb6-0ae3" name="Twin-Linked Magna Lascannon" hidden="false" targetId="2af9-d755-936d-0fa8" type="profile"/>
+            <infoLink id="7d6c-1807-4bb6-0ae3" name="Twin-Linked Magna Lascannon" hidden="false" targetId="2af9-d755-936d-0fa8" type="profile">
+              <modifiers>
+                <modifier type="set" value="Magna Lascannon" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2169,11 +2197,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="7f12-0cc3-9dcd-25bc" value="4">
               <conditions>
                 <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
@@ -2182,6 +2205,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Psyker">
               <conditions>
                 <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="f971-ef52-5344-0b26" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="f971-ef52-5344-0b26" childId="63ce-0429-b209-c3e9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2425,11 +2467,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="6c5a-df71-fefa-2ee3" value="1">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -2451,6 +2488,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Psyker">
               <conditions>
                 <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="0a65-543c-19b2-fd34" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="0a65-543c-19b2-fd34" childId="63ce-0429-b209-c3e9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2706,11 +2762,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="6c5a-df71-fefa-2ee3" value="1">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -2732,6 +2783,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Psyker">
               <conditions>
                 <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="8312-7457-e7b6-fd9f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="8312-7457-e7b6-fd9f" childId="63ce-0429-b209-c3e9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2974,11 +3044,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="3706-a84c-678d-b1c6" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="6c5a-df71-fefa-2ee3" value="1">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -3001,6 +3066,19 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
               <conditions>
                 <condition field="selections" scope="3706-a84c-678d-b1c6" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
               </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="2490-aa2f-f5db-6070">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="3706-a84c-678d-b1c6" childId="1682-2560-347c-e798" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="3706-a84c-678d-b1c6" childId="3dc3-9018-b7a3-8cf9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="3706-a84c-678d-b1c6" childId="4b90-1389-3b29-3fca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="3706-a84c-678d-b1c6" childId="e78c-787d-54ca-82c2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="3706-a84c-678d-b1c6" childId="f4a8-b2a3-1c3c-9761" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -3270,11 +3348,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="7f12-0cc3-9dcd-25bc" value="4">
               <conditions>
                 <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
@@ -3283,6 +3356,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Psyker">
               <conditions>
                 <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="7b6b-49ab-d71d-e359" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="7b6b-49ab-d71d-e359" childId="63ce-0429-b209-c3e9" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3332,16 +3424,16 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         <categoryLink id="816e-5380-337b-cc9e" name="Knight Sub-type" hidden="false" targetId="437f-7773-a0d0-6061" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fda6-d2ec-6c49-f60d" name="Arm Mounted Twin-Linked Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6784-8899-6af2-8432">
+        <selectionEntryGroup id="fda6-d2ec-6c49-f60d" name="Arm Mounted Conversion Destructors" hidden="false" collective="false" import="true" defaultSelectionEntryId="6784-8899-6af2-8432">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d9-d7ec-3c9a-c506" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed1b-d84c-4799-0472" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6784-8899-6af2-8432" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry"/>
+            <entryLink import="true" name="Conversion Destructor" hidden="false" id="49d8-1d6f-f0fb-d3ae" type="selectionEntry" targetId="bc17-b7a5-deed-7bf7"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c21a-be92-c6c2-5931" name="Hull (Front) Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac3f-09f6-b607-867e">
+        <selectionEntryGroup id="c21a-be92-c6c2-5931" name="Centerline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac3f-09f6-b607-867e">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94b3-a011-6ddb-e43d" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0101-c016-8f7f-6ddf" type="max"/>
@@ -3401,6 +3493,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         </entryLink>
         <entryLink id="8582-40af-3314-6d1e" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
         <entryLink id="7b31-c479-4f1d-5982" name="Dark Blessings" hidden="false" collective="false" import="true" targetId="3995-31e8-e6a2-562a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Flare Shield" hidden="false" id="9fd1-a96e-6345-824c" type="selectionEntry" targetId="0e77-6285-22bb-1534"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="625"/>
@@ -3544,6 +3637,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="012b-109f-74d2-2c82" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="012b-109f-74d2-2c82" childId="63ce-0429-b209-c3e9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Unit Type" typeId="3c44-1e2a-23fe-c9e0">Vehicle (Knight)</characteristic>
@@ -3652,7 +3764,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Cumbersome, Armourbane, Instant Death</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Cumbersome, Armourbane (Melee), Instant Death</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3730,6 +3842,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         </entryLink>
         <entryLink id="5536-d060-252b-fe86" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
         <entryLink id="3149-5fc-4cdf-3e8a" name="Dark Blessings" hidden="false" collective="false" import="true" targetId="3995-31e8-e6a2-562a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Flare Shield" hidden="false" id="a5d5-edf4-4db0-16a4" type="selectionEntry" targetId="0e77-6285-22bb-1534"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
@@ -3842,11 +3955,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="6c5a-df71-fefa-2ee3" value="1">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -3868,6 +3976,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Psyker">
               <conditions>
                 <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="6d0e-0d72-d9e2-01d1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="6d0e-0d72-d9e2-01d1" childId="63ce-0429-b209-c3e9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3989,6 +4116,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         </entryLink>
         <entryLink id="f279-74fb-5c30-6e2e" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
         <entryLink id="7d53-18e4-255-1dd6" name="Dark Blessings" hidden="false" collective="false" import="true" targetId="3995-31e8-e6a2-562a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Flare Shield" hidden="false" id="4c89-e5f8-4907-efe8" type="selectionEntry" targetId="0e77-6285-22bb-1534"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="385"/>
@@ -4101,11 +4229,6 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
-              <conditions>
-                <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="6c5a-df71-fefa-2ee3" value="1">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -4127,6 +4250,25 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <modifier type="append" field="3c44-1e2a-23fe-c9e0" value="Psyker">
               <conditions>
                 <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ad-bd12-1203-4018" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e78c-787d-54ca-82c2" type="greaterThan"/>
+                    <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4a8-b2a3-1c3c-9761" type="greaterThan"/>
+                    <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f03-d8c0-0e83-1f6e" type="greaterThan"/>
+                    <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1682-2560-347c-e798" type="greaterThan"/>
+                    <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b90-1389-3b29-3fca" type="greaterThan"/>
+                    <condition field="selections" scope="1944-033c-5b7e-a378" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3dc3-9018-b7a3-8cf9" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="2490-aa2f-f5db-6070" value="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="1944-033c-5b7e-a378" childId="63ce-0429-b209-c3e9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4268,6 +4410,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         </entryLink>
         <entryLink id="5010-4647-a123-b68c" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
         <entryLink id="f195-fbaa-ebb9-8c71" name="Dark Blessings" hidden="false" collective="false" import="true" targetId="3995-31e8-e6a2-562a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Flare Shield" hidden="false" id="cc2b-95d1-ceb8-62e6" type="selectionEntry" targetId="0e77-6285-22bb-1534"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="380"/>
@@ -4327,6 +4470,11 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <modifier type="increment" field="cc42-7ed5-7092-5c84" value="1">
                   <conditions>
                     <condition field="selections" scope="ab78-91e2-bb5c-9da3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="537f-846d-90e3-2526" childId="cc2a-46fe-bbf3-6ba2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4668,6 +4816,11 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <modifier type="increment" field="57ee-1126-32a9-5672" value="1">
                   <conditions>
                     <condition field="selections" scope="200f-3379-95a3-c3a4" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="1a1b-fa35-a6a2-ca78" childId="cc2a-46fe-bbf3-6ba2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5039,6 +5192,11 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                             <condition field="selections" scope="2903-fef6-e839-368b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="2903-fef6-e839-368b" childId="cc2a-46fe-bbf3-6ba2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                       <characteristics>
                         <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Cybernetica, Heavy)</characteristic>
@@ -5122,6 +5280,11 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                         <modifier type="increment" field="57ee-1126-32a9-5672" value="1">
                           <conditions>
                             <condition field="selections" scope="2903-fef6-e839-368b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="2903-fef6-e839-368b" childId="cc2a-46fe-bbf3-6ba2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -5295,6 +5458,11 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <modifier type="increment" field="57ee-1126-32a9-5672" value="1">
                   <conditions>
                     <condition field="selections" scope="f144-1079-11ff-019d" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f144-1079-11ff-019d" childId="cc2a-46fe-bbf3-6ba2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5618,12 +5786,12 @@ Invulnerable Saves granted by a Mechanicum Protectiva do not stack with other In
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9e4-d354-e70d-8649" type="max"/>
           </constraints>
           <profiles>
-            <profile id="11fa-16c9-2547-4274" name="Cybernetica Exortus (Cybertheurgic Rite)" publicationId="bde1-6db1-163b-3b76" page="94" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+            <profile id="11fa-16c9-2547-4274" name="Cybernetica Exortus (Cybertheurgic Rite)" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit with a model within 12&quot; which contains at least one model with the Automata Unit Type and apply one of the following effects to all models with the Automata Unit Type in the unit:
-• When making a Charge roll for the unit in the same turn as this Rite is used, roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
+• When making a Charge roll for the unit in the same turn as this Rite is used, as long as the unit contains at least one model with the Automata Unit Type, you may roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
 • The unit (not each individual model) ignores the first Wound inflicted upon it in each Shooting Attack that targets it until the beginning of the controlling player’s next player turn. Simply discard that Wound without allocating it to a model.
-• The unit adds +1 to its BS for the remainder of the Shooting phase in which this power is used.
+• The Controlling Player may choose to add either +1 to its BS or WS until the start of the Controlling Player’s next Shooting Phase.
 • Until the start of the controlling player’s next turn as the Active player, the unit may ignore the restriction against making Reactions imposed by the Automata Unit Type.
 The Cybertheurgist’s controlling player may choose to make a Cybertheurgy check before using this power, if the Check is successful then two different options may be applied to the target unit instead of one. If the Check is failed then no options may be chosen and the Cybertheurgist suffers Cybertheurgic Feedback.</characteristic>
               </characteristics>
@@ -5779,9 +5947,9 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff24-d09e-b3dc-19dc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="90d2-faf0-e267-7e00" name="Ephemera Perfidiae (Cybertheurgic Rite)" publicationId="bde1-6db1-163b-3b76" page="95" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+            <profile id="90d2-faf0-e267-7e00" name="Ephemera Perfidiae (Cybertheurgic Rite)" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single enemy unit with a model within 12&quot; that is entirely composed of models with the Vehicle or Automata Unit Type. The Cybertheurgist’s controlling player may immediately make a Shooting Attack as if they controlled the chosen unit – this Shooting Attack may target any unit that is considered an enemy unit by the Cybertheurgist’s controlling player and is made as Snap Shots. The Cybertheurgist may choose to make a Cybertheurgy check before making this Shooting Attack, if successful the Shooting Attack is made using the Cybertheurgist’s BS and is not made as Snap Shots. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack is made. An enemy unit used to make a Shooting Attack with this Rite may attack normally in its controlling player’s turn and gains the Hatred (Cybertheurgists) special rule for the rest of the battle.</characteristic>
+                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single enemy unit with a model within 12&quot; that is entirely composed of models with the Vehicle, Dreadnought, or Automata Unit Type (but not any models with the Super-Heavy, Lumbering, Titan, or Knight Sub-types). The Cybertheurgist’s Controlling Player may immediately make a Shooting Attack as if they controlled the chosen unit – this Shooting Attack may target any unit that is considered an enemy unit by the Cybertheurgist’s Controlling Player and is made as Snap Shots. The Cybertheurgist may choose to make a Cybertheurgy check before making this Shooting Attack, and if successful the Shooting Attack is made using the Cybertheurgist’s BS and is not made as Snap Shots. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack is made. An enemy unit used to make a Shooting Attack with this Rite may attack normally in its Controlling Player’s turn and gains the nHatred (Cybertheurgists) Special Rule for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5936,11 +6104,11 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
     </selectionEntry>
     <selectionEntry id="9faf-7242-dc40-c3e5" name="Incunabulan Jet Pack" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="49e3-0125-7461-31f6" name="Incunabulan Jet Pack" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="49e3-0125-7461-31f6" name="Incunabulan Jet Pack" publicationId="9fab-fea7-a93c-2074" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6&quot; and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase.
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6&quot; and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase. This extra move can only be made in the Controlling Player&apos;s own Shooting Phase.
 Any model with an Incunabulan jet pack also gains the Bulky (2) and Deep Strike special rules, or if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead. Models with an Incunabulan jet pack may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their size due to the Bulky (X) special rule.
-During any Reaction that allows a unit to Move, a unit composed entirely of models with Incunabulan jet packs increases the distance of that Move by 6 and allows it to ignore terrain in the same manner as other Incunabulan jet pack moves.</characteristic>
+During any Reaction that allows a unit to Move, a unit composed entirely of models with Incunabulan jet packs increases the distance of that Move by 6 and allows it to ignore terrain in the same manner as other Incunabulan jet pack moves. A model with an activated Incunabulan Jet Pack may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so. It should be noted that, for the purposes of Reactions, an Incunabulan Jet Pack is classed as having being activated for the purposes of moving over any models or terrain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5964,7 +6132,8 @@ During any Reaction that allows a unit to Move, a unit composed entirely of mode
         <profile id="94a1-e8ec-8bb1-1d1c" name="Utan Jump Booster" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Utan jump boosters may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn. This allows the unit to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance, see the Horus Heresy: Age of Darkness rulebook, page 181). In addition, the unit ignores terrain while Moving and Charging. A unit that ends or begins its movement or a Charge in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Utan jump boosters, and treats all Difficult Terrain as Dangerous Terrain.
-A unit composed entirely of models with Utan jump boosters may not Run. During Reactions made in any Phase, a unit composed entirely of models with Utan jump boosters may not activate them to gain any bonus to their Movement Characteristic. Any model with an Utan jump booster also gains the Deep Strike special rule. Additionally, models with an Utan jump booster may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their Unit Type and their size due to the Bulky (X) special rule.</characteristic>
+A unit composed entirely of models with Utan jump boosters may not Run. During Reactions made in any Phase, a unit composed entirely of models with Utan jump boosters may not activate them to gain any bonus to their Movement Characteristic. Any model with an Utan jump booster also gains the Deep Strike special rule. Additionally, models with an Utan jump booster may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their Unit Type and their size due to the Bulky (X) special rule.
+A model with an activated Utan Jump Booster may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7371,8 +7540,8 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
       <selectionEntries>
         <selectionEntry id="f4a8-b2a3-1c3c-9761" name="Dolorous" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
-            <rule id="272c-bf85-64da-42b6" name="Dolorous" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1, and gains the Character Unit Sub-type and the Dolorous special rule.
+            <rule id="272c-bf85-64da-42b6" name="Dolorous" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
+              <description>A model with this upgrade increases its Weapon Skill Characteristic &amp; Hull Points by +1, and gains the Character Unit Sub-type and the Dolorous special rule.
 Dolorous: A model with this special rule may attempt to make Sweeping Advances (as an exception to the normal rules for models with the Knight Unit Sub-type).</description>
             </rule>
           </rules>
@@ -7392,8 +7561,8 @@ Dolorous: A model with this special rule may attempt to make Sweeping Advances (
         </selectionEntry>
         <selectionEntry id="e78c-787d-54ca-82c2" name="Arbalester" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
-            <rule id="fd5a-d962-431f-ae84" name="Arbalester" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Arbalester special rule.
+            <rule id="fd5a-d962-431f-ae84" name="Arbalester" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
+              <description>A model with this upgrade increases its Ballistic Skill Characteristic &amp; Hull Points by +1 and gains the Character Unit Sub-type and Arbalester special rule.
 Arbalester: When a model with this special rule is required to make a Scatter roll, roll an additional Scatter dice and the model’s controlling player chooses which is used to determine the results of the Scatter roll.</description>
             </rule>
           </rules>
@@ -7418,9 +7587,9 @@ Arbalester: When a model with this special rule is required to make a Scatter ro
             <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d855-dfe1-4f37-d3c0" type="max"/>
           </constraints>
           <rules>
-            <rule id="a2e6-ad4f-c2a3-8821" name="Seneschal (0-1)" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
+            <rule id="a2e6-ad4f-c2a3-8821" name="Seneschal (0-1)" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
               <description>Only a single unit in a Questoris Household Detachment may be upgraded to have the Seneschal rank, and an Acastus Knight Porphyrion or Acastus Knight Asterius may not be given this upgrade.
-A model with this upgrade gains the Character Unit Sub-type and increases its Weapon Skill and Ballistic Skill Characteristics by +1. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen as the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the Master of the Household Warlord Trait:</description>
+A model with this upgrade gains the Character Unit Sub-type and increases its Weapon Skill and Ballistic Skill Characteristics by +1. A Knight which selects the Seneschal Household Rank instead increases its Hull Points Characteristic by +2. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen as the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the Master of the Household Warlord Trait:</description>
             </rule>
           </rules>
           <costs>
@@ -7429,8 +7598,8 @@ A model with this upgrade gains the Character Unit Sub-type and increases its We
         </selectionEntry>
         <selectionEntry id="3dc3-9018-b7a3-8cf9" name="Aucteller" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
-            <rule id="24dc-2122-1e74-497b" name="Aucteller" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1 and gains the Character Unit Sub-type and the Aucteller special rule.
+            <rule id="24dc-2122-1e74-497b" name="Aucteller" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
+              <description>A model with this upgrade increases its Weapon Skill Characteristic &amp; Hull Points by +1 and gains the Character Unit Sub-type and the Aucteller special rule.
 Aucteller: When engaged in a Challenge against an enemy model with the Knight, Titan or Monstrous Unit Sub-type, the Primarch Unit Type or a model with a Wounds Characteristic of 8 or higher, a model with this special rule gains +1 Weapon Skill and +1 Attack. This bonus to Weapon Skill is in addition to the +1 Weapon Skill increase from the Aucteller upgrade detailed above.</description>
             </rule>
           </rules>
@@ -7442,7 +7611,7 @@ Aucteller: When engaged in a Challenge against an enemy model with the Knight, T
           <rules>
             <rule id="e7b6-ec43-a395-cc62" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
               <description>A model with this upgrade increases its Hull Points by +1, gains the Character Unit Sub-type and the Implacable special rule.
-Implacable: No attack targeting a model with this special rule may inflict more than a single Hull Point of damage, including those attacks with the Exoshock (X) special rule</description>
+Implacable: An attack targeting a model with this Special Rule reduces the number of Hull Points of damage inflicted from any attack by -1, to a minimum of 1, and reduces all rolls on the vehicle damage table by 1.</description>
             </rule>
           </rules>
           <costs>
@@ -7451,8 +7620,8 @@ Implacable: No attack targeting a model with this special rule may inflict more 
         </selectionEntry>
         <selectionEntry id="4b90-1389-3b29-3fca" name="Preceptor" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
-            <rule id="191d-7d24-b533-cf66" name="Preceptor" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Preceptor special rule.
+            <rule id="191d-7d24-b533-cf66" name="Preceptor" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
+              <description>A model with this upgrade increases its Ballistic Skill Characteristic &amp; Hull Points by +1 and gains the Character Unit Sub-type and Preceptor special rule.
 Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at least one model within 6&quot; of a friendly model with this special rule increase the Leadership of all models in the unit to 9.</description>
             </rule>
           </rules>
@@ -7470,8 +7639,8 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
             </modifier>
           </modifiers>
           <rules>
-            <rule id="78f9-6bee-4c5d-5802" name="Uhlan" publicationId="bde1-6db1-163b-3b76" page="89 &amp; FAQ" hidden="false">
-              <description>A model with this upgrade increases its Movement Characteristic by +4 and gains the Character Unit Sub-type and the Scout and Outflank special rules. An Acastus Knight Porphyrion may not be given this upgrade.</description>
+            <rule id="78f9-6bee-4c5d-5802" name="Uhlan" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
+              <description>A model with this upgrade increases its Movement Characteristic by +4 and gains the Character Unit Sub-type and the Scout and Outflank special rules. In addition, its Hull Points are increased by +1. An Acastus Knight Porphyrion may not be given this upgrade.</description>
             </rule>
           </rules>
           <costs>
@@ -7527,6 +7696,7 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
 • Opus Viscera: If a model with the Battlesmith (X) special rule in a Detachment that includes a model with this special rule is in base contact with at least one model in a unit comprised of only models with the Infantry Unit Type during the Shooting phase, they can attempt to enhance that unit instead of making a Shooting Attack. Roll a D6. If the result is equal to or more than the value listed in brackets as part of the Battlesmith (X) rule, then one of the following effects may be applied to the unit this model is in base contact with:
 - Restore a lost Wound. This will not return a model that has been previously removed from the battle.
 - The unit may immediately move a number of inches equal to twice the Initiative Characteristic of the majority of models in the unit. This movement is not Running, and therefore, if the unit did not Run in the Movement phase, it may still make Shooting Attacks and declare a Charge as normal for the remainder of the turn.
+- This ability may not be used on any unit which is locked in combat.
 
 • The Sanguine Hook: A model with this special rule gains the Ephemera Lacyraemarta Cybertheurgic Arcana, but may not select any other Cybertheurgic Arcana from those available with the Cybertheurgist special rule.</description>
             </rule>
@@ -8102,7 +8272,7 @@ When deployed onto the battlefield (either at the start of the battle or when ar
       <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
     </rule>
     <rule id="f83c-9442-8102-5da4" name="Pride of Place" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-      <description>A model with this special rule may not embark upon any model with the Transport Unit Sub-type, regardless of its Unit Type or any special rules the model with the Transport Sub-type may have.</description>
+      <description>A model with this special rule may not embark upon any model with the Transport Unit Sub-type, regardless of its Unit Type or any special rules the model with the Transport Sub-type may have. A model which has this Special Rule changes their Armour Save to 2+. In addition, a model with this Special Rule gains the Bulky (X) Special Rule, where X is equal to the model’s starting Wounds Characteristic.</description>
     </rule>
     <rule id="f420-6cdb-5d9b-ef30" name="Cybertheurgic Focus" publicationId="bde1-6db1-163b-3b76" page="94" hidden="false">
       <description>Before making any To Hit rolls with this weapon, the Cybertheurgist must make a Cybertheurgy check. If the Check is passed then the Cybertheurgist may attack as normal using the profile shown for this weapon. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</description>

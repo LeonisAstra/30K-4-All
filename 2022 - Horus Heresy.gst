@@ -1176,7 +1176,12 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
 • A model with the Gargantuan Unit Sub-type may attack with all weapons they have in each Shooting Attack they make, including as part of a Reaction.
 • A model with the Gargantuan Unit Sub-type may make Shooting Attacks with Heavy and Ordnance weapons, counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • No model that does not have the Gargantuan Unit Sub-type may join a unit that includes a model with the Gargantuan Unit Sub-type.
-• A model with the Gargantuan Unit Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot be Wounded or affected by any Attack with the Psychic Focus special rule. Weapons with the Force special rule that are used to make Attacks against a model with the Gargantuan Unit Sub-type are not affected and are resolved normally.</description>
+• A model with the Gargantuan Unit Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot be Wounded or affected by any Attack with the Psychic Focus special rule. Weapons with the Force special rule that are used to make Attacks against a model with the Gargantuan Unit Sub-type are not affected and are resolved normally.
+• Any unit entirely composed of models with the Gargantuan Unit Type
+may choose to ignore the Heroic Stand Special Rule, ignoring any
+penalties normally applied for declining a Challenge, unless the
+Challenge was issued by a model with the Knight, Gargantuan, Titan,
+Primarch, or Daemon Primarch Unit Types.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1245,7 +1250,10 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
     <categoryEntry id="a443-dbf4-cb6c-4da1" name="Corrupted Engine Sub-type" hidden="false">
       <rules>
         <rule id="6aed-6080-ba72-6007" name="Corrupted Engine Sub-type" publicationId="6bcf-2297-2bcd-51be" page="8" hidden="false">
-          <description>• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead.
+          <description>An army that uses the Cohort Doctrine (Iron Pattern Cohort) may take a single unit with the Corrupted Engine Unit Sub-type. An army can only include a maximum of one unit with the Corrupted Engine Unit Sub-type chosen in this manner.
+
+
+• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead.
 • Any rule, effect or modifier that would affect a model with the Corrupted Unit Sub-type also affects a model with the Corrupted Engine Unit Sub-type (e.g., the Anathema Sub-type special rules or the Inexorable special rule).
 • Any unit composed entirely of models with the Corrupted Engine Unit Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Corrupted Engine Unit Sub-type fails a Morale check, it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
 • Any Hits inflicted on a model with the Corrupted Engine Unit Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
@@ -5259,7 +5267,7 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
       <profiles>
         <profile id="102e-3487-6e68-51e2" name="Krak Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 3 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 4 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7526,23 +7534,16 @@ A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not 
       </constraints>
       <rules>
         <rule id="bd1e-ded3-8252-561d" name="Paragon of Metal" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-          <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1.
+          <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1. A model which has this Special Rule changes their Armour Save to 2+.
 In addition, a model with the Paragon of Metal special rule may not be targeted or affected by any Cybertheurgic Power or any Weapon with the Data-djinn special rule, either friendly or enemy.</description>
         </rule>
-        <rule id="aa64-ebfc-e457-1e0d" name="Paragon Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="91" hidden="false">
+        <rule id="aa64-ebfc-e457-1e0d" name="Paragon Unit Sub-type" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
           <description>The following rules apply to all models with the Paragon Unit Sub-type:
 • Models with the Paragon Unit Sub-type are not affected by special rules that negatively modify their Characteristics (other than Wounds or Hull Points).
 • A model with the Paragon Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
 • Models with the Paragon Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.
-
-
-From December 2023 Liber Mechanicum FAQ, page 2:
-
-
-Q. Can a unit with the Paragon Unit Sub-type
-make Reactions?
-A. No.</description>
+• In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reactions, ignoring restrictions from any Unit Type or Sub-type that would prevent it from doing so, as long as the Controlling Player has Reaction allotment available.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -15864,10 +15865,22 @@ Assault Phase).
       <description>When destroyed, a model with this special rule resolves Catastrophic Damage at AP 2</description>
     </rule>
     <rule id="1f93-c765-f7b2-a025" name="Destructor" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>Any model which suffers an unsaved Wound or Hull Point loss from a weapon with this special rule instead suffers D6 unsaved Wounds or Hull Points of damage. In addition, if the target of this attack is a model with the Knight, Titan, Super-heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
+      <description>When a model is allocated a Wound or Hull Point Loss inflicted by a weapon with this Special Rule, it does not suffer only one Wound or Hull Point of damage, but instead suffers D6 Wounds or Hull Points of damage instead, with all of the Wounds or Hull Points inflicted using the same AP and special rules as that of the initial Wound. Roll to save against each Wound or Hull Point of damage inflicted separately, but note that Wounds or Hull Points of damage caused in excess of a given model’s remaining Wounds or Hull Points do not spill over to other models and are lost.
+
+
+In addition, if the target of this attack is a model with the Knight, Titan, Gargantuan, Super-Heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
     </rule>
     <rule id="4eb9-9e5e-bb27-3644" name="Disruption (X)" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>To Hit rolls of the value X indicated made by a weapon with this rule cause an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought or Automata Unit Types, instead of rolling To Wound.</description>
+      <description>To Hit rolls of the value X indicated made by a weapon with this Special Rule cause an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought, Automata, or Armiger Unit Types, instead of rolling To Wound.
+
+
+On weapons which do not roll to Hit, such as Template or Blast Weapons, a D6 should be rolled for every applicable target - a roll of X or higher causes an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought, Automata, or Armiger Unit Types.
+
+
+Only Invulnerable Saves or Damage Mitigation rolls may be taken against Wounds or Hull Points of damage inflicted automatically by this Special Rule.
+
+
+If a model armed with a weapon with this Special Rule receives a Ballistic Skill modifier (such as Night Fighting or being forced to make Snap Shots, etc), then they may only gain the benefit of the Disruption (X) Special Rule on a successful Hit (provided the Hit Roll is equal to or better than the value X).</description>
     </rule>
     <rule id="1cc2-eaee-8bcf-96d3" name="Grav Wave" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
       <description>Any successful Charge that targets a unit containing a model with a weapon with this special rule is always counted as a Disordered Charge.</description>

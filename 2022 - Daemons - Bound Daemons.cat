@@ -290,6 +290,11 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="380"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="40f3-05e8-5ddc-636a" field="category"/>
+        <modifier type="add" value="e699-d9cd-e68e-46d9" field="category"/>
+        <modifier type="add" value="7d95-f9d1-440a-67bd" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="89f7-b7a1-aab2-e47a" name="Bound Daemon Regent" publicationId="cb13-da24-e6da-75b3" page="17" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -298,6 +303,8 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
             <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b7db-bf16-47c5-dc05" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="40f3-05e8-5ddc-636a" field="category"/>
+        <modifier type="add" value="e699-d9cd-e68e-46d9" field="category"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="ffef-0edc-ccde-7d6e" name="Daemon Unit Type" hidden="false" targetId="e699-d9cd-e68e-46d9" primary="false"/>
@@ -659,6 +666,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="525"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="40f3-05e8-5ddc-636a" field="category"/>
+        <modifier type="add" value="e699-d9cd-e68e-46d9" field="category"/>
+        <modifier type="add" value="f479-3c81-1e42-1b3a" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="519f-866e-e6fe-20e0" name="Bound Daemon Brutes" publicationId="cb13-da24-e6da-75b3" page="18" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -667,6 +679,8 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <condition field="selections" scope="519f-866e-e6fe-20e0" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b7db-bf16-47c5-dc05" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="40f3-05e8-5ddc-636a" field="category"/>
+        <modifier type="add" value="e699-d9cd-e68e-46d9" field="category"/>
       </modifiers>
       <categoryLinks>
         <categoryLink id="6e4a-c4d0-ec9e-672c" name="Daemon Unit Type" hidden="false" targetId="e699-d9cd-e68e-46d9" primary="false"/>
@@ -741,6 +755,176 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bound Cor’bax Utterblight" hidden="false" id="4ad9-d3b8-408b-8112" publicationId="cb13-da24-e6da-75b3" page="21">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Cor’bax Utterblight" hidden="false" id="3335-d31e-9a19-f9ab" publicationId="8775-88f5-cfdd-24f6" page="20">
+          <profiles>
+            <profile name="Bound Cor’bax Utterblight" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="ebdb-abef-62ac-a33" publicationId="cb13-da24-e6da-75b3" page="20">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Daemon (Character, Monstrous, Psyker, Unique, Bound, Heavy)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">7</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">8</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">9</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b038-d7ae-54fb-c403"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3008-b7de-a6ca-99cd"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Daemon Unit-type:" hidden="false" id="c470-4932-9574-92d8" targetId="e699-d9cd-e68e-46d9" primary="false"/>
+            <categoryLink name="Character" hidden="false" id="8cb8-49ed-a9ff-a725" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+            <categoryLink name="Monstrous Sub-type:" hidden="false" id="405a-1ef4-48c7-127" targetId="7d95-f9d1-440a-67bd" primary="false"/>
+            <categoryLink name="Psyker:" hidden="false" id="3f8-ead8-991c-8f11" targetId="6e0c-29ba-a445-8321" primary="false"/>
+            <categoryLink name="Unique Sub-type" hidden="false" id="84f7-20b9-3b98-1823" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+            <categoryLink name="Heavy Sub-type:" hidden="false" id="b842-8804-11c-6785" targetId="9231-183c-b97b-63f9" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord Trait: Lord of Decay" hidden="false" id="6f24-baab-fafa-f78c" collective="false">
+          <modifiers>
+            <modifier type="set" value="1" field="46a3-f473-a291-2c2">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="4ad9-d3b8-408b-8112" childId="0176-56a3-d590-b103" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="4ad9-d3b8-408b-8112" childId="0176-56a3-d590-b103" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd3b-ca1-bcfc-84b1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="46a3-f473-a291-2c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Warlord Trait: Lord of Decay" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="7976-1ea6-fb85-c46c" publicationId="8775-88f5-cfdd-24f6" page="20">
+              <characteristics>
+                <characteristic name="Text" hidden="false" id="3ccd-90c2-3f80-4191" typeId="c68e-2cda-b67b-baca">Cor’bax Utterblight Unbound may always be selected as an army’s Warlord even if it is not part of the Primary Detachment or an HQ choice. If chosen as the army’s Warlord, Cor’bax Utterblight Unbound automatically has Lord of Decay as its Warlord Trait and may not select any other.
+
+
+Lord of Decay – All units with the Daemon Unit Type and the Ætheric Dominion (Putrid Corruption) special rule within 3&quot; of Cor’bax Utterblight Unbound can re-roll failed Damage Mitigation rolls provided to them by the Ætheric Dominion (Putrid Corruption) and Feel No Pain (X) special rules. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Cor’bax Utterblight Unbound has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" hidden="false" id="62cd-25b5-898f-db8f" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Noxious Maw" hidden="false" id="32c2-26b-f5c8-2bd3" publicationId="8775-88f5-cfdd-24f6" page="20">
+          <profiles>
+            <profile name="Noxious Maw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e46d-f7bc-9ced-acb" publicationId="8775-88f5-cfdd-24f6" page="20">
+              <characteristics>
+                <characteristic name="Range" hidden="false" id="9ce2-4079-c7d2-69a" typeId="95ba-cda7-b831-6066">-</characteristic>
+                <characteristic name="Strength" hidden="false" id="a55e-1885-a9f7-bf74" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                <characteristic name="AP" hidden="false" id="97e7-c858-2744-a67f" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                <characteristic name="Type" hidden="false" id="6161-fe69-4370-b3a9" typeId="2f86-c8b4-b3b4-3ff9">Melee, Murderous Strike (4+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Murderous Strike (X)" hidden="false" id="79f0-843a-3a86-9c74" type="rule" targetId="93b9-1454-0e7c-42ae">
+              <modifiers>
+                <modifier type="set" value="Murderous Strike (4+)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8f2-bff1-513c-1be9"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c80-599f-7178-c6cf"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" hidden="false" id="3242-d71a-1dc8-c18" typeId="d2ee-04cb-5f8a-2642" value="430"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Putrid Corruption" hidden="false" id="eddf-bc54-dc8c-28f4" type="selectionEntry" targetId="b7db-bf16-47c5-dc05">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f07f-129b-576d-5e68"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Warlord" hidden="false" id="77db-8a17-a771-69bf" collective="false" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
+        <entryLink import="true" name="Samus, Ka’bandha &amp; Cor&apos;bax Warlord stuff" hidden="false" id="c0bf-334d-441a-b738" collective="false" targetId="092d-3716-36f8-8988" type="selectionEntry"/>
+        <entryLink import="true" name="Psychic Discipline: Biomancy" hidden="false" id="4742-a0dd-5477-cda2" type="selectionEntry" targetId="861c-3744-c4ff-ef6c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2506-37ac-76e9-11cb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="146f-e297-ee02-ffa7"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Æthereal Invulnerability (X)" hidden="false" id="882c-235f-a53b-62fd" targetId="e05e-ed23-64fb-a535" type="rule">
+          <modifiers>
+            <modifier type="set" value="Æthereal Invulnerability (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Empyrean Avatar" hidden="false" id="849d-6b60-5bf-8f8e" type="rule" targetId="c694-20c8-455-baca"/>
+        <infoLink name="It Will Not Die (X)" hidden="false" id="faf4-6a97-b605-b639" targetId="2784-d0be-a4e2-890f" type="rule">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Traitor" hidden="false" id="5303-71f3-eca7-1f98" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
+        <infoLink name="Adamantium Will (X+)" hidden="false" id="bb25-b0e0-56ed-fb35" targetId="4380-44a5-f01a-d964" type="rule">
+          <modifiers>
+            <modifier type="set" value="Adamantium Will (3+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" id="91ac-b52f-671f-edb9" targetId="aec0-c3aa-1e4e-1779" type="rule">
+          <modifiers>
+            <modifier type="set" value="Hammer of Wrath (D3+1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Bulky (X)" hidden="false" id="68b0-dd7e-5016-58ac" type="rule" targetId="676c-7b75-4b6f-9405">
+          <modifiers>
+            <modifier type="set" value="Bulky (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Bound Malefica" hidden="false" id="2d38-240c-7650-3329" targetId="e2de-47bf-2a1c-45e5" type="rule"/>
+      </infoLinks>
+      <rules>
+        <rule name="Herald of Pestilence" hidden="false" id="b33d-8b1d-d8f1-c976" publicationId="8775-88f5-cfdd-24f6" page="20">
+          <description>Cor’bax Utterblight Unbound is a Psyker and gains the Biomancy Disciplines from the Core Psychic Discipline (see the Warhammer: The Horus Heresy – Age of Darkness Rulebook, page 325) at no additional points cost and may not select any other Psychic Disciplines.</description>
+        </rule>
+        <rule name="Noisome Tide of Flesh" hidden="false" id="25a6-5198-abb1-a54a" publicationId="8775-88f5-cfdd-24f6" page="20">
+          <description>Cor’bax Utterblight Unbound suffers no penalty for moving or  charging through Difficult Terrain. In addition, when Cor’bax Utterblight Unbound is  destroyed, nearby units suffer a Strength 6, AP- Hit for each model within 5&quot; that does not have the Daemon Unit Type. Any unit that suffers one or more Hits from this effect must take an immediate Pinning test. Once all Hits and Pinning tests are resolved, Cor’bax Utterblight Unbound is  then removed from the battlefield.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7a4-9ba8-734c-9705" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="900a-3268-3eae-644a" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Daemon Unit-type:" hidden="false" id="1590-b374-c12a-8669" targetId="e699-d9cd-e68e-46d9" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="e089-de3d-2053-a344" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+        <categoryLink name="Monstrous Sub-type:" hidden="false" id="a32f-4b0d-6c3e-3ed0" targetId="7d95-f9d1-440a-67bd" primary="false"/>
+        <categoryLink name="Psyker:" hidden="false" id="87c1-bb7c-d94d-3f19" targetId="6e0c-29ba-a445-8321" primary="false"/>
+        <categoryLink name="Unique Sub-type" hidden="false" id="2b50-6b27-aa8e-b39c" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+        <categoryLink name="Putrid Corruption" hidden="false" id="a10a-1ef9-7907-a3ed" targetId="8cf6-d802-d054-6a86" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="add" value="9231-183c-b97b-63f9" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="b7db-bf16-47c5-dc05" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="e699-d9cd-e68e-46d9" field="category"/>
+        <modifier type="add" value="7d95-f9d1-440a-67bd" field="category"/>
+        <modifier type="add" value="6e0c-29ba-a445-8321" field="category"/>
+        <modifier type="add" value="f75a-d5c1-59ba-5c5a" field="category"/>
+        <modifier type="add" value="aa94-5c65-d1f1-46a4" field="category"/>
+        <modifier type="add" value="40f3-05e8-5ddc-636a" field="category"/>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
