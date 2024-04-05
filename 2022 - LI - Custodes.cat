@@ -417,7 +417,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="d2ee-04cb-5f8a-2642" scope="roster" value="3000" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
+                <condition field="d2ee-04cb-5f8a-2642" scope="roster" value="2000" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                 <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d926-652f-8436-30ce" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -456,7 +456,7 @@
           </profiles>
           <rules>
             <rule id="e88c-465d-fc13-d71d" name="Tribune of the Golden Legion" hidden="false">
-              <description>A model with this specialrule may only be included in the Primary Detachment of an army with a total value of at least 3,000 points. Furthermore, unless Constantin Valdor is also part of the same army, a model with this specialrule must be chosen as the army’s Warlor</description>
+              <description>A model with this Special Rule may only be included in the Primary Detachment of an army with a total value of at least 2,000 points. Furthermore, unless Constantin Valdor is also part of the same army, a model with this Special Rule must be chosen as the army’s Warlord.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -490,12 +490,12 @@
                   </costs>
                 </entryLink>
                 <entryLink id="80d7-e8ea-f760-7c32" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
-                <entryLink id="9464-6576-ae15-0d36" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+                <entryLink id="9464-6576-ae15-0d36" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry"/>
+                <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
-                <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry"/>
                 <entryLink id="d420-be7e-17f3-efcc" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -513,7 +513,7 @@
                 </entryLink>
                 <entryLink id="9146-b43c-8dc9-b221" name="Paragon Glaive" hidden="false" collective="false" import="true" targetId="a9fc-4298-7b35-8ef4" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9f52-9a89-827f-3e02" name="Guardian Axe" hidden="false" collective="false" import="true" targetId="1334-e423-944e-9499" type="selectionEntry"/>
@@ -782,13 +782,16 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-da16-84b9-22a8" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="04f1-3907-5bb5-d06e" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d50a-ec64-213f-e67b" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="f114-1264-5f4d-862c" name="Pyrithite Spear" hidden="false" collective="false" import="true" targetId="4620-e360-7dd2-f908" type="selectionEntry">
@@ -854,7 +857,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ab03-271b-4a46-8fbe" name="Infantry Unit Type" primary="false"/>
@@ -1281,7 +1284,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
                   </characteristics>
@@ -1533,7 +1536,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
                   </characteristics>
@@ -1815,7 +1818,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
                   </characteristics>
@@ -2089,7 +2092,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2b53-452a-435d-f29d" name="Venatari w/ Venatari Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2134,7 +2137,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2173,7 +2176,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a39-6452-e075-c8d6" name="Sagittarum Guard Squad" publicationId="15a4-fc68-502d-48a9" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -3430,12 +3433,12 @@ the Front Armour during the same Phase.�</characteristic>
               </costs>
             </entryLink>
             <entryLink id="affd-2143-1c9e-17f6" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
-            <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+            <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry"/>
+            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
-            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry"/>
             <entryLink id="35b7-60c7-d938-44f7" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -3453,7 +3456,7 @@ the Front Armour during the same Phase.�</characteristic>
             </entryLink>
             <entryLink id="4b62-44bd-1fe7-2c96" name="Paragon Glaive" hidden="false" collective="false" import="true" targetId="a9fc-4298-7b35-8ef4" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="dc58-66af-84f4-984f" name="Guardian Axe" hidden="false" collective="false" import="true" targetId="1334-e423-944e-9499" type="selectionEntry"/>
@@ -3903,7 +3906,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </selectionEntry>
     <selectionEntry id="6526-bdfb-4ebe-6e0a" name="Orion Assault Dropship" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9365-981d-d422-7c4a" name="Orion Assault Dropship" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+        <profile id="9365-981d-d422-7c4a" name="Orion Assault Dropship" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" publicationId="9fab-fea7-a93c-2074" page="144">
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Flyer, Hover, Lumbering, Transport</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">19</characteristic>
@@ -3912,7 +3915,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">7</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">24</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">36</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
           </characteristics>
         </profile>
@@ -4292,7 +4295,12 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
   <sharedProfiles>
     <profile id="3ddf-fb5c-220a-9581" name="Golden Exemplar (Warlord Trait)" publicationId="15a4-fc68-502d-48a9" page="17" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
       <characteristics>
-        <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any combat with at least one friendly model within 12&quot; of a Warlord with this Trait, or a combat which includes a Warlord with this Trait, gains a bonus of +1 to the number of Wounds caused for the purposes of deciding which side has won a combat during the Assault phase. In addition, while Engaged in a Challenge a Warlord with this Trait adds a bonus of +1 to their Attacks and Initiative Characteristics.</characteristic>
+        <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any combat with at least one friendly model within 12&quot; of a Warlord with this Trait, or a combat which includes a Warlord with this Trait, gains a bonus of +1 to the number of Wounds caused for the purposes of deciding which side has won a combat during the Assault phase. In addition, while Engaged in a Challenge a Warlord with this Trait adds a bonus of +1 to their Attacks and Initiative Characteristics.
+
+
+Furthermore, the first Reaction made in each Game Turn by this
+Warlord and any unit he has joined does not use up a point of the
+Controlling Player’s Reaction Allotment.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
