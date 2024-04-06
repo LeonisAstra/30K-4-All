@@ -1689,7 +1689,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3210-baff-f554-8019" type="max"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3210-baff-f554-8019" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b095-12d9-ff21-c90b" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false">
