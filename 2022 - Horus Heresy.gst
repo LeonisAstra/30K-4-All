@@ -1228,7 +1228,7 @@ Primarch, or Daemon Primarch Unit Types.</description>
 • Failed To Wound rolls, made for weapons with the Armourbane (X) special rule, and against a unit that includes any models with this Unit Sub-type must be re-rolled.
 • A model with the Mechanised Unit Sub-type may attack with all weapons it has when making a Shooting Attack, including as part of a Reaction.
 • A model with the Mechanised Unit Sub-type may attack with Heavy and Ordnance weapons while counting as stationary even if it has moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• A model with the Mechanised Unit Sub-type is affected by the Haywire, Detonation and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+• Any attacks made against a unit with the Mechanised Unit Sub-type are resolved as if the model had the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.
 • No model that does not also have the Mechanised Unit Sub‑type may join a unit that includes one or more models with the Mechanised Unit Sub-type.</description>
         </rule>
       </rules>
@@ -1744,7 +1744,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink id="1ef7-5f17-ade4-e6c1" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="369a-4e2e-f7c8-5941" type="max"/>
+            <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="369a-4e2e-f7c8-5941" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="a360-c557-9119-a286" name="Ogryn Conscripts (Compulsory)" hidden="false" targetId="d813-b3e9-24f0-78bd" primary="false">
@@ -1965,7 +1965,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         <categoryLink id="13d3-d01e-f52f-e687" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="c1eb-5ad0-5c14-b414" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b40d-bc3b-2e1b-1243" type="max"/>
+            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b40d-bc3b-2e1b-1243" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="e7a0-a7e0-e7b8-8578" name="Ogryn Conscripts (Compulsory)" hidden="false" targetId="d813-b3e9-24f0-78bd" primary="false">
@@ -2220,7 +2220,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink id="2b19-38ad-1275-ddd4" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b039-28cb-fcb1-592b" type="max"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b039-28cb-fcb1-592b" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7d46-361b-5baf-f109" name="Ogryn Conscripts (Compulsory)" hidden="false" targetId="d813-b3e9-24f0-78bd" primary="false">
@@ -9825,10 +9825,26 @@ Note that this is an exception to the normal rules for Fortifications, and if as
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 5</characteristic>
           </characteristics>
         </profile>
+        <profile name="Ripper Gun&apos;s Bayonet" hidden="false" id="1342-81ab-9617-fcf2" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="9fab-fea7-a93c-2074" page="177">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reaping Blow (1), Two-Handed</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Reaping Blow (X)" hidden="false" id="73c8-a129-1a6-d354" type="rule" targetId="bd8c-4f52-d682-1b40">
+          <modifiers>
+            <modifier type="set" value="Reaping Blow (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Two-handed" hidden="false" id="70a5-f834-db76-1830" type="rule" targetId="4c23-e863-a569-7617"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="bbc4-b218-ade0-80a1" name="Thunderstub" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -14636,8 +14652,8 @@ For the purposes of Movement, Shooting Attacks, and Charges, a model deployed v
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24f-3621-d68e-3cb1" type="max"/>
           </constraints>
           <rules>
-            <rule id="e36c-1974-5c74-ccc6" name="Legacy of the Great Crusade" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and Discipline Masters in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
+            <rule id="e36c-1974-5c74-ccc6" name="Legacy of the Great Crusade" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and units that contain a Discipline Master or Mounted Discipline Master in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
             </rule>
           </rules>
           <costs>
@@ -14650,8 +14666,8 @@ For the purposes of Movement, Shooting Attacks, and Charges, a model deployed v
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbed-3131-a2c8-ab64" type="max"/>
           </constraints>
           <rules>
-            <rule id="8d20-f35d-f6d9-1186" name="Clanfolk Levy" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads, with all models in Imperialis Militia Cavalry Squads selected as Compulsory Troops choices gaining a bonus of +1 to their Leadership Characteristic (this does not allow Imperialis Militia Cavalry Squads to be selected as non-Compulsory Troops choices). In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
+            <rule id="8d20-f35d-f6d9-1186" name="Clanfolk Levy" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads. In addition, all models in Imperialis Militia Cavalry Squads gain a bonus of +1 to their Leadership Characteristic. In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
             </rule>
           </rules>
           <costs>
@@ -14740,8 +14756,8 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Cyber-augment o
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34cf-0bac-d780-299a" type="max"/>
           </constraints>
           <rules>
-            <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="48c2-d023-0069-001a" page="10" hidden="false">
-              <description>All eligible units and models gain the Feel No Pain (6+) and Slow and Purposeful special rules. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
+            <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All eligible units and models gain the Feel No Pain (6+) Special Rule, and any eligible unit may be given the Slow and Purposeful Special Rule at no additional points cost. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -14863,8 +14879,8 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d59-f3d7-3290-1e26" type="max"/>
           </constraints>
           <rules>
-            <rule id="ddaa-0389-1b2e-89ae" name="Kinfolk Helots" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Toughness Characteristic but also lower their Initiative and Movement Characteristics by -1 (to a minimum of 1, models with a Movement of 0 or - are not affected and remain Movement 0 or -). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) special rule, or if they also have the Independent Character special rule gain the Battlesmith (5+) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+            <rule id="ddaa-0389-1b2e-89ae" name="Kinfolk Helots" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All eligible units and models change their Toughness Characteristic to be one higher than its starting value (a Toughness characteristic of 3 being changed to 4 on their statline, for example), but also change their Initiative and Movement Characteristics to be one lower than its starting value (in the same way as above). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) Special Rule, or if they also have the Independent Character Special Rule gain the Battlesmith (5+) Special Rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
             </rule>
           </rules>
           <costs>
@@ -14884,8 +14900,8 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb11-ba20-4ab6-86c6" type="max"/>
           </constraints>
           <rules>
-            <rule id="b726-7fd3-991b-4752" name="Abhuman Muster" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Strength Characteristic but also lower their Ballistic Skill by -1 (to a minimum of 1) and, if they do not already possess any variant of the Bulky (X) special rule, gain the Bulky (2) special rule. All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Hammer of Wrath (1) special rule, or if they also have the Independent Character special rule or the Monstrous Unit Sub-type gain the Hammer of Wrath (2) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+            <rule id="b726-7fd3-991b-4752" name="Abhuman Muster" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All eligible units and models change their Strength and Movement Characteristic to be one higher than its starting value (a Strength characteristic of 3 being changed to 4 on their statline, for example), but also change their Ballistic Skill Characteristic to be one lower than its starting value (in the same way as above) and, if they do not already possess any variant of the Bulky (X) Special Rule, gain the Bulky (2) Special Rule. All eligible models in a Detachment with this Provenance gain the Hammer of Wrath (1) Special Rule. If a model also has the Character Unit Sub-type or the Monstrous Unit Sub-type, they gain the Hammer of Wrath (2) Special Rule instead, or +1 to an existing Hammer of Wrath (X) Special Rule if they already have the Hammer of Wrath (2) Special Rule. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.”</description>
             </rule>
           </rules>
           <costs>
@@ -16047,7 +16063,7 @@ Scatter dice.
 • The penalty to Leadership is ignored by any unit with the Fearless or Stubborn special rules. A Primarch unit, or any unit with the Night Vision special rule ignores both the penalties to Leadership and Ballistic Skill and the restrictions on drawing line of sight to other units.
 • Note that in some missions, if the Player with Strategic Advantage elects to not activate Night Fighting, the Opposing Player may still have the Night Fighting Rules in effect on a roll of a 4+.</description>
     </rule>
-    <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="48c2-d023-0069-001a" page="41" hidden="false">
+    <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="9fab-fea7-a93c-2074" page="154" hidden="false">
       <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any Special Rules that would normally grant additional Attacks.</description>
     </rule>
     <rule id="2dfc-b3cc-7ede-2827" name="Impale" publicationId="6bcf-2297-2bcd-51be" page="15" hidden="false">

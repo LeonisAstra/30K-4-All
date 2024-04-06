@@ -6975,12 +6975,12 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1e4-cf60-50bc-d906" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bb7e-ba2c-cf50-870" name="Despoiler cannon" publicationId="6bcf-2297-2bcd-51be" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="bb7e-ba2c-cf50-870" name="Despoiler Cannon" publicationId="9fab-fea7-a93c-2074" page="172" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Blast (3&quot;), Sunder, Rending (5+), Brutal (3)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Blast (3&quot;), Sunder, Rending (5+), Brutal (3), Wrecker</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7001,6 +7001,8 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
                 <modifier type="set" field="name" value="Blast (3&quot;)"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Ordnance" hidden="false" id="9d44-c9e4-5e1-5dd6" type="rule" targetId="6c55-22c8-1b01-2105"/>
+            <infoLink name="Wrecker" hidden="false" id="4740-57e5-9503-ea73" type="rule" targetId="ba77-a802-55df-da67"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
