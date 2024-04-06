@@ -1259,6 +1259,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e250-c088-29d2-b595" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Psychic Discipline: Anathemata" hidden="false" id="5bd7-5384-ad6b-f68" type="selectionEntry" targetId="c6ec-edc0-034e-ed45" publicationId="9fab-fea7-a93c-2074" page="150"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -1327,12 +1328,12 @@ Note that weapons selected to fire in this manner must still follow the rules a
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88c8-dd2a-1298-c9b4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5476-f035-bffd-0917" name="Lidless Stare (Psychic Weapon)" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+                <profile id="5476-f035-bffd-0917" name="Lidless Stare (Psychic Weapon)" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" publicationId="9fab-fea7-a93c-2074" page="173">
                   <characteristics>
                     <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">Template</characteristic>
                     <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">2</characteristic>
                     <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">-</characteristic>
-                    <characteristic name="Type" typeId="2159-62b6-4337-d516">Pinning, Force</characteristic>
+                    <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Pinning, Force, Instant Death</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

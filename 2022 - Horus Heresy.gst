@@ -10725,6 +10725,55 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Praetor Launcher" hidden="false" id="c123-e9f7-ee20-c4f9" collective="false" publicationId="9fab-fea7-a93c-2074" page="170">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="629a-cc77-d839-28f4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff80-42b5-635d-c91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Praetor Launcher - Firestorm" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="152e-7733-d4ae-b642" publicationId="9fab-fea7-a93c-2074" page="170">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="f49-866f-ee5d-93d8" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" hidden="false" id="39fb-bc6d-9987-67b5" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" hidden="false" id="dbab-2ec6-6db1-6882" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" hidden="false" id="a1d7-e525-6d26-4b60" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Barrage, Massive Blast (7&quot;), Pinning, Shell Shock (2), Rending (5+), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Praetor Launcher - Foehammer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5e6f-403d-95ab-3e4c" publicationId="9fab-fea7-a93c-2074" page="170">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="7258-6a05-4321-c3d5" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" hidden="false" id="f1a0-854a-a086-8f59" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" hidden="false" id="ade2-a2fd-7140-74f2" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" hidden="false" id="fc-ee77-cc0d-1a5b" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Guided Fire, Breaching (5+), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" hidden="false" id="ea5e-314e-5b6-d8a7" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast" hidden="false" id="ae30-bb54-6c9d-560b" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink name="Pinning" hidden="false" id="85f2-bc0b-63d5-66dc" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Barrage" hidden="false" id="c2d9-1bb9-32f-8fdb" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink name="Breaching (X)" hidden="false" id="49c9-b86f-eeac-f9a8" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Ignores Cover" hidden="false" id="6a0b-ebc3-5d28-e1c8" type="rule" targetId="fdb5-59e2-c446-1cbc"/>
+        <infoLink name="Shell Shock (X)" hidden="false" id="c7c7-d186-99b8-6c1e" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" value="Shell Shock (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Guided Fire" hidden="false" id="a625-1de4-2467-3d8d" type="rule" targetId="fa1e-0112-943e-b1f6"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="c724-d5ba-bb13-e6eb" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
