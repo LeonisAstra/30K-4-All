@@ -2080,9 +2080,17 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b14-abce-9f97-9fe0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ba8a-0da7-2ccc-c438" name="Tarsus Buckler" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+                    <profile id="ba8a-0da7-2ccc-c438" name="Tarsus Buckler (Wargear)" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
                         <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reduce the Strength characteristic of Shooting Attacks made against a unit in which the majority of models have a Tarsus Buckler by -2 (to a minimum of 1).</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Tarsus Buckler (Weapon)" hidden="false" id="4f79-af8a-8232-f9e" page="" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2748,7 +2756,7 @@
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (9&quot;)</characteristic>
           </characteristics>
         </profile>
@@ -2767,7 +2775,7 @@
     </selectionEntry>
     <selectionEntry id="2b1d-a84d-9b3f-8ad6" name="Infernus Firepike" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="17b5-35b3-97b8-7b9f" name="Infernus Firepike" hidden="false" targetId="8ee5-48ce-ca14-40e4" type="profile"/>
+        <infoLink id="17b5-35b3-97b8-7b9f" name="Infernus Firepike" hidden="false" targetId="8ee5-48ce-ca14-40e4" type="profile" publicationId="9fab-fea7-a93c-2074" page="171"/>
         <infoLink id="ef92-d64b-522a-5966" name="Torrent (X)" hidden="false" targetId="5cfb-fc94-e6db-43b8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Torrent (9&quot;)"/>
@@ -3004,18 +3012,23 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d6f-2162-5a4f-d8b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="377d-10d8-9548-a5ac" name="Telemon Cestus" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="377d-10d8-9548-a5ac" name="Telemon Cestus" publicationId="9fab-fea7-a93c-2074" page="175" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Sunder</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Sunder, Brutal (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="5af8-74d5-7765-899d" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
             <infoLink id="d9cc-aa8c-ffda-00ee" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
+            <infoLink name="Brutal (X)" hidden="false" id="5299-e42-9dd-63cd" type="rule" targetId="5079-1fec-d32b-8b84">
+              <modifiers>
+                <modifier type="set" value="Brutal (3)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4043,12 +4056,12 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </selectionEntry>
     <selectionEntry id="2357-23af-0317-1a79" name="Adrastus Bolt Caliver" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1658-9859-8604-bf91" name="Adrastus Bolt Caliver - (Bolt Volley)" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="1658-9859-8604-bf91" name="Adrastus Bolt Caliver - (Bolt Volley)" publicationId="9fab-fea7-a93c-2074" page="171" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Shred Pinning</characteristic>
           </characteristics>
         </profile>
         <profile id="c953-8e34-9c71-92e2" name="Adrastus Bolt Caliver - (Disintegrator)" publicationId="15a4-fc68-502d-48a9" page="146" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -4064,6 +4077,8 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <infoLink id="aba3-d0ba-2ccf-89bc" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="0efd-9220-7866-2b14" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
         <infoLink id="3e1e-bd96-b92e-c3b6" name="One Use/One Shot" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
+        <infoLink name="Shred" hidden="false" id="fc5-7c64-d2ae-6916" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+        <infoLink name="Pinning" hidden="false" id="6889-97af-de6-c5c2" type="rule" targetId="1c96-205c-59a0-3cf2"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

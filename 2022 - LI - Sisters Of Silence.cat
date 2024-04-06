@@ -6645,10 +6645,10 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d956-d8c6-9427-4faa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2167-88b0-0dcd-76b6" name="Vratine Grenade Launcher - Krak" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="2167-88b0-0dcd-76b6" name="Vratine Grenade Launcher - Krak" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="9fab-fea7-a93c-2074" page="171">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
                 <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
               </characteristics>
