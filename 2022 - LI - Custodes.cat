@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1776" name="LI - Custodes" revision="2020" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1776" name="LI - Custodes" revision="2021" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <categoryEntries>
     <categoryEntry id="ccca-a9de-0cd9-f8be" name="Legio Custodes" hidden="false">
       <infoLinks>
@@ -2085,7 +2085,7 @@
                         <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reduce the Strength characteristic of Shooting Attacks made against a unit in which the majority of models have a Tarsus Buckler by -2 (to a minimum of 1).</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Tarsus Buckler (Weapon)" hidden="false" id="4f79-af8a-8232-f9e" page="" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+                    <profile name="Tarsus Buckler (Weapon)" hidden="false" id="4f79-af8a-8232-f9e" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
