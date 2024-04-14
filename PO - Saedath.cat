@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="bd2b-c57-2ddd-4b7c" name="PO - Saedath" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+  <sharedSelectionEntries>
+    <selectionEntry name="Troupe Master" type="unit" id="f0cf-4f35-42db-b967" page="114" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="e854-5ebd-434f-af02"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="6fb1-130a-485f-9012" name="HQ"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Troupe Master" id="df8c-16ff-4bcd-8180" page="114" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="d3de-cf37-4a21-b9e0" name="Troupe Master" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">6</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">6</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">7</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">4</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">-</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Rillietann, Skirmish, Character)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ca5-27d9-4912-b4e5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5e1-b9b5-475d-8716"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="4f7c-81db-4ded-aed1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0c5-447a-4597-b852"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="370c-5aac-45ad-8654"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Flip Belt" hidden="false" type="selectionEntry" targetId="bd1c-eb03-4cab-989a" id="9c9e-611c-4d31-8776">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c51f-9d05-41a7-a8ce"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec92-00d5-4d13-8723"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Plasma Grenades" hidden="false" type="selectionEntry" targetId="00ac-5643-4117-a1d1" id="dd63-90b2-4667-b8a5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc29-b9ef-4945-95f5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5c8-0956-44e6-a9fe"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The Troupe Master may exchange their Shuriken Pistol for one of the following:" id="57aa-dbb8-460a-807b">
+              <entryLinks>
+                <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="6cd4-12b3-4315-8bf2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a237-51d0-47e1-b4d7"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Neuro Disruptor" hidden="false" type="selectionEntry" targetId="123e-65e6-448d-837d" id="b05e-4ba3-4efa-b265">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="562d-a5f5-4447-96f4"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Fusion Pistol" hidden="false" type="selectionEntry" targetId="d771-9c18-4f73-a95e" id="8b9d-9da6-4593-81fa">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50a8-c054-4dfe-9900"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e70a-2a1c-4d29-aa4c"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Troupe Master may exchange their Power Sword for one of the following:" id="9c3a-ab4d-4c2f-9950">
+              <entryLinks>
+                <entryLink name="Power Sword" hidden="false" type="selectionEntry" targetId="0738-277d-4fdc-b7c5" id="01aa-8c6c-4472-bb5a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d0c-01a4-4ac9-96f4"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Kiss" hidden="false" type="selectionEntry" targetId="a296-2f1c-420d-957d" id="fbb2-041a-4c1e-94d9">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2430-c96d-4c72-bad4"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Embrace" hidden="false" type="selectionEntry" targetId="0177-74c2-4f1e-a237" id="5ed4-2645-4b2e-a02b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a82-c2f0-46fa-bb5e"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Caress" hidden="false" type="selectionEntry" targetId="a7e4-ba7b-4fd3-8169" id="a059-86b8-47d3-a84e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a282-9f74-4050-845b"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Edge" hidden="false" type="selectionEntry" targetId="aa5b-53dc-4ba6-8d38" id="a106-baf7-4f21-ad25">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dea1-bd66-4e70-b88c"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="040c-94eb-4c36-9007"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Troupe Master may select any of the following:" id="1fc1-59a0-49ba-8e4a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9b2-0885-4ae9-940b"/>
+              </constraints>
+              <comment>!BSC Errors from 20240406-1603
+Could not find wargear Haywire Grenades
+	 Checked under Haywire Grenades
+Could not find wargear One Vortex Grenade
+	 Checked under One Vortex Grenade</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="38bf-b9f4-4b5e-8c7f" name="Infantry" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="db36-f4a9-4a2b-9686" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="7de6-f17a-46b4-97d6" name="Skirmish" primary="false"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="fe26-3fd4-4943-acca" name="Character" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear Mask of Many Faces
+	 Checked under Mask of Many Faces
+Could not find wargear in The Troupe Master may select any of the following:
+Could not find wargear in The Troupe Master may select any of the following:</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="8a2e-cb11-4990-b100">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Crusader" hidden="false" type="rule" targetId="c705-0829-75f6-a785" id="a40f-7829-451e-83a9"/>
+        <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="df28-b2a0-4656-8563"/>
+        <infoLink name="Precision Shots (X)" hidden="false" type="rule" targetId="4b71-81ee-31f4-fa09" id="3e53-17d9-42a0-80d9">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Shots (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision Strikes (X)" hidden="false" type="rule" targetId="2206-8497-8fe1-e973" id="d542-b048-4baa-8c57">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Strikes (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <comment>!BSC Errors from 20240406-1603
+Could not find rule: Independent Character</comment>
+    </selectionEntry>
+    <selectionEntry name="Shadowseer" type="unit" id="b139-833d-4e60-bf19" page="118" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="24b4-26de-4323-bfad"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="884a-23ff-4e05-9be1" name="Elites"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Shadowseer" id="dbb8-e575-493a-a972" page="118" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="125a-27e3-41ff-b1d2" name="Shadowseer" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">6</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">-</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Rillietann, Skirmish, Character, Psyker)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ddb-c81c-4c4b-80df"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59b1-3a7d-445f-8f18"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Miststave" hidden="false" type="selectionEntry" targetId="e4b6-639a-4c9b-9384" id="6f1d-3334-4064-bf74">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df76-2cde-4d99-9726"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d80-874e-4e9a-83b9"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Hallucinogen Grenade Launcher" hidden="false" type="selectionEntry" targetId="d785-21c4-48e4-b639" id="1e4f-8e0e-4fe8-8c4f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df37-2c0c-449f-9266"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a547-ac66-4378-8645"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="504a-4e6f-4935-9b02">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7724-c75e-4ba0-90f7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="233f-a766-4dd0-a2c5"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Flip Belt" hidden="false" type="selectionEntry" targetId="bd1c-eb03-4cab-989a" id="44e7-117d-4f12-9f78">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d63-4874-4ffb-a11a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ef3-5070-4d1b-a8ef"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="A Shadowseer may exchange their Shuriken Pistol for the following:" id="3227-08c8-4b79-806b">
+              <entryLinks>
+                <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="3f08-912c-4bf3-9458">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03bb-bf7c-4eb6-beae"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Neuro Disruptor" hidden="false" type="selectionEntry" targetId="123e-65e6-448d-837d" id="4e32-3b98-4035-8354">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56e4-1753-42d3-babb"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a378-bea1-4f37-b162"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="A Shadowseer may take the following:" id="ef24-2bb1-48eb-9bc5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb47-2c6b-45d0-992b"/>
+              </constraints>
+              <comment>!BSC Errors from 20240406-1603
+Could not find wargear Haywire Grenades
+	 Checked under Haywire Grenades</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="a43a-ad9a-49ae-a7b0" name="Infantry" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="4845-655e-47b0-bfaf" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="fc49-59f8-447f-9ff0" name="Skirmish" primary="false"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="f699-78ab-4c0c-9ba7" name="Character" primary="false"/>
+            <categoryLink targetId="6e0c-29ba-a445-8321" id="51db-9e8f-4164-a883" name="Psyker" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear in A Shadowseer may take the following:</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="eecf-8628-42b4-9583">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Agent of Pandemonium" hidden="false" type="rule" targetId="6b5d-179c-433d-a3c0" id="b40b-6f60-4eef-a2dc"/>
+      </infoLinks>
+      <comment>!BSC Errors from 20240406-1603
+Could not find rule: Independent Character</comment>
+    </selectionEntry>
+    <selectionEntry name="Death Jester" type="unit" id="e26c-73c8-46d2-a456" page="119" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="b8ab-7388-42b9-b262"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="d890-73a1-465c-8216" name="Elites"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Death Jester" id="740e-c1fc-4214-b169" page="119" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="9048-fb30-477e-80fb" name="Death Jester" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">7</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">4</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">-</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Rillietann, Skirmish, Character)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db08-983d-4521-8f30"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b3a-4939-4f4d-8316"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="268b-eca2-4f01-84f8">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0be3-cb80-47d2-babf"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9ed-634c-4924-a9cc"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Flip Belt" hidden="false" type="selectionEntry" targetId="bd1c-eb03-4cab-989a" id="ac4a-4c96-426b-8366">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d41-c9f3-4068-9948"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d111-6dff-4a65-a84e"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Plasma Grenades" hidden="false" type="selectionEntry" targetId="00ac-5643-4117-a1d1" id="e547-fabd-4bea-91e6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d41-c33a-4e18-9173"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3658-76c9-4e4c-82ac"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="A Death Jester exchange their Shrieker Cannon for one of the following:" id="fccb-3473-4c6c-a444">
+              <entryLinks>
+                <entryLink name="Bright Lance" hidden="false" type="selectionEntry" targetId="b339-f2cd-40fc-962f" id="6e10-c75b-44f8-8aa3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3088-fd9e-4074-88a1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Prism Blaster" hidden="false" type="selectionEntry" targetId="baae-b111-4d0b-9da3" id="ef11-885b-4189-98a3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba13-a655-4c75-b163"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Scatter Laser" hidden="false" type="selectionEntry" targetId="8b39-110e-4227-a558" id="d66d-cff3-40fa-9899">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9271-e67b-40ea-b020"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Spinneret Rifle" hidden="false" type="selectionEntry" targetId="db81-5700-42d7-8ec5" id="50e8-d4c1-48c2-89f0">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="785a-895f-4908-b6af"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Starcannon" hidden="false" type="selectionEntry" targetId="56bf-1fff-4ca1-a4f5" id="ce45-7cdc-4e0a-84ef">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7db9-a0ec-479a-930c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Tempest Launcher" hidden="false" type="selectionEntry" targetId="0325-29c6-4526-93c0" id="4fa2-0f7f-46e5-ab8f">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d709-f4f2-4b80-a7ff"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eea4-c1a5-4029-ac03"/>
+              </constraints>
+              <comment>!BSC Errors from 20240406-1603
+Could not find wargear Shrieker Cannon
+	 Checked under Shrieker Cannon
+Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
+	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
+Could not find wargear Fire Pike
+	 Checked under Fire Pike
+Could not find wargear Prism Rifle
+	 Checked under Prism Rifle
+Could not find wargear Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles)
+	 Checked under Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles)</comment>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="A Death Jester may take the following:" id="393c-b1e6-4be7-87c5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9db5-c890-40b9-8ed1"/>
+              </constraints>
+              <comment>!BSC Errors from 20240406-1603
+Could not find wargear Haywire Grenades
+	 Checked under Haywire Grenades</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ad8b-92d5-4229-820b" name="Infantry" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="0792-796c-4cf8-a291" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="4c65-75a5-4359-96af" name="Skirmish" primary="false"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="a56b-4d15-49f3-b2d6" name="Character" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear in A Death Jester exchange their Shrieker Cannon for one of the following:
+Could not find wargear in A Death Jester exchange their Shrieker Cannon for one of the following:
+Could not find wargear in A Death Jester exchange their Shrieker Cannon for one of the following:
+Could not find wargear in A Death Jester exchange their Shrieker Cannon for one of the following:
+Could not find wargear in A Death Jester exchange their Shrieker Cannon for one of the following:
+Could not find wargear in A Death Jester may take the following:</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="8138-5cea-47dc-912b">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fear (X)" hidden="false" type="rule" targetId="21f6-7842-df5c-d2e7" id="934f-2bf9-45b7-94e6">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision Shots (X)" hidden="false" type="rule" targetId="4b71-81ee-31f4-fa09" id="6fbc-6113-4526-a43e">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Shots (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Split Fire" hidden="false" type="rule" targetId="dea8-564e-9d1b-c685" id="3680-7b2b-4591-ab3f"/>
+        <infoLink name="Harrow-Lord" hidden="false" type="rule" targetId="ba0f-cef8-426c-b6f9" id="5946-9b97-40b0-b5b0"/>
+        <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="dde2-7cf2-4538-b97b"/>
+        <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="4e47-1469-4641-9020"/>
+      </infoLinks>
+      <comment>!BSC Errors from 20240406-1603
+Could not find rule: Independent Character</comment>
+    </selectionEntry>
+    <selectionEntry name="Arebennian" type="unit" id="9e18-8453-4172-84ed" page="120" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="12cc-25c8-48fc-80d2"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="f764-ecdd-485b-8f03" name="Elites"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="200"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Arebennian" id="8637-fb93-4603-b8f9" page="120" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="ff12-47fe-4882-8aab" name="Arebennian" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">6</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">6</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">7</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">4</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">-</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Rillietann, Skirmish, Character)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="15d1-3178-4a5d-a7a5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b04d-1e92-4263-a714"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="The Thirsting Mask" hidden="false" type="selectionEntry" targetId="e41e-338b-44ec-9e58" id="2e0e-771e-46e3-8853">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a16-31bc-47bc-85d6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5603-1b8f-49d8-86e1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Harlequin’s Caress" hidden="false" type="selectionEntry" targetId="a7e4-ba7b-4fd3-8169" id="585f-8828-4622-ad95">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cd5-cfe0-4ec6-b4c5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5802-de2a-4dd3-b11f"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Harlequin’s Kiss" hidden="false" type="selectionEntry" targetId="a296-2f1c-420d-957d" id="02f4-574a-4ca8-8972">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1319-a8b2-475e-bd75"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6600-6376-4b8a-b1ac"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="e2d0-5cfb-4d82-8420">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa2b-3058-4073-a281"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a545-f64d-4ae2-81c1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Flip Belt" hidden="false" type="selectionEntry" targetId="bd1c-eb03-4cab-989a" id="a1a3-4014-4aa5-a816">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b39-02df-4be0-a769"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d841-c7ae-4409-8bc0"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Plasma Grenades" hidden="false" type="selectionEntry" targetId="00ac-5643-4117-a1d1" id="ecb5-1adf-4752-932d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a7f-ae2a-43b4-aa8a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bf5-d56b-4046-9df9"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="164e-014e-4489-89ff" name="Infantry" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="638f-c2ab-4c43-819d" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="c890-3af0-4c49-860a" name="Skirmish" primary="false"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="5f64-e321-4f7f-867c" name="Character" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear Haywire Grenades
+	 Checked under Haywire Grenades</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="402c-20f6-4bcd-bd82">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fear (X)" hidden="false" type="rule" targetId="21f6-7842-df5c-d2e7" id="758b-d6da-4969-a5cf">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision Strikes (X)" hidden="false" type="rule" targetId="2206-8497-8fe1-e973" id="4080-781f-427b-862a">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Strikes (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shrouded (X)" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65" id="e9ca-5f14-4bb8-9a5c">
+          <modifiers>
+            <modifier type="set" field="name" value="Shrouded (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Counter-Attack (X)" hidden="false" type="rule" targetId="fd6d-2a76-10e0-936a" id="9b55-a3f8-4412-b621">
+          <modifiers>
+            <modifier type="set" field="name" value="Counter-Attack (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="2c45-1b88-41b2-9650"/>
+        <infoLink name="Pathfinder" hidden="false" type="rule" targetId="ec97-7aa8-49f5-b298" id="2c47-7b4c-425a-a4a9"/>
+        <infoLink name="Infiltrate" hidden="false" type="rule" targetId="0e32-5b92-a95a-8464" id="157c-4c51-4835-b491"/>
+        <infoLink name="Soul Forfeit" hidden="false" type="rule" targetId="4f2c-e2c2-46f3-b5d4" id="18ff-644d-49f9-8200"/>
+      </infoLinks>
+      <comment>!BSC Errors from 20240406-1603
+Could not find rule: Independent Character</comment>
+    </selectionEntry>
+    <selectionEntry name="Troupe" type="unit" id="3d96-f4c2-4c4c-a467" page="124" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="1f0a-4e20-4d34-b292"/>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" primary="true" id="b40b-a32b-4eeb-a1dd" name="Troops"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="47"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Players" id="8e2f-688b-4a01-8e34" page="124" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="f1ae-f0f1-43a7-b36f" name="Players" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">6</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">9</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">-</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Rillietann, Skirmish)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="53fa-5925-47f5-9325"/>
+            <constraint type="max" value="11" field="selections" scope="parent" shared="true" id="5e3e-6d08-4e03-9186"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="f840-2f96-41e2-baa8">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98d2-0642-45fc-ac27"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="237a-062c-48df-984c"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Flip Belt" hidden="false" type="selectionEntry" targetId="bd1c-eb03-4cab-989a" id="24d5-0c8b-4d26-9997">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="964d-565f-430d-97a1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d899-79a7-4f0c-b658"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Plasma Grenades" hidden="false" type="selectionEntry" targetId="00ac-5643-4117-a1d1" id="270f-db2e-4d79-bd5e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7855-635a-47ff-9046"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebed-3d70-499e-a4d3"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any model in the unit may exchange their Shuriken Pistol for one of the following:" id="0cc3-8d67-49c8-bd72">
+              <entryLinks>
+                <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="4b3d-6529-4337-adb9">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5fc-d57c-4620-81c0"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Neuro Disruptor" hidden="false" type="selectionEntry" targetId="123e-65e6-448d-837d" id="64b8-f84e-4c40-8324">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e55d-192e-4be8-97ff"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Fusion Pistol" hidden="false" type="selectionEntry" targetId="d771-9c18-4f73-a95e" id="0966-d27b-4dca-8c00">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8782-6b0f-46ee-a3b2"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11f9-c9d1-4130-af40"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any model in the unit may exchange their Power Sword for one of the following:" id="f341-ee8e-40bb-8c17">
+              <entryLinks>
+                <entryLink name="Power Sword" hidden="false" type="selectionEntry" targetId="0738-277d-4fdc-b7c5" id="3031-2675-41b1-94d2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fd2-ff5b-458e-92cc"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Kiss" hidden="false" type="selectionEntry" targetId="a296-2f1c-420d-957d" id="7c5c-4653-4641-9ac0">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd03-af9f-40fa-b1cf"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Embrace" hidden="false" type="selectionEntry" targetId="0177-74c2-4f1e-a237" id="be37-ed2a-4465-ad6b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7445-7e2d-4074-be7d"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Caress" hidden="false" type="selectionEntry" targetId="a7e4-ba7b-4fd3-8169" id="1d1c-e2b5-479f-bea0">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfd2-c6f5-4e53-9590"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e308-fbcf-446e-978e"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7938-b3b2-46c0-ba28" name="Infantry" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="0574-9c04-434c-8feb" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="165e-5670-4643-9857" name="Skirmish" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="model" name="Lead Player" id="ac68-2eaa-405c-8b52" page="124" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="b795-b46f-4641-b7c9" name="Lead Player" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">6</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">9</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">-</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Rillietann, Skirmish, Character)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c352-b8dd-4181-93b7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e15-a4bb-415c-8e31"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="c300-7127-45d4-be45">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e30-caec-4b84-9b98"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53bc-8658-4a83-b156"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Flip Belt" hidden="false" type="selectionEntry" targetId="bd1c-eb03-4cab-989a" id="db01-29eb-4e24-a4cf">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d91-f2ac-4753-a278"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b516-0483-44d9-a965"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Plasma Grenades" hidden="false" type="selectionEntry" targetId="00ac-5643-4117-a1d1" id="18e2-ac12-468d-8110">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1922-d8a6-46fa-9010"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="433f-8d6d-46a1-b91f"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any model in the unit may exchange their Shuriken Pistol for one of the following:" id="5e96-f882-4498-905d">
+              <entryLinks>
+                <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="33ba-71c3-424b-afdf">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f55-6a77-424a-aa8e"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Neuro Disruptor" hidden="false" type="selectionEntry" targetId="123e-65e6-448d-837d" id="6f58-9dfc-41c7-a34e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bdd7-3e5c-4975-9b5c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Fusion Pistol" hidden="false" type="selectionEntry" targetId="d771-9c18-4f73-a95e" id="7c74-8cf5-43bf-80f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6378-c70e-4d32-b60f"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a68-bfb0-4e4d-bf07"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any model in the unit may exchange their Power Sword for one of the following:" id="3646-67e3-43d8-abb9">
+              <entryLinks>
+                <entryLink name="Power Sword" hidden="false" type="selectionEntry" targetId="0738-277d-4fdc-b7c5" id="34ea-0fae-4e0b-982e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="476d-3ed0-4917-93d9"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Kiss" hidden="false" type="selectionEntry" targetId="a296-2f1c-420d-957d" id="9dde-5c0c-4743-b249">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d88f-c202-4f6d-9b90"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Embrace" hidden="false" type="selectionEntry" targetId="0177-74c2-4f1e-a237" id="f75b-5aa0-4372-8443">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab2a-f1d6-4164-8939"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Harlequin’s Caress" hidden="false" type="selectionEntry" targetId="a7e4-ba7b-4fd3-8169" id="33a4-2ca3-4a34-906c">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="854b-39d5-4bd0-858e"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18c5-d89f-4f26-b33d"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Lead Player may exchange their Power Sword for one of the following:" id="e66a-b0dd-4866-9ffe">
+              <entryLinks>
+                <entryLink name="Harlequin’s Edge" hidden="false" type="selectionEntry" targetId="aa5b-53dc-4ba6-8d38" id="7107-fdb3-4b4f-921b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1b8-7d9b-4d31-a69c"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d955-f05b-454f-ad3a"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Lead Player may select:" id="f503-f611-42e0-8eea">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fee3-55c6-4efb-9d83"/>
+              </constraints>
+              <comment>!BSC Errors from 20240406-1603
+Could not find wargear Haywire Grenades
+	 Checked under Haywire Grenades</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="88d7-ab74-480e-8afe" name="Infantry" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="724d-0ade-4d1c-939a" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="309d-0b7d-4d73-bfbc" name="Skirmish" primary="false"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="ed2d-6c60-4334-87e1" name="Character" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear in The Lead Player may select:</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="b3c9-7823-4943-8958">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed" id="3826-18db-477d-879a"/>
+      </infoLinks>
+      <comment>!BSC Errors from 20240406-1603
+Power Sword is in two option lists for Lead Player, you will need to combine them by hand.</comment>
+    </selectionEntry>
+    <selectionEntry name="Starweaver" type="unit" id="5698-f326-4032-b58d" page="125" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="f29e-5b9f-4714-ba5e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Starweaver" id="c9f9-0783-4b24-9d26" page="125" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="fbcb-8ede-496c-ae38" name="Starweaver" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">4</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">6</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">9</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Rillietann, Skirmish, Transport*)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a27-fd00-4a21-823c"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fead-402f-4457-af06"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Starweaver Skimmer" hidden="false" type="selectionEntry" targetId="6545-8eeb-4a07-962a" id="1d9b-3eef-414e-833e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7416-7cf8-4eff-aeed"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddff-aac6-44e3-9377"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Holo-Fields" hidden="false" type="selectionEntry" targetId="66ae-fe03-4955-a629" id="8cef-d31c-4dd7-96ff">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbf0-fba2-4368-8ea3"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a375-0e3f-411d-9686"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="3b4c-76dc-4ebc-a7aa">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b884-1526-40e9-b708"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3826-625c-4be9-ac0e"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Power Sword" hidden="false" type="selectionEntry" targetId="0738-277d-4fdc-b7c5" id="ef7f-55b5-467d-ad61">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5461-fc41-48bc-be19"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50af-f9b7-457a-90a9"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="4303-1348-cce4-9501" id="5f14-a31b-4efb-991e" name="Antigrav" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="f77d-ed49-429a-b5db" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="06f4-1782-4cf9-bd5d" name="Skirmish" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear Mirage Launchers
+	 Checked under Mirage Launchers
+Could not find type or subtype &apos;Cavalry&apos;
+Could not find type or subtype &apos;Transport*&apos;</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Transport Skiff" hidden="false" type="rule" targetId="19f6-375e-4962-a6f2" id="6886-0bdb-43a9-aa9f">
+          <modifiers>
+            <modifier type="set" field="name" value="Transport Skiff*"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Open-Topped (X)" hidden="false" type="rule" targetId="d976-d66b-49de-ac4b" id="aff1-53d6-4184-a288">
+          <modifiers>
+            <modifier type="set" field="name" value="Open-Topped (6)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="f4e0-4ca9-4f43-84c1">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Firing Protocols (X)" hidden="false" type="rule" targetId="32a3-f599-5c92-2945" id="051b-3ff1-4177-8243">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hit &amp; Run" hidden="false" type="rule" targetId="5986-e960-d432-affd" id="44cd-9b2c-42df-bf8f"/>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" targetId="aec0-c3aa-1e4e-1779" id="9c38-7074-49f2-8d97">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="69db-af40-43e0-acac"/>
+        <infoLink name="Skilled Rider" hidden="false" type="rule" targetId="89cc-21e0-bee2-6a89" id="b212-a218-405a-847b"/>
+        <infoLink name="Shrouded (X)" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65" id="95c1-8ef8-4e77-9847">
+          <modifiers>
+            <modifier type="set" field="name" value="Shrouded (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="7c4f-8de5-4792-b83a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Skyweavers" type="unit" id="be40-55f4-4220-963c" page="128" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="fb4e-82be-4569-a530"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="5285-91a6-4c9d-893f" name="Fast Attack"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Skyweaver" id="13e6-0098-4b58-97e5" page="128" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="b3e0-ae36-4a91-9e35" name="Skyweaver" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">18</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">6</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">9</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Rillietann, Skirmish)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f415-acc4-401c-bb83"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="d2b4-ca1c-4c07-a608"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Star Bolas" hidden="false" type="selectionEntry" targetId="f2a6-767a-4473-ba00" id="8749-6b78-4840-941f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8af3-ee7a-4c16-9d64"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c107-f422-40cd-9035"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Skyweaver Jetbike" hidden="false" type="selectionEntry" targetId="2f45-ff9b-4066-a874" id="8124-bc23-41f0-a52d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9421-b7b5-4684-9f03"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0119-75af-410b-b4ec"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Holo-Suit" hidden="false" type="selectionEntry" targetId="a1af-18af-49d7-9abb" id="8271-7819-47de-96af">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7dba-f0fe-4bb3-b9f5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0023-52e7-4558-94eb"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="bd21-87d8-43dd-b077">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d46e-b10c-48a7-8c1d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bef9-3c22-4e2e-8e8b"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Plasma Grenades" hidden="false" type="selectionEntry" targetId="00ac-5643-4117-a1d1" id="a2de-ac1b-45b9-b457">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b8e-f728-4fa8-a1fb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41d4-a08c-4c42-ba4d"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any model in the unit may replace its Skyweaver Jetbike’s Shuriken Cannon with the following:" id="920c-ec3c-420c-991a">
+              <entryLinks>
+                <entryLink name="Haywire Cannon" hidden="false" type="selectionEntry" targetId="5ebf-2dab-4f50-8cc4" id="f3fe-7473-4bde-98bf">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00a0-a1c2-4eee-bf4e"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="915a-3589-4dc2-b910"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any model in the unit may replace its Star Bolas with the following:" id="010e-6a09-41a2-9149">
+              <entryLinks>
+                <entryLink name="Zephyrglaive" hidden="false" type="selectionEntry" targetId="828c-cff1-4a8a-945e" id="8723-50e7-4b6d-9c12">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4295-b4ed-4b1a-a85a"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="093d-cfb6-470b-8c3d"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="4303-1348-cce4-9501" id="984a-4cc0-4746-8255" name="Antigrav" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="625c-52e0-4833-8804" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="fd87-dd3c-4cd9-b7d8" name="Skirmish" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear Mirage Launchers
+	 Checked under Mirage Launchers
+Could not find type or subtype &apos;Cavalry&apos;</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Furious Charge (X)" hidden="false" type="rule" targetId="2821-9269-862f-0554" id="9993-2c85-42e4-8202">
+          <modifiers>
+            <modifier type="set" field="name" value="Furious Charge (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="b65a-14ec-4818-93d5">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Firing Protocols (X)" hidden="false" type="rule" targetId="32a3-f599-5c92-2945" id="c896-fed3-4b6c-9825">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hit &amp; Run" hidden="false" type="rule" targetId="5986-e960-d432-affd" id="8506-6b6f-4123-b180"/>
+        <infoLink name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed" id="3cae-3ac4-45a8-a211"/>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" targetId="aec0-c3aa-1e4e-1779" id="c933-02a3-469d-9c3d">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="5b0d-6907-430c-98cc"/>
+        <infoLink name="Skilled Rider" hidden="false" type="rule" targetId="89cc-21e0-bee2-6a89" id="af6d-5c40-4abe-a3ab"/>
+        <infoLink name="Battle-Hardened (X)" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547" id="b8d5-ae08-4275-919a">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-Hardened (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shrouded (X)" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65" id="ebb2-4e6f-4fd4-8d4c">
+          <modifiers>
+            <modifier type="set" field="name" value="Shrouded (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="e3f6-b441-4558-ae27"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Voidweaver" type="unit" id="c813-68bb-40e1-8053" page="132" publicationId="a368-64f0-10c7-c49d">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="08d1-f71d-43b0-ae86"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="2042-2968-46b2-96cc" name="Heavy Support"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" name="Voidweaver" id="6127-39da-46a3-92ae" page="132" publicationId="a368-64f0-10c7-c49d">
+          <profiles>
+            <profile id="d3c9-24ad-47c0-b5e8" name="Voidweaver" typeId="4bb2-cb95-e6c8-5a21">
+              <characteristics>
+                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
+                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">4</characteristic>
+                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">6</characteristic>
+                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">9</characteristic>
+                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Rillietann, Skirmish)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0506-96b2-4bcb-bd30"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="51b0-57aa-4733-974d"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Haywire Cannon" hidden="false" type="selectionEntry" targetId="5ebf-2dab-4f50-8cc4" id="f780-a65a-4e23-bdce">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="88c5-34c0-4df5-8d10"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2078-47f1-43ff-b21a"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Starweaver Skimmer" hidden="false" type="selectionEntry" targetId="6545-8eeb-4a07-962a" id="ee4a-f107-49ad-a115">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e856-9454-4063-b2f5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cd1-f11c-4e86-9726"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Holo-Fields" hidden="false" type="selectionEntry" targetId="66ae-fe03-4955-a629" id="5c23-101c-4b82-88e5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69ab-c443-48fc-b761"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b41c-33da-48ce-b166"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="e579-948b-4925-82e3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1dbc-6f1e-4ac8-9866"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23e0-71cd-420c-9cc7"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Power Sword" hidden="false" type="selectionEntry" targetId="0738-277d-4fdc-b7c5" id="f9cf-b664-41c2-bd07">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d140-d00d-4c3c-a44b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0965-bed6-4a75-9ed4"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any model in the unit may replace their Haywire Cannon with the following:" id="88c6-e999-4a5d-9563">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fe9-72f3-42b5-a935"/>
+              </constraints>
+              <comment>!BSC Errors from 20240406-1603
+Could not find wargear Prismatic Cannon
+	 Checked under Prismatic Cannon</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="4303-1348-cce4-9501" id="fb81-6204-4eeb-99ac" name="Antigrav" primary="false"/>
+            <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="dc8c-2bfe-4b54-9370" name="Rillietann" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="f0a5-6ec6-4d23-aca4" name="Skirmish" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="90"/>
+          </costs>
+          <comment>!BSC Errors from 20240406-1603
+Could not find wargear Mirage Launchers
+	 Checked under Mirage Launchers
+Could not find wargear in Any model in the unit may replace their Haywire Cannon with the following:
+Could not find type or subtype &apos;Cavalry&apos;</comment>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet (X)" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2" id="2c9f-7de8-42c1-97b4">
+          <modifiers>
+            <modifier type="set" field="name" value="Fleet (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Firing Protocols (X)" hidden="false" type="rule" targetId="32a3-f599-5c92-2945" id="1e19-d383-4693-aba6">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hit &amp; Run" hidden="false" type="rule" targetId="5986-e960-d432-affd" id="77c9-3edc-488f-85b5"/>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" targetId="aec0-c3aa-1e4e-1779" id="c39b-b9cd-4127-8658">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="98b5-3a4d-40a6-ba5c"/>
+        <infoLink name="Skilled Rider" hidden="false" type="rule" targetId="89cc-21e0-bee2-6a89" id="4800-7e20-48c7-b6e3"/>
+        <infoLink name="Shrouded (X)" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65" id="d421-dd3c-41e9-b73c">
+          <modifiers>
+            <modifier type="set" field="name" value="Shrouded (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="4a08-6bb6-4786-a6ee"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="5f24-4626-0547-71c3" name="Panoptica Library" targetId="69b7-3f60-9f7f-8ce5" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

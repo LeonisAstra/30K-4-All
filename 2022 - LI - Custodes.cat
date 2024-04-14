@@ -2328,291 +2328,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e0b-dbe3-3d1a-14a9" name="Adrasite Spear" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e196-f13d-78f6-a00f" name="Adrasite Spear (Melee)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Reaping Blow (1)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f71f-65c5-a6e8-92d0" name="Adrasite Spear (Shooting)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="4aeb-4e8f-766c-6ddd" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="8c37-a226-056e-85ad" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="d362-f0cb-af09-105e" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="ea3c-0c8d-0f8c-2f34" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="d526-4b07-def9-dc05" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1334-e423-944e-9499" name="Guardian Axe" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="c649-5b66-038c-a8fa" name="Guardian Axe (Shooting)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Shred</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d805-d1f9-cd65-0130" name="Guardian Axe (Melee)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Unwieldy</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="c62a-d565-e21e-420b" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="913d-b0aa-f61c-1847" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="3320-cc16-8be4-74bd" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2bb9-0525-4865-407c" name="Guardian Spear" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="05b1-7cf6-2076-52e0" name="Guardian Spear (Melee)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Reaping Blow (1)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c053-c0fa-c608-ae0c" name="Guardian Spear (Shooting)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="9c99-4125-8f9d-2d33" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="176c-b8f7-4875-35ff" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="f5c3-53e9-3892-2ba8" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9664-33bc-927e-5ba3" name="Meridian Swords" hidden="false" collective="false" import="true" type="upgrade">
-      <selectionEntries>
-        <selectionEntry id="7f9b-8e85-c72e-e992" name="Meridian Swords (Grasp the Rainbow Serpent)" hidden="false" collective="true" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1131-0724-ac59-5da8" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="147d-33e1-ed01-6c94" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5d4c-d642-e0fd-97bf" name="Meridian Swords (Grasp the Rainbow Serpent)" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Measured Strike, Instant Death</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="9670-4400-52c0-e763" name="Measured Strike" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
-              <description>A model attacking with a weapon or profile that has this special rule may only make a single attack, regardless of the value of its Attacks Characteristic, any other special rules or whether it has Charged or is wielding more than one weapon.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="662d-517d-baf2-98ff" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-            <infoLink id="f37a-d466-fb2d-14ef" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="31b7-7435-ef44-553e" name="Meridian Swords (Hands Cut the Clouds)" hidden="false" collective="true" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3e8-35db-f652-1ca4" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48db-d25b-a4a4-14a7" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="4ca9-f198-2866-2387" name="Meridian Swords (Hands Cut the Clouds)" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Murderous Strike (4+)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="48b3-bb21-3fdb-f409" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-            <infoLink id="791b-8193-afb3-3c54" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Murderous Strike (4+)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f8bd-23f5-80b5-4ec3" name="Meridian Swords (Raptor Spreads its Wings)" hidden="false" collective="true" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e700-6303-e7b8-da2c" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f23-ef44-03f6-50d4" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="8e03-19be-9ba6-0ac4" name="Meridian Swords (Raptor Spreads its Wings)" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Rampage (3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="49ae-4038-9b37-80a6" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-            <infoLink id="886d-d0f0-b5ec-d469" name="Rampage (X)" hidden="false" targetId="3efb-2a2c-2d0b-92fc" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Rampage (3)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4620-e360-7dd2-f908" name="Pyrithite Spear" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a4d1-1a47-e0a5-452f" name="Pyrithire Spear (Shooting)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armourbane (Melta)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2653-d529-38f1-dac8" name="Pyrithire Spear (Melee)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Reaping Blow (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="e48c-f2a4-88ee-16d6" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="1e0c-6704-c388-87a2" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="aa4b-e4b9-3a35-0173" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Melta)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6909-d6c6-8d05-0e57" name="Sentinel Warblade" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="72ff-8823-86c9-d582" name="Sentinel Warblade (Shooting)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Shred</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f326-b441-48a7-3687" name="Sentinel Warblade (Melee)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="11d5-44d1-76f2-4d20" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9786-98f2-bdab-5103" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3d60-ad06-6a61-e84d" name="Solarite Power Gauntlet" publicationId="15a4-fc68-502d-48a9" page="149" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="5ab2-a8cd-614f-791f" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="208d-ad3b-4008-334e" name="Solarite Power Talon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="2a2f-144f-f63f-2cd7" name="Solarite Power Talon" publicationId="15a4-fc68-502d-48a9" page="149" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="911b-2bb2-57ba-2fad" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3ac5-b28c-104a-9de5" name="Magisterium Vexilla" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="649d-2ad0-6c4a-aaa5" name="Magisterium Vexilla" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -2633,118 +2348,10 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c34-7afc-bced-140f" name="Sentinel Warblade" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="335a-2720-f884-c8b4" name="Sentinel Warblade (Melee)" hidden="false" targetId="f326-b441-48a7-3687" type="profile"/>
-        <infoLink id="0281-614c-cb8c-550e" name="Sentinel Warblade (Shooting)" hidden="false" targetId="72ff-8823-86c9-d582" type="profile"/>
-        <infoLink id="a2b1-a80f-a054-cc64" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="da0b-91f0-8baa-d330" name="Two Solarite Power Talons" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a70c-657b-7886-80a6" name="Solarite Power Talon" hidden="false" targetId="2a2f-144f-f63f-2cd7" type="profile"/>
         <infoLink id="e0b8-3454-3576-f12b" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d9bd-74cb-097b-14de" name="Solarite Power Talon" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="5954-4c98-4aa2-dad5" name="Solarite Power Talon" hidden="false" targetId="2a2f-144f-f63f-2cd7" type="profile"/>
-        <infoLink id="f4fd-8993-e22a-c6c9" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="85f2-5b5a-1526-a121" name="Solarite Power Gauntlet" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="2916-b6ee-56d4-9e84" name="Solarite Power Gauntlet" hidden="false" targetId="3d60-ad06-6a61-e84d" type="profile"/>
-        <infoLink id="3181-3309-6313-4948" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4c16-32b1-1a7a-928b" name="Pyrithite Spear" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="3e16-a4be-6aa9-3b11" name="Pyrithire Spear (Melee)" hidden="false" targetId="2653-d529-38f1-dac8" type="profile"/>
-        <infoLink id="c615-358a-e949-08d0" name="Pyrithire Spear (Shooting)" hidden="false" targetId="a4d1-1a47-e0a5-452f" type="profile"/>
-        <infoLink id="21cf-eef0-f7d7-d76a" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="b7c4-0c76-ecc2-4d11" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="d479-e9b5-7580-1591" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Melta)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="695d-f7d5-6f32-1d3a" name="Meridian Swords" hidden="false" collective="true" import="true" type="upgrade">
-      <entryLinks>
-        <entryLink id="8997-6b09-826e-db45" name="Meridian Swords (Grasp the Rainbow Serpent)" hidden="false" collective="false" import="true" targetId="7f9b-8e85-c72e-e992" type="selectionEntry"/>
-        <entryLink id="96d4-fb9d-d1b3-fb2e" name="Meridian Swords (Hands Cut the Clouds)" hidden="false" collective="false" import="true" targetId="31b7-7435-ef44-553e" type="selectionEntry"/>
-        <entryLink id="d845-0998-5562-d529" name="Meridian Swords (Raptor Spreads its Wings)" hidden="false" collective="false" import="true" targetId="f8bd-23f5-80b5-4ec3" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9e55-ae31-3ba6-d720" name="Guardian Spear" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="a057-f74d-e8ff-d2a7" name="Guardian Spear (Melee)" hidden="false" targetId="05b1-7cf6-2076-52e0" type="profile"/>
-        <infoLink id="dfec-c8e1-580c-9466" name="Guardian Spear (Shooting)" hidden="false" targetId="c053-c0fa-c608-ae0c" type="profile"/>
-        <infoLink id="d072-1fa9-0a47-465d" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="4fed-0ff8-b2c9-38b6" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="3962-a428-a2d6-14cb" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3780-57f7-1eb8-0851" name="Guardian Axe" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="bb7e-c28a-5317-f2b4" name="Guardian Axe (Melee)" hidden="false" targetId="d805-d1f9-cd65-0130" type="profile"/>
-        <infoLink id="2933-6778-21ae-fd8e" name="Guardian Axe (Shooting)" hidden="false" targetId="c649-5b66-038c-a8fa" type="profile"/>
-        <infoLink id="80a2-b8ce-4fae-49c3" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="3dd5-ee58-d9a7-e133" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="5497-9a2b-a840-88ae" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="101f-346d-b8fa-a5c3" name="Adrasite Spear" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8ff7-f170-192a-518b" name="Adrasite Spear (Melee)" hidden="false" targetId="e196-f13d-78f6-a00f" type="profile"/>
-        <infoLink id="2a15-e27e-7a6f-eadf" name="Adrasite Spear (Shooting)" hidden="false" targetId="f71f-65c5-a6e8-92d0" type="profile"/>
-        <infoLink id="ec6f-8b74-05cc-df19" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="e13f-c177-e383-bf25" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="b782-a445-6af0-7ecd" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="3e04-8e4e-f22c-cb13" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="8c6d-4813-e623-afe6" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2787,66 +2394,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3bf-5df7-9ac4-c0cf" name="Lastrum Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ca32-e797-0eaa-5e5d" name="Lastrum Storm Bolter" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="800f-8cc4-4216-3087" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9724-e7e9-59b0-8c35" name="Lastrum Storm Bolter" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="aebe-ef29-6508-c59c" name="Lastrum Storm Bolter" hidden="false" targetId="ca32-e797-0eaa-5e5d" type="profile"/>
-        <infoLink id="4932-a577-1f87-9406" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="abcd-6d7c-8232-6bb8" name="Infernus Incinerator" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="2fcf-890f-bf8b-f06b" name="Infernus Incinerator" publicationId="15a4-fc68-502d-48a9" page="143" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="5101-72fe-e619-e93c" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="94ed-c2ef-d612-1ef9" name="Corvae Las-Pulser" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="c5f6-786b-5a20-f429" name="Corvae Las-Pulser" publicationId="15a4-fc68-502d-48a9" page="143" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4e51-f06c-0dff-e3e8" name="Praesidium Shield" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="de27-5c8c-dec7-d4be" name="Praesidium Shield" hidden="false" targetId="09e1-791e-2a1c-d2c8" type="profile"/>
@@ -2854,41 +2401,6 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry id="5700-71dd-e321-4697" name="Lastrum Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="8c38-3bf0-7aa5-e234" name="Lastrum Bolt Cannon" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="d88a-ff69-2079-2169" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="97a4-45e2-fa61-bd02" name="Lastrum Bolt Cannon" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="5c9d-9e5d-2e9a-304e" name="Lastrum Bolt Cannon" hidden="false" targetId="8c38-3bf0-7aa5-e234" type="profile"/>
-        <infoLink id="a65d-bcd9-4d07-ada5" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d066-58b3-e43a-b8ad" name="Twin-linked Corvae Las-Pulser" hidden="false" collective="true" import="true" type="upgrade">
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-      <infoLinks>
-        <infoLink id="0f26-d359-62f5-1219" name="Corvae Las-Pulser" targetId="c5f6-786b-5a20-f429" type="profile"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry id="7bd8-c2b4-b888-f3df" name="Adrathic Devastator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2963,24 +2475,6 @@
         </infoLink>
         <infoLink id="e011-2355-e339-597b" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
         <infoLink id="b92e-8dc3-f5a6-9f6a" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5eb8-dd6c-05ee-17d5" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="c146-7faf-8e3f-bf6c" name="Twin Lastrum Bolt Cannon" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="7b70-2399-ef14-4eb1" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3116,43 +2610,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9fc-4298-7b35-8ef4" name="Paragon Glaive" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="d336-8de9-4b6a-ceb0" name="Paragon Glaive (Shooting)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Shred</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2c5f-4bbb-2d9c-820c" name="Paragon Glaive (Melee)" publicationId="15a4-fc68-502d-48a9" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Reaping Blow (1), Murderous Strike (5+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="5531-9e56-5990-4a53" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="e372-49e5-cd90-24f2" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="7ea0-f53a-5ba5-3619" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reaping Blow (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="3957-e658-000a-1476" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Murderous Strike (5+)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f99c-9468-c0c6-a865" name="Paragon Blade" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1985-f503-d41d-0917" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
@@ -3185,33 +2642,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73cb-1501-d39e-4f24" name="Misericord" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="df49-46f1-e6c4-d83e" name="Misericord" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Instant Death</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="face-fe0e-ad8a-3a98" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c17e-8004-3f25-e502" name="Misericord" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="68a1-b030-5467-7a46" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="4287-104a-58df-0726" name="Misericord" hidden="false" targetId="df49-46f1-e6c4-d83e" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2652-dd68-cc34-ba03" name="Gyrfalcon Jetbike" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="519c-618e-7039-25eb" name="Gyrfalcon Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -3234,42 +2664,6 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e8b-1f42-cea6-d3f4" name="Auric Battleplate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6ec5-9b0d-b59b-04f1" name="Auric Battleplate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Auric battleplate confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e22b-48fd-2586-75d4" name="Auric Demi-plate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="32c6-4f3a-93ce-2319" name="Auric Demi-plate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Auric demi-plate confers a 3+ Armour Save and a 6+ Invulnerable Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="aa93-02da-edd6-fd77" name="Auric Warplate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="9ef5-2af6-5d37-fc95" name="Auric Warplate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Auric warplate confers a 2+ Armour Save and a 6+ Invulnerable Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="b077-e64b-5a66-7ed2" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ec4b-3bc4-a5ed-0078" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -3278,29 +2672,6 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7781-ab16-760a-8de4" name="Arachnus Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1dad-1d5f-2e57-bc41" name="Arachnus Blaze Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Lance, Exoshock (6+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="fc79-6ffd-950a-4189" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
-        <infoLink id="26fe-e5ad-966b-1a38" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Exoshock (6+)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -3755,22 +3126,6 @@ the Front Armour during the same Phase.�</characteristic>
         <categoryLink targetId="4280-4963-02b5-e31d" id="2226-9c28-4c15-81e7" name="Dreadnought Unit Type" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="7cf8-3f52-2876-60e9" name="Venatari Jump Harness" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6be9-082b-8b9d-0e91" name="Venatari Jump Harness" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, a model with a Venatari jump harness may set its Move Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ the jump harness). This allows a model with a Venatari jump harness to move up to 14&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, all models with a Venatari jump harness that has been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending its Movement in Dangerous Terrain. A model with an activated Venatari jump harness treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
-
-A model with a Venatari jump harness may still Run, if it would normally be able to Run (this does not allow units that include any models with the Heavy Unit Sub-type to Run). When making a Run move for a model with an activated Venatari jump harness, add the Initiative Characteristic of that model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with a Venatari jump harness as noted above, but may not make Shooting Attacks or Declare a Charge in the same turn in which it has Run as per the normal rules for Running.
-
-During a Reaction made in any Phase, a player may not choose to activate a model’s Venatari jump harness pack to gain any bonus to their Movement Characteristic.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="dc47-fabb-6c68-4c2c" name="Arachnus Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="53a8-56ef-3f2a-194a" name="Arachnus Heavy Blaze Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -3789,24 +3144,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <modifier type="set" field="name" value="Exoshock (6+)"/>
           </modifiers>
         </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6738-cf61-ce49-1018" name="Spiculus Heavy Bolt Launchers" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="376f-3b4c-ba48-4b7d" name="Spiculus Heavy Bolt Launchers" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Pinning</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="2e9b-7a85-8688-b62d" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4054,36 +3391,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <categoryLink targetId="7f9b-c5ed-7edb-02dc" id="a7ad-2abb-426d-8981" name="Lumbering Sub-type" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="2357-23af-0317-1a79" name="Adrastus Bolt Caliver" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1658-9859-8604-bf91" name="Adrastus Bolt Caliver - (Bolt Volley)" publicationId="9fab-fea7-a93c-2074" page="171" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Shred Pinning</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c953-8e34-9c71-92e2" name="Adrastus Bolt Caliver - (Disintegrator)" publicationId="15a4-fc68-502d-48a9" page="146" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Gets Hot, One Shot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="aba3-d0ba-2ccf-89bc" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="0efd-9220-7866-2b14" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="3e1e-bd96-b92e-c3b6" name="One Use/One Shot" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
-        <infoLink name="Shred" hidden="false" id="fc5-7c64-d2ae-6916" type="rule" targetId="5e7e-1628-8174-6f2c"/>
-        <infoLink name="Pinning" hidden="false" id="6889-97af-de6-c5c2" type="rule" targetId="1c96-205c-59a0-3cf2"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4be9-470a-201e-c72a" name="Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7882-2aec-368b-68ca" name="Telemon Heavy Dreadnought" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -4194,78 +3501,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="365"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50a3-987d-8087-4708" name="Solarite Power Lance" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a054-3f56-0058-9b35" name="Solarite Power Lance" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Two-handed, Sudden Strike (3)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="74e6-59df-78fa-966c" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Melee)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="92f2-180d-97a8-099e" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="91f6-7d63-b4bc-6e44" name="Sudden Strike (X)" hidden="false" targetId="58b3-7d84-b92d-1363" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Sudden Strike (3)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="978d-b267-2025-dd15" name="Solarite Power Lance" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="fff0-8ac0-499c-9861" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Melee)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="f786-25ca-4d47-6f9b" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="c3b4-a8f8-1aaa-ccad" name="Sudden Strike (X)" hidden="false" targetId="58b3-7d84-b92d-1363" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Sudden Strike (3)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="5ca8-431e-79b2-2d93" name="Solarite Power Lance" hidden="false" targetId="a054-3f56-0058-9b35" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4e5a-43f5-605d-0f4f" name="Twin-linked Adrathic Devastator" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="2589-f9af-0659-15ea" name="Twin-linked Adrathic Devastator" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Armourbane (Ranged), Gets Hot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="cedc-4b87-e716-47e6" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="e25d-41a3-441d-b3e3" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="ef9e-7b9a-f808-9cf2" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="22ba-5bb6-673f-dc73" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="fe3c-f221-2044-bc2b" name="Dedicated Transport (Custodes)" hidden="false" collective="false" import="true">
@@ -4289,20 +3524,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="6998-b328-c080-5341" name="Legio Custodes" publicationId="15a4-fc68-502d-48a9" page="134" hidden="false">
-      <description>Models with this special rule gain the following benefits in various situations that involve ‘Nemesis’ units (see the Nemesis unit entry below):
-• All models with this special rule gain +1 Attacks when locked in combat with a Nemesis Unit.
-• A unit composed entirely of models with this special rule gains an additional bonus of +1 to all Charge rolls made when all targets of the Charge are Nemesis Units.
-• When rolling to Hit while Engaged with a Nemesis unit, a model with this special rule will never need to roll better than 4+ to score a Hit – unless the Nemesis unit is composed entirely of models with the Primarch Unit Type, or the attacking model is in a Challenge with a model that has the Primarch Unit Type.
-
-Nemesis Units
-A ‘Nemesis’ unit is defined as any enemy unit that fulfils at least one of the following conditions:
-• The unit includes one or more models with at least one of the following Unit Types or Unit Sub-types:
-- Primarch, Dreadnought, Monstrous, Reinforced, Bombard, Daemon, Corrupted, Super-heavy, Unique or Knight.
-• The majority of models in the unit have a value of 5 or more in any one of the following Characteristics:
-- Weapon Skill, Ballistic Skill, Wounds or Initiative.
-• The unit includes an enemy Warlord.</description>
-    </rule>
     <rule id="f7d6-7c7a-38c3-8931" name="Lightning Blows (X)" hidden="false">
       <description>After normal To Hit rolls for a weapon with this special rule have been made, count the number of Hits inflicted on a roll of equal to or more than the value listed in brackets as part of this rule. Immediately resolve a number of additional To Hit rolls on the same unit using the attacking models’ WS equal to the number of Hits counted earlier – any Hits scored roll To Wound as normal using the profile of the weapon with this special rule or a weapon chosen from those available to the model with this special rule if the rule is not applied to a specific weapon. These additional attacks do not themselves benefit from the
 Lightning Blows (X) special rule, but do benefit from any other special rules possessed by the attacking model, such as Preferred Enemy (X) or Precision Strikes (X)</description>
@@ -4323,5 +3544,6 @@ Controlling Player’s Reaction Allotment.</characteristic>
   <catalogueLinks>
     <catalogueLink id="e048-9e5e-507c-5bad" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="68w6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

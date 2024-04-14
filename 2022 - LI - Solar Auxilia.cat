@@ -1187,66 +1187,6 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6112-2c54-ceb5-a24d" name="Void Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1ede-a380-56ce-bd90" name="Void Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Void armour confers a 4+ Armour Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cc63-5cc3-212a-3d4c" name="Reinforced Void Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e94c-46f0-fa4e-e27b" name="Reinforced Void Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reinforced void armour confers a 4+ Armour Save and any model with reinforced void armour also gains the Heavy Unit Sub-type.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="523c-d7fb-5288-fe13" name="Heavy Void Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="5ebe-7ce6-f386-530b" name="Heavy Void Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Heavy void armour confers a 3+ Armour Save and any model with heavy void armour also gains the Heavy Unit Sub-type.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8a41-91cd-666b-3b88" name="Heavy Void Armour" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="4fd3-f210-d384-15eb" name="Heavy Void Armour" hidden="false" targetId="5ebe-7ce6-f386-530b" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5e45-2a38-759c-3147" name="Reinforced Void Armour" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="4f0c-0180-7172-c66a" name="Reinforced Void Armour" hidden="false" targetId="e94c-46f0-fa4e-e27b" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="499b-b86b-3a44-17c6" name="Void Armour" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="b8a2-9d63-269f-70d9" name="Void Armour" hidden="false" targetId="1ede-a380-56ce-bd90" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e9d4-7207-71e0-0762" name="Tactical Command Tercio" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="ab79-0133-fa4a-cd86" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -6114,18 +6054,6 @@ While at least one model with a Command Vox is present on the battlefield and n
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f5a-bf56-4bee-ce7e" name="Auxilia Vexilla" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ede3-8f88-276b-7368" name="Auxilia Vexilla" publicationId="15a4-fc68-502d-48a9" page="151" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an Auxilia vexilla adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase. In addition, a unit that includes at least one model with an Auxilia vexilla may choose to Fall Back only a distance equal to the roll of a D6 instead of 2D6 (or 3D6 if a Cavalry unit) and if forced to move off the edge of the battlefield will instead stop with each model 1&quot; away from the edge of the battlefield.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="b66d-ca3f-b0ea-47ef" name="Cohorts Vexilla" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ee86-c0c3-8b6b-76e9" name="Cohorts Vexilla" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -6134,57 +6062,6 @@ While at least one model with a Command Vox is present on the battlefield and n
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c04e-5624-3615-0660" name="Vox Interlock" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="008b-9e8f-5410-f58b" name="Vox Interlock" publicationId="15a4-fc68-502d-48a9" page="153" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any friendly unit that includes at least one model with a vox interlock may choose to use the Leadership value of any model in a friendly unit with a command vox when making Pinning tests or Morale checks – this includes any friendly units with a command vox that are in Reserves or are Embarked on a model with the Vehicle Unit Type.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e09b-73c8-2340-4604" name="Storm Axe" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="593a-b90a-74d1-4159" name="Storm Axe" publicationId="15a4-fc68-502d-48a9" page="149" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Two-handed, Murderous Strike (6+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="ea94-51d9-0b0f-31c9" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="ee36-f3f0-779a-1022" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="31c1-9fe6-9258-d422" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Murderous Strike (6+)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c305-a3f1-5c2f-ae37" name="Storm Axe" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e31a-f147-bb81-fe8c" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="58a3-5b2a-093f-e9f5" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="4216-7ab6-2560-366c" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Murderous Strike (6+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="759a-9bff-4841-e716" name="Storm Axe" hidden="false" targetId="593a-b90a-74d1-4159" type="profile"/>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -11653,12 +11530,6 @@ Limitations
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="6516-f81d-457b-a2cc" name="Tercio" publicationId="15a4-fc68-502d-48a9" page="138" hidden="false">
-      <description>Models with this special rule may only be selected as part of a Tercio (see the rules for Tercios on page 68). When a Reaction is declared for a unit with this rule that allows it to make a Shooting Attack or Move, then all units from the same Tercio that are ‘In Formation’ with the Reacting unit may also Move or make a Shooting Attack as described in the Reaction being made (all units that Move or Shoot are counted as having made a Reaction, and thus cannot make further Reactions in the same Phase, and must target the same unit with any Shooting Attacks made). A unit is ‘In Formation’ when that unit is in unit coherency and has at least one model within 3&quot; of a model from a different unit in the same Tercio that is also in unit coherency.</description>
-    </rule>
-    <rule id="bf74-20ed-ddc9-8ea1" name="Solar Auxilia Command Tank" publicationId="15a4-fc68-502d-48a9" page="136" hidden="false">
-      <description>A model with this special rule is selected as a separate unit, but during deployment must be assigned to another unit and may not be deployed as a separate unit. If multiple appropriate units are available, the controlling player chooses which unit a model with this special rule is assigned to. Once assigned to a unit, a model with this special rule counts as a part of that unit and may not leave the unit during play for any reason. A Leman Russ Command Tank must be assigned to a Leman Russ Strike Squadron or a Leman Russ Assault Squadron.</description>
-    </rule>
     <rule id="25f0-12ed-08dd-0781" name="Auxilia Artillerists" publicationId="15a4-fc68-502d-48a9" page="130" hidden="false">
       <description>A Solar Auxilia Rapier Battery must have one Auxilia Gunner per Rapier Carrier in order for all Rapier Carriers to make Shooting Attacks in the Shooting phase. If, at the start of any of the controlling player’s Shooting phases, the Solar Auxilia Rapier Battery contains fewer Auxilia Gunners than Rapier Carriers, then only a number of Rapier Carriers equal to the number of  Auxilia Gunners may make Shooting Attacks in that Shooting phase. In addition, as long as there are at least as many Auxilia Gunners in the unit as there are Rapier Carriers, then the unit cannot be Pinned, automatically passing any Pinning tests it is called upon to take without any dice being rolled (this benefit is lost immediately once the number of Auxilia Gunners is reduced to less than the number of Rapier Carriers in the unit).</description>
     </rule>
@@ -11675,5 +11546,6 @@ Demo charge - 10 1 Melee, Armourbane (Melee), Instant Death, Brutal (2)</descrip
   <catalogueLinks>
     <catalogueLink id="e048-9e5e-507c-5bac" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="60d6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

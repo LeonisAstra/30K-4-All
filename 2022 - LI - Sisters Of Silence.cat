@@ -6570,18 +6570,6 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25a3-34bd-972c-6502" name="Excrutia Armatus" publicationId="15a4-fc68-502d-48a9" page="154" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="227e-aaec-7ae7-2915" name="Excrutia Armatus" publicationId="15a4-fc68-502d-48a9" page="154" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An enemy unit may not declare a Reaction to Shooting Attacks or Charges made by a unit that includes one or more models with an excrutia armatus – however, enemy units that include one or more models with either the Fearless or Stubborn special rule ignore this effect. In addition, if an army includes one or more models with an excrutia armatus then the Slay the Warlord Secondary Objective (if it is in use as part of the mission in use) is worth an additional Victory point.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="6b30-69d2-802c-9152" name="Spectra Cloaks" publicationId="15a4-fc68-502d-48a9" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="69a0-0506-93ef-db83" name="Spectra Cloaks" publicationId="15a4-fc68-502d-48a9" page="157" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -6696,18 +6684,6 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ac3-045d-bc0e-d7fe" name="Compression Tanks" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="91b3-fe6a-cc45-f0a7" name="Compression Tanks" publicationId="15a4-fc68-502d-48a9" page="153" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Compression tanks may be used once per battle, this use must be declared when the controlling player declares a Shooting Attack for a unit that includes one or more models with compression tanks, before any To Hit rolls are made. When used, all models with compression tanks increase the Strength of any Flame weapons they have by +2 for the duration of that Shooting Attack – and when used, all models in the unit with compression tanks must use them. Once that Shooting Attack is fully resolved, all compression tanks in the attacking unit are expended and may not be used again in that battle.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9544-ef9a-630f-b327" name="Snare Gun" publicationId="15a4-fc68-502d-48a9" page="146" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="fd90-e94a-6646-edc7" name="Snare Gun" publicationId="15a4-fc68-502d-48a9" page="146" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -6778,106 +6754,9 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e017-f671-bcf1-0179" name="Assault Needler" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1aeb-d1e4-a325-6848" name="Assault Needler" publicationId="15a4-fc68-502d-48a9" page="142" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">2</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Poisoned (3+), Pinning</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="4f45-395e-f8e1-5285" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="7125-90e5-87ea-e4b8" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Poisoned (3+)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4bfe-88af-d115-2300" name="Assault Needler" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="516b-f0d7-d807-1739" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="944e-5557-dabe-19ab" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Poisoned (3+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="9c52-e376-32f3-9804" name="Assault Needler" hidden="false" targetId="1aeb-d1e4-a325-6848" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="51fd-b485-574d-13fe" name="Spectra Cloaks" publicationId="15a4-fc68-502d-48a9" page="157" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9241-62e4-c3cc-b0af" name="Spectra Cloaks" hidden="false" targetId="69a0-0506-93ef-db83" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b48a-f5cb-983d-3832" name="Vratine Bolter" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a2be-5af6-49b2-8ec5" name="Vratine Bolter" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Rapid Fire, Psy-shock</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="81b9-8692-3a1f-6290" name="Vratine Bolter" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="f537-610f-c29a-f0e2" name="Vratine Bolter" hidden="false" targetId="a2be-5af6-49b2-8ec5" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="adc6-3519-204d-2921" name="Execution Blade" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e680-1d54-4ca7-c791" name="Execution Blade" publicationId="15a4-fc68-502d-48a9" page="149" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Rending (6+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="c3c1-0ff6-35dd-4931" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="4914-a6db-7423-40d1" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b902-5e27-e3ec-18ca" name="Execution Blade" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="6a7e-efd1-9514-53e7" name="Execution Blade" hidden="false" targetId="e680-1d54-4ca7-c791" type="profile"/>
-        <infoLink id="2798-01b9-850d-43bb" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="8f29-5269-e375-1938" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -7932,217 +7811,6 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d11a-3108-ea62-ffac" name="Spectra Distort Shield" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ab-972c-3ea7-d671" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="3658-e9bd-38cf-4af7" name="Spectra Distort Shield" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a model with the Vehicle Unit Type with a spectra distort shield is considered to be 8&quot; further than the actual range between the two units – enemy units with the Night Vision special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule a model with the Vehicle Unit Type and a spectra distort shield is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d125-c647-343f-16c2" name="Voidscale Cloak" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="ebf5-e220-b0c3-60ea" name="Raptora" hidden="false" targetId="f95e-9b9e-28c7-65e4" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bd74-a0c5-cee0-bb03" name="Voidscale Cloak" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3726-55b1-4851-09d9" name="Voidscale Cloak" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A voidscale cloak confers a 5+ Invulnerable Save, increasing to 3+ against any Hits from weapons with the Template or Blast special rules.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9449-eb87-30c1-43c0" name="Voidsheen Cloak" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="d7d5-b8e1-a44f-7673" name="Voidsheen Cloak" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A voidsheen cloak confers a 6+ Invulnerable Save, increasing to 4+ against any Hits from weapons with the Template or Blast special rules.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="91c6-82e2-3c3e-fe76" name="Vratine Armour" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="47b7-7aad-2508-c625" name="Vratine Armour" hidden="false" targetId="eaf9-0555-cc91-e313" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d466-63c8-7784-cd84" name="Vratine Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="eaf9-0555-cc91-e313" name="Vratine Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Vratine armour confers an 3+ Armour Save</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0ee4-7a2e-804a-a934" name="Vratine Missile Launcher" publicationId="15a4-fc68-502d-48a9" page="144" hidden="false" collective="false" import="true" type="upgrade">
-      <selectionEntries>
-        <selectionEntry id="1394-c3da-ebc1-38c0" name="Vratine Missile Launcher - Frag" hidden="false" collective="true" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3851-bba9-db7e-1051" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a4-a117-c5f2-5f78" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5215-16d3-5473-7d8c" name="Vratine Missile Launcher - Frag" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Pinning</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b339-178e-db02-5604" name="Vratine Missile Launcher - Krak" hidden="false" collective="true" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5809-52c4-ca45-732b" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7172-c9b6-dde3-6bd9" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="3922-6af4-6555-2e2a" name="Vratine Missile Launcher - Krak" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="73c5-06bc-7283-351b" name="Vratine Missile Launcher - Psyk-out" hidden="false" collective="true" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c786-4a9c-9217-7c82" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8209-6887-cbd7-d341" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="3c7f-3e24-05d4-290e" name="Vratine Missile Launcher - Psyk-out" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Psy-shock</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4d36-dac5-86a1-46cc" name="Proteus Neuro-lash" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6427-8c01-107c-9768" name="Proteus Neuro-lash" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed. Deflagerate</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="02b8-9f23-863f-dd64" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="bcb7-1d83-d6d0-3480" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d130-4af2-1ea4-e18d" name="Proteus Neuro-lash" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="dc30-ee5d-a880-4ebc" name="Proteus Neuro-lash" hidden="false" targetId="6427-8c01-107c-9768" type="profile"/>
-        <infoLink id="1ba0-98fc-a212-141f" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="aa21-6375-03ac-945f" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a17e-c567-c602-892e" name="Hellion Heavy Cannon Array" publicationId="15a4-fc68-502d-48a9" page="140" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ef57-e1a5-024b-0c5a" name="Hellion Heavy Cannon Array" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Pinning</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="7a58-06a9-02c3-afb7" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="88a1-8139-ce6d-dd57" name="Compression Tanks" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="fd03-4f78-df11-76f3" name="Compression Tanks" hidden="false" targetId="91b3-fe6a-cc45-f0a7" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="36c6-b6ae-bac0-6741" name="Vratine Nemesis Bolters" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="edb2-c6d8-6612-f7f7" name="Vratine Nemesis Bolters" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">52&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Rending (5+), Sniper, Pinning, Psy-shock</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="db9c-ccda-b1a1-cfc0" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Rending (5+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="ba61-29d7-4f1b-6f14" name="Sniper" hidden="false" targetId="9cd8-e726-5dbe-b106" type="rule"/>
-        <infoLink id="4bd8-684e-f8ee-9bee" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="eb78-4752-7450-c291" name="Psy-shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bd47-69ec-0c32-abc2" name="Warlord Traits (Sisters of Silience)" hidden="true" collective="false" import="true">
@@ -8250,22 +7918,10 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="4a92-bb9b-613a-accb" name="Entangle (X)" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
-      <description>An attack that has this special rule does not roll to Wound using the normal rules, instead roll To Wound by comparing the Attack’s Strength to the target’s Strength Characteristic, using the Strength Characteristic in place of Toughness on the To Wound table. If any Attacks with this special rule inflict Wounds, do not make Armour Saves or Damage Mitigation rolls for those Wounds – instead for each Wound inflicted by an Attack with this special rule, reduce the Movement Characteristic of all models in the target unit by the number in brackets that is included as part of this special rule (to a minimum of 1) until the end of the controlling player’s next turn. The Wounds caused by Attacks with this special rule are then discarded and neither reduce the target model’s Wounds Characteristic nor cause any models to be removed as casualties (this does not affect Wounds inflicted by Attacks without this special rule that are part of the same Shooting Attack).
-
-Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
-    </rule>
-    <rule id="1d8d-3038-9267-6f1b" name="Silent Sisterhood (X)" publicationId="15a4-fc68-502d-48a9" page="39" hidden="false">
-      <description>The notation in brackets that is included as part of the Silent Sisterhood (X) special rule defines which Chamber Militant the model belongs to. This Chamber Militant may grant the model some additional rules or effects and influences how it may be selected when building an army that incorporates a Detachment with the Sisters of Silence Faction.
-When selecting a Detachment using the Sisters of Silence Army List, the number of units of Chambers Militant other than the Chamber of Vigilance is limited. For each HQ choice with a given Chamber Militant, the Detachment may include up to three other choices of the same Chamber Militant (except for units with the Chamber of Vigilance variant of the Silent Sisterhood (X) special rule, of which an army may include any number, limited only by available Force Organisation slots). Note that Dedicated Transports and units selected using the Retinue special rule do not count against these limits regardless of their variant of the Silent Sisterhood (X) special rule.
-For example, a Sisters of Silence Detachment includes three HQ choices – two Knights Centura (Chamber of Oblivion) and a Silent Judge (Chamber of Judgement). This army may include any number of units from the Chamber of Vigilance, up to six units from the Chamber of Oblivion, and up to three units from the Chamber of Judgement.</description>
-    </rule>
-    <rule id="7982-9292-ef54-8e84" name="Ex-Oblivio" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
-      <description>At the start of any combat in the Assault phase, before the beginning of Initiative step 10, the controlling player of a model with this special rule may declare its use. When used, roll a D6 and select a single enemy model in base contact with the model that has this special rule (including a model that is Engaged in a Challenge with that model) – that enemy model must reduce its Weapon Skill to 1 for the remainder of the current player turn. If the dice roll results in a result of 2-6 then there is no further effect, but if the dice roll results in a result of 1 then the model with this special rule suffers a single Wound against which no Armour Saves, Cover Saves or Invulnerable Saves may be taken (Damage Mitigation rolls may be taken as normal).</description>
-    </rule>
   </sharedRules>
   <catalogueLinks>
     <catalogueLink id="e048-9e5e-507c-5baa" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="68d6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
