@@ -10813,6 +10813,36 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="36a7-1c39-670c-5fec" collective="false">
+      <comment>Basic power weapons only</comment>
+      <entryLinks>
+        <entryLink import="true" name="Power Weapon (Basic)" hidden="false" id="173b-3917-ac2b-8d1f" collective="false" targetId="bd1f-b4a4-3517-31e4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="21f-8fe9-a2b1-425b" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combat Shield" hidden="false" id="7f4a-84b2-f992-4558" collective="true">
+      <profiles>
+        <profile name="Combat Shield" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="10fc-eea8-f42a-8408" publicationId="a716-c1c4-7b26-8424" page="141">
+          <characteristics>
+            <characteristic name="Description" hidden="false" id="7488-8c76-15d-7f8c" typeId="347e-ee4a-764f-6be3">Combat shields confer a 6+ Invulnerable Save.
+Invulnerable saves granted by a combat shield or boarding shield do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" hidden="false" id="41b5-fd0c-5bba-54f7" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Force Weapon" hidden="false" id="a9c2-6881-3391-9622" collective="false">
+      <entryLinks>
+        <entryLink import="true" name="Force Weapons" hidden="false" id="f36a-0ebf-44d2-abc7" collective="false" targetId="9970-2309-3a2a-b889" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="36d7-9df2-ca0-44be" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -15231,6 +15261,30 @@ This Provenance cannot be taken in conjunction with the Survivors of the Dark Ag
       <entryLinks>
         <entryLink id="9bc5-919f-7d3a-703e" name="Magna Combi-Weapon - Meltagun" hidden="false" collective="false" import="true" targetId="59c3-2af5-ebe5-d512" type="selectionEntry"/>
         <entryLink id="0ff2-dd35-7e6a-f83a" name="Magna Combi-Weapon - Plasma Gun" hidden="false" collective="false" import="true" targetId="5ed9-1bc3-4d8f-0826" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Power Weapon (Basic)" hidden="false" id="bd1f-b4a4-3517-31e4" collective="false" import="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4e0-9351-6028-69a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1f9-dfad-d26a-e32a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Power Axe" hidden="false" id="1cce-6be8-56fc-2f54" collective="false" targetId="c066-2ace-f68c-e440" type="selectionEntry"/>
+        <entryLink import="true" name="Power Lance" hidden="false" id="581f-d0f8-d651-c07e" collective="false" targetId="a4c8-c8ff-87f2-1ac9" type="selectionEntry"/>
+        <entryLink import="true" name="Power Maul" hidden="false" id="549d-840d-5a33-c0a3" collective="false" targetId="0df4-c67e-cf64-82e0" type="selectionEntry"/>
+        <entryLink import="true" name="Power Sword" hidden="false" id="0ce5-129b-6faa-930e" collective="false" targetId="a3cd-aa97-a148-2309" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Force Weapons" hidden="false" id="9970-2309-3a2a-b889" collective="false" import="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0307-d1f7-57ea-a51b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f79d-98d6-e4c9-6d63" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Force Axe" hidden="false" id="206e-ed03-21bf-a789" collective="false" targetId="40bb-c99e-b4b3-12c1" type="selectionEntry"/>
+        <entryLink import="true" name="Force Maul" hidden="false" id="45e6-9ab0-4918-dc6c" collective="false" targetId="da60-5978-bdd7-9c95" type="selectionEntry"/>
+        <entryLink import="true" name="Force Sword" hidden="false" id="188d-69d5-9640-5f7d" collective="false" targetId="6164-c01a-a879-37d7" type="selectionEntry"/>
+        <entryLink import="true" name="Force Staff" hidden="false" id="2d2b-3092-fd34-60e5" collective="false" targetId="5132-9034-5e79-13c8" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

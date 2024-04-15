@@ -1221,6 +1221,26 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spectra Cloaks" hidden="false" id="6b30-69d2-802c-9152" publicationId="15a4-fc68-502d-48a9" page="157" collective="false">
+      <profiles>
+        <profile name="Spectra Cloaks" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="69a0-0506-93ef-db83" publicationId="15a4-fc68-502d-48a9" page="157">
+          <characteristics>
+            <characteristic name="Description" hidden="false" id="778-ae4e-3db0-4477" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit including one or more models with spectra cloaks is considered to be 6&quot; further than the actual range between the two units – enemy units with the Night Vision special rule, weapons with the Template special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule a unit including one or more models with spectra cloaks is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" hidden="false" id="9d2f-3ecf-5af7-bb17" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spectra Cloaks" hidden="false" id="51fd-b485-574d-13fe" publicationId="15a4-fc68-502d-48a9" page="157" collective="true">
+      <infoLinks>
+        <infoLink name="Spectra Cloaks" hidden="false" id="9241-62e4-c3cc-b0af" targetId="69a0-0506-93ef-db83" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="377c-9c16-4194-d3a4" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="6516-f81d-457b-a2cc" name="Tercio" publicationId="15a4-fc68-502d-48a9" page="138" hidden="false">

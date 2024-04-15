@@ -596,5 +596,8 @@ Additionally, models with this special rule gain a Shooting Attack with the foll
     <rule id="c694-20c8-455-baca" name="Empyrean Avatar" publicationId="cb13-da24-e6da-75b3" page="16" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound with the Instant Death special rule, it is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.</description>
     </rule>
+    <rule name="Immaterial Blades (X)" hidden="false" id="8d0-4d35-7d40-bc09" publicationId="8775-88f5-cfdd-24f6" page="22">
+      <description>When rolling To Wound for a model that has the Immaterial Blades (X) special rule, or is attacking with a weapon that has the Immaterial Blades (X) special rule, for each To Wound roll or Armour Penetration roll of 6 or higher, the controlling player resolves these Wounds or any Penetrating Hits at the AP value listed in brackets, instead of the weapon’s normal AP value.</description>
+    </rule>
   </sharedRules>
 </catalogue>

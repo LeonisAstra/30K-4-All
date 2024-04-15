@@ -2508,9 +2508,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     <catalogueLink type="catalogue" name="LI - Assassins and Agents" id="8e51-2e3c-9a19-fa1" targetId="2dde-e269-90db-8d33"/>
   </catalogueLinks>
   <sharedRules>
-    <rule name="Immaterial Blades (X)" hidden="false" id="8d0-4d35-7d40-bc09" publicationId="8775-88f5-cfdd-24f6" page="22">
-      <description>When rolling To Wound for a model that has the Immaterial Blades (X) special rule, or is attacking with a weapon that has the Immaterial Blades (X) special rule, for each To Wound roll or Armour Penetration roll of 6 or higher, the controlling player resolves these Wounds or any Penetrating Hits at the AP value listed in brackets, instead of the weapon’s normal AP value.</description>
-    </rule>
     <rule name="Unbound" hidden="false" id="40ce-bba7-f433-6089" publicationId="8775-88f5-cfdd-24f6" page="22">
       <description>Some Daemons, such as Ka’bandha or Samus, have multiple profiles, presenting the different manners in which they manifest. A model with this rule cannot be included in the same army as its Bound version – an army that includes Samus Unbound cannot also include Samus Bound.</description>
     </rule>

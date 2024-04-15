@@ -4756,7 +4756,7 @@ Any model equipped with a Vyper Jetbike must change its Unit Type to Cavalry (An
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">Blast</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">12&quot;</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">6</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type"> -   Assault 8, Ignores Cover,     Concussive (2), One Use</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">-   Assault 8, Ignores Cover,     Concussive (2), One Use</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7312,7 +7312,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
       </profiles>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Apocalyptic Blast (10&quot;)
-Could not find rule: </comment>
+Could not find rule:</comment>
     </selectionEntry>
     <selectionEntry name="Deathstrike Missile - Tactical Nuclear Warhead S" type="upgrade" id="916a-b16e-45d2-9db5">
       <profiles>
@@ -7331,7 +7331,7 @@ Could not find rule: </comment>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1709
 Could not find rule: Apocalyptic Mega-Blast
-Could not find rule: </comment>
+Could not find rule:</comment>
     </selectionEntry>
     <selectionEntry name="Deathstrike Missile - Vortex Warhead I" type="upgrade" id="589e-91e3-4430-b879">
       <infoLinks>
@@ -7358,7 +7358,7 @@ Could not find rule: </comment>
         </profile>
       </profiles>
       <comment>!BSC Errors from 20240406-1603
-Could not find rule: </comment>
+Could not find rule:</comment>
     </selectionEntry>
     <selectionEntry name="Needle Cavalcade" type="upgrade" id="5d5b-111b-4a9f-b905">
       <infoLinks>
@@ -11138,13 +11138,13 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Adrastus Bolt Caliver - Bolt Volley" type="upgrade" id="70d8-21bc-4c0e-8191">
+    <selectionEntry name="Adrastus Bolt Caliver - Bolt Volley" type="upgrade" id="70d8-21bc-4c0e-8191">
       <infoLinks>
         <infoLink name="Shred" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c" id="f1bc-02d6-4469-a382"/>
         <infoLink name="Pinning" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2" id="b0aa-bf5a-4164-aac1"/>
       </infoLinks>
       <profiles>
-        <profile name=" Adrastus Bolt Caliver - Bolt Volley" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="a88f-2999-4d3d-8a6b" page="171" publicationId="9fab-fea7-a93c-2074">
+        <profile name="Adrastus Bolt Caliver - Bolt Volley" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="a88f-2999-4d3d-8a6b" page="171" publicationId="9fab-fea7-a93c-2074">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">36&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">5</characteristic>
@@ -11154,7 +11154,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Balistus Grenade Launcher - Frag" type="upgrade" id="f678-69f5-408f-ba8f">
+    <selectionEntry name="Balistus Grenade Launcher - Frag" type="upgrade" id="f678-69f5-408f-ba8f">
       <infoLinks>
         <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="02c2-3592-419a-82c2">
           <modifiers>
@@ -11169,7 +11169,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </infoLink>
       </infoLinks>
       <profiles>
-        <profile name=" Balistus Grenade Launcher - Frag" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2e70-fca7-47a0-890b" page="296" publicationId="f505-5fc8-ee53-1cec">
+        <profile name="Balistus Grenade Launcher - Frag" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2e70-fca7-47a0-890b" page="296" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">3</characteristic>
@@ -11179,7 +11179,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Balistus Grenade Launcher - Krak" type="upgrade" id="1447-89cd-4444-9690">
+    <selectionEntry name="Balistus Grenade Launcher - Krak" type="upgrade" id="1447-89cd-4444-9690">
       <infoLinks>
         <infoLink name="Concussive (X)" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826" id="790c-77ad-4e0c-a67c">
           <modifiers>
@@ -11188,7 +11188,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </infoLink>
       </infoLinks>
       <profiles>
-        <profile name=" Balistus Grenade Launcher - Krak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2d7c-7a52-4500-9288" page="296" publicationId="f505-5fc8-ee53-1cec">
+        <profile name="Balistus Grenade Launcher - Krak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2d7c-7a52-4500-9288" page="296" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
@@ -11198,7 +11198,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Balistus Grenade Launcher - Tanglefoot" type="upgrade" id="13f8-0699-44dc-adb6">
+    <selectionEntry name="Balistus Grenade Launcher - Tanglefoot" type="upgrade" id="13f8-0699-44dc-adb6">
       <infoLinks>
         <infoLink name="Entangle (X)" hidden="false" type="rule" targetId="4a92-bb9b-613a-accb" id="a9df-b2e3-4c76-970f">
           <modifiers>
@@ -11207,7 +11207,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </infoLink>
       </infoLinks>
       <profiles>
-        <profile name=" Balistus Grenade Launcher - Tanglefoot" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="3d2a-2324-4a2e-bda1" page="296" publicationId="f505-5fc8-ee53-1cec">
+        <profile name="Balistus Grenade Launcher - Tanglefoot" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="3d2a-2324-4a2e-bda1" page="296" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
@@ -11217,7 +11217,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Cyclone Missile Launcher - Frag" type="upgrade" id="cbc4-19a2-4742-84db">
+    <selectionEntry name="Cyclone Missile Launcher - Frag" type="upgrade" id="cbc4-19a2-4742-84db">
       <infoLinks>
         <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="14c4-75bf-46e2-b353">
           <modifiers>
@@ -11227,7 +11227,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         <infoLink name="Pinning" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2" id="64d5-1f4c-4b4f-a327"/>
       </infoLinks>
       <profiles>
-        <profile name=" Cyclone Missile Launcher - Frag" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="cb45-d978-44de-b856" page="298" publicationId="f505-5fc8-ee53-1cec">
+        <profile name="Cyclone Missile Launcher - Frag" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="cb45-d978-44de-b856" page="298" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
@@ -11237,7 +11237,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Cyclone Missile Launcher - Krak" type="upgrade" id="eed9-2d7c-4777-9ad7">
+    <selectionEntry name="Cyclone Missile Launcher - Krak" type="upgrade" id="eed9-2d7c-4777-9ad7">
       <infoLinks>
         <infoLink name="Twin-linked" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe" id="a6e6-ecb8-4a78-9473">
           <modifiers>
@@ -11246,7 +11246,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </infoLink>
       </infoLinks>
       <profiles>
-        <profile name=" Cyclone Missile Launcher - Krak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="e5bd-7c69-4a99-a5f4" page="298" publicationId="f505-5fc8-ee53-1cec">
+        <profile name="Cyclone Missile Launcher - Krak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="e5bd-7c69-4a99-a5f4" page="298" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
@@ -11256,7 +11256,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name=" Cyclone Missile Launcher - Flak" type="upgrade" id="cfa0-e56b-4c03-887e">
+    <selectionEntry name="Cyclone Missile Launcher - Flak" type="upgrade" id="cfa0-e56b-4c03-887e">
       <infoLinks>
         <infoLink name="Skyfire" hidden="false" type="rule" targetId="f2bf-5daa-9f93-0b01" id="2c06-f5b9-4af2-8ce0"/>
         <infoLink name="Twin-linked" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe" id="adbf-5498-48ef-9789">
@@ -11266,7 +11266,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </infoLink>
       </infoLinks>
       <profiles>
-        <profile name=" Cyclone Missile Launcher - Flak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="a9ff-f2c7-41ae-854f" page="298" publicationId="f505-5fc8-ee53-1cec">
+        <profile name="Cyclone Missile Launcher - Flak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="a9ff-f2c7-41ae-854f" page="298" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">7</characteristic>
@@ -11448,6 +11448,5 @@ A unit which passes suffers no negative penalty, and in addition may react as no
   </categoryEntries>
   <catalogueLinks>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
