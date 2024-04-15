@@ -107,7 +107,6 @@ Could not find wargear in Ireton MaSade may be equipped with:</comment>
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
           <entryLinks>
             <entryLink name="Archaeotech Pistol" hidden="false" type="selectionEntry" targetId="c22a-ed4d-af68-bf00" id="77d8-9560-4b0c-b845">
               <constraints>
@@ -282,7 +281,7 @@ Could not find rule: Warlord: Master of the Battlefield</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49d2-108d-4867-9efc"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Inferno Pistol" hidden="false" type="selectionEntry" targetId="dcd1-8b2a-9d97-40ef" id="23e7-80a4-4410-b24e">
+                <entryLink name="Inferno Pistol" hidden="false" type="selectionEntry" targetId="3f00-1930-8fcb-41c5" id="23e7-80a4-4410-b24e">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
@@ -530,7 +529,6 @@ Could not find wargear Gravis Missile Launcher (with Frag and Krak Missiles)
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
           </costs>
@@ -772,7 +770,6 @@ Could not find wargear in For every five models in the unit, one Possessed Auxil
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
           <entryLinks>
             <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="3ac7-fa0b-4820-99a1">
               <constraints>
@@ -1073,7 +1070,6 @@ Could not find wargear in Any model may select one of the following options:</co
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b53-dc39-4546-8a38"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1f0-6bc1-4747-a087"/>
           </constraints>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
@@ -1096,16 +1092,13 @@ Could not find wargear in Any model may select one of the following options:</co
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
-Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos;Servo-Automata&apos;]
-</comment>
+Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos;Servo-Automata&apos;]</comment>
     </selectionEntry>
     <selectionEntry name="Auxilia Breacher Tercio Each Auxilia Breacher Tercio Is A Single Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" type="unit" id="3310-b0ef-4e41-9a06" page="144" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -1902,7 +1895,6 @@ Could not find wargear Breacher Charges
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
           <entryLinks>
             <entryLink name="Lasrifle" hidden="false" type="selectionEntry" targetId="2449-dc45-3441-b471" id="06da-e0b1-4133-a894">
               <constraints>
@@ -2407,16 +2399,13 @@ Could not find wargear in The entire unit may exchange their Flamers for one of 
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
-Could not find profile for Auxilia Weapon Teams in [&apos;Auxilia Weapons Team&apos;]
-</comment>
+Could not find profile for Auxilia Weapon Teams in [&apos;Auxilia Weapons Team&apos;]</comment>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Chimera Transport" type="unit" id="c052-5fc4-48d3-8edc" page="154" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -5576,7 +5565,6 @@ Could not find wargear Turret Mounted Oppressor Cannon with Coaxial Autocannon
 Could not find wargear in Any Auxilia Praetorian Heavy Tank may exchange its Turret Mounted Praetorian Battle Cannon for the following option:</comment>
         </selectionEntry>
       </selectionEntries>
-      <infoLinks/>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: None
 Turret Mounted Praetorian Battle Cannon is in two option lists for Auxilia Praetorian Heavy Tank, you will need to combine them by hand.
@@ -5969,7 +5957,6 @@ Could not find wargear in Any Auxilia Manticore Missile Tank may exchange any nu
 Could not find wargear in Any Auxilia Manticore Missile Tank may exchange any number of its Manticore Missiles for any of the following options, in any combination:</comment>
         </selectionEntry>
       </selectionEntries>
-      <infoLinks/>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: None</comment>
     </selectionEntry>

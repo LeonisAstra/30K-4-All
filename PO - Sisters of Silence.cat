@@ -250,21 +250,15 @@ Could not find rule: Independent Character</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6513-c4fe-4fd8-b108"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Minor Combi-Weapon" hidden="false" type="selectionEntry" targetId="605e-1b86-ca08-9226" id="8c74-80e3-434d-81d8">
+                <entryLink name="Minor Combi-weapon" hidden="false" type="selectionEntryGroup" targetId="9b4b-07a4-31bc-fc16" id="8c74-80e3-434d-81d8">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83d6-3279-4520-96fc"/>
-                  </constraints>
                 </entryLink>
-                <entryLink name="Magna Combi-Weapon" hidden="false" type="selectionEntry" targetId="e5b1-83e5-7272-a59e" id="13f3-74cb-4984-b0e7">
+                <entryLink name="Magna Combi-weapon" hidden="false" type="selectionEntryGroup" targetId="2286-9fb3-e845-f24a" id="13f3-74cb-4984-b0e7">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2af4-952e-4323-8f82"/>
-                  </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -410,7 +404,7 @@ Could not find wargear Psyk-Out Grenades
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6f0-7f82-4598-b156"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c" id="6942-e56c-47a0-8e7b">
+                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="838c-4002-713d-d7c6" id="6942-e56c-47a0-8e7b">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -530,7 +524,7 @@ Could not find wargear Vratine Voidplate
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e23-eb25-419d-8400"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c" id="62ef-607d-4a77-b61e">
+                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="838c-4002-713d-d7c6" id="62ef-607d-4a77-b61e">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -951,7 +945,7 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e424-e29f-4ce3-9c84"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Inferno Pistol" hidden="false" type="selectionEntry" targetId="dcd1-8b2a-9d97-40ef" id="d22c-fcbb-4c50-b1d6">
+                <entryLink name="Inferno Pistol" hidden="false" type="selectionEntry" targetId="3f00-1930-8fcb-41c5" id="d22c-fcbb-4c50-b1d6">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>

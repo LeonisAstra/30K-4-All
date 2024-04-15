@@ -10843,6 +10843,25 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" hidden="false" id="36d7-9df2-ca0-44be" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fragmentation Bomb" hidden="false" id="1a19-b6a4-dcc4-b7c4" collective="false">
+      <profiles>
+        <profile name="Fragmentation Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e334-b31e-76bf-9417">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="9040-b07-378-5c5" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" hidden="false" id="2afe-5145-4ff2-78b5" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" hidden="false" id="6db1-48db-667f-d370" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" hidden="false" id="2aa-1c07-9f5a-e450" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="One Use/One Shot" hidden="false" id="6627-a9a9-a193-df8e" targetId="df0c-5423-b892-491e" type="rule"/>
+        <infoLink name="Blast" hidden="false" id="4c86-0dfa-0684-3406" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="8ca0-b749-8892-50d2" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">

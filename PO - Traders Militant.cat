@@ -1560,21 +1560,15 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4975-876e-4fcf-8c34"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Minor Combi-Weapon" hidden="false" type="selectionEntry" targetId="605e-1b86-ca08-9226" id="aac7-920e-4f87-b49a">
+                <entryLink name="Minor Combi-weapon" hidden="false" type="selectionEntry" targetId="53c0-b5d7-f001-b816" id="aac7-920e-4f87-b49a">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b07-bca4-4a57-97d9"/>
-                  </constraints>
                 </entryLink>
-                <entryLink name="Magna Combi-Weapon" hidden="false" type="selectionEntry" targetId="e5b1-83e5-7272-a59e" id="8b83-8b45-4f51-bd44">
+                <entryLink name="Magna Combi-weapon" hidden="false" type="selectionEntry" targetId="4d02-259d-fa50-ef3a" id="8b83-8b45-4f51-bd44">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60a3-41e6-41f7-8aa8"/>
-                  </constraints>
                 </entryLink>
                 <entryLink name="Nemesis Bolter" hidden="false" type="selectionEntry" targetId="9021-d66d-2e3d-8ab6" id="692b-6321-4b73-b907">
                   <costs>
@@ -1617,7 +1611,7 @@ Name ends in a star, check the rules for special handling</comment>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f70a-1b2d-4251-ab65"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Chainaxe" hidden="false" type="selectionEntry" targetId="3a0d-c3bb-dc59-a4c3" id="ff6b-276c-4a90-a18c">
+                <entryLink name="Chainaxe" hidden="false" type="selectionEntry" targetId="85b9-4e50-af11-c295" id="ff6b-276c-4a90-a18c">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
@@ -1665,7 +1659,7 @@ Name ends in a star, check the rules for special handling</comment>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="65f5-defb-4d15-b4dc"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c" id="bb1b-2eca-468b-955d">
+                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="838c-4002-713d-d7c6" id="bb1b-2eca-468b-955d">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
@@ -1726,11 +1720,13 @@ Could not find wargear in The Legion Presage may select any of the following opt
         <infoLink name="Guardian Retainers" hidden="false" type="rule" targetId="115a-5f9f-4063-8bfe" id="3593-0cda-424c-8078"/>
         <infoLink name="Sworn to Serve" hidden="false" type="rule" targetId="cea7-a995-475d-9481" id="30c5-d64f-4319-9bf6"/>
         <infoLink name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed" id="7ae8-2458-4965-86c7"/>
-        <infoLink name="Legiones Astartes (X)" hidden="false" type="rule" targetId="ffcb-13b4-9b4c-84da" id="1718-aae6-45c3-90c1"/>
         <infoLink name="Representative of the Legion" hidden="false" type="rule" targetId="f9ef-a60b-4e2a-b34e" id="e23f-1695-4ada-b3c7"/>
         <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="533f-6db5-4a0e-8ae6"/>
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="e605-901b-4ddf-9f60"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Legion" hidden="false" id="392b-83ce-33ab-ea58" type="selectionEntryGroup" targetId="4a48-4935-246d-0c2e"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Magos Attendis" type="unit" id="57a4-0cd3-429c-9900" page="26" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -2101,21 +2097,15 @@ Could not find wargear in The Magos Attendis may upgrade a single weapon they ar
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="353d-e48e-47e8-80ad"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Minor Combi-Weapon" hidden="false" type="selectionEntry" targetId="605e-1b86-ca08-9226" id="a156-dcf1-4df7-a2df">
+                <entryLink name="Minor Combi-weapon" hidden="false" type="selectionEntry" targetId="53c0-b5d7-f001-b816" id="a156-dcf1-4df7-a2df">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c7d-c8cf-40fe-b8c3"/>
-                  </constraints>
                 </entryLink>
-                <entryLink name="Magna Combi-Weapon" hidden="false" type="selectionEntry" targetId="e5b1-83e5-7272-a59e" id="bdb6-5f47-4545-a300">
+                <entryLink name="Magna Combi-weapon" hidden="false" type="selectionEntry" targetId="4d02-259d-fa50-ef3a" id="bdb6-5f47-4545-a300">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bd2-d8db-4f13-90f0"/>
-                  </constraints>
                 </entryLink>
                 <entryLink name="Plasma Gun" hidden="false" type="selectionEntry" targetId="f0d1-332b-c719-ede7" id="65e0-ed1c-47b7-8e79">
                   <costs>
