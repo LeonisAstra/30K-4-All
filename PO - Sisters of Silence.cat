@@ -70,6 +70,7 @@
             <categoryLink targetId="bff2-ae16-74a8-8712" id="2c6c-28d4-4521-bbb6" name="Light" primary="false"/>
             <categoryLink targetId="32ee-6da0-41d1-8016" id="c2bc-d055-4bee-bb9d" name="Anathema" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="72da-a7bf-4577-86e9" name="Unique" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="5e4d-ac7f-966c-efd6" primary="false" name="Independent Character"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
@@ -118,7 +119,7 @@ Could not find wargear Psyk-Out Grenades
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Ex Oblivio
-Could not find rule: Independent Character</comment>
+</comment>
     </selectionEntry>
     <selectionEntry name="Knight Ensign Covenant" type="unit" id="9ecd-64c7-40d6-bc88" page="96" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -452,19 +453,19 @@ Could not find wargear Vratine Voidplate
         </selectionEntry>
         <selectionEntry type="model" name="Indictor Mistress" id="3dae-0aa5-4629-8199" page="97" publicationId="f505-5fc8-ee53-1cec">
           <profiles>
-            <profile id="d039-7440-44bc-a2e4" name="Indictor Mistress" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="d039-7440-44bc-a2e4" name="Indictor Mistress" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">9</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character, Heavy, Anathema)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Heavy, Anathema)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -578,8 +579,10 @@ Could not find wargear Vratine Voidplate
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52ab-b231-4ed3-92d3"/>
           </constraints>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear The Deep Strike Special Rule
-	 Checked under The Deep Strike Special Rule</comment>
+Teleport Transponders Cost</comment>
+          <entryLinks>
+            <entryLink import="true" name="Teleportation Transponders" hidden="false" id="53b6-d597-2d1e-9884" type="selectionEntry" targetId="457d-253c-4789-9516"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -608,6 +611,15 @@ Could not find wargear The Deep Strike Special Rule
         <infoLink name="Hatred (X)" hidden="false" type="rule" targetId="dc0b-fe69-6b71-e0a4" id="a317-2fac-4309-ab88">
           <modifiers>
             <modifier type="set" field="name" value="Hatred (Psykers, Daemons, Corrupted)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" hidden="true" id="bd09-a087-76c6-6712" type="rule" targetId="f1e1-986f-c783-ca9e">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="457d-253c-4789-9516" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1081,7 +1093,7 @@ Could not find rule: Abominant Aura (Repressor Automata only)</comment>
       <infoLinks>
         <infoLink name="Silent Sisterhood (X)" hidden="false" type="rule" targetId="1d8d-3038-9267-6f1b" id="143e-038e-42d5-9312">
           <modifiers>
-            <modifier type="set" field="name" value="Silent Sisterhood (Chamber Militant is the same as that of"/>
+            <modifier type="set" field="name" value="Silent Sisterhood (Use the Same Chamber as the Squad)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1143,7 +1155,7 @@ Could not find rule: Abominant Aura (Repressor Automata only)</comment>
       <infoLinks>
         <infoLink name="Silent Sisterhood (X)" hidden="false" type="rule" targetId="1d8d-3038-9267-6f1b" id="e200-5bed-4893-82ec">
           <modifiers>
-            <modifier type="set" field="name" value="Silent Sisterhood (Chamber Militant is the same as that of"/>
+            <modifier type="set" field="name" value="Silent Sisterhood (Use the Same Chamber as the Squad)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1744,13 +1756,14 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
           <categoryLinks>
             <categoryLink targetId="59a4-7b61-600a-c457" id="cf3e-f81b-4c55-952f" name="Skirmish" primary="false"/>
             <categoryLink targetId="32ee-6da0-41d1-8016" id="cee5-cfbe-4cda-b65c" name="Anathema" primary="false"/>
+            <categoryLink targetId="6d79-a3e4-381f-7b0f" id="cfbf-f400-1f0c-d56b" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Impetor Mistress" id="e993-f13a-48e8-972c" page="109" publicationId="f505-5fc8-ee53-1cec">
           <profiles>
@@ -1911,13 +1924,14 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="03cf-fc6b-4612-8682" name="Character" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="81db-49d5-4576-a08c" name="Skirmish" primary="false"/>
             <categoryLink targetId="32ee-6da0-41d1-8016" id="c20d-a2a1-4fb3-8f20" name="Anathema" primary="false"/>
+            <categoryLink targetId="6d79-a3e4-381f-7b0f" id="1c6c-dc93-799e-a842" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2416,7 +2430,7 @@ Could not find wargear Spiculus Bolt Launcher
 Could not find wargear in Any Caedecii Exoframe may exchange their Executor Great-Blade with in-built Vratine Bolter or Vratine Bolt Cannon for one of the following options:
 Could not find wargear in Any Caedecii Exoframe may exchange their Executor Great-Blade with in-built Vratine Bolter or Vratine Bolt Cannon for one of the following options:
 Could not find wargear in Any Caedecii Exoframe not equipped with a Sinistrae Magnificat may select one of the following options:
-Could not find type or subtype &apos;Dreadnought&apos;</comment>
+</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2535,7 +2549,12 @@ Could not find wargear in A Stymphalia may exchange their Centreline Mounted Twi
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Arbiter Cadre" hidden="false" id="4454-973b-a7d1-8d0e" type="selectionEntry" targetId="8e1e-8837-4fd2-82ca"/>
-    <entryLink import="true" name="Sikari Dar" hidden="false" id="dedc-4bab-1524-17ac" type="selectionEntry" targetId="f04b-e2e9-4b55-bc0c"/>
+    <entryLink import="true" name="Sikari Dar" hidden="false" id="dedc-4bab-1524-17ac" type="selectionEntry" targetId="f04b-e2e9-4b55-bc0c">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="9c62-c927-9a94-71b1" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e5f2-cb42-47b3-76b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Knight Ensign Covenant" hidden="false" id="5d90-a327-5767-b1e1" type="selectionEntry" targetId="9ecd-64c7-40d6-bc88"/>
     <entryLink import="true" name="Indictor Cadre" hidden="false" id="a069-6877-2d42-881a" type="selectionEntry" targetId="fb8d-fea0-4822-b1bc"/>
   </entryLinks>
