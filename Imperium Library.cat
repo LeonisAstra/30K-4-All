@@ -1241,6 +1241,32 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" hidden="false" id="377c-9c16-4194-d3a4" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kinetic Destoyer" hidden="false" id="d0d7-a54c-fe1b-40b6" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b3f-23ff-b4a3-4758" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6544-6ab9-8cee-c219" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Kinetic Destoyer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0689-8285-3e6d-456a" publicationId="15a4-fc68-502d-48a9" page="140">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="7fa6-1b3-f87e-b2cc" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" hidden="false" id="72a6-6762-493e-2f23" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" hidden="false" id="abe2-8b61-3ecb-1997" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" hidden="false" id="bbfc-5d7a-155f-e65d" typeId="2f86-c8b4-b3b4-3ff9">Pistol 3, Rending (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" hidden="false" id="6dc4-5e25-fc36-6037" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="4436-d504-75dc-c498" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="6516-f81d-457b-a2cc" name="Tercio" publicationId="15a4-fc68-502d-48a9" page="138" hidden="false">

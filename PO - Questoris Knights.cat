@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ee7c-1a71-edb-acbd" name="PO - Questoris Knights" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="ee7c-1a71-edb-acbd" name="[Ingenium] Knights" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry name="Questoris Knight Moirax Talon" type="unit" id="1057-b62a-4343-9be8" page="71" publicationId="89c5-118c-61fb-e6d8">
       <categoryLinks>
@@ -89,7 +89,6 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="225"/>
           </costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="d76-4e81-2fef-caa1" name="PO - Centura Library" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="d76-4e81-2fef-caa1" name="[Centura] Legiones Astartes" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry name="Legion Indomitus Praetor" type="unit" id="0293-aa91-4e32-bd5f" page="6" publicationId="9c07-3edc-5aa8-9304">
       <categoryLinks>
@@ -3143,7 +3143,6 @@ Could not find wargear In-built Meltagun
 	 Checked under In-built Meltagun</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
           </costs>
@@ -3660,7 +3659,6 @@ Could not find type or subtype &apos;Automata&apos;</comment>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
           </costs>
@@ -4077,7 +4075,6 @@ Bolt Pistol is in two option lists for Legion Hussar, you will need to combine t
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
@@ -4318,8 +4315,6 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
@@ -4342,16 +4337,13 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
-Could not find profile for Legionaries in [&apos;Legionary&apos;, &apos;Legion Assault Sergeant&apos;]
-</comment>
+Could not find profile for Legionaries in [&apos;Legionary&apos;, &apos;Legion Assault Sergeant&apos;]</comment>
     </selectionEntry>
     <selectionEntry name="Legion Novicii Squad*" type="unit" id="7322-a79c-4ce8-8b16" page="29" publicationId="9c07-3edc-5aa8-9304">
       <categoryLinks>
@@ -6081,7 +6073,6 @@ Could not find rule: Volatile Ordnance (Legionary Weapons Team only)</comment>
               </constraints>
             </entryLink>
           </entryLinks>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
@@ -6191,7 +6182,6 @@ Could not find wargear Legion Tartaros Terminator Armour
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="314d-7418-4f58-8517"/>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d40e-8d33-47d6-82a3"/>
           </constraints>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
@@ -6214,16 +6204,13 @@ Could not find wargear Legion Tartaros Terminator Armour
               </characteristics>
             </profile>
           </profiles>
-          <constraints/>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
-Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cataphractii Heavy Destroyer&apos;, &apos;Legion Cataphractiii Ruin Master&apos;]
-</comment>
+Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cataphractii Heavy Destroyer&apos;, &apos;Legion Cataphractiii Ruin Master&apos;]</comment>
     </selectionEntry>
     <selectionEntry name="Legion Banesword" type="unit" id="658b-333a-4c15-b739" page="54" publicationId="9c07-3edc-5aa8-9304">
       <categoryLinks>

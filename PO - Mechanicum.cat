@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4f40-72d0-2942-778b" name="PO - Mechanicum" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="4f40-72d0-2942-778b" name="[Ingenium] Mechanicum" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry name="Magos Prime" type="unit" id="9a5a-a411-463d-b98a" page="6" publicationId="89c5-118c-61fb-e6d8">
       <categoryLinks>
@@ -779,8 +779,7 @@ Could not find rule: The Orders of Lesser Techno-Arcana</comment>
         </infoLink>
         <infoLink name="Command Node" hidden="false" type="rule" targetId="177f-965b-4b5d-bcd1" id="a68c-6a4f-4bbd-b85e"/>
       </infoLinks>
-      <comment>
-!BSC Errors from 20240406-1709
+      <comment>!BSC Errors from 20240406-1709
 Could not find rule: Independent Character
 Could not find rule: Command Protocols (Skitarius)</comment>
       <rules>
@@ -3463,7 +3462,6 @@ The option &apos;Up to four additional Void Shields&apos; may need a &apos;multi
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="13"/>
           </costs>
-          <categoryLinks/>
           <comment>!BSC Errors from 20240406-1603
 Could not find type or subtype &apos;Frag Grenades&apos;</comment>
         </selectionEntry>
@@ -3541,7 +3539,6 @@ Could not find type or subtype &apos;Frag Grenades&apos;</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
-          <categoryLinks/>
           <comment>!BSC Errors from 20240406-1603
 Could not find type or subtype &apos;Frag Grenades&apos;</comment>
         </selectionEntry>
@@ -3631,7 +3628,6 @@ The option &apos;Irad-Cleanser&apos; may need a &apos;multiply by number of mode
 The option &apos;Plasma Caliver&apos; may need a &apos;multiply by number of models&apos; modifier
 The option &apos;Arc Rifle&apos; may need a &apos;multiply by number of models&apos; modifier
 The option &apos;Arcana Potentis&apos; may need a &apos;multiply by number of models&apos; modifier</comment>
-      <infoLinks/>
     </selectionEntry>
     <selectionEntry name="Electro-Priest Conclave" type="unit" id="2048-5044-4f8a-92aa" page="35" publicationId="89c5-118c-61fb-e6d8">
       <categoryLinks>
@@ -4512,7 +4508,6 @@ Could not find wargear Power Sword and Phosphor Serpenta
           </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in Any model in the unit may exchange their Two Phosphor Serpentas for one of the following:</comment>
-          <categoryLinks/>
         </selectionEntry>
         <selectionEntry type="model" name="Tormentor Alpha" id="f7f7-4fc8-4f70-9734" page="44" publicationId="89c5-118c-61fb-e6d8">
           <profiles>

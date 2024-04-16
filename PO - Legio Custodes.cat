@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f65b-5341-4b66-c32f" name="PO - Legion Custodes" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="f65b-5341-4b66-c32f" name="[Imperatus] Custodes" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry name="Custodian Host-Master" type="unit" id="c9d0-c3e7-4175-a227" page="60" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -1455,7 +1455,6 @@ Could not find wargear Proteus Plasma Projector
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks/>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="235"/>
           </costs>

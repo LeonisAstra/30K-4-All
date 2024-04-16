@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="c5ec-40b8-bc48-80f2" name="PO - Sisters of Silence" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="c5ec-40b8-bc48-80f2" name="[Imperatus] Silent Sisterhood" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry name="Sikari Dar" type="unit" id="f04b-e2e9-4b55-bc0c" page="92" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -118,8 +118,7 @@ Could not find wargear Psyk-Out Grenades
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="3a1b-eec7-4849-81dc"/>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
-Could not find rule: Ex Oblivio
-</comment>
+Could not find rule: Ex Oblivio</comment>
     </selectionEntry>
     <selectionEntry name="Knight Ensign Covenant" type="unit" id="9ecd-64c7-40d6-bc88" page="96" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -1762,8 +1761,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:
-</comment>
+Could not find wargear in Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Impetor Mistress" id="e993-f13a-48e8-972c" page="109" publicationId="f505-5fc8-ee53-1cec">
           <profiles>
@@ -1930,8 +1928,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:
-</comment>
+Could not find wargear in Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2429,8 +2426,7 @@ Could not find wargear Spiculus Bolt Launcher
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in Any Caedecii Exoframe may exchange their Executor Great-Blade with in-built Vratine Bolter or Vratine Bolt Cannon for one of the following options:
 Could not find wargear in Any Caedecii Exoframe may exchange their Executor Great-Blade with in-built Vratine Bolter or Vratine Bolt Cannon for one of the following options:
-Could not find wargear in Any Caedecii Exoframe not equipped with a Sinistrae Magnificat may select one of the following options:
-</comment>
+Could not find wargear in Any Caedecii Exoframe not equipped with a Sinistrae Magnificat may select one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

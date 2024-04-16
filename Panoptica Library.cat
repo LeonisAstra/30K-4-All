@@ -8878,13 +8878,42 @@ In addition, a model with a Halian Heavy Jetbike gains the Shrouded (6+) Special
       <profiles>
         <profile name="Jokaero Armaments" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="334b-bd7a-4ab7-accf" page="309" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
-            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">Whenever a model armed with Jokaero Armaments makes a Shooting Attack, the Controlling Player may choose a single weapon from the following list for the model to make their Shooting Attack with:
-Lascannon, Multi-Melta, Heavy Flamer, Volkite Culverin, Disintegrator Mechanicum Protectiva Rare devices exclusive to all but the highest ranking of the Mechanicum’s magi, they were not of a singular design but covered a variety of shield generators intended to protect the bearer from harm – whether on the battlefield when confronting the enemies of mankind or from rivals who sought to assassinate them.
-A model with a Mechanicum Protectiva gains a 4+ Invulnerable Save.
-Invulnerable Save granted by a Mechanicum Protectiva do not stack with other Invulnerable Saves, but can benefit from rules (like Cyber-Familiar wargear) that specifically increase existing saves. If a model has another Invulnerable Save then the Controlling Player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever a model armed with Jokaero Armaments makes a Shooting Attack, the Controlling Player may choose a single weapon from the following list for the model to make their Shooting Attack with: Lascannon, Multi-Melta, Heavy Flamer, Volkite Culverin, Disintegrator</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Lascannon" hidden="false" id="f99c-a766-d7da-99fb" type="selectionEntry" targetId="b252-5a86-6e0f-218b" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47db-4756-bd40-8283"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1ac-ebfa-9b54-c362" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Multi-Melta" hidden="false" id="21e6-e393-14bc-f74a" type="selectionEntry" targetId="9332-3834-cf3a-56b4" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11d4-cbf9-b27f-a768"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b624-136-1c79-d870" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Disintegrator" hidden="false" id="709d-7cf1-5bdc-eccb" type="selectionEntry" targetId="a567-9434-36f3-5fd4" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="90bf-7d4-8e40-143b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba40-9b9d-50d5-a663" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Volkite Culverin" hidden="false" id="95d9-bcca-9a81-e74f" type="selectionEntry" targetId="170d-44e0-455c-8207" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e1c-47e5-5169-8111"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6529-8398-8b7b-8860" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Heavy Flamer" hidden="false" id="d5f2-6cdc-4c4-8d79" type="selectionEntry" targetId="5507-b432-3b4c-df12" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8cc0-d4bd-cdc9-64bb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c5c-d003-6494-1004" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Power Armour" type="upgrade" id="b82e-3b68-4d1f-a0cc">
       <profiles>

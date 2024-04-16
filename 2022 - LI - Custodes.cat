@@ -2048,32 +2048,6 @@
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry id="d0d7-a54c-fe1b-40b6" name="Kinetic Destoyer" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b3f-23ff-b4a3-4758" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6544-6ab9-8cee-c219" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="0689-8285-3e6d-456a" name="Kinetic Destoyer" publicationId="15a4-fc68-502d-48a9" page="140" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
-                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
-                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 3, Rending (6+)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="6dc4-5e25-fc36-6037" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Rending (6+)"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="e516-8b74-cea2-bae4" name="Tarsus Buckler" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d2-6e11-24ca-de30" type="min"/>
@@ -2102,6 +2076,9 @@
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
+              <entryLinks>
+                <entryLink import="true" name="Kinetic Destoyer" hidden="false" id="4cca-afcb-536c-b7c9" type="selectionEntry" targetId="d0d7-a54c-fe1b-40b6"/>
+              </entryLinks>
             </selectionEntry>
             <selectionEntry id="2b53-452a-435d-f29d" name="Venatari w/ Venatari Lance" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>

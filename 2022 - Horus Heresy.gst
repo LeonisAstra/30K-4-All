@@ -28,6 +28,9 @@
     <publication id="3fc0-bf46-1f1-eff9" name="Legacies of The Age of Darkness Solar Auxilia 1.1" shortName="Legacies Solar Aux"/>
     <publication id="2d3f-82d2-9db5-ca6d" name="Free Rules for the Solar Auxilia Aethon Heavy Sentinel" shortName="Aethon Heavy Sentinel Datasheet" publisher="Warhammer Community" publicationDate="February 27th 2024" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2024/02/ZwQB9kBXZA3CyHN4.pdf"/>
     <publication id="9fab-fea7-a93c-2074" name="Liber Panoptica V5.2" shortName="Panoptica" publisher="Liber Panoptica V5.2" publicationDate="January 2022" publisherUrl="https://hh-ageofdarkness.itch.io/liberpanoptica/devlog/662579/panoptica-v52-release"/>
+    <publication id="892-6266-f55f-1b9d" name="Liber Imperatus V1.2" shortName="Imperatus" publisher="Liber Imperatus V1.2" publicationDate="January 2024" publisherUrl="https://hh-ageofdarkness.itch.io/liberimperatus"/>
+    <publication id="f856-58d6-ef02-7d3e" name="Liber Ingenium V1.3" shortName="Ingenium" publisher="Liber Ingenium V1.3" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/liberingenium"/>
+    <publication id="3970-79bb-bdc6-9599" name="Liber Centura V1.6" shortName="Centura" publisher="Liber Centura V1.6" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/libercentura"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -1410,6 +1413,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </rule>
       </rules>
     </categoryEntry>
+    <categoryEntry name="Ageis Militant - Non-Compulsory Elites" hidden="false" id="6340-8b61-3c50-8b90"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="d926-652f-8436-30ce" name="1. Crusade Force Organisation Chart" hidden="false">
@@ -10860,6 +10864,16 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       </infoLinks>
       <costs>
         <cost name="Pts" hidden="false" id="8ca0-b749-8892-50d2" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b79a-2f31-20cf-cf89" name="Traders Militant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4860-8da1-9356-f46c" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ae3-4383-b402-24c" type="max"/>
+        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d878-3783-d640-4e78" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
