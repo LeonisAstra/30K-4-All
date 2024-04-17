@@ -181,9 +181,6 @@ Could not find wargear The Master-Crafted Special Rule
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="6467-e753-4190-810c" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="577a-2ded-4c5e-b2c9" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1709
 Could not find wargear Legion Indomitus Terminator Armour
 	 Checked under Legion Indomitus Terminator Armour
@@ -370,9 +367,6 @@ Power Weapon is in two option lists for Legion Indomitus Praetor, you will need 
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="f58b-ef8d-4b74-8337" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="f407-1a84-4aa3-9c45" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1709
 Could not find wargear Legion Indomitus Terminator Armour
 	 Checked under Legion Indomitus Terminator Armour</comment>
@@ -643,9 +637,6 @@ Power Weapon is in two option lists for Legion Indomitus Centurion, you will nee
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="5e8d-3aef-41ca-afcd" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="ac71-13c2-4c29-be5f" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Saturnine Terminator Armour
 	 Checked under Legion Saturnine Terminator Armour</comment>
@@ -1066,9 +1057,6 @@ Could not find wargear Legion Indomitus Terminator Armour
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b25b-fde1-4bf6-bcce" name="Infantry" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="10c1-0bc3-4334-baaf" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1709
 Could not find wargear Legion Indomitus Terminator Armour
 	 Checked under Legion Indomitus Terminator Armour</comment>
@@ -1288,9 +1276,6 @@ Could not find wargear In-built Meltagun
           <categoryLinks>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="746c-051b-4958-a974" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Gravis Power Fist with in-built Combi-Bolter
 	 Checked under Gravis Power Fist with in-built Combi-Bolter
@@ -1524,9 +1509,6 @@ Could not find wargear In-built Meltagun
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="bebc-4b44-4e44-af5f" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="ed2e-7841-4a90-86f5" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Gravis Power Fist with in-built Combi-Bolter
 	 Checked under Gravis Power Fist with in-built Combi-Bolter
@@ -1780,9 +1762,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="a653-c454-48c6-8271" name="Reinforced" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="59e8-806f-427e-a53e" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Aspectum-Pattern Occularis Array
 	 Checked under Aspectum-Pattern Occularis Array
@@ -1803,9 +1782,6 @@ Could not find rule: Master of the Legion^</comment>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="c1f8-95ce-4195-ae0e"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="ee1e-3be3-4686-83e9" name="HQ"/>
       </categoryLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-      </costs>
       <selectionEntries>
         <selectionEntry type="model" name="Legion Land Raider Tartaros" id="5fbb-9647-45ee-bb59" page="13" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -2025,9 +2001,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="4efd-653c-4f39-bce7" name="Transport" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="e27e-e92b-4ffa-a654" name="Reinforced" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Smoke Launchers *Upgrade Cost:
 	 Checked under Smoke Launchers *Upgrade Cost:
@@ -2483,9 +2456,6 @@ Could not find wargear Legion Saturnine Terminator Armour
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="0b4b-3526-492e-b884" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="f7ab-8100-4c5f-8adb" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Saturnine Terminator Armour
 	 Checked under Legion Saturnine Terminator Armour</comment>
@@ -3023,9 +2993,6 @@ Could not find wargear Melta Bombs
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8265-4ada-4a61-958a" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="cd32-048b-4b75-8a62" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Warhawk Jump Pack
 	 Checked under Legion Warhawk Jump Pack
@@ -3799,9 +3766,6 @@ Could not find wargear Legion Spatha Combat Bike
             <categoryLink targetId="59a4-7b61-600a-c457" id="485a-2a4d-4873-bf7a" name="Skirmish" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="2fee-4f20-486e-8637" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Spatha Combat Bike
 	 Checked under Legion Spatha Combat Bike
@@ -4220,9 +4184,6 @@ Bolt Pistol is in two option lists for Legion Hussar, you will need to combine t
             <categoryLink targetId="4303-1348-cce4-9501" id="1ebc-3b64-4f61-95d3" name="Antigrav" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="cefc-99bb-447b-bc49" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find type or subtype &apos;Cavalry&apos;</comment>
         </selectionEntry>
@@ -4315,9 +4276,6 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
         </selectionEntry>
         <selectionEntry type="model" name="Legion Assault Sergeant" id="31aa-43dd-47d1-b537" page="28" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -4337,9 +4295,6 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
@@ -4651,9 +4606,6 @@ Could not find wargear in For every ten models in the unit beyond its original s
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6df4-7ac2-4b66-b8d2" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="cc95-50f8-43c8-a15d" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4827,9 +4779,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
             <categoryLink targetId="e2b6-b770-784c-9e95" id="a433-c47a-4168-bda8" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="7273-c39e-43ca-8480" name="Transport" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in The Legion Rhino Advancer may take one of the following:</comment>
         </selectionEntry>
@@ -4965,9 +4914,6 @@ Could not find wargear Hunter Killer Missiles
             <categoryLink targetId="4303-1348-cce4-9501" id="996c-d157-446e-8029" name="Antigrav" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="8934-f1bc-417d-9658" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Searchlight
 	 Checked under Searchlight
@@ -5168,9 +5114,6 @@ Could not find wargear Four Hull (Front) Mounted Hunter-Killer Missiles
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="89dc-55e5-4250-a2b5" name="Hover" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="c2f2-ef14-4559-a613" name="Transport" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Four Hull (Front) Mounted Tempest Rockets
 	 Checked under Tempest Rockets
@@ -5669,9 +5612,6 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <categoryLink targetId="4e84-2d57-4986-2b23" id="5aad-438f-49cc-b889" name="Flyer" primary="false"/>
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="9724-fb4c-4c1e-9d1c" name="Hover" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Four Hull (Front) Mounted Tempest Rockets
 	 Checked under Tempest Rockets
@@ -5995,9 +5935,6 @@ Could not find wargear Cyber Familiar
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="1af0-b5bf-46f9-b08a" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="a13d-e726-4717-afd0" name="Heavy" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Servo Arm
 	 Checked under Servo Arm
@@ -6073,9 +6010,6 @@ Could not find rule: Volatile Ordnance (Legionary Weapons Team only)</comment>
               </constraints>
             </entryLink>
           </entryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Tartaros Terminator Armour
 	 Checked under Legion Tartaros Terminator Armour</comment>
@@ -6120,9 +6054,6 @@ Could not find wargear Legion Tartaros Terminator Armour
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ceba-43ac-43a6-bc97" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="0497-caf7-4f29-afb1" name="Character" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Tartaros Terminator Armour
 	 Checked under Legion Tartaros Terminator Armour</comment>
@@ -6182,9 +6113,6 @@ Could not find wargear Legion Tartaros Terminator Armour
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="314d-7418-4f58-8517"/>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d40e-8d33-47d6-82a3"/>
           </constraints>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
         </selectionEntry>
         <selectionEntry type="model" name="Legion Cataphractiii Ruin Master" id="8b2a-bfdf-43f6-8c65" page="48" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -6204,9 +6132,6 @@ Could not find wargear Legion Tartaros Terminator Armour
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
@@ -6387,9 +6312,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3181-58a4-45b3-b27e" name="Vehicle" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in A Legion Banesword may take up to two pairs of side sponsons, with each sponson armed with:
 Could not find wargear in A Legion Banesword may take up to two pairs of side sponsons, with each sponson armed with:
@@ -6577,9 +6499,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
             <categoryLink targetId="e2b6-b770-784c-9e95" id="226b-0932-4b6b-ae51" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="a0f7-aad9-4d11-9550" name="Transport" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in A Legion Doomhammer may take up to two pairs of side sponsons, with each sponson armed with:
 Could not find wargear in A Legion Doomhammer may take up to two pairs of side sponsons, with each sponson armed with:
