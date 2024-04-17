@@ -3491,7 +3491,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                 </entryLink>
                 <entryLink import="true" name="Power Weapon" hidden="false" id="6aeb-f949-5b08-d461" type="selectionEntry" targetId="36a7-1c39-670c-5fec" sortIndex="3">
                   <modifiers>
-                    <modifier type="prepend" value="Master-Crafted" field="name"/>
+                    <modifier type="set" value="Master-Crafted Power Weapon" field="name"/>
                   </modifiers>
                   <infoLinks>
                     <infoLink name="Master-crafted" hidden="false" id="8f7c-a891-4cc8-6f5d" type="rule" targetId="6de0-55b0-bf21-48b9"/>
