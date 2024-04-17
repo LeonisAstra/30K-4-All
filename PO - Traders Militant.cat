@@ -3527,8 +3527,6 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="703d-abfd-4a3d-b1f7" name="Infantry" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="a90a-8c40-445d-8c70" name="Skirmish" primary="false"/>
           </categoryLinks>
-          <comment>
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5164,8 +5162,6 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bd6-9893-4063-b13c"/>
               </constraints>
-              <comment>
-</comment>
               <entryLinks>
                 <entryLink import="true" name="Boarding Shield" hidden="false" id="4545-9883-e02b-adc6" type="selectionEntry" targetId="0c0f-f751-cc4e-4951">
                   <costs>
@@ -6313,8 +6309,6 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
-          <comment>
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6668,7 +6662,4 @@ All enemy models gain Hatred (Traders Militant) when fighting against an army th
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Guardian Retainers" hidden="false" id="3fb1-b164-1e93-b567" import="true"/>
   </sharedSelectionEntryGroups>
-  <entryLinks>
-    <entryLink import="true" name="Rogue Trader Militant" hidden="false" id="1f2d-5740-daf8-1e29" type="selectionEntry" targetId="6fcb-0846-49d7-9b10"/>
-  </entryLinks>
 </catalogue>

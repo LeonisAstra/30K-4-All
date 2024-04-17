@@ -7901,6 +7901,5 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
     <catalogueLink id="e048-9e5e-507c-5baa" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="68d6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="[Imperatus] Silent Sisterhood" id="92f6-53f5-d9f0-a657" targetId="c5ec-40b8-bc48-80f2" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
