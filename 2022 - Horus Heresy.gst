@@ -31,6 +31,7 @@
     <publication id="892-6266-f55f-1b9d" name="Liber Imperatus V1.2" shortName="Imperatus" publisher="Liber Imperatus V1.2" publicationDate="January 2024" publisherUrl="https://hh-ageofdarkness.itch.io/liberimperatus"/>
     <publication id="f856-58d6-ef02-7d3e" name="Liber Ingenium V1.3" shortName="Ingenium" publisher="Liber Ingenium V1.3" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/liberingenium"/>
     <publication id="3970-79bb-bdc6-9599" name="Liber Centura V1.6" shortName="Centura" publisher="Liber Centura V1.6" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/libercentura"/>
+    <publication name="Liber Antiquia V1.6" hidden="false" id="a368-64f0-10c7-c49d" publisher="Liber Antiquia V1.6" shortName="Antiquia" publisherUrl="https://hh-ageofdarkness.itch.io/liberantiquia" publicationDate="January 2024"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -10876,12 +10877,12 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Master-crafted Melee Weapon" hidden="false" id="6b65-60e5-5164-5cd9" page="">
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Melee Weapon" hidden="false" id="6b65-60e5-5164-5cd9">
       <infoLinks>
         <infoLink name="Master-crafted" hidden="false" id="29e1-7889-cb30-1ea6" type="rule" targetId="6de0-55b0-bf21-48b9"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Master-crafted Ranged Weapon" hidden="false" id="b38b-fa57-c084-fb5b" page="">
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Ranged Weapon" hidden="false" id="b38b-fa57-c084-fb5b">
       <infoLinks>
         <infoLink name="Master-crafted" hidden="false" id="ac58-a859-1711-d8c7" type="rule" targetId="6de0-55b0-bf21-48b9"/>
       </infoLinks>

@@ -9,6 +9,10 @@
 !*.cat
 !*.gst
 
+# Don't ignore wip
+!/wip/*.cat
+!/wip/*.gst
+
 # Don't ignore docs
 !*.md
 

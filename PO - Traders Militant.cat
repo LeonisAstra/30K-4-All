@@ -637,12 +637,12 @@
       </entryLinks>
       <comment>ToDo: Armour Changes</comment>
     </selectionEntry>
-    <selectionEntry name="Retainers Militant" type="unit" id="b37c-4601-4e55-bddd" page="16" publicationId="f505-5fc8-ee53-1cec" import="false" defaultAmount="0">
+    <selectionEntry name="Retainers Militant" type="unit" id="b37c-4601-4e55-bddd" page="16" publicationId="892-6266-f55f-1b9d" import="false" defaultAmount="0">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Militant Bodyguard" id="c717-e9a8-4ede-aeec" page="16" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Militant Bodyguard" id="c717-e9a8-4ede-aeec" page="16" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="3421-371f-458a-bdad" name="Militant Bodyguard" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -886,7 +886,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" name="Trader-Militant Standard Bearer" id="a51e-055d-415d-a6de" page="16" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Trader-Militant Standard Bearer" id="a51e-055d-415d-a6de" page="16" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="9218-f39e-42f8-a96b" name="Trader-Militant Standard Bearer" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -1149,7 +1149,7 @@
       </infoLinks>
       <comment>ToDo: Armour Changes &amp; Transport</comment>
     </selectionEntry>
-    <selectionEntry name="Adjuevant Medicae" type="unit" id="e378-3c01-4031-a3c4" page="18" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Adjuevant Medicae" type="unit" id="e378-3c01-4031-a3c4" page="18" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="be8a-4055-47ec-90ba"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="d41c-2564-4884-8223" name="HQ"/>
@@ -1158,7 +1158,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Adjuevant Medicae" id="9d38-06f6-4474-84c8" page="18" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Adjuevant Medicae" id="9d38-06f6-4474-84c8" page="18" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="42b4-51d3-48a4-bd1d" name="Adjuevant Medicae" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -1367,7 +1367,7 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Jokaero Courtier" type="unit" id="dc1e-70df-4446-92f4" page="19" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Jokaero Courtier" type="unit" id="dc1e-70df-4446-92f4" page="19" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="e0f0-78b0-4727-8bc9"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="e5fc-a49f-4101-93d3" name="HQ"/>
@@ -1376,7 +1376,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Jokaero Courtier" id="1f3f-a498-4f3b-99f6" page="19" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Jokaero Courtier" id="1f3f-a498-4f3b-99f6" page="19" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="b829-2a84-4b8c-9043" name="Jokaero Courtier" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -1439,7 +1439,7 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry name="Navigator Nobilis" type="unit" id="2966-4fcb-4daf-88bc" page="20" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Navigator Nobilis" type="unit" id="2966-4fcb-4daf-88bc" page="20" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="a480-93eb-4202-9dbd"/>
       </categoryLinks>
@@ -1447,7 +1447,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Navigator Nobilis" id="d67c-a471-45a8-b376" page="20" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Navigator Nobilis" id="d67c-a471-45a8-b376" page="20" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="131a-7448-490c-bb20" name="Navigator Nobilis" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -1630,7 +1630,7 @@
       </infoLinks>
       <comment>ToDo: Armour Changes</comment>
     </selectionEntry>
-    <selectionEntry name="Templax Challenger" type="unit" id="b496-a85e-40df-aa52" page="21" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Templax Challenger" type="unit" id="b496-a85e-40df-aa52" page="21" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="181b-6afd-42c7-a98c"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="c8a8-40a4-440b-b712" name="HQ"/>
@@ -1639,7 +1639,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Templax Challenger" id="749e-6638-40d7-8e73" page="21" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Templax Challenger" id="749e-6638-40d7-8e73" page="21" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="1767-cbf7-45fa-b77c" name="Templax Challenger" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -1846,7 +1846,7 @@
         <infoLink name="Chosen Warriors" hidden="false" id="1077-7997-82e0-7fd9" type="rule" targetId="13d1-9270-6539-08ed"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Astropathica Primus" type="unit" id="7715-1747-4ea9-914b" page="22" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Astropathica Primus" type="unit" id="7715-1747-4ea9-914b" page="22" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="6c70-789a-4b93-9f58"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="d3aa-5eed-487b-89cd" name="HQ"/>
@@ -1855,7 +1855,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Astropathica Primus" id="4e81-06dd-46c3-afa6" page="22" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Astropathica Primus" id="4e81-06dd-46c3-afa6" page="22" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="1f56-da00-4d48-8b37" name="Astropathica Primus" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -2037,7 +2037,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Primus Psykana" id="69a5-6a70-4ecc-a4a4" page="23" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Primus Psykana" id="69a5-6a70-4ecc-a4a4" page="23" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="4ab4-e887-4a45-946e" name="Primus Psykana" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -2216,7 +2216,7 @@
       </infoLinks>
       <comment>ToDo: Armour Changes</comment>
     </selectionEntry>
-    <selectionEntry name="Defensor-Automata Retinue" type="unit" id="c0e5-e86f-413d-a890" page="24" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Defensor-Automata Retinue" type="unit" id="c0e5-e86f-413d-a890" page="24" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="c53d-201f-4d2d-8701"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="bb5b-e105-4fc5-9406" name="HQ"/>
@@ -2225,7 +2225,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Defensor-Automata" id="7b8c-7844-45ed-8c88" page="24" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Defensor-Automata" id="7b8c-7844-45ed-8c88" page="24" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="18f0-5b81-4ae7-a50c" name="Defensor-Automata" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -2364,7 +2364,7 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak Missiles)
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Presage Of The Legion" type="unit" id="3ae1-22ab-45ec-916d" page="25" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Presage Of The Legion" type="unit" id="3ae1-22ab-45ec-916d" page="25" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="881e-460e-431b-8896"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="9ece-ce7d-4881-af77" name="HQ"/>
@@ -2373,7 +2373,7 @@ Could not find wargear Missile Launcher (with Frag, Krak, and Flak Missiles)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Legion Presage" id="9d3d-17db-47df-b414" page="25" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Legion Presage" id="9d3d-17db-47df-b414" page="25" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="96aa-8efc-43e3-8128" name="Legion Presage" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -3057,7 +3057,7 @@ Name ends in a star, check the rules for special handling</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Militaris Adjutant" type="unit" id="28f7-abe7-45f5-9cb3" page="27" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Militaris Adjutant" type="unit" id="28f7-abe7-45f5-9cb3" page="27" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="5d0c-2639-48a7-8026"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="f646-1118-4ffe-bce0" name="HQ"/>
@@ -3066,7 +3066,7 @@ Name ends in a star, check the rules for special handling</comment>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Militaris Adjutant" id="8c08-3445-4289-be1a" page="27" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Militaris Adjutant" id="8c08-3445-4289-be1a" page="27" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="575d-3f8e-4ebb-a7ee" name="Militaris Adjutant" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -3356,7 +3356,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
       </infoLinks>
       <comment>ToDo: Armour Changes</comment>
     </selectionEntry>
-    <selectionEntry name="Custodian Observer" type="unit" id="c595-f4a1-4580-9fba" page="28" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Custodian Observer" type="unit" id="c595-f4a1-4580-9fba" page="28" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="99c9-9eea-4a2d-9a7f"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="d443-0aa2-413c-a1b7" name="HQ"/>
@@ -3365,7 +3365,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Custodian Observer" id="364d-1f25-4397-aac6" page="28" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Custodian Observer" id="364d-1f25-4397-aac6" page="28" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="1b38-c755-4fb3-8eb5" name="Custodian Observer" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -3544,7 +3544,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="c4f9-ec80-4ea8-8e64"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Executor Of The Black Fleet" type="unit" id="129d-2caf-43a3-a06f" page="29" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Executor Of The Black Fleet" type="unit" id="129d-2caf-43a3-a06f" page="29" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="bbed-a7b0-40cf-96da"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="6c1d-087f-48a2-96b9" name="HQ"/>
@@ -3553,7 +3553,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Executor of the Black Fleet" id="4ffb-aa79-46d0-b57f" page="29" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Executor of the Black Fleet" id="4ffb-aa79-46d0-b57f" page="29" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="4f32-9fb1-4fa8-b991" name="Executor of the Black Fleet" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -3747,7 +3747,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <infoLink name="Ex-Oblivio" hidden="false" id="442b-a16a-11a0-5197" type="rule" targetId="7982-9292-ef54-8e84"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Envoy Of The Asur" type="unit" id="df9f-f0e8-4ba5-a806" page="30" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Envoy Of The Asur" type="unit" id="df9f-f0e8-4ba5-a806" page="30" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="47b3-f2f9-4d0b-91d3"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="1ac6-f876-4c2c-9cbf" name="HQ"/>
@@ -3756,7 +3756,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Envoy of the Asur" id="3087-c66f-466a-b038" page="30" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Envoy of the Asur" id="3087-c66f-466a-b038" page="30" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="99c0-3745-4f4f-8cfa" name="Envoy of the Asur" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -3917,7 +3917,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Faceless Delegate" type="unit" id="83c8-7ec1-416a-abf2" page="31" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Faceless Delegate" type="unit" id="83c8-7ec1-416a-abf2" page="31" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="56ff-15f0-4162-a95a"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="4602-575b-43bf-98f4" name="HQ"/>
@@ -3926,7 +3926,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Faceless Delegate" id="95fa-a942-4602-acd4" page="31" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Faceless Delegate" id="95fa-a942-4602-acd4" page="31" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="166e-3041-45fe-aaa6" name="Faceless Delegate" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -4074,7 +4074,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <infoLink name="Faceless Mask" hidden="false" type="rule" targetId="ebc6-7e0e-4600-a042" id="0f02-254c-463b-82d5"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Voidsmen Cadre" type="unit" id="0e0e-4311-4191-8b16" page="34" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Voidsmen Cadre" type="unit" id="0e0e-4311-4191-8b16" page="34" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="83d3-36a6-4e1c-98e6"/>
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="97b8-c013-4ef4-b1d2" name="Elites"/>
@@ -4083,7 +4083,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="13"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Voidsman (Heavy)" id="cba2-5db1-41f5-8342" page="34" publicationId="f505-5fc8-ee53-1cec" hidden="true" sortIndex="7">
+        <selectionEntry type="model" name="Voidsman (Heavy)" id="cba2-5db1-41f5-8342" page="34" publicationId="892-6266-f55f-1b9d" hidden="true" sortIndex="7">
           <profiles>
             <profile id="21d0-0204-4789-a065" name="Voidsman (Heavy)" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -4187,7 +4187,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" name="Voidmaster" id="b597-fb23-4056-889d" page="34" publicationId="f505-5fc8-ee53-1cec" sortIndex="4">
+        <selectionEntry type="model" name="Voidmaster" id="b597-fb23-4056-889d" page="34" publicationId="892-6266-f55f-1b9d" sortIndex="4">
           <profiles>
             <profile id="94c7-6919-4a75-aa9b" name="Voidmaster" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -4329,7 +4329,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" name="Voidmaster (Heavy)" id="2309-29db-d158-aa25" page="34" publicationId="f505-5fc8-ee53-1cec" hidden="true" sortIndex="6">
+        <selectionEntry type="model" name="Voidmaster (Heavy)" id="2309-29db-d158-aa25" page="34" publicationId="892-6266-f55f-1b9d" hidden="true" sortIndex="6">
           <profiles>
             <profile id="236f-ade0-9a5-a380" name="Voidmaster" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -4378,7 +4378,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             <entryLink import="true" name="May replace their Lasgun with one of the following:" hidden="false" id="f3c6-8f4a-2367-271f" type="selectionEntryGroup" targetId="343a-28eb-2623-d913"/>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="model" name="Voidsman" id="164c-7405-5c11-7d9c" page="34" publicationId="f505-5fc8-ee53-1cec" sortIndex="5">
+        <selectionEntry type="model" name="Voidsman" id="164c-7405-5c11-7d9c" page="34" publicationId="892-6266-f55f-1b9d" sortIndex="5">
           <profiles>
             <profile id="f921-e26f-e3c8-546f" name="Voidsman" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -4512,7 +4512,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Imperatris" id="45f6-2918-4751-99e5" page="35" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Imperatris" id="45f6-2918-4751-99e5" page="35" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="0701-4252-4bbc-88d9" name="Imperatris" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -4663,7 +4663,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="model" name="Imperatris Bondmaster" id="1066-d9e1-4178-8f8e" page="35" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Imperatris Bondmaster" id="1066-d9e1-4178-8f8e" page="35" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="a9eb-724a-47f0-a086" name="Imperatris Bondmaster" typeId="4bb2-cb95-e6c8-5a21">
               <characteristics>
@@ -4952,7 +4952,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
       </infoLinks>
       <comment>ToDo: Add Transports</comment>
     </selectionEntry>
-    <selectionEntry name="Savaris Bondsmen Cadre" type="unit" id="d9ee-677c-4a7b-a579" page="36" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Savaris Bondsmen Cadre" type="unit" id="d9ee-677c-4a7b-a579" page="36" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="09d4-8e00-45f1-8a13"/>
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="b798-eb91-470a-8a34" name="Elites"/>
@@ -4961,7 +4961,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Savarite" id="2761-aec2-46ea-a1a0" page="36" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Savarite" id="2761-aec2-46ea-a1a0" page="36" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="08f0-f693-4b5f-bd46" name="Savarite" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -5299,7 +5299,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="model" name="Savaris Bondmaster" id="5189-f906-43fe-8b25" page="36" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Savaris Bondmaster" id="5189-f906-43fe-8b25" page="36" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="48e8-7ec3-4cf2-b3e6" name="Savaris Bondmaster" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -5686,7 +5686,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry name="Arvus Transport" type="unit" id="ed64-9cb3-4781-bfbf" page="40" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Arvus Transport" type="unit" id="ed64-9cb3-4781-bfbf" page="40" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="3716-3d0a-4779-8256"/>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="8135-8db5-cdc5-b783" primary="false" name="Troops:"/>
@@ -5696,7 +5696,7 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Arvus Transport" id="8991-7751-4aed-9a12" page="40" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Arvus Transport" id="8991-7751-4aed-9a12" page="40" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="5a85-737f-4beb-ba27" name="Arvus Transport" typeId="2fae-b053-3f78-e7b2">
               <characteristics>
@@ -5833,7 +5833,7 @@ Could not find wargear in An Arvus Transport may choose to give a single Ranged 
         <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="5e92-9f81-486d-9537"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Aurox Transport" type="unit" id="a5f4-20d6-4f61-9442" page="41" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Aurox Transport" type="unit" id="a5f4-20d6-4f61-9442" page="41" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="e45b-0cff-460f-ab59"/>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="651e-1a9b-9477-52e0" primary="false" name="Troops:"/>
@@ -5843,7 +5843,7 @@ Could not find wargear in An Arvus Transport may choose to give a single Ranged 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Aurox Transport" id="c1bc-cf7c-4714-8b95" page="41" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Aurox Transport" id="c1bc-cf7c-4714-8b95" page="41" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="0649-f8db-46bc-b307" name="Aurox Transport" typeId="2fae-b053-3f78-e7b2">
               <characteristics>
@@ -5945,7 +5945,7 @@ Could not find wargear in An Arvus Transport may choose to give a single Ranged 
         <infoLink name="Infantry Transport" hidden="false" type="rule" targetId="0c6b-9cc1-5801-3e83" id="4216-e2d3-489b-9789"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Land Raider Armoured Carrier" type="unit" id="fb05-81ae-44f7-94d1" page="42" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Land Raider Armoured Carrier" type="unit" id="fb05-81ae-44f7-94d1" page="42" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="57c7-0696-4810-ba5f"/>
       </categoryLinks>
@@ -5953,7 +5953,7 @@ Could not find wargear in An Arvus Transport may choose to give a single Ranged 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="200"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Land Raider Armoured Carrier" id="ad86-0eb4-4829-83e9" page="42" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Land Raider Armoured Carrier" id="ad86-0eb4-4829-83e9" page="42" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="21f8-47b2-4692-aac1" name="Land Raider Armoured Carrier" typeId="2fae-b053-3f78-e7b2">
               <characteristics>
@@ -6155,7 +6155,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
         <infoLink name="Assault Vehicle" hidden="false" type="rule" targetId="aa61-11f6-2bb5-7c0e" id="5b38-4241-44e6-a00c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Grav-Speeder Squadron" type="unit" id="8536-738f-4e2d-80bd" page="46" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Grav-Speeder Squadron" type="unit" id="8536-738f-4e2d-80bd" page="46" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="8ec4-fa1f-4911-b1ec"/>
         <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="b71c-10dd-447f-a368" name="Fast Attack"/>
@@ -6164,7 +6164,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Grav-Speeder" id="f3e5-c35a-477f-80a0" page="46" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Grav-Speeder" id="f3e5-c35a-477f-80a0" page="46" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="c9d9-7fef-4557-a56c" name="Grav-Speeder" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
@@ -6319,7 +6319,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
         <infoLink name="Skilled Rider" hidden="false" type="rule" targetId="89cc-21e0-bee2-6a89" id="460f-a7b1-42f2-8058"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Carnodon Severax Squadron" type="unit" id="e4b7-ffcd-4d8e-9ffc" page="50" publicationId="f505-5fc8-ee53-1cec">
+    <selectionEntry name="Carnodon Severax Squadron" type="unit" id="e4b7-ffcd-4d8e-9ffc" page="50" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="b340-99f8-4055-924a"/>
         <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="feea-a74e-4154-8930" name="Heavy Support"/>
@@ -6328,7 +6328,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Carnodon-Severax" id="03c4-707c-4985-80d8" page="50" publicationId="f505-5fc8-ee53-1cec">
+        <selectionEntry type="model" name="Carnodon-Severax" id="03c4-707c-4985-80d8" page="50" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="d626-467b-40f1-b254" name="Carnodon-Severax" typeId="2fae-b053-3f78-e7b2">
               <characteristics>
