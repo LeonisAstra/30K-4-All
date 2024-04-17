@@ -6991,10 +6991,10 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
       <profiles>
         <profile name="Hot-Shot Volley Gun" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="7eac-5b5a-480a-9008" page="297" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
-            <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
-            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
-            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 3</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8719,7 +8719,7 @@ A model equipped with an Alkonost Combat Bike also gains the Firing Protocols (2
       <profiles>
         <profile name="Arkadia Pattern Grav-Attack" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="46de-2976-4d86-95b3" page="306" publicationId="f505-5fc8-ee53-1cec">
           <characteristics>
-            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">An Arkadia Pattern Grav-Attack has two Heavy Bolters.
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Arkadia Pattern Grav-Attack has two Heavy Bolters.
 In addition, a model equipped with an Arkadia Pattern Grav-Attack that chooses to Run gains the Shrouded (5+) Special Rule until the start of the Controlling Player’s next turn.</characteristic>
           </characteristics>
         </profile>

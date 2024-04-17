@@ -10876,6 +10876,16 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Melee Weapon" hidden="false" id="6b65-60e5-5164-5cd9" page="">
+      <infoLinks>
+        <infoLink name="Master-crafted" hidden="false" id="29e1-7889-cb30-1ea6" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Ranged Weapon" hidden="false" id="b38b-fa57-c084-fb5b" page="">
+      <infoLinks>
+        <infoLink name="Master-crafted" hidden="false" id="ac58-a859-1711-d8c7" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -15318,6 +15328,12 @@ This Provenance cannot be taken in conjunction with the Survivors of the Dark Ag
         <entryLink import="true" name="Force Maul" hidden="false" id="45e6-9ab0-4918-dc6c" collective="false" targetId="da60-5978-bdd7-9c95" type="selectionEntry"/>
         <entryLink import="true" name="Force Sword" hidden="false" id="188d-69d5-9640-5f7d" collective="false" targetId="6164-c01a-a879-37d7" type="selectionEntry"/>
         <entryLink import="true" name="Force Staff" hidden="false" id="2d2b-3092-fd34-60e5" collective="false" targetId="5132-9034-5e79-13c8" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Master-Craft a Single Weapon?" hidden="false" id="7161-5a06-9e6d-2884">
+      <entryLinks>
+        <entryLink import="true" name="Mastercraft a Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
+        <entryLink import="true" name="Mastercraft a Range Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
