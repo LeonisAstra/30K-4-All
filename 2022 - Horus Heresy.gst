@@ -10887,6 +10887,28 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <infoLink name="Master-crafted" hidden="false" id="ac58-a859-1711-d8c7" type="rule" targetId="6de0-55b0-bf21-48b9"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="b3c-b7a3-8cee-e47e" name="Trader&apos;s Militant" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="5b7b-4505-3dbf-133c" value="0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2573-bb4c-e468-dd81" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea2-2c2e-41-2f3a" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a015-e8e1-ad30-fbef" type="max"/>
+        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b7b-4505-3dbf-133c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <rules>
+        <rule name="Rogue Trader Allegiances" hidden="false" id="9d65-85c5-29f1-d2eb" page="8" publicationId="892-6266-f55f-1b9d">
+          <description>Allied Detachments can be of any Faction or Sub-faction, as long as their Allegiance matches – though this can be modified by the Warrants of Trade Special Rule. The Levels of Alliance between such Detachments is modified by the Fragile Alliance Special Rule, found on the Rogue Trader Militant. If the Rogue Trader Militant is slain, or otherwise removed from play for any reason, then in the case of Factions or Sub-factions with varying Levels of Alliance depending on who is ordinarily the Primary or Optional Detachment, the lowest Level of Alliance between the two Factions or Sub-factions should be used. In addition, no Optional Detachments outside of a single Lord of War Detachment may be selected if a Aegis Militant Detachment is selected. Any unit selected as part of a Lord of War Detachment must have the same Faction or Sub-Faction as one of the other Primary or Allied Detachments selected as part of the same Army.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">

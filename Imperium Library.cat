@@ -1243,28 +1243,41 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kinetic Destoyer" hidden="false" id="d0d7-a54c-fe1b-40b6" collective="true">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b3f-23ff-b4a3-4758" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6544-6ab9-8cee-c219" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6304-f44d-59d-f994" includeChildSelections="false"/>
       </constraints>
-      <profiles>
-        <profile name="Kinetic Destoyer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0689-8285-3e6d-456a" publicationId="15a4-fc68-502d-48a9" page="140">
-          <characteristics>
-            <characteristic name="Range" hidden="false" id="7fa6-1b3-f87e-b2cc" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
-            <characteristic name="Strength" hidden="false" id="72a6-6762-493e-2f23" typeId="24d9-b8e1-a355-2458">7</characteristic>
-            <characteristic name="AP" hidden="false" id="abe2-8b61-3ecb-1997" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" hidden="false" id="bbfc-5d7a-155f-e65d" typeId="2f86-c8b4-b3b4-3ff9">Pistol 3, Rending (6+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink name="Rending (X)" hidden="false" id="6dc4-5e25-fc36-6037" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" value="Rending (6+)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Kinetic Destoyer" hidden="false" id="37c6-9eaf-4ddd-223e" type="profile" targetId="1c34-70ee-1136-b7a"/>
       </infoLinks>
       <costs>
         <cost name="Pts" hidden="false" id="4436-d504-75dc-c498" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kinetic Destoyer" hidden="false" id="e525-c925-da58-c511" collective="false">
+      <profiles>
+        <profile name="Kinetic Destoyer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="1c34-70ee-1136-b7a" publicationId="15a4-fc68-502d-48a9" page="140">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 3, Rending (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" hidden="false" id="4da9-5204-3c05-20de" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="b1bb-3b55-a451-1f21" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
