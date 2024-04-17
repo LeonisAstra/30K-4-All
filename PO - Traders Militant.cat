@@ -5822,7 +5822,7 @@ Could not find wargear Twin-Linked
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="d53f-8d08-455f-9c57" name="Transport" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in An Arvus Transport may choose to give a single Ranged Weapon it is equipped with the following Special Rule:</comment>
@@ -5939,9 +5939,6 @@ Could not find wargear in An Arvus Transport may choose to give a single Ranged 
             <categoryLink targetId="e2b6-b770-784c-9e95" id="54f7-c2de-4313-b928" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="689c-f5df-464c-984e" name="Transport" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6149,9 +6146,6 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="b343-a455-4368-befb" name="Transport" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="29cc-bf34-441a-b34d" name="Reinforced" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="None"/>
-          </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in The Land Raider Armoured Carrier may exchange its Two Sponson Mounted Gravis Heavy Bolter Batteries for one of the following options:</comment>
         </selectionEntry>
