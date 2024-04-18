@@ -32,6 +32,7 @@
     <publication id="f856-58d6-ef02-7d3e" name="Liber Ingenium V1.3" shortName="Ingenium" publisher="Liber Ingenium V1.3" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/liberingenium"/>
     <publication id="3970-79bb-bdc6-9599" name="Liber Centura V1.6" shortName="Centura" publisher="Liber Centura V1.6" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/libercentura"/>
     <publication name="Liber Antiquia V1.6" hidden="false" id="a368-64f0-10c7-c49d" publisher="Liber Antiquia V1.6" shortName="Antiquia" publisherUrl="https://hh-ageofdarkness.itch.io/liberantiquia" publicationDate="January 2024"/>
+    <publication name="Black Book 6 - Retribution" hidden="false" id="4758-b029-4d1c-6d37" publisher="Black Book 6 - Retribution" shortName="BB6" publisherUrl="http://anyflip.com/rfyxl/dahr"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -1986,6 +1987,16 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
           </constraints>
         </categoryLink>
       </categoryLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="a036-22f7-6cbf-6ebd">
+          <repeats>
+            <repeat value="1000" repeats="1" field="d2ee-04cb-5f8a-2642" scope="roster" childId="any" shared="true" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c9c3-1152-3913-fa6a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </forceEntry>
     <forceEntry id="5430-5be1-1613-be44" name="ZM 1. Mortalis Assault Force Organisation Chart" hidden="false">
       <constraints>
@@ -11004,6 +11015,50 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="e55d-d31b-46a9-aeb6">
+      <infoLinks>
+        <infoLink name="Detonation" hidden="false" id="a4db-4b35-4f86-886c" type="rule" targetId="8a47-9fc5-16fb-b46e"/>
+        <infoLink name="Unwieldy" hidden="false" id="f601-5eca-460d-ba24" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Armourbane (X)" hidden="false" id="b099-a781-4dc8-8e88" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Instant Death" hidden="false" id="6eb7-d646-430d-85c9" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Melta Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d683-11bd-403d-8553" page="156" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="61fa-b2f5-cdf8-c782" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" hidden="false" id="7bd1-73b8-ed64-b715" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" hidden="false" id="cdc4-a3f3-b19f-72e8" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" hidden="false" id="55b0-77b4-c945-df9" typeId="2f86-c8b4-b3b4-3ff9">Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="a543-9d13-6839-985" collective="true">
+      <infoLinks>
+        <infoLink name="Detonation" hidden="false" id="be21-12ab-29f4-f5c4" type="rule" targetId="8a47-9fc5-16fb-b46e"/>
+        <infoLink name="Unwieldy" hidden="false" id="64e5-5989-ba35-6c09" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Armourbane (X)" hidden="false" id="31a9-f523-4d94-1bb3" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Instant Death" hidden="false" id="3ece-9a95-d947-8a5a" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Melta Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3a77-7e4d-22a2-27aa" page="156" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="ed63-231a-5b1f-4a69" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" hidden="false" id="578c-9f77-6e19-8ce4" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" hidden="false" id="75fa-8b6f-46e4-89aa" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" hidden="false" id="f368-fac-9823-2b4b" typeId="2f86-c8b4-b3b4-3ff9">Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -15453,6 +15508,57 @@ This Provenance cannot be taken in conjunction with the Survivors of the Dark Ag
         <entryLink import="true" name="Mastercraft a Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
         <entryLink import="true" name="Mastercraft a Range Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Warrants of Trade" hidden="false" id="c9c3-1152-3913-fa6a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warrant of Compliance" hidden="false" id="b1d-38b5-d5ce-872c">
+          <rules>
+            <rule name="Warrant of Compliance" hidden="false" id="7573-9a16-d124-62bf" publicationId="892-6266-f55f-1b9d" page="10">
+              <description>An army containing a model with this Warrant of Trade may not include any Detachments from any Faction which may select the Xenos Allegiance.
+If the army containing a model with this Warrant of Trade has the Loyalist Allegiance, it may include a single Allied Detachment with the Agents of the Emperor Faction, but may not include more than one such selection.
+If the army containing a model with this Warrant of Trade has the Traitor Allegiance, it may include a single Allied Detachment with the Agents of the Warmaster Faction, but may not include more than one such selection.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72dd-7c07-d1ef-4af"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warrant of Conquest" hidden="false" id="cedb-7313-69fe-914">
+          <rules>
+            <rule name="Warrant of Conquest" hidden="false" id="6037-35bc-3a49-e522" publicationId="892-6266-f55f-1b9d" page="10">
+              <description>An army containing a model with this Warrant of Trade may include a single Detachment from any Faction which may select the Xenos Allegiance, but may not include more than one such selection.
+An army containing a model with this Warrant of Trade may not include any Allied or Optional Detachments from the Agents of the Emperor or Agents of the Warmaster Factions.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b13d-7e5e-6ce3-61aa"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warrant of Exploration" hidden="false" id="44b9-a100-78c7-5d0c">
+          <rules>
+            <rule name="Warrant of Exploration" hidden="false" id="1763-f49f-92a0-8ffa" publicationId="892-6266-f55f-1b9d" page="10">
+              <description>An army containing a model with this Warrant of Trade may only include a single Detachment from any Faction which contains models with the Legiones Astartes (X) Special Rule.
+An army containing a model with this Warrant of Trade may include up to two Detachments from the Mechanicum Faction, but may not include more than two of such selections.
+An army containing a model with this Warrant of Trade must include a Detachment from any Faction which may select the Xenos Allegiance, but may not include more than one such selection.
+A Detachment containing a model with this Warrant of Trade may not include any Allied or Optional Detachments from the Agents of the Emperor or Agents of the Warmaster Factions.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2146-a070-e483-d07"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warrant-Breaker" hidden="false" id="243d-2df3-fee-c865">
+          <rules>
+            <rule name="Warrent-Breaker" hidden="false" id="995f-c9a1-a0ad-a474" publicationId="892-6266-f55f-1b9d" page="10">
+              <description>An army containing a model with this Warrant of Trade may only include Allied or Optional Detachments from any Faction which may select the Xenos Allegiance, or with the Imperial Army Faction. The same Factions or Sub-factions may be selected in these Detachments, but no Faction or Sub-faction may be selected more than twice. It should be noted that this overrides any restrictions applied to selecting more than one Faction or Sub-faction which may select the Xenos Allegiance.
+All enemy models gain Hatred (Traders Militant) when fighting against an army that includes a model with this Warrant of Trade.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce52-a77c-176b-d7cd"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

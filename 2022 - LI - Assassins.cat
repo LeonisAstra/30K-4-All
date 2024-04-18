@@ -1672,17 +1672,17 @@ Note that weapons selected to fire in this manner must still follow the rules a
           <profiles>
             <profile name="Garviel Loken" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="3f94-2165-5f76-e047">
               <characteristics>
-                <characteristic name="Unit Type" id="7460-13ce-31f1-1554" hidden="false" typeId="ddd7-6f5c-a939-b69e">(Character, Unique)</characteristic>
-                <characteristic name="Move" id="ee83-b8ea-5465-c71c" hidden="false" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
-                <characteristic name="WS" id="d513-5dd-c174-b75e" hidden="false" typeId="cc42-7ed5-7092-5c84">6</characteristic>
-                <characteristic name="BS" id="3b73-efbe-c28a-890e" hidden="false" typeId="74ae-c840-0036-d244">6</characteristic>
-                <characteristic name="S" id="276c-d851-aa44-6c4f" hidden="false" typeId="e478-41d4-a092-48a8">4</characteristic>
-                <characteristic name="T" id="3127-f507-a3d8-6d87" hidden="false" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-                <characteristic name="W" id="9a63-129a-190b-3219" hidden="false" typeId="57ee-1126-32a9-5672">3</characteristic>
-                <characteristic name="I" id="6559-4150-7c01-a838" hidden="false" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                <characteristic name="A" id="30d8-aa42-edb0-3a1f" hidden="false" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
-                <characteristic name="Ld" id="bc5e-7c53-abc3-489e" hidden="false" typeId="e8a6-1da9-d384-8727">10</characteristic>
-                <characteristic name="Save" id="8b76-1c80-7dac-652f" hidden="false" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">(Character, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1747,6 +1747,333 @@ Note that weapons selected to fire in this manner must still follow the rules a
       <costs>
         <cost name="Pts" id="a895-7657-463f-a8bc" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="175"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Recordless Knight-Errant" hidden="false" id="2952-dcf5-3d52-e05b" publicationId="4758-b029-4d1c-6d37" page="212">
+      <profiles>
+        <profile name="Knight-Errant" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="dbf7-5f92-b6b0-54ef" publicationId="4758-b029-4d1c-6d37" page="212">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Line)</characteristic>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="Infantry (Character, Line, Psyker)" field="ddd7-6f5c-a939-b69e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2952-dcf5-3d52-e05b" childId="42bb-55fb-43ba-a3a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Iron Halo" hidden="false" id="b7a4-d9a7-bbf5-1486" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="92c3-a00-69a4-e902" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a111-8c39-5ded-be7" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Artificer Armour" hidden="false" id="f3b4-4d09-ac84-ce50" type="selectionEntry" targetId="583e-62cb-53f1-f952" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f442-c197-a7b9-b630" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3777-7a59-b2c0-9085" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="33eb-beb9-864f-9a22" collective="false" targetId="cf9c-327b-3449-00d7" type="selectionEntry" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8c-bb53-b5a1-d131" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72a5-67fb-3399-18b0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="e69c-ff5a-3e94-a758" collective="false" targetId="99df-2421-acf7-a5ad" type="selectionEntry" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e79-b382-a98-6a24" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb7c-a878-482-99c9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Master-crafted Melee Weapon" hidden="false" id="d35b-e988-2cbf-184a" type="selectionEntry" targetId="6b65-60e5-5164-5cd9">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29fb-3549-dac4-6f58" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Master-crafted Ranged Weapon" hidden="false" id="7bf9-8cd5-e159-39ab" type="selectionEntry" targetId="b38b-fa57-c084-fb5b">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1b5-1a30-50ef-9f85" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Elevate to a Former Librarian" hidden="false" id="42bb-55fb-43ba-a3a" sortIndex="10">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ea6-1129-92b2-41c4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="4) May replace his Master-crafted Power Weapon with one of the following:" hidden="false" id="ce9f-d913-21ed-cd08" defaultSelectionEntryId="8020-8e5e-21a0-2d1c" sortIndex="8">
+          <entryLinks>
+            <entryLink import="true" name="Power Weapon" hidden="false" id="8020-8e5e-21a0-2d1c" type="selectionEntry" targetId="36a7-1c39-670c-5fec" sortIndex="1"/>
+            <entryLink import="true" name="Power Fist" hidden="false" id="c8b3-eb66-a46f-456e" type="selectionEntry" targetId="768d-b89b-7328-d749" sortIndex="4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Lightning Claw" hidden="false" id="c31b-27d8-d9f8-9341" type="selectionEntry" targetId="6923-4e42-5691-b13f" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Force Weapon" hidden="true" id="c8d4-6355-8c57-612" type="selectionEntry" targetId="a9c2-6881-3391-9622" sortIndex="2">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="2952-dcf5-3d52-e05b" childId="42bb-55fb-43ba-a3a" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f211-16a1-449-e168" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="230f-114b-bee1-7e75" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="3) May replace his Master-crafted Bolt Pistol with one of the following:" hidden="false" id="61b3-9cfc-8761-83de" defaultSelectionEntryId="2f26-bc78-25e4-4822" sortIndex="7">
+          <entryLinks>
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="2f26-bc78-25e4-4822" type="selectionEntry" targetId="e5ae-6872-37aa-8600" sortIndex="1"/>
+            <entryLink import="true" name="Volkite Serpenta" hidden="false" id="7a5a-45cd-9de4-e90d" type="selectionEntry" targetId="d535-1da8-290d-69a6" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Plasma Pistol" hidden="false" id="71b8-4821-d368-42fb" type="selectionEntry" targetId="717f-cf0a-1593-4bd8" sortIndex="4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="1d8a-5709-ca25-1a6a" type="selectionEntry" targetId="980e-b1e7-a4a4-407f" sortIndex="6">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Archaeotech Pistol" hidden="false" id="41b3-a84f-6264-336e" type="selectionEntry" targetId="c22a-ed4d-af68-bf00" sortIndex="5">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Force Weapon" hidden="true" id="71a4-ec7a-c802-65d7" type="selectionEntry" targetId="a9c2-6881-3391-9622" sortIndex="2">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="2952-dcf5-3d52-e05b" childId="42bb-55fb-43ba-a3a" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44dc-f1de-e622-5358"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24de-d891-d854-9238"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="5) May replace his Paragon Bolter with one of the following:" hidden="false" id="1fbc-381e-38b4-482b" defaultSelectionEntryId="bc9a-6dda-96d1-5131" sortIndex="9">
+          <entryLinks>
+            <entryLink import="true" name="Paragon Bolter" hidden="false" id="bc9a-6dda-96d1-5131" type="selectionEntry" targetId="f036-c047-e7c4-c6aa" sortIndex="1"/>
+            <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="aa6c-a3fc-3fb4-e393" type="selectionEntry" targetId="53c0-b5d7-f001-b816" sortIndex="2"/>
+            <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="cb9d-f2e8-c9b0-84c3" type="selectionEntry" targetId="4d02-259d-fa50-ef3a" sortIndex="4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Kraken Bolter" hidden="false" id="4474-a33a-c4f7-a0f7" type="selectionEntry" targetId="0f10-2b63-7d97-e5f4" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Nemesis Bolter" hidden="false" id="3308-c3dd-bb5e-41b8" type="selectionEntry" targetId="c10a-61f8-9c33-fe8a" sortIndex="5">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f969-d5db-3d56-df6d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30d5-83-241b-3712" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Psychic Disciplines" hidden="true" id="f0d2-1513-a8a9-d0f1" collective="false" import="true" sortIndex="11">
+          <modifiers>
+            <modifier type="set" value="1" field="b6eb-31fe-6876-8823">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2952-dcf5-3d52-e05b" childId="42bb-55fb-43ba-a3a" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2952-dcf5-3d52-e05b" childId="42bb-55fb-43ba-a3a" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b6eb-31fe-6876-8823" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38e-eda3-2a6-c777" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Psychic Discipline: Biomancy" hidden="false" id="b982-fdd9-563b-41e5" collective="false" targetId="861c-3744-c4ff-ef6c" type="selectionEntry"/>
+            <entryLink import="true" name="Psychic Discipline: Divination" hidden="false" id="16c2-f67b-1c79-5313" collective="false" targetId="0c22-a776-e7e3-2981" type="selectionEntry"/>
+            <entryLink import="true" name="Psychic Discipline: Pyromancy" hidden="false" id="49a7-5c02-325-6c40" collective="false" targetId="c73a-8c52-4780-71e1" type="selectionEntry"/>
+            <entryLink import="true" name="Psychic Discipline: Telekinesis" hidden="false" id="96ae-2769-41ed-f898" collective="false" targetId="2599-31ff-74a5-70ec" type="selectionEntry"/>
+            <entryLink import="true" name="Psychic Discipline: Telepathy" hidden="false" id="4529-249b-84a1-d8a" collective="false" targetId="b751-a605-75e8-dd6f" type="selectionEntry"/>
+            <entryLink import="true" name="Psychic Discipline: Thaumaturgy" hidden="false" id="c69a-3a93-2635-9509" collective="false" targetId="f7ab-1fb2-91b0-028d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="1) May take one of the following:" hidden="false" id="e6a5-d725-2b04-7a3c" sortIndex="5">
+          <entryLinks>
+            <entryLink import="true" name="Narthecium" hidden="false" id="aeb9-c9dc-3c1-23a9" type="selectionEntry" targetId="dd7a-d404-a96c-1251">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d45-c4d5-63b0-dfc9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nuncio-Vox" hidden="false" id="2bb6-ff52-2699-be11" type="selectionEntry" targetId="005e-aae6-ddac-bb45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70fc-8f13-e7b0-1510" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Servo-Arm" hidden="false" id="46f5-b9c5-7044-b51a" type="selectionEntry" targetId="4168-fc85-8912-7188">
+              <infoLinks>
+                <infoLink name="Battlesmith (X)" hidden="false" id="33ef-c8cb-8888-bec3" type="rule" targetId="5d57-4d02-1e36-4a82">
+                  <modifiers>
+                    <modifier type="set" value="Battlesmith (5+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="202e-174d-be61-8a10" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1068-4659-1f75-5b46" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="2) May take any of the following:" hidden="false" id="b654-92d3-78a2-e76" sortIndex="6">
+          <entryLinks>
+            <entryLink import="true" name="Jump Pack" hidden="false" id="2281-fc0f-3add-f48a" type="selectionEntry" targetId="146a-27f1-259e-214f">
+              <costs>
+                <cost name="Pts" hidden="false" id="7d1a-f560-e743-6f44" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41fb-20f4-35fc-57e1" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="af42-19bb-224e-32d6" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <costs>
+                <cost name="Pts" hidden="false" id="ee4e-8ef3-b9ae-bb0a" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f427-9472-319d-79a5" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Former Librarian Options:" hidden="true" id="7c6a-be2c-8d01-bcd3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gain the Psychic Mastery (2) Special Rule" hidden="false" id="4a7b-c705-596c-669">
+              <costs>
+                <cost name="Pts" hidden="false" id="4d7e-bc87-976d-dc1c" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psychic Mastery (X)" hidden="false" id="302a-a53c-d523-2de" type="rule" targetId="33c9-6e05-39be-8577">
+                  <modifiers>
+                    <modifier type="set" value="Psychic Mastery (2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dd8-d6db-c9eb-4793" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Psychic Hood" hidden="false" id="3eeb-db17-b5d6-e713" type="selectionEntry" targetId="4df2-d42b-504d-3ec5">
+              <costs>
+                <cost name="Pts" hidden="false" id="850-5079-cb4e-be54" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d872-1683-6af9-aa0a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2952-dcf5-3d52-e05b" childId="42bb-55fb-43ba-a3a" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" value="db6f-0311-834c-e6ff" field="category">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="9c83-69fb-8066-a773" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="By Falsehood Cloaked" hidden="false" id="b670-a552-dfc7-3c6d" publicationId="4758-b029-4d1c-6d37" page="213">
+          <description>If not attached to another Unit, the Knights-Errant may deploy via a Unique Deep Strike Assault, arriving from Reserves separately from any other Deep Strike Assaults, and when doing so he does not roll to scatter. Until the start of the controlling Player&apos;s next Turn, any shots made against a Knight-Errant that has deployed in this manner are made as Snap Shots. In addition, any charges made against them during this time automatically count as Disordered.</description>
+        </rule>
+        <rule name="Oath of Moment" hidden="false" id="a644-3e65-aab-20c" page="213" publicationId="4758-b029-4d1c-6d37">
+          <description>Fielding a Knight-Errant dramatically alters the victory conditions for the side that includes the model, for the presence of such a fated individual is a sure indication that their mission is of dire import indeed.
+
+Before the start of the game, an Oath of Moment must be secretly noted down for each model with this special rule. The note is revealed at the end of the game when Victory Points are being tallied. Each Oath of Moment represents an objective which that Knight-Errant must achieve, chosen from the list below. If the secret objective is not achieved, the model&apos;s side may not claim any Secondary Objectives for the mission.
+
+• Crusader (1 VP): The Knight-Errant must end the game within the Enemy&apos;s Deployment Zone to earn the Oath of Moment VP.
+• Protector (2 VP): Note the identity of another Independent Character in the army. This model must survive the game in order to earn the Oath of Moment VP.
+• Hand of the Sigillite (2 VP): If objective markers are in play, the Knight-Errant must control one of the objective markers at the end of the game to earn the Oath of Moment Victory Points. If the marker is in the Enemy Deployment Zone, this Oath of Moment is worth +1 VP.
+• Headsmen (3 VP): The Knight-Errant must slay the enemy Warlord in a Challenge in order to earn the Oath of Moment VP.
+• King Slayer (3 VP): If the opposing army includes a Unit with the Primarch Type, this model must be removed as a causality for the Knight-Errant to earn the Oath of Moment VP.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Inexorable" hidden="false" id="9804-8eab-9581-5551" type="rule" targetId="d863-8a5e-ddb6-d5a4"/>
+        <infoLink name="Precision Strikes (X)" hidden="false" id="ccac-f81c-6873-f268" type="rule" targetId="2206-8497-8fe1-e973">
+          <modifiers>
+            <modifier type="set" value="Precision Strikes (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Preferred Enemy (X)" hidden="false" id="fa70-65b6-4381-30e6" type="rule" targetId="37ab-d4db-891a-de8c">
+          <modifiers>
+            <modifier type="set" value="Preferred Enemy (Traitor)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="140"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="6f83-6fd7-3b66-ad74" primary="false" name="Unit:"/>
+        <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="915e-8fea-dcb5-b83f" primary="false" name="Infantry:"/>
+        <categoryLink targetId="6399-5c65-7833-1025" id="3555-2516-64b5-36ee" primary="false" name="Line Sub-type:"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="fa3a-5117-cefe-110e" primary="false" name="Independent Character"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

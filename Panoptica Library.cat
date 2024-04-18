@@ -4377,28 +4377,6 @@ Could not find rule: One Use</comment>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Melta Bomb" type="upgrade" id="e55d-d31b-46a9-aeb6">
-      <infoLinks>
-        <infoLink name="Detonation" hidden="false" type="rule" targetId="8a47-9fc5-16fb-b46e" id="a4db-4b35-4f86-886c"/>
-        <infoLink name="Unwieldy" hidden="false" type="rule" targetId="1570-c21a-881f-8b8a" id="f601-5eca-460d-ba24"/>
-        <infoLink name="Armourbane (X)" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4" id="b099-a781-4dc8-8e88">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Melee)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Instant Death" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3" id="6eb7-d646-430d-85c9"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Melta Bomb" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="d683-11bd-403d-8553" page="156" publicationId="a368-64f0-10c7-c49d">
-          <characteristics>
-            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
-            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
-            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry name="Miststave" type="upgrade" id="e4b6-639a-4c9b-9384">
       <infoLinks>
         <infoLink name="Reach (X)" hidden="false" type="rule" targetId="19bf-62a2-5737-890b" id="c888-11bf-46ac-a909">
