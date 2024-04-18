@@ -1763,7 +1763,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="b79a-2f31-20cf-cf89" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b3c-b7a3-8cee-e47e" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10897,16 +10897,6 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" hidden="false" id="8ca0-b749-8892-50d2" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b79a-2f31-20cf-cf89" name="Traders Militant" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4860-8da1-9356-f46c" type="max"/>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ae3-4383-b402-24c" type="max"/>
-        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d878-3783-d640-4e78" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Master-crafted Melee Weapon" hidden="false" id="6b65-60e5-5164-5cd9">
       <infoLinks>
         <infoLink name="Master-crafted" hidden="false" id="29e1-7889-cb30-1ea6" type="rule" targetId="6de0-55b0-bf21-48b9"/>
@@ -10917,7 +10907,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <infoLink name="Master-crafted" hidden="false" id="ac58-a859-1711-d8c7" type="rule" targetId="6de0-55b0-bf21-48b9"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="b3c-b7a3-8cee-e47e" name="Trader&apos;s Militant" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b3c-b7a3-8cee-e47e" name="Traders Militant" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="5b7b-4505-3dbf-133c" value="0">
           <conditions>
