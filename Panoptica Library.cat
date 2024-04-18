@@ -11305,6 +11305,47 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Hot-Shot Lasgun" type="upgrade" id="b37b-4211-dff6-fa44" collective="true">
+      <profiles>
+        <profile name="Hot-Shot Lasgun" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="9ee7-ddbd-e16a-2ef7" page="297" publicationId="892-6266-f55f-1b9d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">3</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Hot-Shot Laspistol" type="upgrade" id="fe83-4599-ae7c-f15a" collective="true">
+      <profiles>
+        <profile name="Hot-Shot Laspistol" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="a9da-84fd-9d3d-2912" page="297" publicationId="892-6266-f55f-1b9d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">9&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">3</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Pistol 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Hot-Shot Volley Gun" type="upgrade" id="4c38-bb0c-f755-dcef" collective="true">
+      <infoLinks>
+        <infoLink name="Hot-Shot Volley Gun" id="c9e4-f32b-84c0-77f4" hidden="false" type="profile" targetId="7eac-5b5a-480a-9008"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Hot-Shot Volley Gun w/ Suspensor Web" type="upgrade" id="5273-769-d897-8426" collective="true">
+      <infoLinks>
+        <infoLink name="Hot-Shot Volley Gun" id="a51e-845-1a30-e8f9" hidden="false" type="profile" targetId="7eac-5b5a-480a-9008"/>
+        <infoLink name="Suspensor Web" id="5550-adeb-6a03-c56d" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Hot-Shot Volley Gun w/ Suspensor Web" type="upgrade" id="5fb7-ffd4-4449-3aad" collective="false">
+      <infoLinks>
+        <infoLink name="Hot-Shot Volley Gun" id="7166-91d-b239-124c" hidden="false" type="profile" targetId="7eac-5b5a-480a-9008"/>
+        <infoLink name="Suspensor Web" id="aa2c-b974-9558-e41a" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Daemon Primarch Unit Type:" hidden="false" id="a9b4-ab6c-447a-a8a1">

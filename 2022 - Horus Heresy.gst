@@ -1759,6 +1759,13 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink id="1c43-e3d1-a119-885c" name="Lords of War Have Moved to &quot;Lords of War Detachment&quot;" hidden="false" targetId="ed41-7006-3494-4c24" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b79a-2f31-20cf-cf89" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </forceEntry>
     <forceEntry id="d4f2-6da5-b6de-06ec" name="3. Allied Detachment" hidden="false">
       <constraints>
@@ -9729,9 +9736,21 @@ Note that this is an exception to the normal rules for Fortifications, and if as
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="775c-071a-1024-8be0" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a311-a007-7439-9227" name="Charnabal Glaive" hidden="false" collective="false" import="true" targetId="c07c-35e6-4616-ef25" type="selectionEntry"/>
-        <entryLink id="5246-a8e2-96a4-eae4" name="Charnabal Sabre" hidden="false" collective="false" import="true" targetId="30c2-57eb-5bbe-be0b" type="selectionEntry"/>
-        <entryLink id="5fcf-bd2e-46e7-0b09" name="Charnabal Tabar" hidden="false" collective="false" import="true" targetId="4611-c33e-f360-7246" type="selectionEntry"/>
+        <entryLink id="a311-a007-7439-9227" name="Charnabal Glaive" hidden="false" collective="false" import="true" targetId="c07c-35e6-4616-ef25" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e215-c057-152-b1f"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5246-a8e2-96a4-eae4" name="Charnabal Sabre" hidden="false" collective="false" import="true" targetId="30c2-57eb-5bbe-be0b" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1839-1514-280f-7cc9"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5fcf-bd2e-46e7-0b09" name="Charnabal Tabar" hidden="false" collective="false" import="true" targetId="4611-c33e-f360-7246" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b92-f354-f395-caf4"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -10908,6 +10927,82 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
           <description>Allied Detachments can be of any Faction or Sub-faction, as long as their Allegiance matches – though this can be modified by the Warrants of Trade Special Rule. The Levels of Alliance between such Detachments is modified by the Fragile Alliance Special Rule, found on the Rogue Trader Militant. If the Rogue Trader Militant is slain, or otherwise removed from play for any reason, then in the case of Factions or Sub-factions with varying Levels of Alliance depending on who is ordinarily the Primary or Optional Detachment, the lowest Level of Alliance between the two Factions or Sub-factions should be used. In addition, no Optional Detachments outside of a single Lord of War Detachment may be selected if a Aegis Militant Detachment is selected. Any unit selected as part of a Lord of War Detachment must have the same Faction or Sub-Faction as one of the other Primary or Allied Detachments selected as part of the same Army.</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry id="6f32-e7fe-50a8-711" name="Volkite Caliver" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="f94d-b30a-6f45-e844" name="Volkite Caliver" publicationId="a716-c1c4-7b26-8424" page="134" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Deflagrate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a257-afe9-c407-d900" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae17-7925-f81f-71d6" name="Multi-Laser" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="true" import="true" type="upgrade">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Multi-Laser" id="2c4a-ccc-8481-ff95" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bf3c-73d4-40ed-9d8d" name="Multi-Laser w/ Suspensor Web" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="true" import="true" type="upgrade">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Suspensor Web" id="9103-b077-f336-257d" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Multi-Laser" id="a446-a868-2f43-76f6" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3ac3-df49-bd49-51ae" name="Multi-Laser w/ Suspensor Web" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Suspensor Web" id="392f-a6fc-5a96-2ffc" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Multi-Laser" id="1b4a-d9f-c431-d889" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="13f-d886-990b-f1ad" name="Lascutter" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="72aa-9d1b-cd91-e3c9" name="Lascutter (Melee)" publicationId="a716-c1c4-7b26-8424" page="138" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Cumbersome</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6946-8d7b-e350-548b" name="Lascutter (Ranged)" publicationId="a716-c1c4-7b26-8424" page="135" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">8&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armourbane (Ranged)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9e7e-4f73-b761-24ff" name="Cumbersome" hidden="false" targetId="d89a-c10e-8a7a-92c3" type="rule"/>
+        <infoLink id="17b1-d2d7-cbd4-a6ee" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="bc64-2eee-2706-38a5" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -15341,7 +15436,7 @@ This Provenance cannot be taken in conjunction with the Survivors of the Dark Ag
         <entryLink import="true" name="Power Sword" hidden="false" id="0ce5-129b-6faa-930e" collective="false" targetId="a3cd-aa97-a148-2309" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Force Weapons" hidden="false" id="9970-2309-3a2a-b889" collective="false" import="true">
+    <selectionEntryGroup name="Force Weapons" hidden="false" id="9970-2309-3a2a-b889" collective="false" import="true" defaultSelectionEntryId="188d-69d5-9640-5f7d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0307-d1f7-57ea-a51b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f79d-98d6-e4c9-6d63" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
