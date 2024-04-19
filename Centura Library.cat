@@ -5688,12 +5688,6 @@ Could not find wargear in A Legion Fire Raptor Destroyer may exchange all of its
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e64-d950-422d-80e3"/>
               </constraints>
             </entryLink>
-            <entryLink name="Power Armour" hidden="false" type="selectionEntry" targetId="b82e-3b68-4d1f-a0cc" id="6db6-215c-4d78-b505">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="071c-b3e8-4e7f-98e5"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c92-bfab-47e7-829c"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Legionary Weapons Team may exchange their Gravis Bolt Cannon for one of the following:" id="03eb-f973-4ca9-a71d">
@@ -5964,6 +5958,9 @@ Could not find wargear in Any Havoc Master may take any of the following:</comme
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Volatile Ordnance (Legionary Weapons Team only)</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9c7a-8774-d189-8a2e" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry name="Legion Tartaros Heavy Destroyer Squad" type="unit" id="32a8-5aa5-4636-9115" page="46" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>

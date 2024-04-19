@@ -5,6 +5,11 @@
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="411e-7b9d-4714-b716"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="bf40-acf3-4b70-9be1" name="HQ"/>
+        <categoryLink targetId="aa94-5c65-d1f1-46a4" id="a551-d23c-9b77-4236" primary="false" name="Unique Sub-type"/>
+        <categoryLink targetId="bff2-ae16-74a8-8712" id="fc7f-dfe6-5622-2b46" primary="false" name="Light Sub-type:"/>
+        <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="16b2-8481-e2e9-2b6a" primary="false" name="Character"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="61ab-c727-fef3-ece6" primary="false" name="Independent Character"/>
+        <categoryLink targetId="32ee-6da0-41d1-8016" id="b9d0-88df-53e6-a649" primary="false" name="Anathema Unit Sub-Type:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
@@ -39,13 +44,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d65-b54e-4482-af80"/>
               </constraints>
             </entryLink>
-            <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="9b13-de04-411d-9cfc">
+            <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="cf9c-327b-3449-00d7" id="9b13-de04-411d-9cfc">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1bbb-6cf3-479a-9299"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc69-6f45-4897-ad77"/>
               </constraints>
             </entryLink>
-            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="5d2f-9224-4dde-a54f">
+            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="99df-2421-acf7-a5ad" id="5d2f-9224-4dde-a54f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ceb-b6ab-4bd5-8d84"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61bf-fc76-41f6-9476"/>
@@ -57,10 +62,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecaf-8b26-4ca1-80c4"/>
               </constraints>
             </entryLink>
-            <entryLink name="Artificer Armour" hidden="false" type="selectionEntry" targetId="9196-3af7-9545-e62b" id="b3a7-4d5b-41c8-86c4">
+            <entryLink name="Artificer Armour" hidden="false" type="selectionEntry" targetId="583e-62cb-53f1-f952" id="b3a7-4d5b-41c8-86c4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab81-af74-4b18-9ea7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d11-05e0-4e9f-9698"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Psyk-out Granades" hidden="false" id="16ef-31ea-97e-6c44" type="selectionEntry" targetId="2d34-959c-a93c-888f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3553-8879-7af2-538e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fbc-4b7-d3b3-d87a"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -72,11 +83,42 @@
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="72da-a7bf-4577-86e9" name="Unique" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="5e4d-ac7f-966c-efd6" primary="false" name="Independent Character"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Nightfall
-	 Checked under Nightfall
-Could not find wargear Psyk-Out Grenades
-	 Checked under Psyk-Out Grenades</comment>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Nightfall" hidden="false" id="fd3c-6a26-eab4-fe0e">
+              <profiles>
+                <profile name="Nightfall" hidden="false" id="d49d-fa75-cc19-b2c6" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="892-6266-f55f-1b9d" page="92">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Reaping Blow (2), Murderous Strike (6+), Brutal (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Brutal (X)" hidden="false" id="5054-a076-f30c-469e" type="rule" targetId="5079-1fec-d32b-8b84">
+                  <modifiers>
+                    <modifier type="set" value="Brutal (2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Murderous Strike (X)" hidden="false" id="7a85-e683-dda4-6250" type="rule" targetId="93b9-1454-0e7c-42ae">
+                  <modifiers>
+                    <modifier type="set" value="Murderous Strike (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Reaping Blow (X)" hidden="false" id="7e1d-d264-ba87-55ca" type="rule" targetId="bd8c-4f52-d682-1b40">
+                  <modifiers>
+                    <modifier type="set" value="Reaping Blow (2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Two-handed" hidden="false" id="7f8-6400-504a-506c" type="rule" targetId="4c23-e863-a569-7617"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5f8-124-5386-2ee7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7b4-fb23-6e13-d07d"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -113,9 +155,35 @@ Could not find wargear Psyk-Out Grenades
         </infoLink>
         <infoLink name="Monster Hunter" hidden="false" type="rule" targetId="118d-58ce-8611-ab15" id="146f-94b5-4a4a-99be"/>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="3a1b-eec7-4849-81dc"/>
+        <infoLink name="Ex-Oblivio" hidden="false" id="e42a-feb9-84fb-f89" type="rule" targetId="7982-9292-ef54-8e84"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Ex Oblivio</comment>
+      <comment>DONE</comment>
+      <rules>
+        <rule name="Eater of Daemons" hidden="false" id="fbd0-7cf1-a816-5077" publicationId="892-6266-f55f-1b9d" page="92">
+          <description>The first time any enemy unit with the Psyker, Corrupted, or Daemon Unit Sub-type comes within 12” of Sikari Dar for any reason, it must take an immediate Leadership Characteristic test. If this test is passed, the unit suffers no ill-effect - but if it is failed, all models in the unit suffer a -1 penalty to their Weapon Skill, Ballistic Skill, and Initiative Characteristics until the end of the next Game Turn. It should be noted that whilst each unit can only be made to take a Leadership Characteristic test once from this Warlord Trait’s effects, multiple units can trigger this effect during the course of a game, and game turn.
+
+
+An army that contains Sikari Dar may select up to two additional Fast Attack choices, but these additional slots must be filled with Pursuer Cadre units if selected. Units selected in this way are not counted toward the maximum number of units allowed as per the Silent Sisterhood (X) Special Rule in regards to Chamber restrictions.
+
+
+In addition, an army that has Sikari Dar as its Warlord increases its Reaction Allotment by +1 in the Assault phase as long as Sikari Dar has not been removed as a casualty.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="184-e01d-cfe-67a2" type="selectionEntry" targetId="0176-56a3-d590-b103">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a226-4976-4b7c-2542"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba8e-ed57-a932-cfe9"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="a226-4976-4b7c-2542">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Knight Ensign Covenant" type="unit" id="9ecd-64c7-40d6-bc88" page="96" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -149,15 +217,6 @@ Could not find rule: Ex Oblivio</comment>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="afc2-7700-4f02-80e7"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt Pistol" hidden="false" type="selectionEntry" targetId="52fe-46cd-520d-9df3" id="1aa9-f9f7-43dc-a378">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Bolt Pistols"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a4e-2ad7-4e4b-b341"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c698-2752-458f-8540"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="c870-5bfd-4099-ace5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="829c-b59d-4572-a8b2"/>
@@ -174,6 +233,12 @@ Could not find rule: Ex Oblivio</comment>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1696-6f61-48c1-8f28"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4df-91c4-4c9d-87f0"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Psyk-out Granades" hidden="false" id="20c8-fc17-96ed-da55" type="selectionEntry" targetId="d202-a726-01e7-245b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abae-22c4-3f48-3d6d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffb3-1365-d902-b003"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -209,7 +274,7 @@ Could not find rule: Ex Oblivio</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a339-cc2e-4f29-9ab6"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Any Knight Ensign may exchange either or both Bolt Pistols for one of the following options:" id="5a7d-efea-4216-b0a1">
+            <selectionEntryGroup name="Any Knight Ensign may exchange either or both Bolt Pistols for one of the following options:" id="5a7d-efea-4216-b0a1" defaultSelectionEntryId="9bd2-6310-56c7-d54">
               <entryLinks>
                 <entryLink name="Needle Pistol" hidden="false" type="selectionEntry" targetId="fd59-e665-136c-1172" id="5057-becc-4271-aaed">
                   <costs>
@@ -227,12 +292,24 @@ Could not find rule: Ex Oblivio</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="464f-4311-4965-a197"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="9bd2-6310-56c7-d54" type="selectionEntry" targetId="52fe-46cd-520d-9df3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="123b-1f1b-56d6-fb76"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c64-395b-4640-bd75"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4c64-395b-4640-bd75"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="a091-5369-4691-b7d5" childId="35ac-26d4-4654-8c05" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Any Knight Ensign may exchange both Bolt Pistols for one of the following options:" id="35ac-26d4-4654-8c05">
+            <selectionEntryGroup name="Any Knight Ensign may exchange both Bolt Pistols for one of the following options:" id="35ac-26d4-4654-8c05" defaultSelectionEntryId="1aa9-f9f7-43dc-a378">
               <entryLinks>
                 <entryLink name="Bolter" hidden="false" type="selectionEntry" targetId="a080-c391-6083-5e5d" id="edd9-2c89-4ad1-8af3">
                   <constraints>
@@ -247,14 +324,22 @@ Could not find rule: Ex Oblivio</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6513-c4fe-4fd8-b108"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Minor Combi-weapon" hidden="false" type="selectionEntryGroup" targetId="9b4b-07a4-31bc-fc16" id="8c74-80e3-434d-81d8">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="1aa9-f9f7-43dc-a378" type="selectionEntry" targetId="52fe-46cd-520d-9df3">
+                  <modifiers>
+                    <modifier type="set" value="Two Bolt Pistols" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c698-2752-458f-8540"/>
+                  </constraints>
                 </entryLink>
-                <entryLink name="Magna Combi-weapon" hidden="false" type="selectionEntryGroup" targetId="2286-9fb3-e845-f24a" id="13f3-74cb-4984-b0e7">
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="deea-be29-b3f8-a3d2" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="7260-8d8f-2cc6-a722" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -262,14 +347,14 @@ Could not find rule: Ex Oblivio</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53e9-905f-4996-8573"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Any Knight Ensign may exchange their Vratine Armour for the following option:" id="d633-c52f-4505-8564">
+            <selectionEntryGroup name="Any Knight Ensign may exchange their Vratine Armour for the following option:" id="d633-c52f-4505-8564" defaultSelectionEntryId="b28f-6069-4ab6-9aac">
               <entryLinks>
                 <entryLink name="Vratine Armour" hidden="false" type="selectionEntry" targetId="d466-63c8-7784-cd84" id="b28f-6069-4ab6-9aac">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3da4-51f9-44b8-b682"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Artificer Armour" hidden="false" type="selectionEntry" targetId="9196-3af7-9545-e62b" id="460a-9405-4fba-a732">
+                <entryLink name="Artificer Armour" hidden="false" type="selectionEntry" targetId="583e-62cb-53f1-f952" id="460a-9405-4fba-a732">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
@@ -280,6 +365,7 @@ Could not find rule: Ex Oblivio</comment>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2079-bc46-4175-968d"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2115-db91-7f0-5d"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -292,9 +378,6 @@ Could not find rule: Ex Oblivio</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Psyk-Out Grenades
-	 Checked under Psyk-Out Grenades</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -317,6 +400,10 @@ Could not find wargear Psyk-Out Grenades
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="ab45-b83a-4f07-b374"/>
         <infoLink name="Vigilant Covenant" hidden="false" type="rule" targetId="6955-2f33-4d7e-9952" id="2c1f-7acd-4f23-b49b"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a5bc-3164-6ab3-2985" includeChildSelections="false"/>
+      </constraints>
+      <comment>DONE</comment>
     </selectionEntry>
     <selectionEntry name="Indictor Cadre" type="unit" id="fb8d-fea0-4822-b1bc" page="97" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -324,7 +411,7 @@ Could not find wargear Psyk-Out Grenades
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="1a67-cf7f-4d87-8c70" name="Elites"/>
       </categoryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="130"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="model" name="Indictor" id="5e57-85d8-40c0-bbf0" page="97" publicationId="892-6266-f55f-1b9d">
@@ -347,7 +434,7 @@ Could not find wargear Psyk-Out Grenades
           </profiles>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e399-18d0-4cd0-876a"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e3a1-a2e8-4cad-9fe1"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="e3a1-a2e8-4cad-9fe1"/>
           </constraints>
           <entryLinks>
             <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="ed60-2cdf-435b-ac5f">
@@ -362,9 +449,21 @@ Could not find wargear Psyk-Out Grenades
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c2a-91c2-4954-969a"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Voidsheen Cloak" hidden="false" id="bf73-dd71-4e97-92ec" type="selectionEntry" targetId="9449-eb87-30c1-43c0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f387-488e-4177-abc0"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe3e-f9e9-c4bc-87c3"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Vratine Voidplate" hidden="false" id="c10f-826b-6c6f-e6b" type="selectionEntry" targetId="6197-1d1-d8b6-a2b3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c672-e05-dec8-6b57" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d484-c368-6cf1-2501" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any model in the unit may exchange their Indictor Axe for one of the following options:" id="bb7e-00cf-4df5-b38a">
+            <selectionEntryGroup name="Any model in the unit may exchange their Indictor Axe for one of the following options:" id="bb7e-00cf-4df5-b38a" defaultSelectionEntryId="3b03-f99e-4b84-94e7">
               <entryLinks>
                 <entryLink name="Indictor Axe" hidden="false" type="selectionEntry" targetId="728a-1812-449c-bba5" id="3b03-f99e-4b84-94e7">
                   <constraints>
@@ -389,49 +488,7 @@ Could not find wargear Psyk-Out Grenades
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52d7-da7e-44e2-9529"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="The Indictor Mistress may exchange her Indictor Axe for one of the following options:" id="2a97-ea9c-4b54-ab2c">
-              <entryLinks>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="9c9c-346a-4c47-8715" id="86cd-f9b8-49a4-bc03">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6f0-7f82-4598-b156"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="838c-4002-713d-d7c6" id="6942-e56c-47a0-8e7b">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a75-d589-462c-a37f"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4da-eb4b-4e4c-bb9e"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="The Indictor Mistress may exchange her Voidsheen Cloak for the following option:" id="134c-cf14-4fb9-9c04">
-              <entryLinks>
-                <entryLink name="Voidsheen Cloak" hidden="false" type="selectionEntry" targetId="9449-eb87-30c1-43c0" id="bf73-dd71-4e97-92ec">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f387-488e-4177-abc0"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Voidscale Cloak" hidden="false" type="selectionEntry" targetId="bd74-a0c5-cee0-bb03" id="d579-0fa0-4afc-acfe">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d1f-8f7a-4ed5-a093"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dadb-feb4-4d1e-a24e"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a67-489f-c3c1-dafc"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -440,9 +497,9 @@ Could not find wargear Psyk-Out Grenades
             <categoryLink targetId="9231-183c-b97b-63f9" id="0be5-9b93-4c09-a5d8" name="Heavy" primary="false"/>
             <categoryLink targetId="32ee-6da0-41d1-8016" id="ee14-861d-4af6-bc05" name="Anathema" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Vratine Voidplate
-	 Checked under Vratine Voidplate</comment>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
         </selectionEntry>
         <selectionEntry type="model" name="Indictor Mistress" id="3dae-0aa5-4629-8199" page="97" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -479,59 +536,15 @@ Could not find wargear Vratine Voidplate
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5e2-16ad-4cfb-99a1"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Vratine Voidplate" hidden="false" id="10a1-d2f5-2f4c-88c4" type="selectionEntry" targetId="6197-1d1-d8b6-a2b3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac87-94a8-1012-aea1" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b326-7cf1-b02d-a392" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any model in the unit may exchange their Indictor Axe for one of the following options:" id="b023-0942-4fdf-92ce">
-              <entryLinks>
-                <entryLink name="Indictor Axe" hidden="false" type="selectionEntry" targetId="728a-1812-449c-bba5" id="88a1-b769-4005-9cb7">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45a9-8ade-4bb3-ad5f"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Execution Blade" hidden="false" type="selectionEntry" targetId="b902-5e27-e3ec-18ca" id="0c96-7630-4939-b89b">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54a3-c7b7-4e8c-946f"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Proteus Neuro-Lash" hidden="false" type="selectionEntry" targetId="d130-4af2-1ea4-e18d" id="08a8-9f21-47a3-8b54">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ea4-9ac7-460e-94b8"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Charnabal Glaive" hidden="false" type="selectionEntry" targetId="95ac-2464-4307-b4cc" id="14db-6c8d-4772-b239">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81bf-2dcb-477d-8bc2"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c39-807d-4bd3-8fb3"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="The Indictor Mistress may exchange her Indictor Axe for one of the following options:" id="3418-214c-4b0b-823e">
-              <entryLinks>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="9c9c-346a-4c47-8715" id="50a2-fffa-4465-a782">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e23-eb25-419d-8400"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="838c-4002-713d-d7c6" id="62ef-607d-4a77-b61e">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0e0-eb7c-4842-9f18"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c409-6df9-47cf-81b6"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="The Indictor Mistress may exchange her Voidsheen Cloak for the following option:" id="1830-f3e1-42c6-8219">
+            <selectionEntryGroup name="The Indictor Mistress may exchange her Voidsheen Cloak for the following option:" id="1830-f3e1-42c6-8219" defaultSelectionEntryId="b8d3-e1fe-4eb1-aa0b">
               <entryLinks>
                 <entryLink name="Voidsheen Cloak" hidden="false" type="selectionEntry" targetId="9449-eb87-30c1-43c0" id="b8d3-e1fe-4eb1-aa0b">
                   <constraints>
@@ -549,6 +562,51 @@ Could not find wargear Vratine Voidplate
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20e3-1516-4a49-8afd"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1366-b853-1284-74f1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Indictor Mistress may exchange her Indictor Axe for one of the following options:" hidden="false" id="2a97-ea9c-4b54-ab2c" defaultSelectionEntryId="453c-8cb2-8921-3e56">
+              <entryLinks>
+                <entryLink import="true" name="Chainfist" hidden="false" id="86cd-f9b8-49a4-bc03" type="selectionEntry" targetId="9c9c-346a-4c47-8715">
+                  <costs>
+                    <cost name="Pts" hidden="false" id="f365-31bb-c06b-5e32" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6f0-7f82-4598-b156"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thunder Hammer" hidden="false" id="6942-e56c-47a0-8e7b" type="selectionEntry" targetId="838c-4002-713d-d7c6">
+                  <costs>
+                    <cost name="Pts" hidden="false" id="6d37-a153-f411-a435" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a75-d589-462c-a37f"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Indictor Axe" hidden="false" id="453c-8cb2-8921-3e56" type="selectionEntry" targetId="728a-1812-449c-bba5">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c128-e6c0-82d-1035"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Charnabal Glaive" hidden="false" id="14db-6c8d-4772-b239" type="selectionEntry" targetId="95ac-2464-4307-b4cc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81bf-2dcb-477d-8bc2"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Execution Blade" hidden="false" id="0c96-7630-4939-b89b" type="selectionEntry" targetId="b902-5e27-e3ec-18ca">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54a3-c7b7-4e8c-946f"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Proteus Neuro-lash" hidden="false" id="08a8-9f21-47a3-8b54" type="selectionEntry" targetId="d130-4af2-1ea4-e18d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ea4-9ac7-460e-94b8"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4da-eb4b-4e4c-bb9e"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ca8-1756-ccc8-9314"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -558,12 +616,6 @@ Could not find wargear Vratine Voidplate
             <categoryLink targetId="9231-183c-b97b-63f9" id="22a6-2981-439d-9bb5" name="Heavy" primary="false"/>
             <categoryLink targetId="32ee-6da0-41d1-8016" id="a30d-6e74-4060-8b13" name="Anathema" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
-          </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Vratine Voidplate
-	 Checked under Vratine Voidplate</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -571,10 +623,41 @@ Could not find wargear Vratine Voidplate
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52ab-b231-4ed3-92d3"/>
           </constraints>
-          <comment>!BSC Errors from 20240406-1603
-Teleport Transponders Cost</comment>
           <entryLinks>
-            <entryLink import="true" name="Teleportation Transponders" hidden="false" id="53b6-d597-2d1e-9884" type="selectionEntry" targetId="457d-253c-4789-9516"/>
+            <entryLink import="true" name="Teleportation Transponders" hidden="false" id="53b6-d597-2d1e-9884" type="selectionEntry" targetId="457d-253c-4789-9516">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" hidden="false" id="97d5-b973-a8a1-4c09" collective="false" import="true" defaultSelectionEntryId="717d-8b0f-1652-2b1d">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="atLeast" value="5" field="selections" scope="fb8d-fea0-4822-b1bc" childId="5e57-85d8-40c0-bbf0" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="e369-4dad-9f04-5452">
+              <conditions>
+                <condition type="atLeast" value="5" field="selections" scope="fb8d-fea0-4822-b1bc" childId="5e57-85d8-40c0-bbf0" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e369-4dad-9f04-5452" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="717d-8b0f-1652-2b1d" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d48f-ac16-a8ae-ca4" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -616,10 +699,7 @@ Teleport Transponders Cost</comment>
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find wargear in The entire unit may be given:
-Indictor Axe is in two option lists for Indictor, you will need to combine them by hand.
-Indictor Axe is in two option lists for Indictor Mistress, you will need to combine them by hand.</comment>
+      <comment>DONE</comment>
     </selectionEntry>
     <selectionEntry name="Perditor Cadre" type="unit" id="4e44-12b3-4b55-8a43" page="98" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -627,81 +707,9 @@ Indictor Axe is in two option lists for Indictor Mistress, you will need to comb
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="583a-036f-4f99-bf8f" name="Elites"/>
       </categoryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Perditor" id="754d-f232-4ac6-b5bc" page="98" publicationId="892-6266-f55f-1b9d">
-          <profiles>
-            <profile id="6937-fcc0-4686-80dc" name="Perditor" typeId="4bb2-cb95-e6c8-5a21">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">1</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Light, Anathema)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="3893-bc07-4c95-a763"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c35a-a102-4020-a615"/>
-          </constraints>
-          <entryLinks>
-            <entryLink name="Bolt Pistol" hidden="false" type="selectionEntry" targetId="52fe-46cd-520d-9df3" id="cdc4-dc9d-40d1-a8c4">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Bolt Pistols"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae3d-14c2-46d5-a5c1"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e6d-3f27-4436-a3bc"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Execution Blade" hidden="false" type="selectionEntry" targetId="b902-5e27-e3ec-18ca" id="1b16-e5d5-4df5-8d86">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e25-4024-4d0e-9929"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffea-12cd-4fff-aed1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Rad Grenades" hidden="false" type="selectionEntry" targetId="c089-6fbd-4a76-8a96" id="279f-2a54-4124-9311">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="09f3-93c7-49c3-9460"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfc3-c919-461d-8930"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="935b-af3f-48e9-9d3a">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d4d2-8bfc-40f1-94cd"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5ec-3ae0-4ed9-954c"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="3f52-f2f7-4d4b-b1ce">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c912-a754-4ca2-a4bd"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8bd-2d03-4ea6-9a54"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Vratine Armour" hidden="false" type="selectionEntry" targetId="d466-63c8-7784-cd84" id="d951-1b7a-4297-a7a5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13f1-f25c-4f07-8e3b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78a1-3053-4182-8ad8"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e04b-9c73-40c4-ba8c" name="Infantry" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="9111-9737-4009-a104" name="Light" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="a1d2-554c-40d9-84fd" name="Anathema" primary="false"/>
-          </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Psyk-Out Grenades
-	 Checked under Psyk-Out Grenades</comment>
-        </selectionEntry>
         <selectionEntry type="model" name="Perditor Mistress" id="089a-d689-4551-971d" page="98" publicationId="892-6266-f55f-1b9d">
           <profiles>
             <profile id="4a14-19d5-4978-82db" name="Perditor Mistress" typeId="4bb2-cb95-e6c8-5a21">
@@ -725,21 +733,6 @@ Could not find wargear Psyk-Out Grenades
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26b3-d896-4b0e-8977"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt Pistol" hidden="false" type="selectionEntry" targetId="52fe-46cd-520d-9df3" id="d342-a76c-453a-a333">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Bolt Pistols"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e052-68d7-4ac9-8e7a"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4aec-3edd-408a-a736"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Execution Blade" hidden="false" type="selectionEntry" targetId="b902-5e27-e3ec-18ca" id="1b9c-4fd8-46b5-8728">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c91-567c-4b55-85e9"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61f2-38cd-4f69-ad61"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Rad Grenades" hidden="false" type="selectionEntry" targetId="c089-6fbd-4a76-8a96" id="75d5-1e98-473b-a060">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4b6-ad63-49b4-a4b1"/>
@@ -764,6 +757,28 @@ Could not find wargear Psyk-Out Grenades
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc87-0736-4247-a1f3"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Compression Tanks" hidden="false" id="8d65-1b5-f243-3a08" type="selectionEntry" targetId="3ac3-045d-bc0e-d7fe">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9160-baab-58e2-2dce" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" hidden="false" id="6fc7-e6f2-5165-aad1" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Psyk-out Granades" hidden="false" id="6476-b0dc-36db-3876" type="selectionEntry" targetId="2d34-959c-a93c-888f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a8d-238b-be65-3a40"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c5-b49-82b8-ba97"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Phosphex Bomb" hidden="false" id="655a-2592-c178-c7bf" type="selectionEntry" targetId="4188-13ff-cb03-109e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3f4-8c11-3fed-5b48" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="451f-b0e2-4019-85b4" name="Infantry" primary="false"/>
@@ -771,9 +786,131 @@ Could not find wargear Psyk-Out Grenades
             <categoryLink targetId="bff2-ae16-74a8-8712" id="8900-f7dc-4069-9301" name="Light" primary="false"/>
             <categoryLink targetId="32ee-6da0-41d1-8016" id="adbb-3e7a-445b-86c2" name="Anathema" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Psyk-Out Grenades
-	 Checked under Psyk-Out Grenades</comment>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May take one of the following:" hidden="false" id="b2ab-8965-4b56-29ad">
+              <entryLinks>
+                <entryLink import="true" name="Twin-Linked Vratine Bolter" hidden="false" id="7536-1b53-81e1-9c2f" type="selectionEntry" targetId="c674-b9c2-af49-6bfd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="992d-c09e-3640-d44d"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="ca44-f10b-8a74-216c" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed41-ebbe-1e7b-dfae"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="ad00-fa48-7ffe-a3e5" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee51-e80a-775c-1ced"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Disintegrator Pistol" hidden="false" id="9ce7-37ad-9804-524" type="selectionEntry" targetId="980e-b1e7-a4a4-407f">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dda-994c-a0b7-9177"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bc7-d6f1-8c1c-be0f"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May exchange both Bolt Pistols for one of the following options:" hidden="false" id="a0f4-44f6-50e5-3272" defaultSelectionEntryId="8820-376f-446f-935c">
+              <entryLinks>
+                <entryLink import="true" name="Vratine Grenade Launcher" hidden="false" id="ead2-2342-debc-ea99" type="selectionEntry" targetId="985-799e-aa38-28d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e97-5f9c-1f3a-e380"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" hidden="false" id="c06-6931-dc27-c3fc" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Vratine Bolter" hidden="false" id="abd7-9076-199b-f642" type="selectionEntry" targetId="b48a-f5cb-983d-3832">
+                  <costs>
+                    <cost name="Pts" hidden="false" id="6096-204f-75f4-efcc" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6a6-5743-8943-a179"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="8820-376f-446f-935c" type="selectionEntry" targetId="e5ae-6872-37aa-8600">
+                  <modifiers>
+                    <modifier type="set" value="Two Bolt Pistols" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbe7-2e54-df2b-dd32"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Needle Pistol" hidden="false" id="3a8d-5f35-6877-fb17" type="selectionEntry" targetId="fdd4-06c7-4608-b07f">
+                  <costs>
+                    <cost name="Pts" hidden="false" id="d0b0-1f26-b2e5-209d" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a98-263a-3410-d2bd"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="Two Needle Pistols" field="name"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Hand Flamer" hidden="false" id="f976-c70b-777-fc9e" type="selectionEntry" targetId="e337-adf4-a11f-0280">
+                  <costs>
+                    <cost name="Pts" hidden="false" id="f806-28d0-a1aa-eab0" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="Two Hand Flamers" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec9f-163c-6dee-3cc1"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8744-de0-c162-77d8"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May exchange her Execution Blade for one of the following options:" hidden="false" id="70e0-93cd-9983-adcb" defaultSelectionEntryId="1b9c-4fd8-46b5-8728">
+              <entryLinks>
+                <entryLink import="true" name="Power Weapon" hidden="false" id="4698-ff5a-81cf-cc74" type="selectionEntry" targetId="d2db-7598-f55f-86fe"/>
+                <entryLink import="true" name="Execution Blade" hidden="false" id="1b9c-4fd8-46b5-8728" type="selectionEntry" targetId="adc6-3519-204d-2921">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61f2-38cd-4f69-ad61"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Charnabal Weapon" hidden="false" id="84e8-b4ea-17b7-5b9d" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9"/>
+                <entryLink import="true" name="Proteus Neuro-lash" hidden="false" id="f9f2-1698-1e26-e7a4" type="selectionEntry" targetId="4d36-dac5-86a1-46cc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9e-c5bc-93f1-8374"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Power Fist" hidden="false" id="8a26-654-9fbe-b5c" type="selectionEntry" targetId="768d-b89b-7328-d749">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ab8-3611-b97b-8ead"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3030-fa50-d2cb-824"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df7a-babb-d615-bf61"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -801,6 +938,456 @@ Could not find wargear Psyk-Out Grenades
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="131e-40dd-48a4-b199"/>
         <infoLink name="Bitter Duty" hidden="false" type="rule" targetId="d1b8-31da-c53c-4fe2" id="4e12-74db-48c3-bb43"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="The entire unit may be equip with:" hidden="false" id="5f0e-ff52-7795-d974">
+          <entryLinks>
+            <entryLink import="true" name="Melta Bomb" hidden="false" id="7681-8a31-9065-5c9b" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="Melta Bombs" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd53-c041-cea7-e78e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Venatari Jump Harness" hidden="false" id="694f-8b6d-7b32-659d" type="selectionEntry" targetId="7cf8-3f52-2876-60e9">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a973-9101-c0e0-dd35"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="10" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="4e44-12b3-4b55-8a43" childId="710a-1718-1cf9-5e8a" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4a74-c131-ca59-f67d"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="One of the following may be equip to one Perditor each:" hidden="false" id="9e53-4074-cf59-a1c2">
+          <entryLinks>
+            <entryLink import="true" name="Augury Scanner" hidden="false" id="5b35-d5b2-4906-94d" type="selectionEntry" targetId="67ee-7338-3b74-04b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e94e-acd5-fcfe-8327" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" hidden="false" id="5787-56d5-a1c9-a592" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Nuncio-Vox" hidden="false" id="be0-231f-2c08-ce8d" type="selectionEntry" targetId="005e-aae6-ddac-bb45">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9063-5032-f742-4343" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" hidden="false" id="2d4b-d423-3776-e9fb" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5cdf-114f-3a2-c5ca"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Perditor Infantry" hidden="false" id="710a-1718-1cf9-5e8a" defaultSelectionEntryId="754d-f232-4ac6-b5bc">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Perditor w/Pistols" hidden="false" id="754d-f232-4ac6-b5bc" page="98" publicationId="892-6266-f55f-1b9d">
+              <profiles>
+                <profile name="Perditor" typeId="4bb2-cb95-e6c8-5a21" hidden="false" id="cf4f-2e06-c9dc-4a89">
+                  <characteristics>
+                    <characteristic name="Move" hidden="false" id="e846-c09a-5710-ffac" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                    <characteristic name="WS" hidden="false" id="67b6-7149-e19a-8e68" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                    <characteristic name="BS" hidden="false" id="e4d7-c553-b50a-aefb" typeId="74ae-c840-0036-d244">4</characteristic>
+                    <characteristic name="S" hidden="false" id="7c2b-276d-2775-be3a" typeId="e478-41d4-a092-48a8">3</characteristic>
+                    <characteristic name="T" hidden="false" id="4155-ecd3-f847-fb2b" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                    <characteristic name="W" hidden="false" id="b93a-2a50-3b6a-4a08" typeId="57ee-1126-32a9-5672">1</characteristic>
+                    <characteristic name="I" hidden="false" id="8fcf-c54f-5251-443e" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                    <characteristic name="A" hidden="false" id="dc4b-f2e-71ca-24dd" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                    <characteristic name="Ld" hidden="false" id="1e69-c7aa-90a1-1fdb" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                    <characteristic name="Save" hidden="false" id="4b90-eefa-6d6e-88ff" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+                    <characteristic name="Unit Type" hidden="false" id="ee91-8f6c-c460-91f5" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Anathema)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Execution Blade" hidden="false" id="8d89-d6d8-28db-ea92" type="selectionEntry" targetId="b902-5e27-e3ec-18ca">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bee1-b9c1-6b41-3550"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f3e-f9a-7402-a30c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Rad Grenades" hidden="false" id="c9e0-4c8-275a-c88d" type="selectionEntry" targetId="c089-6fbd-4a76-8a96">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4706-caea-d151-a7de"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="219b-4c09-91da-8fff"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Frag Grenades" hidden="false" id="da22-861d-8736-f2fe" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54ca-3c5f-8af3-8465"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c9c-fdf5-7036-fc40"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Krak Grenades" hidden="false" id="824c-6e74-4055-5e1e" type="selectionEntry" targetId="3739-1019-344e-761d">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d47d-b9f9-60f1-29f6"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7117-d9cf-69a5-cfa5"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Vratine Armour" hidden="false" id="477c-c92-f0da-aebc" type="selectionEntry" targetId="d466-63c8-7784-cd84">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8bb3-a7e3-1bf3-65b4"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b72-669d-60f5-118c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Psyk-out Granades" hidden="false" id="cd4-451e-7753-9c35" type="selectionEntry" targetId="d202-a726-01e7-245b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f460-d881-58c7-6103"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4024-60e3-b438-10b3"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Compression Tanks" hidden="false" id="a490-c17a-5a69-778d" type="selectionEntry" targetId="3ac3-045d-bc0e-d7fe">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3a3-c91b-82dd-339b" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" hidden="false" id="d892-8c7d-45e0-1d42" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="db94-1706-eb85-703a" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Light Sub-type:" hidden="false" id="e0b5-ea70-51a6-7e7" targetId="bff2-ae16-74a8-8712" primary="false"/>
+                <categoryLink name="Anathema Unit Sub-Type:" hidden="false" id="e2af-4188-b88e-c7b0" targetId="32ee-6da0-41d1-8016" primary="false"/>
+              </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May exchange both Bolt Pistols for one of the following options:" hidden="false" id="ca40-cc28-c853-be89" defaultSelectionEntryId="71c6-5a6e-5b09-df32">
+                  <entryLinks>
+                    <entryLink import="true" name="Vratine Grenade Launcher" hidden="false" id="cf7c-d7d9-7f2d-ed30" type="selectionEntry" targetId="985-799e-aa38-28d">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6f1-96d6-3d4-6832"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" hidden="false" id="1096-3a71-2df7-52f" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Vratine Bolter" hidden="false" id="969d-788c-8253-7da0" type="selectionEntry" targetId="b48a-f5cb-983d-3832">
+                      <costs>
+                        <cost name="Pts" hidden="false" id="a981-86b9-9bb-a4f4" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b702-d4eb-cc66-3298"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="71c6-5a6e-5b09-df32" type="selectionEntry" targetId="e5ae-6872-37aa-8600">
+                      <modifiers>
+                        <modifier type="set" value="Two Bolt Pistols" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85d3-1d86-2725-d690"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Needle Pistol" hidden="false" id="494-4b1-af8a-5162" type="selectionEntry" targetId="fdd4-06c7-4608-b07f">
+                      <costs>
+                        <cost name="Pts" hidden="false" id="a292-c93d-fde1-b0ac" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ded-1250-10c5-7f15"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="Two Needle Pistols" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Hand Flamer" hidden="false" id="867c-7c0a-ebc0-7731" type="selectionEntry" targetId="e337-adf4-a11f-0280">
+                      <costs>
+                        <cost name="Pts" hidden="false" id="aee4-4a84-9212-b1d3" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Two Hand Flamers" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9af8-7c6-f469-d2ba"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec54-349d-61ee-7a03"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1659-896a-247-dad3"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" hidden="false" id="8b71-ca89-b2c2-257e" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Perditor w/Special Weapon" hidden="false" id="c5f2-eed6-e154-986d" page="98" publicationId="892-6266-f55f-1b9d">
+              <profiles>
+                <profile name="Perditor" typeId="4bb2-cb95-e6c8-5a21" hidden="false" id="4928-c4ff-935d-80da">
+                  <characteristics>
+                    <characteristic name="Move" hidden="false" id="d080-c127-52b6-4518" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                    <characteristic name="WS" hidden="false" id="5223-ce15-9354-107d" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                    <characteristic name="BS" hidden="false" id="cdc7-3057-cc7-ba12" typeId="74ae-c840-0036-d244">4</characteristic>
+                    <characteristic name="S" hidden="false" id="b039-da6-3f3f-bc32" typeId="e478-41d4-a092-48a8">3</characteristic>
+                    <characteristic name="T" hidden="false" id="48b5-dd7b-b11-5b9d" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                    <characteristic name="W" hidden="false" id="20fb-111f-bf3c-e2f5" typeId="57ee-1126-32a9-5672">1</characteristic>
+                    <characteristic name="I" hidden="false" id="1c48-beda-cf11-ac12" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                    <characteristic name="A" hidden="false" id="e07a-d10e-d93b-91c5" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                    <characteristic name="Ld" hidden="false" id="98-d42e-80d8-f037" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                    <characteristic name="Save" hidden="false" id="158-ddaf-d1ca-51fb" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+                    <characteristic name="Unit Type" hidden="false" id="c973-a2e8-ab27-c494" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Anathema)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="19" field="selections" scope="4e44-12b3-4b55-8a43" shared="true" id="60f7-64c7-fd67-ef5a" percentValue="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Execution Blade" hidden="false" id="669f-5e42-767c-8f8e" type="selectionEntry" targetId="b902-5e27-e3ec-18ca">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d18-1fef-d1e6-cf58"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b85a-7ed2-f30-4bda"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Rad Grenades" hidden="false" id="bc5d-864c-9151-e01a" type="selectionEntry" targetId="c089-6fbd-4a76-8a96">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be17-8346-4a2f-fcde"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6554-7190-6ce4-dc6b"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Frag Grenades" hidden="false" id="2d51-cb9a-e1e9-e480" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c34a-130a-ddcd-6552"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d100-fdbe-4f1-d520"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Krak Grenades" hidden="false" id="af29-119b-84eb-7f3a" type="selectionEntry" targetId="3739-1019-344e-761d">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b310-f53f-e353-2536"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0d8-146e-29f7-1a7f"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Vratine Armour" hidden="false" id="6600-7a20-6a15-79ac" type="selectionEntry" targetId="d466-63c8-7784-cd84">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb41-86a5-c37b-a28d"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6967-8e3f-ebc2-e48b"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Psyk-out Granades" hidden="false" id="e405-3190-9f25-dd59" type="selectionEntry" targetId="d202-a726-01e7-245b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1ff-5d8c-59d1-44c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5931-2670-c9d6-4afb"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Compression Tanks" hidden="false" id="cc9f-dd79-893d-9e18" type="selectionEntry" targetId="3ac3-045d-bc0e-d7fe">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a0c-907a-55b3-447b" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" hidden="false" id="4d24-84ed-9b1c-8a33" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="bd0b-3f61-ae39-5fe" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Light Sub-type:" hidden="false" id="22f2-47d-4747-4deb" targetId="bff2-ae16-74a8-8712" primary="false"/>
+                <categoryLink name="Anathema Unit Sub-Type:" hidden="false" id="99eb-15ee-1e41-638d" targetId="32ee-6da0-41d1-8016" primary="false"/>
+              </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="One in five may exchange one Bolt Pistols for one of the following options:" hidden="false" id="a5f7-bae6-97fe-7eae" defaultSelectionEntryId="cf4c-2264-7dc7-c044">
+                  <entryLinks>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="d351-f7f-5df-7f52" type="selectionEntry" targetId="e5ae-6872-37aa-8600">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bb6-452a-81d4-3681-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb6-452a-81d4-3681-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Special Weapon" hidden="false" id="3c0b-6700-dcf1-c8ee">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9302-4bd3-a1c5-8ed3"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Vratine Nemesis Bolters" hidden="false" id="3d54-97b8-c896-ffb6" type="selectionEntry" targetId="36c6-b6ae-bac0-6741">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fd6-1e45-a56-4d04" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" hidden="false" id="f56-4b03-e3cc-c386" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <entryLinks>
+                            <entryLink import="true" name="Suspensor Web" hidden="false" id="3573-32d6-16b5-49b8" type="selectionEntry" targetId="6472-db7f-08b0-d7c7">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43de-17b-6102-b6e3"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abf2-d54f-35bc-5599"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </entryLink>
+                        <entryLink import="true" name="Vratine Bolt Cannon" hidden="false" id="58a6-9e34-580-359c" type="selectionEntry" targetId="2c54-803e-4232-ace2">
+                          <costs>
+                            <cost name="Pts" hidden="false" id="5e5a-581a-adaa-fcd2" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                          <entryLinks>
+                            <entryLink import="true" name="Suspensor Web" hidden="false" id="6955-e9fd-4240-275f" type="selectionEntry" targetId="6472-db7f-08b0-d7c7">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="570a-b89c-d55d-fd62"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22cb-f6bc-3a5a-8e98"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbad-2687-a1f5-8c8f"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Toxiferran Flamer" hidden="false" id="4a0a-a5e4-c494-a856" type="selectionEntry" targetId="732a-29f9-edb7-5bc3">
+                          <costs>
+                            <cost name="Pts" hidden="false" id="29cf-f302-e579-45a7" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0ea-de00-b9b8-3c0c"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Needle Cannon" hidden="false" id="7a1-c0b5-4b20-e6e4" type="selectionEntry" targetId="376b-e109-36a3-d4f2">
+                          <costs>
+                            <cost name="Pts" hidden="false" id="6f12-b6d6-b1f9-f89c" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f13-b63e-cc26-dde"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Suspensor Web" hidden="false" id="d2ab-c6eb-2d3f-bb15" type="selectionEntry" targetId="6472-db7f-08b0-d7c7">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71fb-2f09-c20e-d64"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74b-2d25-3df4-eb99"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </entryLink>
+                        <entryLink import="true" name="Missile Launcher" hidden="false" id="cff8-bd69-604d-17c9" type="selectionEntry" targetId="0ec3-6c91-952c-e0ea">
+                          <costs>
+                            <cost name="Pts" hidden="false" id="d6d5-3033-8066-5304" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                          </costs>
+                          <comment>Add Rad and Psyk-Out Missiles</comment>
+                          <entryLinks>
+                            <entryLink import="true" name="Suspensor Web" hidden="false" id="b661-b5f4-5ea4-147d" type="selectionEntry" targetId="6472-db7f-08b0-d7c7">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="887e-2d75-4001-ac46"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d84-f976-428c-94ad"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d3c-a8b-386-b051"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Snare Cannon" hidden="false" id="d4e2-f7e3-be12-d31c" type="selectionEntry" targetId="8bdf-b973-4380-b67c">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="757-88b7-8d88-2086" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" hidden="false" id="8256-49be-778f-7d0a" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <entryLinks>
+                            <entryLink import="true" name="Suspensor Web" hidden="false" id="3a83-d23e-8cad-29a8" type="selectionEntry" targetId="6472-db7f-08b0-d7c7">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2856-edb5-68a9-cc50"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2e3-5bb8-de5e-55a4"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </entryLink>
+                        <entryLink import="true" name="Disintegrator" hidden="false" id="4776-ec6f-20cb-b072" type="selectionEntry" targetId="a567-9434-36f3-5fd4">
+                          <costs>
+                            <cost name="Pts" hidden="false" id="939e-c5dd-d87e-3303" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="730b-9697-faa2-fde2"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" hidden="false" id="7d03-800f-d935-16a7" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="3893-bc07-4c95-a763"/>
+            <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="c35a-a102-4020-a615"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" hidden="false" id="8387-ece2-368f-f4ce" collective="false" import="true" defaultSelectionEntryId="2dcb-909-437a-644f">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="4e44-12b3-4b55-8a43" childId="694f-8b6d-7b32-659d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ed5-3bd1-1219-807d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="2dcb-909-437a-644f" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75e-8355-295b-7353" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="52b2-276-7d72-bc98" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="10" field="selections" scope="4e44-12b3-4b55-8a43" childId="710a-1718-1cf9-5e8a" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f12-658c-14d3-3230" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="cd90-dc37-9929-be9e" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="10" field="selections" scope="4e44-12b3-4b55-8a43" childId="710a-1718-1cf9-5e8a" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecc7-6766-1c76-de5e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Termite Assault Drill" hidden="false" id="d716-5242-1011-2d4c" type="selectionEntry" targetId="b3bd-c23c-aca6-f883">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="10" field="selections" scope="4e44-12b3-4b55-8a43" childId="710a-1718-1cf9-5e8a" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da1a-dca0-8d09-2a4b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>DONE</comment>
     </selectionEntry>
     <selectionEntry name="Repressor Automata Maniple" type="unit" id="56a7-d94d-4fc4-a7a7" page="100" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -2501,21 +3088,334 @@ Could not find wargear in A Stymphalia may exchange their Centreline Mounted Twi
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="bc07-af48-4ec8-aca6"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vratine Voidplate" hidden="false" id="6197-1d1-d8b6-a2b3" publicationId="892-6266-f55f-1b9d" page="311">
+      <profiles>
+        <profile name="Vratine Voidplate" hidden="false" id="7e3c-4f0e-67a0-8c55" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Vratine Voidplate confers a 2+ Armour Save. In addition, a unit that includes any models with Vratine Voidplate make Sweeping Advance rolls at a penalty of -1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vratine Voidplate" hidden="false" id="dc3f-ed02-a38a-70d6" publicationId="892-6266-f55f-1b9d" page="311" collective="true">
+      <profiles>
+        <profile name="Vratine Voidplate" hidden="false" id="3425-60bd-c7cc-73bc" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Vratine Voidplate confers a 2+ Armour Save. In addition, a unit that includes any models with Vratine Voidplate make Sweeping Advance rolls at a penalty of -1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Kharon Pattern Acquistor" hidden="false" id="16fa-53b2-b57b-ec25" collective="false">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Kharon Pattern Acquistor" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="f25a-8ecb-816f-6f47" publicationId="15a4-fc68-502d-48a9" page="56">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport, Antigrav, Fast)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">16</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">A Kharon Pattern Acquisitor has one Access Point at the front.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Assault Vehicle" hidden="false" id="f72c-1eb-9ab5-4c31" targetId="aa61-11f6-2bb5-7c0e" type="rule"/>
+        <infoLink name="Night Vision" hidden="false" id="5a31-27a-bdf7-11ab" targetId="683e-b4f2-f032-d31b" type="rule"/>
+        <infoLink name="Deep Strike" hidden="false" id="6e3b-dbd4-3599-4ed4" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+        <infoLink name="Outflank" hidden="false" id="a584-9016-e6c2-c3cc" targetId="bfbf-e75c-49a2-0285" type="rule"/>
+        <infoLink name="Loyalist" hidden="false" id="ea12-56ad-5e22-cc02" targetId="d1de-a45d-2b9b-c878" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle:" hidden="false" id="4048-cdbc-7bad-778e" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink name="Fast Sub-type:" hidden="false" id="d29e-cf5d-77db-4913" targetId="0ea2-efb5-b7af-226e" primary="false"/>
+        <categoryLink name="Transport Sub-type:" hidden="false" id="529d-3432-2c61-6c5a" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="1) Hull (Front) Mounted Weapon" hidden="false" id="8d8c-6ac7-94b9-8784" collective="false" import="true" defaultSelectionEntryId="1962-701d-5052-32ab">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d34e-7fa7-b921-fb5c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d732-3008-0d8e-c711" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="c2-21c1-5a76-89c0" collective="false" targetId="ef6c-f656-171a-03e1" type="selectionEntry" publicationId="9fab-fea7-a93c-2074" page="145">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted multi-melta" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Hellion Heavy Cannon Array" hidden="false" id="ea89-1933-ef5f-fb37" collective="false" targetId="a17e-c567-c602-892e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted hellion heavy cannon array" field="name"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="2) Two Hull (Front) Mounted Vratine Missile Launchers" hidden="false" id="a11-1d18-64cf-13ad" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4829-1f22-1b24-c15c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8e0d-bcf9-ea41-e90d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Vratine Missile Launcher" hidden="false" id="afd8-6260-c281-5ff2" collective="false" targetId="0ee4-7a2e-804a-a934" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d8b8-b7ff-1820-0c88" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="92ca-df64-9616-b83c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="3) Silent Sisterhood" hidden="false" id="5376-1e03-d130-d79d" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af81-74c8-a4ec-efe7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood (Chamber of Obivion)" hidden="true" id="7d88-8582-b9f1-6c7e" collective="false" targetId="7856-71cb-a1fb-bc43" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="1" field="90e5-7780-e86b-ba9d">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="a7e3-4559-7267-8bf6" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="a7e3-4559-7267-8bf6" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="90e5-7780-e86b-ba9d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood (Chamber of Vigilance)" hidden="true" id="f8c7-5d19-73a4-fb08" collective="false" targetId="7b50-6b5d-e6f9-420b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="1" field="9dde-8d76-4aff-e100">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="b6d7-6924-37fb-dd32" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="b6d7-6924-37fb-dd32" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9dde-8d76-4aff-e100" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood (Chamber of Judgement)" hidden="true" id="dcd1-e90f-9b42-a7b3" collective="false" targetId="ade4-0f3a-c307-9dc2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="1" field="7a1c-3372-da3f-f0f7">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="b71a-371d-4401-9dc0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="b71a-371d-4401-9dc0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7a1c-3372-da3f-f0f7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Spectra Distort Shield" hidden="false" id="63c0-d8e3-ca3c-956b" collective="false" targetId="d11a-3108-ea62-ffac" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3df2-04a5-001e-f03f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="9c51-acbc-f6b5-703e" collective="false" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae59-37f1-3398-64aa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6784-5ed4-6eec-6984" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="6a7f-b7b7-5a15-5cb" typeId="d2ee-04cb-5f8a-2642" value="150"/>
+      </costs>
+      <comment>MOVED FROM LI CAT</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vratine Grenade Launcher" hidden="false" id="985-799e-aa38-28d">
+      <entryLinks>
+        <entryLink import="true" name="Vratine Grenade Launcher - Frag" hidden="false" id="647a-d714-f939-c954" type="selectionEntry" targetId="5639-ac34-4fec-93d7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6247-997e-97e3-2937"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e2a-e377-e133-5087" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Vratine Grenade Launcher - Krak" hidden="false" id="37a7-2dd3-5066-54ba" type="selectionEntry" targetId="de07-e007-447a-9e3a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2723-5cd8-eeb5-20de" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fda-431f-65c0-8f91" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Vratine Grenade Launcher - Psyk-Out" hidden="false" id="3ecf-a413-fdc-9b68" type="selectionEntry" targetId="670e-528f-48e8-bed4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7697-2a08-c3e-3b48" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f05-4884-f239-6ba5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Termite Assault Drill" hidden="false" id="b3bd-c23c-aca6-f883" collective="false">
+      <profiles>
+        <profile name="Termite Assault Drill" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="6351-0dae-4649-8e70">
+          <characteristics>
+            <characteristic name="Unit Type" hidden="false" id="8c31-c43a-7c92-edb" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport)</characteristic>
+            <characteristic name="Move" hidden="false" id="481f-7227-4cd-a98f" typeId="3614-4a2d-bffb-90e4">8</characteristic>
+            <characteristic name="BS" hidden="false" id="9990-9997-8c93-1db5" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+            <characteristic name="Front" hidden="false" id="86d7-4971-fdde-fb4" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+            <characteristic name="Side" hidden="false" id="f457-fe11-c164-eef1" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+            <characteristic name="Rear" hidden="false" id="38a1-21aa-84b2-5d6d" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" hidden="false" id="9147-dd7-2b0f-1342" typeId="a76c-83b1-602f-9e62">3</characteristic>
+            <characteristic name="Transport Capacity" hidden="false" id="3539-547e-6e50-a101" typeId="0c90-79e2-f768-e547">12</characteristic>
+            <characteristic name="Access Points" hidden="false" id="b90e-8e82-5ab8-6993" typeId="e217-1b1e-9494-3e3e">A Legion Termite Assault Drill has two Access Points, one on each side of the hull.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Infantry Transport" hidden="false" id="fd12-7742-5c9a-61cd" targetId="0c6b-9cc1-5801-3e83" type="rule"/>
+        <infoLink name="Loyalist" hidden="false" id="4e43-e223-9036-72eb" targetId="d1de-a45d-2b9b-c878" type="rule"/>
+        <infoLink name="Silent Sisterhood (X)" hidden="false" id="129f-f5ab-7bef-8a5a" targetId="1d8d-3038-9267-6f1b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Legiones Astartes" hidden="false" id="5ede-aac8-0b78-6407" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink name="Vehicle:" hidden="false" id="c625-648b-7e4a-9fd2" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" id="0810-6ade-5f7d-4593" targetId="b6d7-6924-37fb-dd32" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Termite Assault Drill" hidden="false" id="df09-966f-5b5b-2a46" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="367d-a97d-6878-b54e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5368-0892-2ca5-f1b3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Vehicle:" hidden="false" id="55b9-a550-90c4-dbee" targetId="e2b6-b770-784c-9e95" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" hidden="false" id="bb7f-68f0-e6ba-488c" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Show Subterranean Assault rule (it&apos;s really long)" hidden="false" id="1be8-bfc1-06ec-0912" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cedd-e925-b745-20a2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Subterranean Assault" hidden="false" id="bd11-2d98-1656-b9af" targetId="33d4-d46d-7f47-3ad2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" hidden="false" id="e614-a7b7-d4e6-faf" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="1) Pintle Mounted Weaponry" hidden="false" id="7eb8-14e5-2dca-a4ea" collective="false" import="true" defaultSelectionEntryId="e340-2c37-b27d-9193">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="09e1-f324-aa40-6703" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d26-e3d1-689a-e6f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Volkite Charger" hidden="false" id="403f-8c24-27da-1a76" collective="false" targetId="6f6e-ad55-e093-6503" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="2x Volkite Chargers" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" hidden="false" id="4ffa-6289-4a9-f74f" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="e340-2c37-b27d-9193" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="2x Twin-linked Bolters" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="1398-a472-bc9e-24d3" collective="false" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="2x Heavy Flamers" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" hidden="false" id="f466-8b38-a01d-4f6f" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Melta Cutters" hidden="false" id="8cf0-06a5-fb6b-fff2" collective="false" targetId="c9af-b8d6-3de0-972b" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2771-c7c2-721a-7f56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8e2-3568-b06c-a236" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" id="236f-1870-67be-cf90" collective="false" targetId="7b50-6b5d-e6f9-420b" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54bf-d83e-cf9a-8f36" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="5169-b8b0-34e6-c9" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+      <comment>MOVED FROM LI CAT</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink id="5f24-4626-0547-71c3" name="Panoptica Library" targetId="69b7-3f60-9f7f-8ce5" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium Library" id="e844-fb97-9b3f-62a7" targetId="4ab9-6c13-4d80-2f7d"/>
   </catalogueLinks>
-  <entryLinks>
-    <entryLink import="true" name="Arbiter Cadre" hidden="false" id="4454-973b-a7d1-8d0e" type="selectionEntry" targetId="8e1e-8837-4fd2-82ca"/>
-    <entryLink import="true" name="Sikari Dar" hidden="false" id="dedc-4bab-1524-17ac" type="selectionEntry" targetId="f04b-e2e9-4b55-bc0c">
-      <categoryLinks>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" id="9c62-c927-9a94-71b1" primary="true" name="HQ:"/>
-        <categoryLink targetId="36c3-e85e-97cc-c503" id="e5f2-cb42-47b3-76b" primary="false" name="Unit:"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Knight Ensign Covenant" hidden="false" id="5d90-a327-5767-b1e1" type="selectionEntry" targetId="9ecd-64c7-40d6-bc88"/>
-    <entryLink import="true" name="Indictor Cadre" hidden="false" id="a069-6877-2d42-881a" type="selectionEntry" targetId="fb8d-fea0-4822-b1bc"/>
-  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Silent Sisterhood (X)" hidden="false" id="a329-aa45-a45c-f92a" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" id="ade4-0f3a-c307-9dc2" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e174-f1aa-b78b-b8fb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Silent Sisterhood (Chamber of Judgement)" hidden="false" id="d7f2-9a15-c98c-ecbc" targetId="04a5-fa60-5ebe-aa9d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" hidden="false" id="f230-3914-6697-bf63" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" id="7856-71cb-a1fb-bc43" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e140-2509-aea3-321d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Silent Sisterhood (Chamber of Obivion)" hidden="false" id="81c2-6d1a-6520-7924" targetId="c4ce-323b-11a5-c9f6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" hidden="false" id="5986-eb49-3afd-9e9f" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" id="7b50-6b5d-e6f9-420b" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5858-16e6-f7ac-48ea" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" id="ba10-8eb6-4a3b-669a" targetId="efd8-4a41-bd4b-058b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" hidden="false" id="1b90-34ba-82f2-774d" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
