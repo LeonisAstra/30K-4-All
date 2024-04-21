@@ -259,6 +259,42 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Indictor Cadre" hidden="false" id="f11a-4690-2c1e-a195" type="selectionEntry" targetId="fb8d-fea0-4822-b1bc"/>
+    <entryLink import="true" name="Repressor Automata Maniple" hidden="false" id="b947-5c94-2bd5-24a5" type="selectionEntry" targetId="56a7-d94d-4fc4-a7a7">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="8e19-f2a8-f8b-90a6" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shrike Cadre" hidden="false" id="ae29-360a-4304-9f6c" type="selectionEntry" targetId="a7fc-1ed1-47b8-8b6d">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="5c64-5e90-66da-984d" primary="true" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Impetor Cadre" hidden="false" id="9e4-d2ce-115e-dc0e" type="selectionEntry" targetId="f693-efbd-469b-8d78"/>
+    <entryLink import="true" name="Otos Transport Craft" hidden="false" id="5cfa-aa0-c0c0-ed9d" type="selectionEntry" targetId="d407-5a3f-41c9-9780">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="a94d-c080-db-f78b" primary="true" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aymhari Interceptor" hidden="false" id="ea3a-991b-95c9-a687" type="selectionEntry" targetId="146e-e4af-45fa-be7b">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="93df-1c84-aab1-3446" primary="true" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arbiter Cadre" hidden="false" id="f65-3592-b644-6361" type="selectionEntry" targetId="8e1e-8837-4fd2-82ca">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="c91-b82b-7f80-2c3e" primary="false" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Caedecius Exoframe Cadre" hidden="false" id="568d-7a07-1200-88d6" type="selectionEntry" targetId="d9bd-1049-4dbd-8613">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="1a84-c51d-3e77-9beb" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stymphalia Attack Craft" hidden="false" id="e-d750-9124-b125" type="selectionEntry" targetId="72f9-5272-4855-8a6f">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="f5a0-d067-6d3a-892a" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c400-14ac-853c-161f" name="Jenetia Krole" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
@@ -1025,6 +1061,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="9d32-1528-4e59-d1c5" name="Silent Judge" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2445,7 +2482,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eb84-e14a-dc5b-9bcd" name="Questora" hidden="false" collective="false" import="true" defaultSelectionEntryId="687d-f5f7-0bf4-a89f">
+        <selectionEntryGroup id="eb84-e14a-dc5b-9bcd" name="1) Questora" hidden="false" collective="false" import="true" defaultSelectionEntryId="687d-f5f7-0bf4-a89f">
           <constraints>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6363-347a-80a0-a798" type="min"/>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ad-8cc0-9361-2b03" type="max"/>
@@ -2456,7 +2493,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry id="687d-f5f7-0bf4-a89f" name="1) Questora w/ Unit option" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="687d-f5f7-0bf4-a89f" name="1) Questora w/ Unit Option" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="name" value="Questora w/ Charnabal Sabre">
                   <conditions>
@@ -2597,6 +2634,32 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 <categoryLink targetId="7e5d-d73e-8ff4-7345" id="8f05-a864-4625-a004" name="Anathema Sub-type" primary="false"/>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b746-2c0a-4785-b50b" name="Infantry Unit Type" primary="false"/>
               </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Any model in the unit may exchange a bolt pistol for one of the following:" id="7496-6493-5830-79f1" hidden="false" collective="false" import="true" defaultSelectionEntryId="7312-d7d7-7c7b-b0f2">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5306-6e1f-1fff-a3eb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="267b-9eb8-148-5dae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="7312-d7d7-7c7b-b0f2" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry"/>
+                    <entryLink import="true" name="Hand Flamer" hidden="false" id="ca32-e514-b8cf-3f41" collective="false" targetId="e337-adf4-a11f-0280" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" id="55b-7928-b449-fd55" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Needle Pistol" hidden="false" id="4926-d892-5d9d-6b98" collective="false" targetId="fdd4-06c7-4608-b07f" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" id="8fd4-65f5-ec60-3b98" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="1df0-d18b-4507-70e4" collective="false" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" id="c662-45c4-364f-6f6f" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="ab3d-ff19-d1d7-5aee" name="1) Questora w/ Pistols" hidden="false" collective="false" import="true" type="model">
               <modifiers>
@@ -2734,7 +2797,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e11c-ba12-49fd-a3a5" name="Infantry Unit Type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
-            <selectionEntry id="ee7c-6dad-729c-2139" name="2) Questora w/ Options" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="ee7c-6dad-729c-2139" name="2) Questora w/ Special Options" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2791,40 +2854,8 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="c19e-2204-5628-6d33" name="Weapon Options" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="693f-759a-8637-d6ea" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8aa-3e24-9c7d-1356" type="max"/>
-                  </constraints>
+                <selectionEntryGroup id="c19e-2204-5628-6d33" name="Ranged Weapon Options" hidden="false" collective="false" import="true">
                   <entryLinks>
-                    <entryLink id="7618-28b9-b90b-20ec" name="Adrathic Destructor" hidden="false" collective="false" import="true" targetId="7bb3-794e-c334-4136" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c7-89ca-8c3b-233c" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="fc75-b626-91b2-0183" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf9-bff5-c0f7-6409" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="eec3-bb73-e916-fddf" name="Nemesis Bolter" hidden="false" collective="false" import="true" targetId="c10a-61f8-9c33-fe8a" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ad-5363-de34-9d48" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="f52f-4161-b76b-96fa" name="Snare Gun" hidden="false" collective="false" import="true" targetId="9544-ef9a-630f-b327" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa8-e29a-9e21-e984" type="max"/>
-                      </constraints>
-                    </entryLink>
                     <entryLink import="true" name="Meltagun" hidden="false" id="26ab-4b36-a91a-befe" type="selectionEntry" targetId="7447-495d-4b86-c92c">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3311-35be-b00-f60"/>
@@ -2852,6 +2883,44 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                       </costs>
                     </entryLink>
                   </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="2 models may exchange their Vratine Bolters for:" id="cca7-f170-84df-95c9" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Snare Gun" hidden="false" id="f52f-4161-b76b-96fa" collective="false" targetId="9544-ef9a-630f-b327" type="selectionEntry">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aa8-e29a-9e21-e984" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Adrathic Destructor" hidden="false" id="7618-28b9-b90b-20ec" collective="false" targetId="7bb3-794e-c334-4136" type="selectionEntry">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90c7-89ca-8c3b-233c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" id="aa49-8bf9-e8a-f99f" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="fc75-b626-91b2-0183" collective="false" targetId="aab4-9e33-94f0-5815" type="selectionEntry">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bf9-bff5-c0f7-6409" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" id="5dd6-a6a1-697d-aaaf" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Nemesis Bolter" hidden="false" id="eec3-bb73-e916-fddf" collective="false" targetId="c10a-61f8-9c33-fe8a" type="selectionEntry">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74ad-5363-de34-9d48" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" id="f2b4-5e62-2e75-9a28" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="693f-759a-8637-d6ea" shared="true" id="e8aa-3e24-9c7d-1356" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="82bb-6293-c973-c2fa" name="Any model may take:" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -2870,6 +2939,30 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                       </modifiers>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any model in the unit may exchange a bolt pistol for one of the following:" id="df05-5232-c317-5ef9" hidden="false" collective="false" import="true" defaultSelectionEntryId="6239-b603-650a-8d9d">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f8a-1fab-7bad-9795" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c96c-3093-9e06-65f6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="6239-b603-650a-8d9d" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry"/>
+                    <entryLink import="true" name="Hand Flamer" hidden="false" id="3e98-a3a4-fd67-862c" collective="false" targetId="e337-adf4-a11f-0280" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" id="9360-356e-50b1-7932" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Needle Pistol" hidden="false" id="a414-8e05-771b-964d" collective="false" targetId="fdd4-06c7-4608-b07f" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" id="fdb6-193e-d52a-9139" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="68d2-ea54-70d1-db90" collective="false" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" id="b001-707-1c2e-cbb7" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -2919,13 +3012,37 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="2) Dedicated Transport" id="81e3-ebb1-8eea-9baa" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="ac88-cfc7-5c43-6941" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f59-3e49-ba88-ea41" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="66e0-615e-31c7-5f90" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1fe-e107-6f16-f8dc" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="d917-cb09-5dc-ee1b" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1db4-85d0-a485-660f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd4e-f12c-b31e-8e0b" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ac88-cfc7-5c43-6941" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f59-3e49-ba88-ea41" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="7119-fee2-b2b3-04ad" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" collective="false" import="true" targetId="ade4-0f3a-c307-9dc2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cae-e134-6c2d-ae98" type="min"/>
@@ -2935,6 +3052,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="7f95-0220-f031-0986" name="Knight Vestal Covenant" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -3091,14 +3209,22 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup name="3) Armour Options" id="591b-3fee-3451-2a0a" hidden="false" defaultSelectionEntryId="43cc-08e4-1582-968a">
+              <entryLinks>
+                <entryLink import="true" name="Vratine Armour" hidden="false" id="43cc-08e4-1582-968a" collective="false" targetId="d466-63c8-7784-cd84" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3832-88da-8411-8008" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="3a68-7ecb-bcc1-d34d" type="selectionEntry" targetId="583e-62cb-53f1-f952">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="43cc-08e4-1582-968a" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="d466-63c8-7784-cd84" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4829-f9f0-b49c-eda6" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3832-88da-8411-8008" type="max"/>
-              </constraints>
-            </entryLink>
             <entryLink id="0cb3-0ae8-2054-987b" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b5b-b0c4-0074-5a75" type="min"/>
@@ -3145,6 +3271,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="a104-d140-eb76-5777" name="Oblivion Knights" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3174,7 +3301,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="bf15-9553-bb6a-212e" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" targetId="a7e3-4559-7267-8bf6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6f4e-79f0-1504-b244" name="Oblivion Knight Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6f4e-79f0-1504-b244" name="1) Oblivion Knight Mistress" hidden="false" collective="false" import="true" type="model">
           <modifierGroups>
             <modifierGroup>
               <modifiers>
@@ -3318,7 +3445,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d862-dd78-104b-dc02" name="Oblivion Knight" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d862-dd78-104b-dc02" name="2) Oblivion Knight" hidden="false" collective="false" import="true" type="model">
           <modifierGroups>
             <modifierGroup>
               <modifiers>
@@ -3433,7 +3560,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5b62-8908-1e59-203b" name="The entire unit may exchange their Execution blades for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d6e0-55a2-8572-96d9">
+        <selectionEntryGroup id="5b62-8908-1e59-203b" name="3) The entire unit may exchange their Execution blades for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d6e0-55a2-8572-96d9">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43f-a6b0-5a92-00ea" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5d-89a8-7cfa-435c" type="max"/>
@@ -3450,13 +3577,55 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <entryLink id="4aa8-1424-0218-0192" name="Proteus Neuro-lash" hidden="false" collective="false" import="true" targetId="4d36-dac5-86a1-46cc" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="4) Dedicated Transport" id="e1a5-4d76-a234-352b" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="6e24-bacf-3213-773c" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3138-c8bf-68a6-6a8d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="a104-d140-eb76-5777" childId="d862-dd78-104b-dc02" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="ef36-3885-9e7a-70d5" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a96-84a0-5e4a-d872" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="a104-d140-eb76-5777" childId="d862-dd78-104b-dc02" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="44c5-1d4-ce54-71d6" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5852-9d58-1f10-741a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70e1-c1d5-4a77-f8e9" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="44c5-1d4-ce54-71d6" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5852-9d58-1f10-741a" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="f960-1053-c5c3-e756" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" collective="false" import="true" targetId="7856-71cb-a1fb-bc43" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e424-22cb-ffa1-b360" type="min"/>
@@ -3466,6 +3635,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="6f0b-7bd1-ea5f-936e" name="Eradicator Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3495,7 +3665,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="1a5d-f7be-b0dc-e195" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" targetId="b6d7-6924-37fb-dd32" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5cb8-6a16-127d-3499" name="Eradicator Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5cb8-6a16-127d-3499" name="1) Eradicator Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b14a-7c2d-6158-9138" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8d-bd9f-0e48-feee" type="max"/>
@@ -3633,6 +3803,11 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Assault Needler" hidden="false" id="2fad-791-e2cb-783f" type="selectionEntry" targetId="bb3d-b162-c773-70a2">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3668,7 +3843,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1dde-ec9d-ca53-30fa" name="Eradicators" hidden="false" collective="false" import="true" defaultSelectionEntryId="e465-d54d-f321-a41d">
+        <selectionEntryGroup id="1dde-ec9d-ca53-30fa" name="2) Eradicators" hidden="false" collective="false" import="true" defaultSelectionEntryId="e465-d54d-f321-a41d">
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6303-5e76-42ef-ae30" type="min"/>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a68-7f06-48a8-27c6" type="max"/>
@@ -3795,6 +3970,11 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Assault Needler" hidden="false" id="37e9-238f-1777-6876" type="selectionEntry" targetId="bb3d-b162-c773-70a2">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3837,13 +4017,55 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="3) Dedicated Transport" id="a8ad-a378-3d6c-887a" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="cd5d-10df-d3fe-b104" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1ea-8f95-1412-ec60" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="6f0b-7bd1-ea5f-936e" childId="1dde-ec9d-ca53-30fa" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="c7bb-c6e4-2c41-79f4" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e16f-ce6f-65f4-21ec" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="6f0b-7bd1-ea5f-936e" childId="1dde-ec9d-ca53-30fa" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="a17b-e2f6-1b92-6e5d" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edc2-0379-7f42-98b5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c30-b17e-ceba-999f" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a17b-e2f6-1b92-6e5d" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc2-0379-7f42-98b5" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="0e9b-9a37-a54c-af72" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" collective="false" import="true" targetId="7b50-6b5d-e6f9-420b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b4-c7f2-0246-ce02" type="min"/>
@@ -3853,6 +4075,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="a2df-539a-6cc6-92a3" name="Prosecutor Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3878,7 +4101,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="4758-e616-4aa5-f193" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" targetId="b6d7-6924-37fb-dd32" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1aa1-2721-9f27-b116" name="Prosecutor Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1aa1-2721-9f27-b116" name="1) Prosecutor Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c73-af33-4ec9-d071" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5100-060d-28bd-5f86" type="max"/>
@@ -3988,7 +4211,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="39d6-7b18-fde0-6f7a" name="2) The entire unit may exchange their boltguns for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="176f-b67c-7311-a2b6">
+        <selectionEntryGroup id="39d6-7b18-fde0-6f7a" name="3) The entire unit may exchange their boltguns for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="176f-b67c-7311-a2b6">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="642f-d4ae-9619-24f2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b005-7d27-a63c-68bd" type="max"/>
@@ -4021,7 +4244,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6848-a504-8e88-527e" name="1) Prosecutors" hidden="false" collective="false" import="true" defaultSelectionEntryId="82c0-e966-d78a-ebf5">
+        <selectionEntryGroup id="6848-a504-8e88-527e" name="2) Prosecutors" hidden="false" collective="false" import="true" defaultSelectionEntryId="82c0-e966-d78a-ebf5">
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2af6-0271-3a5b-5f20" type="min"/>
             <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb06-ada3-f619-b403" type="max"/>
@@ -4173,13 +4396,42 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="4) Dedicated Transport" id="ccd1-b20-caa7-32e6" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="8856-7ebc-21bf-b954" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="605d-1971-c4b1-4487" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="f6f9-8146-18c6-e145" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0b5-3893-cfce-67d5" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="1d6e-56f-2dca-ac7b" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ba9-b9d4-49d6-2558" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2b0-b2b8-2cbc-f026" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="greaterThan" value="11" field="selections" scope="a2df-539a-6cc6-92a3" childId="6848-a504-8e88-527e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1d6e-56f-2dca-ac7b" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba9-b9d4-49d6-2558" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="24cc-7f9a-2e9d-2e82" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" collective="false" import="true" targetId="7b50-6b5d-e6f9-420b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf9-c24b-136e-c24c" type="min"/>
@@ -4189,6 +4441,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="9ab2-6d05-b388-e73d" name="Vigilator Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -4214,7 +4467,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="2e13-4669-f5a8-771a" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" targetId="a7e3-4559-7267-8bf6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cc46-771e-9470-f9e9" name="Vigilator Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="cc46-771e-9470-f9e9" name="1) Vigilator Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d255-6992-a407-0ab8" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e58-56e0-a42c-2d42" type="max"/>
@@ -4307,7 +4560,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="357e-6cf7-221e-9724" name="Vigilators" hidden="false" collective="false" import="true" defaultSelectionEntryId="31ac-c994-9be8-0da7">
+        <selectionEntryGroup id="357e-6cf7-221e-9724" name="2) Vigilators" hidden="false" collective="false" import="true" defaultSelectionEntryId="31ac-c994-9be8-0da7">
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2952-87a9-b84b-9d2e" type="min"/>
             <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4808-e10e-a1c4-29cd" type="max"/>
@@ -4527,6 +4780,53 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="3) Dedicated Transport" id="ed8e-1e85-13fb-128b" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="7a76-c45f-911e-c2f1" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbc5-9b47-d234-3fcd" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="9ab2-6d05-b388-e73d" childId="357e-6cf7-221e-9724" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="d4b5-596-35e1-9b01" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79fe-f05a-5bbf-3a8b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="9ab2-6d05-b388-e73d" childId="357e-6cf7-221e-9724" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="ae5c-9088-c56a-6d54" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3420-e429-e2ef-8dee" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="193b-690c-bf7c-3673" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8f8f-9441-2473-5bb5" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
@@ -4543,6 +4843,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="17"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="db4a-57f3-f451-da91" name="Pursuer Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -4561,7 +4862,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="8e8b-8ba5-8e2a-de48" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" targetId="a7e3-4559-7267-8bf6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2e50-cc12-4804-4d0d" name="Pursuer" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2e50-cc12-4804-4d0d" name="2) Pursuer" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbde-01c9-ca9e-d272" type="min"/>
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e3c-88f6-a70d-31ee" type="max"/>
@@ -4679,7 +4980,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <categoryLink targetId="7e5d-d73e-8ff4-7345" id="dfb3-22a6-421b-a956" name="Anathema Sub-type" primary="false"/>
           </categoryLinks>
         </selectionEntry>
-        <selectionEntry id="db82-614f-481c-733a" name="Pursuer Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="db82-614f-481c-733a" name="1) Pursuer Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1c8-3e19-d353-01bc" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e33-5533-da51-f751" type="max"/>
@@ -4832,7 +5133,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="64a3-2b1d-259c-3a10" name="1) Pursuit Beasts" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="64a3-2b1d-259c-3a10" name="3) Pursuit Beasts" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="deab-83be-c6c1-6f4b" value="1">
               <repeats>
@@ -5132,13 +5433,37 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="4) Dedicated Transport" id="b51d-ca07-f8f1-824a" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="355d-bc7f-176-b9aa" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da09-70c0-8fb1-6a63" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="1f09-7b4-d620-6f4a" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dad-8a79-7a22-396c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="a6e0-86f4-40da-e5b7" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9d5-5845-c344-e009" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98b-f869-6c10-9e58" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a6e0-86f4-40da-e5b7" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d5-5845-c344-e009" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="dd89-39c2-63c4-5dc5" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" collective="false" import="true" targetId="7856-71cb-a1fb-bc43" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdea-5c88-a460-7d6a" type="min"/>
@@ -5148,6 +5473,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="b739-d90c-49d7-903c" name="Firebrand Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -5160,7 +5486,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="e0cf-9714-f0f4-5e3f" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" targetId="b71a-371d-4401-9dc0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8d5b-bea2-6120-5ad8" name="Firebrand Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8d5b-bea2-6120-5ad8" name="1) Firebrand Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e51-4ff2-0597-f917" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec04-d143-023f-e807" type="max"/>
@@ -5307,7 +5633,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c53d-3f01-00f5-3d62" name="Firebrands" hidden="false" collective="false" import="true" defaultSelectionEntryId="c52b-a4f7-c39c-b55e">
+        <selectionEntryGroup id="c53d-3f01-00f5-3d62" name="2) Firebrands" hidden="false" collective="false" import="true" defaultSelectionEntryId="c52b-a4f7-c39c-b55e">
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc5-95f6-0e9d-2239" type="min"/>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a7-95bf-dd35-4e22" type="max"/>
@@ -5485,7 +5811,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2ab8-53c6-8710-b5f5" name="The entire unit may exchange their Flamers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="030c-b251-cd1f-3021">
+        <selectionEntryGroup id="2ab8-53c6-8710-b5f5" name="3) The entire unit may exchange their Flamers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="030c-b251-cd1f-3021">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4881-21b5-c8e0-dd85" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e6-554d-6523-5e68" type="max"/>
@@ -5504,13 +5830,55 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <entryLink id="b463-c70e-94f1-9513" name="Snare Gun" hidden="false" collective="false" import="true" targetId="9544-ef9a-630f-b327" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="4) Dedicated Transport" id="1e1e-649e-e33f-676b" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="c3dc-efb9-1d80-9166" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="467e-3e5f-efa2-2641" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="b739-d90c-49d7-903c" childId="c53d-3f01-00f5-3d62" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="2f10-fd18-d0bf-384f" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cd4-765e-2ba1-7f1b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="b739-d90c-49d7-903c" childId="c53d-3f01-00f5-3d62" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="8e43-da6f-41a-1ca9" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce83-69fa-09dc-c254" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f7a-b1c9-5a84-7b2c" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8e43-da6f-41a-1ca9" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce83-69fa-09dc-c254" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="8112-2094-7788-2299" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" collective="false" import="true" targetId="ade4-0f3a-c307-9dc2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20dd-bf70-2b2f-65c8" type="min"/>
@@ -5520,6 +5888,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="84c1-50d4-cf46-0ea2" name="Subjugator Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -5610,6 +5979,25 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <categoryLink targetId="bff2-ae16-74a8-8712" id="4b00-3947-4ad3-b8d8" name="Light Sub-type" primary="false"/>
             <categoryLink targetId="7e5d-d73e-8ff4-7345" id="5359-7c2a-4992-bf5f" name="Anathema Sub-type" primary="false"/>
           </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May select one of the following options:" id="c425-849a-4a81-c425" hidden="false" publicationId="892-6266-f55f-1b9d" page="113">
+              <entryLinks>
+                <entryLink import="true" name="Power Weapon" hidden="false" id="d492-67e6-7172-4578" type="selectionEntry" targetId="d2db-7598-f55f-86fe">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Charnabal Weapon" hidden="false" id="c86c-44ef-8ebd-6c95" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a64-d118-55d8-3ec1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry id="39a2-688f-ecfc-33e3" name="Subjugator Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -5793,6 +6181,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="11ee-6fbc-3206-1f33" name="Sanctioner Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -5805,7 +6194,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="84b5-7a8e-290b-2a8a" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" targetId="b6d7-6924-37fb-dd32" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8381-b00a-c5b1-c87f" name="Sanctioner Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8381-b00a-c5b1-c87f" name="1) Sanctioner Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c8a-7f6c-7b9d-f27b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f10f-27fc-bdd7-5685" type="max"/>
@@ -5933,7 +6322,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9309-bc23-d5b6-e197" name="Sanctioner" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9309-bc23-d5b6-e197" name="2) Sanctioner" hidden="false" collective="false" import="true" type="model">
           <modifierGroups>
             <modifierGroup>
               <modifiers>
@@ -6022,7 +6411,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1ff3-2806-50dd-dc6f" name="The entire unit may exchange their Nemesis bolters for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="874d-f230-8bd2-b23f">
+        <selectionEntryGroup id="1ff3-2806-50dd-dc6f" name="4) The entire unit may exchange their Nemesis bolters for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="874d-f230-8bd2-b23f">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc2-9796-cbc4-7298" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="298e-3a15-8664-a1a3" type="max"/>
@@ -6047,7 +6436,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="52f5-d9e1-5ade-1829" name="One Sanctioner may take:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="52f5-d9e1-5ade-1829" name="3) One Sanctioner may take:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="7013-9875-579a-0c50" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
               <constraints>
@@ -6069,13 +6458,55 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="5) Dedicated Transport" id="e92a-b53b-10ba-5509" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="c4f0-69f3-a5ff-a4c8" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7df-eabd-c12d-fe0a" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="11ee-6fbc-3206-1f33" childId="9309-bc23-d5b6-e197" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="a836-1da4-1600-cca" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30bb-4c95-135a-48be" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="11ee-6fbc-3206-1f33" childId="9309-bc23-d5b6-e197" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="dfce-f09-26c2-7a0d" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="945c-5068-6108-7abe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3528-2d87-be6-194" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="dfce-f09-26c2-7a0d" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="945c-5068-6108-7abe" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="4eff-b3b3-cd23-f550" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" collective="false" import="true" targetId="7b50-6b5d-e6f9-420b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89e5-d2df-7d0a-5080" type="min"/>
@@ -6085,6 +6516,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="d748-5878-98f6-b592" name="Expurgator Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6097,7 +6529,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <categoryLink id="e1c9-bccb-4d65-2bf6" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" targetId="b71a-371d-4401-9dc0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0140-446e-3258-a371" name="Expurgator Mistress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0140-446e-3258-a371" name="1) Expurgator Mistress" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d7d-f298-3307-6bf0" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa31-630c-5838-ca9f" type="max"/>
@@ -6239,7 +6671,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9087-ed5e-4a93-36ce" name="The entire unit may exchange their Heavy Flamers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="90b8-aff7-0f92-1403">
+        <selectionEntryGroup id="9087-ed5e-4a93-36ce" name="3) The entire unit may exchange their Heavy Flamers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="90b8-aff7-0f92-1403">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c9c-4b3f-9b50-6f3b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46d5-32d5-c498-1d82" type="max"/>
@@ -6281,7 +6713,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="06f8-f714-0901-fa54" name="Expurgators" hidden="false" collective="false" import="true" defaultSelectionEntryId="a97e-b69a-6066-50fe">
+        <selectionEntryGroup id="06f8-f714-0901-fa54" name="2) Expurgators" hidden="false" collective="false" import="true" defaultSelectionEntryId="a97e-b69a-6066-50fe">
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d75-81ef-4f88-f67c" type="min"/>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99be-2b4e-1321-e1c8" type="max"/>
@@ -6455,13 +6887,55 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="4) Dedicated Transport" id="ae6f-c228-78db-67c9" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="cc2-dc3f-7425-6177" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f32-9e5b-e170-e747" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="d748-5878-98f6-b592" childId="06f8-f714-0901-fa54" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="f51a-69fa-3362-eefb" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="980a-bde-60fc-4bcd" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="11" field="selections" scope="d748-5878-98f6-b592" childId="06f8-f714-0901-fa54" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Kharon Pattern Acquistor" hidden="false" id="7b91-4015-ee5a-3700" collective="false" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37f8-4ac5-5ea8-6dc5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f5f-a8e9-6c79-4817" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7b91-4015-ee5a-3700" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37f8-4ac5-5ea8-6dc5" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="c077-f8c8-3ec9-b6b1" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" collective="false" import="true" targetId="ade4-0f3a-c307-9dc2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e008-5508-8fc2-762c" type="min"/>
@@ -6471,6 +6945,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="09d2-37ef-a36b-2849" name="Distort Field" publicationId="15a4-fc68-502d-48a9" page="154" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7159,6 +7634,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="7117-e1f5-1a14-9716" name="Raptora Cadre" publicationId="15a4-fc68-502d-48a9" page="50" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -7559,6 +8035,16 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
           </constraints>
           <entryLinks>
             <entryLink id="938d-4530-d8dd-c0bc" name="Kharon Pattern Acquistor" hidden="false" collective="false" import="true" targetId="16fa-53b2-b57b-ec25" type="selectionEntry"/>
+            <entryLink import="true" name="Silent Sisterhood Rhino Transport" hidden="false" id="ee85-e755-d690-e6f0" type="selectionEntry" targetId="4bf0-aae1-435b-af87">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab05-7756-c40c-3f1f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Silent Sisterhood Grav-Rhino Transport" hidden="false" id="3b89-d242-cb1b-55b1" type="selectionEntry" targetId="094b-f986-4a61-8aa1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f59f-6127-938f-dd" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7572,6 +8058,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

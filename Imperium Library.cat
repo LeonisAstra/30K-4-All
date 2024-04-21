@@ -437,7 +437,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d066-58b3-e43a-b8ad" name="Twin-linked Corvae Las-Pulser" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d066-58b3-e43a-b8ad" name="Twin-Linked Corvae Las-Pulser" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -492,7 +492,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e5a-43f5-605d-0f4f" name="Twin-linked Adrathic Devastator" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="4e5a-43f5-605d-0f4f" name="Twin-Linked Adrathic Devastator" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="2589-f9af-0659-15ea" name="Twin-linked Adrathic Devastator" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -1301,6 +1301,25 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <infoLink name="Twin-linked" hidden="false" id="cef8-52a9-88ab-d8a0" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
         <infoLink name="Psy-shock" hidden="false" id="68b-2786-eae0-727b" type="rule" targetId="f372-a365-a036-cbc4"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8f0c-51f2-684d-78ba" name="Twin-Linked Spiculus Bolt Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a00b-2e15-b073-c700" name="Twin-Linked Spiculus Bolt Launchers" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" id="a321-3836-8ce5-e281" hidden="false" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" id="5ce2-e7fb-ca8c-a5ce" hidden="false" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" id="1eb2-a7f4-4a1a-262f" hidden="false" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" id="906b-382b-f946-20b6" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Pinning, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4df2-360f-936a-cd5" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Twin-linked" id="2bff-8b47-30f-ffb5" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
