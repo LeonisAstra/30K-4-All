@@ -8035,6 +8035,11 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="d926-652f-8436-30ce" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <comment>Troop</comment>
     </entryLink>
