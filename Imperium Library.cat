@@ -346,6 +346,9 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Psy-shock" hidden="false" id="bc0a-c8b2-fe67-717c" type="rule" targetId="f372-a365-a036-cbc4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="81b9-8692-3a1f-6290" name="Vratine Bolter" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
@@ -434,7 +437,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d066-58b3-e43a-b8ad" name="Twin-linked Corvae Las-Pulser" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d066-58b3-e43a-b8ad" name="Twin-Linked Corvae Las-Pulser" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -489,7 +492,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e5a-43f5-605d-0f4f" name="Twin-linked Adrathic Devastator" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="4e5a-43f5-605d-0f4f" name="Twin-Linked Adrathic Devastator" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="2589-f9af-0659-15ea" name="Twin-linked Adrathic Devastator" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -1280,6 +1283,44 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" hidden="false" id="b1bb-3b55-a451-1f21" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c674-b9c2-af49-6bfd" name="Twin-Linked Vratine Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8082-e641-22ef-d7ee" name="Vratine Bolter" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Rapid Fire, Psy-shock, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Twin-linked" hidden="false" id="cef8-52a9-88ab-d8a0" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+        <infoLink name="Psy-shock" hidden="false" id="68b-2786-eae0-727b" type="rule" targetId="f372-a365-a036-cbc4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8f0c-51f2-684d-78ba" name="Twin-Linked Spiculus Bolt Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a00b-2e15-b073-c700" name="Twin-Linked Spiculus Bolt Launchers" publicationId="15a4-fc68-502d-48a9" page="141" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" id="a321-3836-8ce5-e281" hidden="false" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" id="5ce2-e7fb-ca8c-a5ce" hidden="false" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" id="1eb2-a7f4-4a1a-262f" hidden="false" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" id="906b-382b-f946-20b6" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Pinning, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4df2-360f-936a-cd5" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Twin-linked" id="2bff-8b47-30f-ffb5" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="6516-f81d-457b-a2cc" name="Tercio" publicationId="15a4-fc68-502d-48a9" page="138" hidden="false">
@@ -1311,4 +1352,49 @@ A ‘Nemesis’ unit is defined as any enemy unit that fulfils at least one of t
 • The unit includes an enemy Warlord.</description>
     </rule>
   </sharedRules>
+  <categoryEntries>
+    <categoryEntry name="Silent Sisterhood (Chamber of Judgement)" hidden="false" id="b71a-371d-4401-9dc0">
+      <modifiers>
+        <modifier type="increment" value="4" field="07d4-6a38-eebd-9b05">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="a9b6-f66f-e8ee-553e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="07d4-6a38-eebd-9b05" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <rules>
+        <rule name="Silent Sisterhood (Chamber of Judgement)" hidden="false" id="04a5-fa60-5ebe-aa9d" publicationId="15a4-fc68-502d-48a9" page="40">
+          <description>All models with this variant of the Silent Sisterhood (X) special rule gain the Fearless special rule when locked in combat with a unit that includes any models with the Psyker Unit Sub-type.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Silent Sisterhood (Chamber of Obivion)" hidden="false" id="a7e3-4559-7267-8bf6">
+      <modifiers>
+        <modifier type="increment" value="4" field="9794-28b4-6125-880c">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b760-8313-847f-1afa" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="9794-28b4-6125-880c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <rules>
+        <rule name="Silent Sisterhood (Chamber of Obivion)" hidden="false" id="c4ce-323b-11a5-c9f6" publicationId="15a4-fc68-502d-48a9" page="40">
+          <description>All models with this variant of the Silent Sisterhood (X) special rule gain the Fearless special rule when locked in combat with a unit that includes any models with the Daemon Unit Type or Corrupted Unit Sub-type.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" id="b6d7-6924-37fb-dd32">
+      <rules>
+        <rule name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" id="efd8-4a41-bd4b-058b" publicationId="15a4-fc68-502d-48a9" page="40">
+          <description>A unit composed entirely of models with this variant of the Silent Sisterhood (X) special rule may be given one of the following special rules before the start of the battle’s first turn, before any models are deployed: Scout or Infiltrate. When selecting an army using the Sisters of Silence Army List, a unit made up entirely of models with this variant of the Silent Sisterhood (X) special rule may be selected without restriction regardless of which HQ choices are selected for the army.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Judgement HQ" hidden="false" id="a9b6-f66f-e8ee-553e"/>
+    <categoryEntry name="Obivion HQ" hidden="false" id="b760-8313-847f-1afa"/>
+  </categoryEntries>
 </catalogue>

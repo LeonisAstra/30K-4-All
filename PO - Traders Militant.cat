@@ -1249,8 +1249,6 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>
-</comment>
       <entryLinks>
         <entryLink import="true" name="Sworn to Serve (Restrictions)" hidden="false" id="c550-7503-bd40-4e" type="selectionEntryGroup" targetId="981a-3a42-71ad-92d6">
           <constraints>
@@ -7994,6 +7992,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5430-5be1-1613-be44" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3fdc-940f-dce1-23e9" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -8012,6 +8011,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5430-5be1-1613-be44" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3fdc-940f-dce1-23e9" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -8030,6 +8030,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5430-5be1-1613-be44" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3fdc-940f-dce1-23e9" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
