@@ -8217,7 +8217,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033d-3201-da9d-137c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="39d6-965a-61b0-56b5" name="Thermios AP missile" hidden="false" collective="false" import="true" targetId="215a-8348-38fc-553d" type="selectionEntry">
+        <entryLink id="39d6-965a-61b0-56b5" name="Thermios AP Missile" hidden="false" collective="false" import="true" targetId="215a-8348-38fc-553d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244b-9858-4870-afa2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a302-34e4-6517-61ce" type="max"/>
@@ -15740,8 +15740,8 @@ This Provenance cannot be taken in conjunction with the Survivors of the Dark Ag
     </selectionEntryGroup>
     <selectionEntryGroup name="Master-Craft a Single Weapon?" hidden="false" id="7161-5a06-9e6d-2884">
       <entryLinks>
-        <entryLink import="true" name="Mastercraft a Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
-        <entryLink import="true" name="Mastercraft a Range Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
+        <entryLink import="true" name="Master-crafted Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
+        <entryLink import="true" name="Master-crafted Ranged Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Warrants of Trade" hidden="false" id="c9c3-1152-3913-fa6a">
