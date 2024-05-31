@@ -11161,69 +11161,6 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Balistus Grenade Launcher - Frag" type="upgrade" id="f678-69f5-408f-ba8f">
-      <infoLinks>
-        <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="02c2-3592-419a-82c2">
-          <modifiers>
-            <modifier type="set" field="name" value="Blast (3&quot;)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Pinning" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2" id="b4d4-bdee-4059-8f4d"/>
-        <infoLink name="Shell Shock (X)" hidden="false" type="rule" targetId="46b7-63a1-941c-96a5" id="599a-63d0-4308-9718">
-          <modifiers>
-            <modifier type="set" field="name" value="Shell Shock (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <profiles>
-        <profile name="Balistus Grenade Launcher - Frag" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2e70-fca7-47a0-890b" page="296" publicationId="892-6266-f55f-1b9d">
-          <characteristics>
-            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
-            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">3</characteristic>
-            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">6</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Blast (3&quot;), Pinning, Shell Shock (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Balistus Grenade Launcher - Krak" type="upgrade" id="1447-89cd-4444-9690">
-      <infoLinks>
-        <infoLink name="Concussive (X)" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826" id="790c-77ad-4e0c-a67c">
-          <modifiers>
-            <modifier type="set" field="name" value="Concussive (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <profiles>
-        <profile name="Balistus Grenade Launcher - Krak" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2d7c-7a52-4500-9288" page="296" publicationId="892-6266-f55f-1b9d">
-          <characteristics>
-            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
-            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
-            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 2, Concussive (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
-    <selectionEntry name="Balistus Grenade Launcher - Tanglefoot" type="upgrade" id="13f8-0699-44dc-adb6">
-      <infoLinks>
-        <infoLink name="Entangle (X)" hidden="false" type="rule" targetId="4a92-bb9b-613a-accb" id="a9df-b2e3-4c76-970f">
-          <modifiers>
-            <modifier type="set" field="name" value="Entangle (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <profiles>
-        <profile name="Balistus Grenade Launcher - Tanglefoot" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="3d2a-2324-4a2e-bda1" page="296" publicationId="892-6266-f55f-1b9d">
-          <characteristics>
-            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
-            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
-            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">-</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 2, Entangle (1)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry name="Cyclone Missile Launcher - Frag" type="upgrade" id="cbc4-19a2-4742-84db">
       <infoLinks>
         <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="14c4-75bf-46e2-b353">
@@ -11323,6 +11260,50 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
         <infoLink name="Hot-Shot Volley Gun" id="7166-91d-b239-124c" hidden="false" type="profile" targetId="7eac-5b5a-480a-9008"/>
         <infoLink name="Suspensor Web" id="aa2c-b974-9558-e41a" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Balistus Grenade Launcher" hidden="false" id="986e-e132-8555-11c">
+      <entryLinks>
+        <entryLink import="true" name="Balistus Grenade Launcher - Frag" hidden="false" id="47fc-d324-aaf7-352a" type="selectionEntry" targetId="fe56-072b-45d4-92f0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="399f-c10b-248f-782e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9975-5e31-1df5-cecf" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Balistus Grenade Launcher - Krak" hidden="false" id="9f74-e8b2-e41c-b52d" type="selectionEntry" targetId="628f-04bd-4257-a1ab">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a2f-e55b-3cdf-ab4f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2391-bfe5-de73-55d2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Balistus Grenade Launcher - Tanglefoot" hidden="false" id="fec0-ce9-8250-5cc9" type="selectionEntry" targetId="98a3-d8b6-4cc0-b574">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69dd-7162-17d9-9767" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fabf-c6-472d-9e5e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Balistus Grenade Launcher" hidden="false" id="b18b-f54-7f23-ca04" collective="true">
+      <entryLinks>
+        <entryLink import="true" name="Balistus Grenade Launcher - Frag" hidden="false" id="6be0-920a-2741-477d" type="selectionEntry" targetId="fe56-072b-45d4-92f0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc72-c603-fe94-11e4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43d1-ef34-d792-2af3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Balistus Grenade Launcher - Krak" hidden="false" id="5a91-3b50-51a2-aabb" type="selectionEntry" targetId="628f-04bd-4257-a1ab">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e844-f111-7464-7901" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3b9-6804-fef5-311a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Balistus Grenade Launcher - Tanglefoot" hidden="false" id="d52-f9c5-3be5-ee8b" type="selectionEntry" targetId="98a3-d8b6-4cc0-b574">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc1c-dfe8-54f8-3e9d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de43-ccab-9eb3-344a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
