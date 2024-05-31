@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1776" name="LI - Custodes" revision="2021" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
-  <categoryEntries>
-    <categoryEntry id="ccca-a9de-0cd9-f8be" name="Legio Custodes" hidden="false">
-      <infoLinks>
-        <infoLink id="9300-b317-6b65-c72a" name="Legio Custodes" targetId="6998-b328-c080-5341" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-  </categoryEntries>
   <entryLinks>
     <entryLink id="8abb-00fb-4157-9177" name="Legio Custodes" hidden="false" collective="false" import="false" targetId="e0d0-c905-b01e-fc15" type="selectionEntry">
       <modifiers>
@@ -23,6 +16,13 @@
       <categoryLinks>
         <categoryLink id="a7d7-0c14-596d-b293" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Chambers of the Golden Host" hidden="false" id="8f40-6e59-c1e9-981f" type="selectionEntryGroup" targetId="ab0a-9890-60c1-8b66">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcbc-6e80-cad1-2a2b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="1595-7192-9e5e-26a9" name="Constantin Valdor" hidden="false" collective="false" import="false" targetId="2e44-7b4f-37dd-05f4" type="selectionEntry">
       <categoryLinks>
@@ -71,6 +71,7 @@
         <categoryLink id="29eb-c36e-75ff-003c" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
         <categoryLink id="901a-865f-b9d9-f198" name="Compulsory Troops:" hidden="false" targetId="8f42-a824-fb5f-8fea" primary="false"/>
       </categoryLinks>
+      <comment>Updated to Imperatus</comment>
     </entryLink>
     <entryLink id="ebd8-b84b-ff52-81da" name="Sentinel Guard Squad" hidden="false" collective="false" import="false" targetId="206f-680f-4be9-6307" type="selectionEntry">
       <categoryLinks>
@@ -116,6 +117,7 @@
         <categoryLink id="1eab-2543-5401-8fd8" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="3023-fbd5-f9ad-a69f" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
+      <comment>Updated to Imperatus</comment>
     </entryLink>
     <entryLink id="689b-1084-e8c8-6e9b" name="Caladius Grav-Tank" hidden="false" collective="false" import="false" targetId="ff3b-e8ec-8623-322d" type="selectionEntry">
       <modifiers>
@@ -251,6 +253,82 @@
           <comment>template_id_4448-a712-4dd7-bf6d</comment>
         </categoryLink>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custodian Host-Master" hidden="false" id="75d2-1f24-d5cd-57e7" type="selectionEntry" targetId="c9d0-c3e7-4175-a227">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="115d-f59a-440b-72d0" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custodian Agamatii Shield Captain" hidden="false" id="926b-57e6-f26f-325" type="selectionEntry" targetId="4b7d-b45e-4a10-adec">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="bad3-2bb7-5af-cf30" primary="true" name="HQ:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Vertoii Shield Captain" hidden="false" id="6b0a-ef73-648a-af8a" type="selectionEntry" targetId="466a-3759-4ec7-8464">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="d853-884d-2e72-39ca" primary="true" name="HQ:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Allarii Shield Captain" hidden="false" id="c39f-ed66-4dc1-3d6c" type="selectionEntry" targetId="8cd5-94f6-4dff-b64f">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="351d-709e-4743-9643" primary="true" name="HQ:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Aquilus Shield Captain" hidden="false" id="da75-55f2-cea8-f723" type="selectionEntry" targetId="3cbf-3566-43db-af30">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="ac29-2aa2-c656-f48b" primary="true" name="HQ:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Venataris Shield Captain" hidden="false" id="ee09-22c-496c-4f5" type="selectionEntry" targetId="f63b-3c42-40d6-96cb">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="e98c-d87c-75d1-e0c3" primary="true" name="HQ:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Allarus Terminator Squad" hidden="false" id="ad0a-6849-eb97-7312" type="selectionEntry" targetId="1d06-28fe-4a53-8aa0">
+      <comment>Imperatus</comment>
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="d4b-f0be-6e8c-9243" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor-Moritiax Dreadnought Talon" hidden="false" id="59c8-e2f9-b08e-2550" type="selectionEntry" targetId="d60c-b9aa-42c7-8f23">
+      <comment>Imperatus</comment>
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="7cd2-8c6d-7101-8366" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dawneagle Jetbike Squadron" hidden="false" id="809b-4f60-f0fb-acb" type="selectionEntry" targetId="d69b-b38e-4158-a1dc">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="46cc-e49d-afa5-228" primary="true" name="Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custodian Land Raider Carrier Squadron" hidden="false" id="c89f-2210-f875-7b4b" type="selectionEntry" targetId="6118-da03-4069-aa27">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="82bd-e8a7-3a81-9682" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Grav-Raider Carrier" hidden="false" id="cf45-5a05-488b-f334" type="selectionEntry" targetId="c417-19ae-4a3d-80ab">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="3f17-25c1-1d53-3942" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Land Raider Spartan Assault Tank" hidden="false" id="7170-3400-a79d-95b1" type="selectionEntry" targetId="bd80-b2da-457a-97c8">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="91a0-f25a-30ea-5ae9" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
+    </entryLink>
+    <entryLink import="true" name="Custodian Grav-Spartan Assault Tank" hidden="false" id="aa4b-ba02-df14-cf19" type="selectionEntry" targetId="b902-f466-40e1-be82">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a28f-2083-8b32-c543" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+      <comment>Imperatus</comment>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -637,7 +715,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="a7f9-43a4-9186-f362" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3baa-0c93-737e-2986">
+            <selectionEntryGroup id="a7f9-43a4-9186-f362" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="04f1-3907-5bb5-d06e">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da6-6ed1-106f-bd31" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ca-b33b-d5fc-189e" type="max"/>
@@ -758,6 +836,28 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Paragon Blade and Vexilla" hidden="false" id="84f1-2c94-c533-fa0f">
+                  <entryLinks>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="1094-febd-fae9-494f" collective="false" targetId="3ac5-b28c-104a-9de5" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9fe-6247-7069-3285" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1159-3b04-c080-3fa2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="76da-acc0-3ffb-6161" shared="true" id="43db-1502-652e-fc60" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Paragon Blade" hidden="false" id="c5df-2884-81d4-d672" collective="false" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b3c-c853-41b4-4dd0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" id="9a7b-5f6a-61d9-7d2b" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56f3-d809-8faf-a380" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <entryLinks>
                 <entryLink id="323c-91d8-9cd6-1fcc" name="Adrasite Spear" hidden="false" collective="false" import="true" targetId="0e0b-dbe3-3d1a-14a9" type="selectionEntry">
@@ -829,6 +929,11 @@
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Paragon Glaive" hidden="false" id="165-ce2b-afb2-bacc" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -903,6 +1008,7 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="258c-214d-bc9d-35e1" name="Aquilon Terminator Squad" publicationId="15a4-fc68-502d-48a9" page="23" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1336,6 +1442,7 @@
             <selectionEntryGroup id="1897-23e9-d912-2a24" name="One may exchange Guardian Spear for Magisterium Vexilla &amp;:" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eee-28c2-82a3-989d" type="max"/>
+                <constraint type="max" value="1" field="selections" scope="7cec-fe1b-5748-7af3" shared="true" id="c023-d857-c581-4614"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="064c-5f3d-0e75-95b2" name="Custodian Guard w/ Sentinal Warblade &amp; Vexilla" hidden="false" collective="false" import="true" type="model">
@@ -1353,6 +1460,20 @@
                     <categoryLink targetId="59a4-7b61-600a-c457" id="4937-3cd2-4b62-90e8" name="Skirmish Sub-type" primary="false"/>
                     <categoryLink targetId="6399-5c65-7833-1025" id="4f9e-0628-4b21-9bb7" name="Line Sub-type" primary="false"/>
                   </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="1b6a-575f-4259-2fca" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf17-4a84-6fce-1721" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="936e-3b8f-c5f6-31de" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Paragon Blade" hidden="false" id="bfff-5706-46e1-d689" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3b04-5105-f4d4-77c3" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b8-bb92-f031-44ba" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntry>
                 <selectionEntry id="8dc5-b5d6-e154-a8eb" name="Custodian Guard w/ Master-Crafted Power Lance &amp; Vexilla" hidden="false" collective="false" import="true" type="model">
                   <constraints>
@@ -1369,6 +1490,26 @@
                     <categoryLink targetId="59a4-7b61-600a-c457" id="af4c-53c7-4453-8d5d" name="Skirmish Sub-type" primary="false"/>
                     <categoryLink targetId="6399-5c65-7833-1025" id="063c-bd1e-42c5-ae76" name="Line Sub-type" primary="false"/>
                   </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Power Lance" hidden="false" id="5a79-d836-47d4-e0d0" type="selectionEntry" targetId="a4c8-c8ff-87f2-1ac9">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5fe-ee39-c130-1727" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9543-6649-cd63-3fce" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Master-crafted" id="d9bf-1e4e-c2ab-e77c" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="Master-crafted Power Lance" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="9675-6a9f-5749-fbf3" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a01d-d067-e22f-4a95" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1f-b8e0-6587-4718" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntry>
                 <selectionEntry id="8de9-3bdc-c580-b9aa" name="Custodian Guard w/ Master-Crafted Power Maul &amp; Vexilla" hidden="false" collective="false" import="true" type="model">
                   <constraints>
@@ -1385,6 +1526,26 @@
                     <categoryLink targetId="59a4-7b61-600a-c457" id="e7eb-ad61-403b-83d6" name="Skirmish Sub-type" primary="false"/>
                     <categoryLink targetId="6399-5c65-7833-1025" id="380f-a690-491b-91a5" name="Line Sub-type" primary="false"/>
                   </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="e5e2-70f7-5e5f-a1d7" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="665d-efc5-ceb9-5626" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad5c-d166-9309-1d9b" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Power Maul" hidden="false" id="74-779b-36c-a4a1" type="selectionEntry" targetId="0df4-c67e-cf64-82e0">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="afcc-71bd-af6a-421a" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ac8-44e3-984-e297" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Master-crafted" id="6c34-83d9-721c-7cc1" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="Master-crafted Power Maul" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntry>
                 <selectionEntry id="67fb-8d60-68ee-2fae" name="Custodian Guard w/ Master-Crafted Power Axe &amp; Vexilla" hidden="false" collective="false" import="true" type="model">
                   <constraints>
@@ -1401,6 +1562,26 @@
                     <categoryLink targetId="59a4-7b61-600a-c457" id="1be0-a4a9-41d8-a144" name="Skirmish Sub-type" primary="false"/>
                     <categoryLink targetId="6399-5c65-7833-1025" id="97d1-7508-4349-8a74" name="Line Sub-type" primary="false"/>
                   </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Power Axe" hidden="false" id="65c4-5cc1-1ed7-608b" type="selectionEntry" targetId="c066-2ace-f68c-e440">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="53f9-1923-f0f7-de8c" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e359-3563-7187-f69d" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Master-crafted" id="52f7-60a5-ea42-8eff" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="Master-crafted Power Axe" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="521a-f143-f9e7-7a54" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f7f-9bdd-4a04-c071" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d95c-eaf3-7d7e-d68" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntry>
                 <selectionEntry id="8497-6360-cc95-acf2" name="Custodian Guard w/ Master-Crafted Power Sword &amp; Vexilla" hidden="false" collective="false" import="true" type="model">
                   <constraints>
@@ -1409,6 +1590,56 @@
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
                   </costs>
+                  <entryLinks>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="7a34-66f8-7ae5-a50a" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f7c-f54e-7e8c-7692" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="736d-3659-29a2-388a" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Power Sword" hidden="false" id="ea82-2e49-444c-6c1" type="selectionEntry" targetId="a3cd-aa97-a148-2309">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b07-d015-a472-463a" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e439-d784-6a91-944" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Master-crafted" id="7da5-593-acc6-4643" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="Master-crafted Power Sword" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry id="7196-7f64-24ad-126c" name="Custodian Guard w/ Paragon Blade &amp; Vexilla" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a18-d06b-a09-88db" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="d6ac-eb2c-82fe-cec1" name="Custodian" hidden="false" targetId="cf1b-e0d6-ddd9-24e6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+                  </costs>
+                  <categoryLinks>
+                    <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f0c5-c04d-d5b6-13b5" name="Infantry:" primary="false"/>
+                    <categoryLink targetId="59a4-7b61-600a-c457" id="2e3c-823d-e76f-384d" name="Skirmish Sub-type:" primary="false"/>
+                    <categoryLink targetId="6399-5c65-7833-1025" id="8d1b-d3df-a417-36bf" name="Line Sub-type:" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Magisterium Vexilla" hidden="false" id="c5ea-1b15-ae41-a29f" type="selectionEntry" targetId="3ac5-b28c-104a-9de5">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cdf-e043-8150-87d7" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9a1-52df-86a4-ab21" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Sentinel Warblade" hidden="false" id="3cd5-a6e8-8825-61bc" type="selectionEntry" targetId="6909-d6c6-8d05-0e57">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32b5-46f5-8c0b-6945" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b83-a30-ac3c-c8b7" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -1445,6 +1676,7 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="206f-680f-4be9-6307" name="Sentinel Guard Squad" publicationId="15a4-fc68-502d-48a9" page="26" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1696,59 +1928,6 @@
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bf7c-a1e1-f983-987e" name="Coronus Grav-carrier" publicationId="15a4-fc68-502d-48a9" page="27" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="7502-6263-cda0-e719" name="Coronus Grav-carrier" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
-          <characteristics>
-            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport, Antigrav)</characteristic>
-            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
-            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">5</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
-            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
-            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
-            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">18</characteristic>
-            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="543c-1036-74fb-7367" name="Legio Custodes" hidden="false" targetId="6998-b328-c080-5341" type="rule"/>
-        <infoLink id="c66d-7d92-ddc2-0bba" name="Power of the Machine Spirit" hidden="false" targetId="5a93-13e0-809d-782a" type="rule"/>
-        <infoLink id="8c00-6831-484e-bb9b" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
-        <infoLink id="54db-b273-c5d9-59d7" name="Outflank" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule"/>
-        <infoLink id="9a1f-2ea1-3a9c-b829" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="09ec-fc5e-3f34-aeb8" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="b673-5b47-1b69-42ed" name="Legio Custodes" hidden="false" targetId="ccca-a9de-0cd9-f8be" primary="false"/>
-        <categoryLink id="4776-46fc-0598-b8ab" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
-        <categoryLink id="96fe-fdac-52e7-ff96" name="Transport Sub-type" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="5827-b8f8-6167-7700" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" targetId="5eb8-dd6c-05ee-17d5" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ed-eac1-aa5d-66e0" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f968-8b52-95f9-e558" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="c6a0-f96f-701c-eb7a" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" collective="false" import="true" targetId="b052-d281-1269-9408" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d53b-dfe7-751c-87ad" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0820-d804-5f9c-3b61" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="789d-fc72-e302-d952" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a26-11d0-af5e-9ce2" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e0-7911-f1dd-35dd" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="180"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6b3-1e25-1353-0a50" name="Agamatus Jetbike Squadron" publicationId="15a4-fc68-502d-48a9" page="28" hidden="false" collective="false" import="true" type="unit">
@@ -2216,6 +2395,14 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5831-0fa8-7d1e-7bfd" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="e703-1f18-b60c-75c3" type="selectionEntry" targetId="9786-98f2-bdab-5103">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f10-611b-74eb-4d57" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -2245,9 +2432,17 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c5-343f-0860-017c" type="min"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="700b-be0d-862-73aa" type="selectionEntry" targetId="9786-98f2-bdab-5103">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="246a-53bd-dff8-2352" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" id="c2b4-507-104a-6559" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2283,6 +2478,7 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
+      <comment>Updated to Imperatus</comment>
     </selectionEntry>
     <selectionEntry id="6f59-3dda-0590-37c7" name="Praesidium Shield" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2301,18 +2497,6 @@
         <infoLink id="f1b4-27ea-cba4-6b45" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="d6c4-4591-34e1-048b" name="Solarite Power Talon" hidden="false" targetId="2a2f-144f-f63f-2cd7" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3ac5-b28c-104a-9de5" name="Magisterium Vexilla" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="649d-2ad0-6c4a-aaa5" name="Magisterium Vexilla" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Magisterium vexilla may re-roll all failed Leadership tests and may add +1 to the score used to decide if any friendly unit with any models within 12&quot; of any Magisterium vexilla wins a combat in the Assault phase – a friendly unit may only benefit from a single Magisterium vexilla’s bonus in any given combat, regardless of how many are within range.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -2413,30 +2597,6 @@
         </infoLink>
         <infoLink id="50e6-bf83-2bdc-2445" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="a3c0-c554-95f8-f7ac" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b052-d281-1269-9408" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3668-9402-7f65-ddd5" name="Twin-Linked Arachnus Blaze Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Lance, Exoshock (6+), Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="4c68-67f9-d64a-6664" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
-        <infoLink id="566d-6a1e-fe24-e870" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Exoshock (6+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="eb9f-a489-fc7d-d264" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2615,40 +2775,6 @@
       <infoLinks>
         <infoLink id="cf15-f08d-3593-a951" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2652-dd68-cc34-ba03" name="Gyrfalcon Jetbike" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="519c-618e-7039-25eb" name="Gyrfalcon Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Custodes Gyrfalcon jetbike has one Lastrum bolt cannon. In addition, a model with a Custodes Gyrfalcon jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
-A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav, Skirmish), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16 and gains the Hammer of Wrath (1) and Deep Strike special rules.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="7ceb-4a3d-82aa-6b93" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
-        <infoLink id="815a-9048-fb14-3975" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Skilled Rider" hidden="false" id="63f0-fd9c-15cc-3dce" type="rule" targetId="89cc-21e0-bee2-6a89"/>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b077-e64b-5a66-7ed2" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ec4b-3bc4-a5ed-0078" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Aquilon pattern Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -3498,7 +3624,10 @@ the Front Armour during the same Phase.�</characteristic>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b147-8841-e0f2-07cb" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Custodian Land Raider Spartan Assault Tank" hidden="false" id="e1b5-3aad-4f74-12c2" type="selectionEntry" targetId="bd80-b2da-457a-97c8"/>
+        <entryLink import="true" name="Custodian Land Raider Carrier Squadron" hidden="false" id="5a70-2a5e-ecc1-594c" type="selectionEntry" targetId="6118-da03-4069-aa27"/>
       </entryLinks>
+      <comment>Updated to Imperatus</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -3523,5 +3652,6 @@ Controlling Player’s Reaction Allotment.</characteristic>
     <catalogueLink id="e048-9e5e-507c-5bad" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="68w6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Imperatus] Custodes" id="9f9f-233d-b068-aee3" targetId="f65b-5341-4b66-c32f"/>
   </catalogueLinks>
 </catalogue>
