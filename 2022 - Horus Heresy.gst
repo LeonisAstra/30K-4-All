@@ -28,6 +28,11 @@
     <publication id="3fc0-bf46-1f1-eff9" name="Legacies of The Age of Darkness Solar Auxilia 1.1" shortName="Legacies Solar Aux"/>
     <publication id="2d3f-82d2-9db5-ca6d" name="Free Rules for the Solar Auxilia Aethon Heavy Sentinel" shortName="Aethon Heavy Sentinel Datasheet" publisher="Warhammer Community" publicationDate="February 27th 2024" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2024/02/ZwQB9kBXZA3CyHN4.pdf"/>
     <publication id="9fab-fea7-a93c-2074" name="Liber Panoptica V5.2" shortName="Panoptica" publisher="Liber Panoptica V5.2" publicationDate="January 2022" publisherUrl="https://hh-ageofdarkness.itch.io/liberpanoptica/devlog/662579/panoptica-v52-release"/>
+    <publication id="892-6266-f55f-1b9d" name="Liber Imperatus V1.2" shortName="Imperatus" publisher="Liber Imperatus V1.2" publicationDate="January 2024" publisherUrl="https://hh-ageofdarkness.itch.io/liberimperatus"/>
+    <publication id="f856-58d6-ef02-7d3e" name="Liber Ingenium V1.3" shortName="Ingenium" publisher="Liber Ingenium V1.3" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/liberingenium"/>
+    <publication id="3970-79bb-bdc6-9599" name="Liber Centura V1.6" shortName="Centura" publisher="Liber Centura V1.6" publicationDate="May 2023" publisherUrl="https://hh-ageofdarkness.itch.io/libercentura"/>
+    <publication name="Liber Antiquia V1.6" hidden="false" id="a368-64f0-10c7-c49d" publisher="Liber Antiquia V1.6" shortName="Antiquia" publisherUrl="https://hh-ageofdarkness.itch.io/liberantiquia" publicationDate="January 2024"/>
+    <publication name="Black Book 6 - Retribution" hidden="false" id="4758-b029-4d1c-6d37" publisher="Black Book 6 - Retribution" shortName="BB6" publisherUrl="http://anyflip.com/rfyxl/dahr"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -1445,6 +1450,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
     <categoryEntry name="Salamanders - Crusade Detachment" id="928c-8689-59e8-c1e1" hidden="false"/>
     <categoryEntry name="Raven Guard - Crusade Detachment" id="afca-a57f-a32c-59fd" hidden="false"/>
     <categoryEntry name="Alpha Legion - Crusade Detachment" id="c929-73a2-9fc4-5472" hidden="false"/>
+    <categoryEntry name="Ageis Militant - Non-Compulsory Elites" hidden="false" id="6340-8b61-3c50-8b90"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="d926-652f-8436-30ce" name="1. Crusade Force Organisation Chart" hidden="false">
@@ -1835,6 +1841,13 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink name="Lords of War Have Moved to &quot;Lords of War Detachment&quot;" hidden="false" id="1c43-e3d1-a119-885c" targetId="ed41-7006-3494-4c24"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b3c-b7a3-8cee-e47e" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </forceEntry>
     <forceEntry id="d4f2-6da5-b6de-06ec" name="3. Allied Detachment" hidden="false">
       <constraints>
@@ -2107,6 +2120,16 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
           </constraints>
         </categoryLink>
       </categoryLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="a036-22f7-6cbf-6ebd">
+          <repeats>
+            <repeat value="1000" repeats="1" field="d2ee-04cb-5f8a-2642" scope="roster" childId="any" shared="true" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c9c3-1152-3913-fa6a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </forceEntry>
     <forceEntry id="5430-5be1-1613-be44" name="ZM 1. Mortalis Assault Force Organisation Chart" hidden="false">
       <constraints>
@@ -11123,6 +11146,207 @@ Be aware that we are actively trying to find a solution to this, but it is less 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="36a7-1c39-670c-5fec" collective="false">
+      <comment>Basic power weapons only</comment>
+      <entryLinks>
+        <entryLink import="true" name="Power Weapon (Basic)" hidden="false" id="173b-3917-ac2b-8d1f" collective="false" targetId="bd1f-b4a4-3517-31e4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="21f-8fe9-a2b1-425b" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combat Shield" hidden="false" id="7f4a-84b2-f992-4558" collective="true">
+      <profiles>
+        <profile name="Combat Shield" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="10fc-eea8-f42a-8408" publicationId="a716-c1c4-7b26-8424" page="141">
+          <characteristics>
+            <characteristic name="Description" hidden="false" id="7488-8c76-15d-7f8c" typeId="347e-ee4a-764f-6be3">Combat shields confer a 6+ Invulnerable Save.
+Invulnerable saves granted by a combat shield or boarding shield do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" hidden="false" id="41b5-fd0c-5bba-54f7" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Force Weapon" hidden="false" id="a9c2-6881-3391-9622" collective="false">
+      <entryLinks>
+        <entryLink import="true" name="Force Weapons" hidden="false" id="f36a-0ebf-44d2-abc7" collective="false" targetId="9970-2309-3a2a-b889" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="36d7-9df2-ca0-44be" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fragmentation Bomb" hidden="false" id="1a19-b6a4-dcc4-b7c4" collective="false">
+      <profiles>
+        <profile name="Fragmentation Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e334-b31e-76bf-9417">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="9040-b07-378-5c5" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" hidden="false" id="2afe-5145-4ff2-78b5" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" hidden="false" id="6db1-48db-667f-d370" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" hidden="false" id="2aa-1c07-9f5a-e450" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="One Use/One Shot" hidden="false" id="6627-a9a9-a193-df8e" targetId="df0c-5423-b892-491e" type="rule"/>
+        <infoLink name="Blast" hidden="false" id="4c86-0dfa-0684-3406" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="8ca0-b749-8892-50d2" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Melee Weapon" hidden="false" id="6b65-60e5-5164-5cd9">
+      <infoLinks>
+        <infoLink name="Master-crafted" hidden="false" id="29e1-7889-cb30-1ea6" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Ranged Weapon" hidden="false" id="b38b-fa57-c084-fb5b">
+      <infoLinks>
+        <infoLink name="Master-crafted" hidden="false" id="ac58-a859-1711-d8c7" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b3c-b7a3-8cee-e47e" name="Traders Militant" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="5b7b-4505-3dbf-133c" value="0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2573-bb4c-e468-dd81" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea2-2c2e-41-2f3a" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a015-e8e1-ad30-fbef" type="max"/>
+        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b7b-4505-3dbf-133c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <rules>
+        <rule name="Rogue Trader Allegiances" hidden="false" id="9d65-85c5-29f1-d2eb" page="8" publicationId="892-6266-f55f-1b9d">
+          <description>Allied Detachments can be of any Faction or Sub-faction, as long as their Allegiance matches – though this can be modified by the Warrants of Trade Special Rule. The Levels of Alliance between such Detachments is modified by the Fragile Alliance Special Rule, found on the Rogue Trader Militant. If the Rogue Trader Militant is slain, or otherwise removed from play for any reason, then in the case of Factions or Sub-factions with varying Levels of Alliance depending on who is ordinarily the Primary or Optional Detachment, the lowest Level of Alliance between the two Factions or Sub-factions should be used. In addition, no Optional Detachments outside of a single Lord of War Detachment may be selected if a Aegis Militant Detachment is selected. Any unit selected as part of a Lord of War Detachment must have the same Faction or Sub-Faction as one of the other Primary or Allied Detachments selected as part of the same Army.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="6f32-e7fe-50a8-711" name="Volkite Caliver" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="f94d-b30a-6f45-e844" name="Volkite Caliver" publicationId="a716-c1c4-7b26-8424" page="134" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Deflagrate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a257-afe9-c407-d900" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae17-7925-f81f-71d6" name="Multi-Laser" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="true" import="true" type="upgrade">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Multi-Laser" id="2c4a-ccc-8481-ff95" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bf3c-73d4-40ed-9d8d" name="Multi-Laser w/ Suspensor Web" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="true" import="true" type="upgrade">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Suspensor Web" id="9103-b077-f336-257d" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Multi-Laser" id="a446-a868-2f43-76f6" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3ac3-df49-bd49-51ae" name="Multi-Laser w/ Suspensor Web" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Suspensor Web" id="392f-a6fc-5a96-2ffc" hidden="false" type="profile" targetId="733b-dd18-cf6a-a256"/>
+        <infoLink name="Multi-Laser" id="1b4a-d9f-c431-d889" hidden="false" type="profile" targetId="39e5-062a-576b-91a9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="13f-d886-990b-f1ad" name="Lascutter" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="72aa-9d1b-cd91-e3c9" name="Lascutter (Melee)" publicationId="a716-c1c4-7b26-8424" page="138" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Cumbersome</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6946-8d7b-e350-548b" name="Lascutter (Ranged)" publicationId="a716-c1c4-7b26-8424" page="135" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">8&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armourbane (Ranged)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9e7e-4f73-b761-24ff" name="Cumbersome" hidden="false" targetId="d89a-c10e-8a7a-92c3" type="rule"/>
+        <infoLink id="17b1-d2d7-cbd4-a6ee" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="bc64-2eee-2706-38a5" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="e55d-d31b-46a9-aeb6">
+      <infoLinks>
+        <infoLink name="Detonation" hidden="false" id="a4db-4b35-4f86-886c" type="rule" targetId="8a47-9fc5-16fb-b46e"/>
+        <infoLink name="Unwieldy" hidden="false" id="f601-5eca-460d-ba24" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Armourbane (X)" hidden="false" id="b099-a781-4dc8-8e88" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Instant Death" hidden="false" id="6eb7-d646-430d-85c9" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Melta Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d683-11bd-403d-8553" page="156" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="61fa-b2f5-cdf8-c782" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" hidden="false" id="7bd1-73b8-ed64-b715" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" hidden="false" id="cdc4-a3f3-b19f-72e8" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" hidden="false" id="55b0-77b4-c945-df9" typeId="2f86-c8b4-b3b4-3ff9">Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="a543-9d13-6839-985" collective="true">
+      <infoLinks>
+        <infoLink name="Detonation" hidden="false" id="be21-12ab-29f4-f5c4" type="rule" targetId="8a47-9fc5-16fb-b46e"/>
+        <infoLink name="Unwieldy" hidden="false" id="64e5-5989-ba35-6c09" type="rule" targetId="1570-c21a-881f-8b8a"/>
+        <infoLink name="Armourbane (X)" hidden="false" id="31a9-f523-4d94-1bb3" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melee)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Instant Death" hidden="false" id="3ece-9a95-d947-8a5a" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Melta Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3a77-7e4d-22a2-27aa" page="156" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="ed63-231a-5b1f-4a69" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" hidden="false" id="578c-9f77-6e19-8ce4" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" hidden="false" id="75fa-8b6f-46e4-89aa" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" hidden="false" id="f368-fac-9823-2b4b" typeId="2f86-c8b4-b3b4-3ff9">Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -16626,10 +16850,94 @@ Special rules that are removed:
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a2a9-ddcf-f9b6-3c33" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
+<selectionEntryGroup name="Power Weapon (Basic)" hidden="false" id="bd1f-b4a4-3517-31e4" collective="false" import="true">
+  <constraints>
+    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4e0-9351-6028-69a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1f9-dfad-d26a-e32a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+  </constraints>
+  <entryLinks>
+    <entryLink import="true" name="Power Axe" hidden="false" id="1cce-6be8-56fc-2f54" collective="false" targetId="c066-2ace-f68c-e440" type="selectionEntry"/>
+    <entryLink import="true" name="Power Lance" hidden="false" id="581f-d0f8-d651-c07e" collective="false" targetId="a4c8-c8ff-87f2-1ac9" type="selectionEntry"/>
+    <entryLink import="true" name="Power Maul" hidden="false" id="549d-840d-5a33-c0a3" collective="false" targetId="0df4-c67e-cf64-82e0" type="selectionEntry"/>
+    <entryLink import="true" name="Power Sword" hidden="false" id="0ce5-129b-6faa-930e" collective="false" targetId="a3cd-aa97-a148-2309" type="selectionEntry"/>
+  </entryLinks>
+</selectionEntryGroup>
+<selectionEntryGroup name="Force Weapons" hidden="false" id="9970-2309-3a2a-b889" collective="false" import="true" defaultSelectionEntryId="188d-69d5-9640-5f7d">
+  <constraints>
+    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0307-d1f7-57ea-a51b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f79d-98d6-e4c9-6d63" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+  </constraints>
+  <entryLinks>
+    <entryLink import="true" name="Force Axe" hidden="false" id="206e-ed03-21bf-a789" collective="false" targetId="40bb-c99e-b4b3-12c1" type="selectionEntry"/>
+    <entryLink import="true" name="Force Maul" hidden="false" id="45e6-9ab0-4918-dc6c" collective="false" targetId="da60-5978-bdd7-9c95" type="selectionEntry"/>
+    <entryLink import="true" name="Force Sword" hidden="false" id="188d-69d5-9640-5f7d" collective="false" targetId="6164-c01a-a879-37d7" type="selectionEntry"/>
+    <entryLink import="true" name="Force Staff" hidden="false" id="2d2b-3092-fd34-60e5" collective="false" targetId="5132-9034-5e79-13c8" type="selectionEntry"/>
+  </entryLinks>
+</selectionEntryGroup>
+<selectionEntryGroup name="Master-Craft a Single Weapon?" hidden="false" id="7161-5a06-9e6d-2884">
+  <entryLinks>
+    <entryLink import="true" name="Mastercraft a Melee Weapon" hidden="false" id="a2c2-f194-6e1-ec0c" type="selectionEntry" targetId="6b65-60e5-5164-5cd9"/>
+    <entryLink import="true" name="Mastercraft a Range Weapon" hidden="false" id="3947-b6f2-4758-383e" type="selectionEntry" targetId="b38b-fa57-c084-fb5b"/>
+  </entryLinks>
+</selectionEntryGroup>
+<selectionEntryGroup name="Warrants of Trade" hidden="false" id="c9c3-1152-3913-fa6a">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Warrant of Compliance" hidden="false" id="b1d-38b5-d5ce-872c">
+      <rules>
+        <rule name="Warrant of Compliance" hidden="false" id="7573-9a16-d124-62bf" publicationId="892-6266-f55f-1b9d" page="10">
+          <description>An army containing a model with this Warrant of Trade may not include any Detachments from any Faction which may select the Xenos Allegiance.
+If the army containing a model with this Warrant of Trade has the Loyalist Allegiance, it may include a single Allied Detachment with the Agents of the Emperor Faction, but may not include more than one such selection.
+If the army containing a model with this Warrant of Trade has the Traitor Allegiance, it may include a single Allied Detachment with the Agents of the Warmaster Faction, but may not include more than one such selection.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72dd-7c07-d1ef-4af"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warrant of Conquest" hidden="false" id="cedb-7313-69fe-914">
+      <rules>
+        <rule name="Warrant of Conquest" hidden="false" id="6037-35bc-3a49-e522" publicationId="892-6266-f55f-1b9d" page="10">
+          <description>An army containing a model with this Warrant of Trade may include a single Detachment from any Faction which may select the Xenos Allegiance, but may not include more than one such selection.
+An army containing a model with this Warrant of Trade may not include any Allied or Optional Detachments from the Agents of the Emperor or Agents of the Warmaster Factions.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b13d-7e5e-6ce3-61aa"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warrant of Exploration" hidden="false" id="44b9-a100-78c7-5d0c">
+      <rules>
+        <rule name="Warrant of Exploration" hidden="false" id="1763-f49f-92a0-8ffa" publicationId="892-6266-f55f-1b9d" page="10">
+          <description>An army containing a model with this Warrant of Trade may only include a single Detachment from any Faction which contains models with the Legiones Astartes (X) Special Rule.
+An army containing a model with this Warrant of Trade may include up to two Detachments from the Mechanicum Faction, but may not include more than two of such selections.
+An army containing a model with this Warrant of Trade must include a Detachment from any Faction which may select the Xenos Allegiance, but may not include more than one such selection.
+A Detachment containing a model with this Warrant of Trade may not include any Allied or Optional Detachments from the Agents of the Emperor or Agents of the Warmaster Factions.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2146-a070-e483-d07"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warrant-Breaker" hidden="false" id="243d-2df3-fee-c865">
+      <rules>
+        <rule name="Warrent-Breaker" hidden="false" id="995f-c9a1-a0ad-a474" publicationId="892-6266-f55f-1b9d" page="10">
+          <description>An army containing a model with this Warrant of Trade may only include Allied or Optional Detachments from any Faction which may select the Xenos Allegiance, or with the Imperial Army Faction. The same Factions or Sub-factions may be selected in these Detachments, but no Faction or Sub-faction may be selected more than twice. It should be noted that this overrides any restrictions applied to selecting more than one Faction or Sub-faction which may select the Xenos Allegiance.
+All enemy models gain Hatred (Traders Militant) when fighting against an army that includes a model with this Warrant of Trade.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce52-a77c-176b-d7cd"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
+    <rule id="4a92-bb9b-613a-accb" name="Entangle (X)" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
+      <description>An attack that has this special rule does not roll to Wound using the normal rules, instead roll To Wound by comparing the Attack’s Strength to the target’s Strength Characteristic, using the Strength Characteristic in place of Toughness on the To Wound table. If any Attacks with this special rule inflict Wounds, do not make Armour Saves or Damage Mitigation rolls for those Wounds – instead for each Wound inflicted by an Attack with this special rule, reduce the Movement Characteristic of all models in the target unit by the number in brackets that is included as part of this special rule (to a minimum of 1) until the end of the controlling player’s next turn. The Wounds caused by Attacks with this special rule are then discarded and neither reduce the target model’s Wounds Characteristic nor cause any models to be removed as casualties (this does not affect Wounds inflicted by Attacks without this special rule that are part of the same Shooting Attack).
+
+Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
+    </rule>
     <rule id="0ac9-fab7-aef3-de1d" name="Rending (X)" publicationId="e77a-823a-da94-16b9" page="246" hidden="false">
       <description>If a model has the Rending special rule, or is attacking with a Melee weapon that has the Rending special rule, there is a chance that their close combat attacks will strike a critical blow. For each To Wound roll equal to or higher than the value listed, the target automatically suffers a Wound, regardless of its Toughness. The controlling player may choose to resolve these Wounds at AP 2 instead of the weapon’s normal AP value.
 Similarly, if a model makes a Shooting Attack with a weapon that has the Rending special rule, a To Wound roll of equal to or greater than the listed value wounds automatically, regardless of Toughness, and is resolved at AP 2.

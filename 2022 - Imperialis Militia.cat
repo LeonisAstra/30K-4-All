@@ -10224,51 +10224,6 @@ equal to the number of Militia Gunners in the unit when making a Shooting Attack
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ba1-7b0c-23d0-2e6b" name="Carapace Armour" publicationId="48c2-d023-0069-001a" page="37" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cabe-6ad2-bcbd-3041" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="20ac-9d27-96c0-4d93" name="Carapace Armour" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Carapace armour confers a 4+ Armour Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f02b-00e7-b68c-3be0" name="Flak Armour" publicationId="48c2-d023-0069-001a" page="37" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d54e-ede7-beff-9dbc" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="b498-93a6-b43b-49db" name="Flak Armour" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Flak armour confers a 5+ Armour Save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="202b-d674-de59-7d85" name="Militia Standard" publicationId="48c2-d023-0069-001a" page="37" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c968-7a28-02aa-5ade" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="bf68-2f8c-e803-967b" name="Militia Standard" publicationId="9fab-fea7-a93c-2074" page="154" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule. A unit that includes at least one model with a Militia Standard gains the Line Sub-type for as long as that model is part of the unit.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="dd91-0c2e-0890-1673" name="Militia Vexilla" publicationId="48c2-d023-0069-001a" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fabb-a9da-b8b1-c374" type="max"/>
@@ -11467,15 +11422,6 @@ A model with the Infantry Unit Type that selects a Militia cavalry mount as an u
     <rule id="e626-c3b1-e724-c6fc" name="Provenance" hidden="false">
       <description>Provenance</description>
     </rule>
-    <rule id="fcf6-c6e0-f85e-90da" name="Strength in Numbers" hidden="false">
-      <description>When a unit that is composed entirely of models with this special rule is selected as a Troops choice, then up to three such units may be selected to fill that Troops choice slot instead of only one.
-
-All units selected in this manner count as part of the same Troops choice for the purposes of Army Selection and Deployment only, when deployed onto the battlefield or into Reserves they are counted as a single unit and all units selected as part of the same Troops choice must be deployed at the same time (but are not required to deploy in proximity with each other) – and if placed into Reserves then all units in that choice must be placed into Reserves. Likewise,  when making Reserves rolls one roll is made for all units selected as part of the same choice.
-
-Once deployed onto the battlefield, all units selected in this manner are treated as separate and distinct units or choices for any Primary or Secondary Objectives or other special rules and operate as separate units in all ways. Units selected as part of the same Troops choice may have different options selected for them, and are not required to be identical.
-
-When assigning additional models to units using the Among the Ranks and Militia Medicae Support special rules, each unit selected using the Strength in Numbers special rule is considered separate and may have models assigned to it as per the normal rules as the controlling player chooses.</description>
-    </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="9fab-fea7-a93c-2074" page="153" hidden="false">
       <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties. If taken as part of a Mortalis Assault Force Organisation Chart, a unit that includes any models with this Special Rule may only make the Suppress Reaction.</description>
     </rule>
@@ -11486,5 +11432,6 @@ When assigning additional models to units using the Among the Ranks and Militia 
     <catalogueLink id="e123-456e-507c-5t11" name="Daemons - Bound Daemons" targetId="d114-c205-18d5-4e95" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Daemons - Daemons of the Ruinstorm" id="36bf-86e2-87b4-9336" targetId="724d-13c4-628c-f642"/>
     <catalogueLink type="catalogue" name="Mechanicum" id="a933-4626-1551-c187" targetId="eb19-d768-b767-c84b"/>
+    <catalogueLink type="catalogue" name="Militia Library" id="2912-1477-893f-45be" targetId="4ab9-25ad-4d80-2f7d"/>
   </catalogueLinks>
 </catalogue>
