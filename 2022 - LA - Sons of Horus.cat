@@ -1207,42 +1207,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="132f-94b6-52aa-df0a" name="Legion Macharius Heavy Tank Squadron" hidden="true" collective="false" import="false" targetId="36ed-ca59-0d95-d85c" type="selectionEntry">
-      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <comment>node_id_005e-6607-4e2c-8dd2</comment>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <comment>node_id_7745-260c-4c36-b719</comment>
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d344-d97b-4687-8a62" type="greaterThan">
-                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo">
-                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo">
-                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo">
-                  <comment>node_id_faea-b21b-43c5-b918</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="66e9-176d-4684-a526" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
-          <comment>template_id_b24f-3ae0-4cbb-b016</comment>
-        </categoryLink>
-        <categoryLink id="a91a-0b08-408a-a7ba" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">
-          <comment>template_id_fd26-8e6b-4521-92b9</comment>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="947f-1ab5-b634-c170" name="Legion Malcador Assault Tank Squadron" hidden="true" collective="false" import="false" targetId="528b-183f-5e27-8b0c" type="selectionEntry">
       <comment>template_id_fc74-1bab-45a7-a988</comment>
       <modifiers>
@@ -3114,11 +3078,78 @@
         <categoryLink id="dd19-c149-942f-a5b3" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Horus Aximand" hidden="false" id="cf96-20ed-cd69-347c" targetId="7ed0-7d06-406c-abd9" type="selectionEntry"/>
-    <entryLink import="true" name="Optae" hidden="false" id="6a69-8d61-9c0b-5a04" type="selectionEntry" targetId="5585-b5f3-4640-894b">
+    <entryLink import="true" name="Optae" hidden="false" id="6694-2ce3-9bb0-15a6" type="selectionEntry" targetId="5585-b5f3-4640-894b">
       <entryLinks>
-        <entryLink import="true" name="Warlord Traits" hidden="false" id="4778-5c41-1661-93cc" type="selectionEntryGroup" targetId="9c74-1002-8103-2848"/>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="43e7-5a73-554e-59b8" type="selectionEntryGroup" targetId="bb85-3277-2090-6576"/>
       </entryLinks>
+    </entryLink>
+    <entryLink import="false" name="Legion Macharius Heavy Tank Squadron" hidden="true" id="b3ec-e663-218d-42ba" collective="false" targetId="36ed-ca59-0d95-d85c" type="selectionEntry">
+      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <comment>node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="d344-d97b-4687-8a62" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="2c36-fde3-14ed-4db4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b5b7-3410-a8e5-95a6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="c05e-9821-959c-f59a" targetId="36c3-e85e-97cc-c503" primary="false">
+          <comment>template_id_fd26-8e6b-4521-92b9</comment>
+        </categoryLink>
+        <categoryLink name="Heavy Support:" hidden="false" id="5cfb-9fe1-2f55-3074" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="Legion Macharius Omega Heavy Tank" hidden="true" id="28ef-552-cf42-b616" collective="false" targetId="6865-9d88-95dc-2d3f" type="selectionEntry">
+      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <comment>node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="d344-d97b-4687-8a62" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="2c36-fde3-14ed-4db4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b5b7-3410-a8e5-95a6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="558d-4bf2-9a0d-1d90" targetId="36c3-e85e-97cc-c503" primary="false">
+          <comment>template_id_fd26-8e6b-4521-92b9</comment>
+        </categoryLink>
+        <categoryLink name="Heavy Support:" hidden="false" id="8e37-13ca-fcde-f3d0" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -5449,7 +5480,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd36-293f-2e21-a1be" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="91e4-c372-6577-e616" name="Charnabal Sabre" hidden="false" collective="false" import="true" targetId="30c2-57eb-5bbe-be0b" type="selectionEntry">
@@ -5457,7 +5488,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8635-6eff-27b0-f731" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="79ab-9d38-f571-61d3" name="Charnabal Tabar" hidden="false" collective="false" import="true" targetId="4611-c33e-f360-7246" type="selectionEntry">
@@ -5465,7 +5496,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b61-321b-c3fd-80b4" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="6ebb-a7ed-8d58-a850" name="Power Maul" hidden="false" collective="false" import="true" targetId="0df4-c67e-cf64-82e0" type="selectionEntry">
@@ -5473,7 +5504,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ea6-7ca3-6794-2d9c" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c016-8cd9-264f-f786" name="Power Sword" hidden="false" collective="false" import="true" targetId="a3cd-aa97-a148-2309" type="selectionEntry">
@@ -5481,7 +5512,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a40-759b-fd4b-9a44" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="6816-4fef-8524-bf97" name="Power Lance" hidden="false" collective="false" import="true" targetId="a4c8-c8ff-87f2-1ac9" type="selectionEntry">
@@ -5489,7 +5520,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e5e-79b9-3987-a477" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="6b97-eca9-7368-0b88" name="Power Axe" hidden="false" collective="false" import="true" targetId="c066-2ace-f68c-e440" type="selectionEntry">
@@ -5497,7 +5528,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9dc5-4885-bf33-404d" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="30eb-a7ed-a1ac-730e" name="Carsoran Power Axe" hidden="false" collective="false" import="true" targetId="fa70-f0d0-b06d-5413" type="selectionEntry">
@@ -5655,7 +5686,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9708-4dc9-9145-a41b" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="ed39-859a-cb79-cb48" name="Charnabal Sabre" hidden="false" collective="false" import="true" targetId="20d9-83b9-c533-7048" type="selectionEntry">
@@ -5663,7 +5694,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="719d-3ca3-83a9-c0a3" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="449a-6b47-9a3c-f197" name="Charnabal Tabar" hidden="false" collective="false" import="true" targetId="6f53-4c43-ba83-4b2f" type="selectionEntry">
@@ -5671,7 +5702,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4047-ec21-ad23-6b51" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="3e3e-091b-2b04-b662" name="Power Maul" hidden="false" collective="false" import="true" targetId="98e8-f217-dea9-0493" type="selectionEntry">
@@ -5679,7 +5710,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad5e-640b-3c64-67d9" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="9d3c-05e1-f655-83d4" name="Power Sword" hidden="false" collective="false" import="true" targetId="fa06-cac0-3d98-125e" type="selectionEntry">
@@ -5687,7 +5718,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a53c-8e0c-1c78-2743" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="ca51-7aa7-b893-4382" name="Power Lance" hidden="false" collective="false" import="true" targetId="fca3-4ec1-c581-1ba3" type="selectionEntry">
@@ -5695,7 +5726,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5729-380b-852c-771a" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="4acf-1d83-746b-ef04" name="Power Axe" hidden="false" collective="false" import="true" targetId="ef98-66ac-fcaf-c15d" type="selectionEntry">
@@ -5703,7 +5734,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d034-2339-edaa-7444" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="a972-4640-9199-d3e8" name="Carsoran Power Axe" hidden="false" collective="false" import="true" targetId="d596-faa8-a6c2-5d81" type="selectionEntry">
@@ -5902,7 +5933,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d69-3431-b794-4f6a" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="d3ef-660c-0039-e3ef" name="Charnabal Sabre" hidden="false" collective="false" import="true" targetId="30c2-57eb-5bbe-be0b" type="selectionEntry">
@@ -5910,7 +5941,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f82-6b0f-df6a-e3d9" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="7a90-36b2-0777-95f0" name="Charnabal Tabar" hidden="false" collective="false" import="true" targetId="4611-c33e-f360-7246" type="selectionEntry">
@@ -5918,7 +5949,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d9aa-dd07-7f96-4f2e" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="4269-3680-bcb1-189e" name="Power Maul" hidden="false" collective="false" import="true" targetId="0df4-c67e-cf64-82e0" type="selectionEntry">
@@ -5926,7 +5957,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="871b-ca2f-50aa-3902" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="fb45-d866-84e8-4093" name="Power Sword" hidden="false" collective="false" import="true" targetId="a3cd-aa97-a148-2309" type="selectionEntry">
@@ -5934,7 +5965,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0009-5add-e994-fd5a" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="2a1d-7abb-b856-f907" name="Power Lance" hidden="false" collective="false" import="true" targetId="a4c8-c8ff-87f2-1ac9" type="selectionEntry">
@@ -5942,7 +5973,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9493-2d94-9916-2e32" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="4f87-5b9b-ede1-a67e" name="Power Axe" hidden="false" collective="false" import="true" targetId="c066-2ace-f68c-e440" type="selectionEntry">
@@ -5950,7 +5981,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f00-809e-eac9-d604" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="d8e0-2af1-97a6-eebf" name="Carsoran Power Axe" hidden="false" collective="false" import="true" targetId="fa70-f0d0-b06d-5413" type="selectionEntry">
