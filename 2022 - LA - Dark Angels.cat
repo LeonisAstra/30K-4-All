@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ee5e-198e-1b19-4b9f" name="LA -   I: Dark Angels" revision="36" battleScribeVersion="2.03" authorName="revivedtitan" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="72" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="497d-19e0-6dbd-f87e" name="LA -   I: Dark Angels" revision="2033" battleScribeVersion="2.03" authorName="revivedtitan" authorContact="BSData Developers Discord" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <entryLinks>
     <entryLink id="7653-8041-8d1c-c872" name="Dreadwing Interemptor Squad" hidden="false" collective="false" import="false" targetId="3008-e8ed-9e97-71c9" type="selectionEntry">
       <categoryLinks>
@@ -1906,8 +1906,8 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e89b-c855-2e05-8bbf" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
         <categoryLink id="66e1-e02a-d031-26c3" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="2da2-e330-4a25-e4dd" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a09f-4dba-b6ec-1808" name="Legion Malcador Assault Tank Squadron" hidden="true" collective="false" import="false" targetId="528b-183f-5e27-8b0c" type="selectionEntry">
@@ -2917,6 +2917,38 @@
         <entryLink import="true" name="Warlord Traits" hidden="false" id="43e7-5a73-554e-59b8" type="selectionEntryGroup" targetId="bb85-3277-2090-6576"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="e47f-89ff-e3ae-82b0" name="Legion Macharius Omega Heavy Tank" hidden="true" collective="false" import="false" targetId="6865-9d88-95dc-2d3f" type="selectionEntry">
+      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <comment>node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d344-d97b-4687-8a62" type="greaterThan">
+                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo">
+                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo">
+                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo">
+                  <comment>node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="df0c-6e8b-89ea-7a9" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="1308-6392-4fba-808c" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4097-b2b4-d9da-da99" name="Corswain" hidden="false" collective="false" import="true" type="unit">
@@ -3152,7 +3184,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2146-69ab-4ec0-9a00" name="Infantry Unit Type" primary="false"/>
@@ -3423,7 +3455,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf23-fd3a-15a0-7347" name="Excindio Battle-automata" publicationId="d0df-7166-5cd3-89fd" page="54" hidden="false" collective="false" import="true" type="unit">
@@ -3457,9 +3489,9 @@
             <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="aef2-c8df-6a1a-fb48" name="Internal Refractor Field" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="aef2-c8df-6a1a-fb48" name="Volatile Shield Reactor" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" publicationId="9fab-fea7-a93c-2074" page="134">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">This model has a 5+ Invulnerable save. In addition, should the model lose its last wound then all models within D6+4&quot; suffer a Str 8 AP - hit.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When this model suffers its last wound, increase the explosion range by +4&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3693,6 +3725,11 @@
         </entryLink>
         <entryLink id="42cc-cf88-b137-d2de" name="Animatus Excindor (Cybertheurgic Weapon)" hidden="false" collective="false" import="true" targetId="caa2-99d2-b7a0-21b7" type="selectionEntry"/>
         <entryLink id="a7b4-ef3e-9d9e-eae0" name="Shackled Artificia - Unit Type" hidden="false" collective="false" import="true" targetId="26ab-ceec-f2da-8bfb" type="selectionEntry"/>
+        <entryLink import="true" name="Atomantic Deflector" hidden="false" id="67ab-713e-33a8-8cb8" type="selectionEntry" targetId="38fb-9a0b-edef-a497">
+          <modifiers>
+            <modifier type="set" value="Internal Atomantic Deflector" field="name"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
@@ -3853,12 +3890,6 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="292a-6141-35f6-ddf8" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="91e6-bfff-a8eb-bdc7" name="Phosphex Bomb" hidden="false" collective="false" import="true" targetId="4188-13ff-cb03-109e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db0f-b959-0d36-1a80" type="min"/>
-                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dd-bfdd-d782-7fa6" type="max"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3979,6 +4010,11 @@ Selenite Shard-bolt Pistol</description>
             </infoLink>
           </infoLinks>
         </entryLink>
+        <entryLink import="true" name="Siege Breaker" hidden="false" id="8231-d32e-a107-7266" type="selectionEntry" targetId="9335-7da8-087e-30de">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
@@ -4044,8 +4080,8 @@ Selenite Shard-bolt Pistol</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="fbd8-5d81-3afd-4e6a" name="Blade charge" hidden="false">
-                  <description>Once per battle, a unit that includes any models with weapons with this special rule may declare a Blade Charge at the start of any of the controlling player’s Assault phases. For the duration of that Phase, the attacks made by all models in the unit with weapons with the Blade Charge special rule gain the Rending (3+) special rule in addition to any other effects their weapons might have. This does not replace or improve any other versions of the Rending (X) special rule already possessed by  the unit.</description>
+                <rule id="fbd8-5d81-3afd-4e6a" name="Blade Charge" hidden="false">
+                  <description>Once per battle, a unit that includes any models with weapons with this special rule may declare a Blade Charge at the start of any of the controlling player’s Assault phases. For the duration of that Phase, the attacks made by all models in the unit with weapons with the Blade Charge special rule gain the Rending (3+) special rule in addition to any other effects their weapons might have.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4226,7 +4262,7 @@ Selenite Shard-bolt Pistol</description>
               </profiles>
               <rules>
                 <rule id="a00b-e782-8930-729e" name="The Viridian Blade" hidden="false">
-                  <description>*This weapon counts as a sword for the purposes of the Hexagrammaton unit sub-type: Deathwing 
+                  <description>*This weapon counts as a sword for the purposes of the Hexagrammaton unit sub-type: Deathwing
 special rule.</description>
                 </rule>
               </rules>
@@ -4338,6 +4374,7 @@ special rule.</description>
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Chosen Warriors" hidden="false" id="fa02-659a-d567-b09f" type="rule" targetId="13d1-9270-6539-08ed" publicationId="9fab-fea7-a93c-2074" page="124"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="359e-1590-1dcc-33d3" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
@@ -4426,9 +4463,9 @@ special rule.</description>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ed-4ba3-aedc-c699" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dc37-aac1-0329-d898" name="Order Cenobites" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <profile id="dc37-aac1-0329-d898" name="Order Cenobites" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" publicationId="9fab-fea7-a93c-2074" page="124">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Heavy)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -4679,6 +4716,7 @@ special rule.</description>
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Chosen Warriors" hidden="false" id="aa9e-71e5-bc0b-acbd" type="rule" targetId="13d1-9270-6539-08ed"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5ae3-be22-48b5-7f36" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
@@ -5146,6 +5184,11 @@ special rule.</description>
       <infoLinks>
         <infoLink id="a8c4-6038-988b-7ee1" name="Legiones Astartes (Dark Angels)" hidden="false" targetId="513e-0647-996a-6229" type="rule"/>
         <infoLink id="5289-0ca6-d64f-b1b0" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
+        <infoLink name="Bulky (X)" hidden="false" id="8a0e-4a22-c1d1-9643" type="rule" targetId="676c-7b75-4b6f-9405" publicationId="9fab-fea7-a93c-2074" page="124">
+          <modifiers>
+            <modifier type="set" value="Bulky (2)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2601-e1ee-e7fc-4791" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -5160,9 +5203,9 @@ special rule.</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf9-6873-98b9-f8a9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7509-8e0b-38ff-5111" name="Regalia of the Shattered Sceptre" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+            <profile id="7509-8e0b-38ff-5111" name="Regalia of the Shattered Sceptre" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" publicationId="9fab-fea7-a93c-2074" page="124">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Regalia of the Shattered Sceptre confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Regalia of the Shattered Sceptre also allows its bearer to automatically pass any Dangerous Terrain tests that model is called upon to take.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Regalia of the Shattered Sceptre confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Regalia of the Shattered Sceptre also allows its bearer to automatically pass any Dangerous Terrain tests that model is called upon to take. In addition, The Regalia of the Shattered Sceptre confers the Bulky (2) Special Rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6566,6 +6609,6 @@ This additional Reaction may on be made as long as the Warlord has not been remo
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="6393-649c-7213-a327" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

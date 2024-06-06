@@ -1,38 +1,71 @@
-Horus Heresy
+30K-4-All: A Horus Heresy + Panoptica Repository
 ============
 
-[![Latest release](https://img.shields.io/github/release/BSData/horus-heresy.svg?style=flat-square)](https://github.com/BSData/horus-heresy/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/horus-heresy/latest.svg?style=flat-square)](https://github.com/BSData/horus-heresy/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/horus-heresy/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/horus-heresy/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/horus-heresy.svg?style=flat-square)](https://github.com/BSData/horus-heresy/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/horus-heresy.svg?style=flat-square)](https://github.com/BSData/horus-heresy/pulse/monthly)
+[![Latest release](https://img.shields.io/github/release/LeonisAstra/30K-4-All.svg?style=flat-square)](https://github.com/LeonisAstra/30K-4-All/releases/latest)
+[![Commits (since latest release)](https://img.shields.io/github/commits-since/LeonisAstra/30K-4-All/latest.svg?style=flat-square)](https://github.com/LeonisAstra/30K-4-All/releases)
+[![Open bugs](https://img.shields.io/github/issues/LeonisAstra/30K-4-All/bug.svg?style=flat-square&label=bugs)](https://github.com/LeonisAstra/30K-4-All/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
 
 [![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+[![Contributors](https://img.shields.io/github/contributors/LeonisAstra/30K-4-All.svg?style=flat-square)](https://github.com/LeonisAstra/30K-4-All/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/LeonisAstra/30K-4-All.svg?style=flat-square)](https://github.com/LeonisAstra/30K-4-All/pulse/monthly)
 
 
 
 ## Overview ##
 
-__What's this?__
+### What's this?
 
-This is the data repo for the Horus Heresy.
+This is an independent BSData repository for the Horus Heresy with the inclusion of errata/rebalances/expansions provided by the [Panoptica Team's Fan-Made Publications](https://hh-ageofdarkness.itch.io/). It can be used with [BattleScribe](https://battlescribe.net/), [NewRecruit](https://www.newrecruit.eu/), and [BlueScribe](https://bluewinds.github.io/bluescribe/). Support for [Rosterizer](https://rosterizer.com/) is planned.
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
+We strongly recommend you use NewRecruit over Battlescribe, as Battlescribe is considered abandonware.
 
-We strongly recommend you use NewRecruit over Battlescribe, as battlescribe is abandonware.
+**Please note, this is a Work in Progress.**
 
+### How Do I Install It?
 
-__I found a bug!__ / *I have another request*
+To install this repository and allow it to update whenever there is a new release, please include the following BSI file in the relevant location on your app of choice.
+
+[https://github.com/LeonisAstra/30K-4-All/releases/latest/download/30K-4-All.latest.bsi](https://github.com/LeonisAstra/30K-4-All/releases/latest/download/30K-4-All.latest.bsi)
+
+### Current Inclusions
+
+As of the latest release, we have implemented:
+- Errata & Balance Changes to all Core Rules
+- Errata & Balance Changes to Liber Astartes Units & Related Special Rules
+- All Additional Special Rules (pages 146-150)
+- All Panoptica Weapon Profiles (pages 152-157)
+
+### *I found a bug!* / *I have another request*
 
 Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
 
-### Where did Horus Heresy 1.0 go?
-We moved it to [its own repo](https://github.com/BSData/horus-heresy-1e). It is no longer maintained.
+## Release Schedule ##
 
-## Standards
+We are working towards quickly adapting all of the rules included within Liber Panoptica. Following this, our attention will focus on importing Liber Centura, then Liber Imperatus, and finally Liber Ignenium. After these core books are included, we will begin work on Liber Antiquia and future expansions.
 
+When there is a major release of the BSData Horus Heresy repository, we will switch focus on rebasing this repository via their upstream changes.
+
+## Thanks & Disclosures ##
+
+This repository is a fork of the [BSData/horus-heresy](https://github.com/BSData/horus-heresy). This project would not be possible without the herclean effort put forward by this dedicated volunteer team. If you are interested in joining their team at their [Discord Community](https://www.bsdata.net/discord)
+
+We'd also like to thank the Panoptica Team for all of their continued hard-work in providing the community a fantastic set of expansions; all of which have been playtested extensively by their international collaboration. 
+
+We are not affiliated with the Panoptica Team nor their related [Discord Community](https://discord.gg/HH-Age-of-Darkness) in any way. This project was spurred on by an growing and immediate need for local community EOs and players to be able to utalize the fantastic additions made to the core system in a simple and quick manner. As such, please direct any commentary regarding the rules set via the above linked Discord Community. The group creating the ruleset have a deep passion for making this community better! ^_^
+
+## Legal Notice
+
+Liber Panoptica and related publications are shared under the provisions of the CC BY-NC-ND 4.0 Licence, more information on which can be [found here].
+
+This ruleset is entirely community-made, unofficial, and not for profit. It is not to be sold, distributed for profit, or otherwise restricted in any way. It is shared entirely out of love for The Horus Heresy game system and our desire to for it to continue. Infringement on any legal rights is not intended. Some words, terms, and logos in this document are copyrighted – these are used in compliance with copyright laws and procedures, including this notice.
+
+
+-------------------------------------
+-------------------------------------
+
+
+## BSData Standards
 
 ### Creating units
 #### Names
@@ -74,10 +107,11 @@ We didn't maintain the template so it's not recommended to re-run bscopy
 * [Liber Astartes Errata and FAQ V1.0](https://www.warhammer-community.com/wp-content/uploads/2022/09/yq5znaB0N5sLyARr.pdf)
 * [Liber Hereticus Errata and FAQ V1.0](https://www.warhammer-community.com/wp-content/uploads/2022/09/3s4WA1UGgC15iDp2.pdf)
 * [Liber Mechanicum Errata and FAQ V1.0](https://www.warhammer-community.com/wp-content/uploads/2022/09/RQ0Pcrm0LJB5BwSG.pdf)
+* [Liber Panoptica v5.2](https://hh-ageofdarkness.itch.io/liberpanoptica)
 
 ## Links ##
 
 * [BSData organization homepage][BSData.net]
 
 [BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/horus-heresy/issues/new/choose
+[bug report]: https://github.com/LeonisAstra/30K-4-All/issues/new/choose

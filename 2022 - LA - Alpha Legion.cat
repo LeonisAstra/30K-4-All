@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="9c06-1c61-d01d-8445" name="LA - XX: Alpha Legion" revision="53" battleScribeVersion="2.03" authorName="Alphalas" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="70" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1967-627b-83d8-12ce" name="LA - XX: Alpha Legion" revision="2051" battleScribeVersion="2.03" authorName="Alphalas" authorContact="BSData Developers Discord" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <categoryEntries>
     <categoryEntry id="2275-5253-2421-7383" name="Rewards of Trechery" hidden="false">
       <modifiers>
@@ -3704,49 +3704,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b161-b776-8ce7-6245" name="Legion Macharius Heavy Tank Squadron" hidden="true" collective="false" import="false" targetId="36ed-ca59-0d95-d85c" type="selectionEntry">
-      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <comment>node_id_005e-6607-4e2c-8dd2</comment>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <comment>node_id_7745-260c-4c36-b719</comment>
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d344-d97b-4687-8a62" type="greaterThan">
-                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo">
-                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo">
-                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo">
-                  <comment>node_id_faea-b21b-43c5-b918</comment>
-                </condition>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="add" field="category" value="9142-d994-e260-9310">
-          <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1af3-e23e-8831-e011" type="equalTo">
-              <comment>node_id_9a69-0fdc-4957-8982</comment>
-            </condition>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="cd8e-d681-413e-8d04" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
-          <comment>template_id_b24f-3ae0-4cbb-b016</comment>
-        </categoryLink>
-        <categoryLink id="5365-9e60-417d-bcbb" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">
-          <comment>template_id_fd26-8e6b-4521-92b9</comment>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="fe82-5cc4-9adc-9d46" name="Legion Malcador Assault Tank Squadron" hidden="true" collective="false" import="false" targetId="528b-183f-5e27-8b0c" type="selectionEntry">
       <comment>template_id_fc74-1bab-45a7-a988</comment>
       <modifiers>
@@ -5379,6 +5336,74 @@
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="6690-9289-fcb9-bc5e" primary="true" name="HQ:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="false" name="Legion Macharius Heavy Tank Squadron" hidden="true" id="fb15-efe4-f2ab-14d0" collective="false" targetId="36ed-ca59-0d95-d85c" type="selectionEntry">
+      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <comment>node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="d344-d97b-4687-8a62" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="2c36-fde3-14ed-4db4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b5b7-3410-a8e5-95a6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="29e5-fc8e-1707-1576" targetId="36c3-e85e-97cc-c503" primary="false">
+          <comment>template_id_fd26-8e6b-4521-92b9</comment>
+        </categoryLink>
+        <categoryLink name="Heavy Support:" hidden="false" id="1286-47e4-d3d3-5a71" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="Legion Macharius Omega Heavy Tank" hidden="true" id="185b-60f0-1cb7-5b96" collective="false" targetId="6865-9d88-95dc-2d3f" type="selectionEntry">
+      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <comment>node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="d344-d97b-4687-8a62" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="ed1f-9473-df70-4544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="2c36-fde3-14ed-4db4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b5b7-3410-a8e5-95a6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="4b28-233d-6807-d04b" targetId="36c3-e85e-97cc-c503" primary="false">
+          <comment>template_id_fd26-8e6b-4521-92b9</comment>
+        </categoryLink>
+        <categoryLink name="Heavy Support:" hidden="false" id="f9a2-c854-4433-9f1" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="6161-d387-f086-0958" name="Lernaean Terminator Squad" publicationId="09c5-eeae-f398-b653" page="338" hidden="false" collective="false" import="true" type="unit">
@@ -5527,7 +5552,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="a8bc-3858-4193-ae87" name="Infantry Unit Type" primary="false"/>
@@ -5623,7 +5648,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
               <infoLinks>
                 <infoLink id="ab07-b8bc-0975-cd97" name="Lernaean" targetId="53a7-baaf-f2b1-790b" type="profile"/>
@@ -5824,9 +5849,9 @@
             <categoryLink targetId="bff2-ae16-74a8-8712" id="f0b2-88dc-4ded-a79a" name="Light Sub-type" primary="false"/>
           </categoryLinks>
           <profiles>
-            <profile id="793c-d4f-2bbc-92fb" name="Exodus" publicationId="09c5-eeae-f398-b653" page="340" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <profile id="793c-d4f-2bbc-92fb" name="Exodus" publicationId="9fab-fea7-a93c-2074" page="131" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Light)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Light, Skirmish)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
@@ -6710,7 +6735,7 @@
           <profiles>
             <profile id="e93f-b0d8-6af1-f4e3" name="Alpharius" publicationId="09c5-eeae-f398-b653" page="336" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Primarch (Unique)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Primarch (Unique, Skirmish)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
@@ -6759,6 +6784,7 @@
           </profiles>
         </entryLink>
         <entryLink id="04a6-1b16-3d7e-4562" name="Retinue" hidden="false" collective="false" import="true" targetId="09f9-933c-a88e-6e38" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Nuncio-Vox" hidden="false" id="8f8a-31d8-feb5-5a60" type="selectionEntry" targetId="005e-aae6-ddac-bb45" publicationId="9fab-fea7-a93c-2074" page="131"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="465"/>
@@ -8251,23 +8277,23 @@ A weapon with this special rule may not be used to make Shooting Attacks as part
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="6393-649c-7213-a327" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="22ab-29e1-22f3-7cff" name="LA -   I: Dark Angels" targetId="ee5e-198e-1b19-4b9f" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="a164-9b86-cdff-a77e" name="LA -   III: Emperor&apos;s Children" targetId="72ba-61c2-37ad-c785" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="f3da-bf4c-5557-55ca" name="LA -   IV: Iron Warriors" targetId="2ee4-57ed-db44-8a63" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="a765-0d93-a1aa-429d" name="LA -   V: White Scars" targetId="caa9-c50e-8eed-2259" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="deaf-52e5-4b05-f2d6" name="LA -   VI: Space Wolves" targetId="ca15-13de-89cb-bbb2" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="7d3f-8f37-29e5-3a1e" name="LA -   VII: Imperial Fists" targetId="8866-00ec-715f-f21a" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="e854-80e6-908e-88db" name="LA -   VIII: Night Lords" targetId="36dc-14fc-8872-476b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="d048-e6d9-e40e-8363" name="LA -  IX: Blood Angels" targetId="cd4d-8765-5387-8409" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="7ea8-b20e-d38f-def3" name="LA -  X: Iron Hands" targetId="b73e-125f-db29-17f2" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="1ab3-19e2-4e09-4cef" name="LA -  XII: World Eaters" targetId="d901-0eca-48b5-304a" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="e1d9-0e0d-dd7c-564b" name="LA -  XIII: Ultramarines" targetId="68ae-9855-b56a-95e6" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="8bd2-e90a-499a-652d" name="LA -  XIV: Death Guard" targetId="d228-55e8-b58c-1b77" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="cb9a-9b14-8dcf-910f" name="LA -  XV: Thousand Sons" targetId="abac-8dd1-df65-e253" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="3289-8848-fef8-7f7a" name="LA -  XVI: Sons of Horus" targetId="62c7-42f4-5523-af1b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="4c19-55ad-bb7b-187c" name="LA -  XVII: Word Bearers" targetId="1df7-bbbc-b70e-6a3f" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="615e-dbe4-e349-94ca" name="LA -  XVIII: Salamanders" targetId="3547-84d8-d789-bab7" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="0fd7-0093-a46a-ad80" name="LA - XIX: Raven Guard" targetId="d21e-9c80-a7f8-728c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="22ab-29e1-22f3-7cff" name="LA -   I: Dark Angels" targetId="497d-19e0-6dbd-f87e" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a164-9b86-cdff-a77e" name="LA -   III: Emperor&apos;s Children" targetId="9025-fdec-da16-541a" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="f3da-bf4c-5557-55ca" name="LA -   IV: Iron Warriors" targetId="3ecd-fb2c-3822-1e2a" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a765-0d93-a1aa-429d" name="LA -   V: White Scars" targetId="8b8a-6a95-2974-215a" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="deaf-52e5-4b05-f2d6" name="LA -   VI: Space Wolves" targetId="6454-e18-28f-fbfb" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7d3f-8f37-29e5-3a1e" name="LA -   VII: Imperial Fists" targetId="d371-14a7-bf2b-1f20" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="e854-80e6-908e-88db" name="LA -   VIII: Night Lords" targetId="78a6-f5a2-5a5c-ef0d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d048-e6d9-e40e-8363" name="LA -  IX: Blood Angels" targetId="38ec-5d74-5a4a-da90" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7ea8-b20e-d38f-def3" name="LA -  X: Iron Hands" targetId="d6af-8c96-7a52-cbfa" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="1ab3-19e2-4e09-4cef" name="LA -  XII: World Eaters" targetId="1344-db36-36c1-e861" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="e1d9-0e0d-dd7c-564b" name="LA -  XIII: Ultramarines" targetId="88c9-63e-51f3-80f1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="8bd2-e90a-499a-652d" name="LA -  XIV: Death Guard" targetId="19ea-eb9d-4ccb-e3c0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="cb9a-9b14-8dcf-910f" name="LA -  XV: Thousand Sons" targetId="4e6e-662e-84a8-fb62" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="3289-8848-fef8-7f7a" name="LA -  XVI: Sons of Horus" targetId="db61-af86-a1bc-6c06" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4c19-55ad-bb7b-187c" name="LA -  XVII: Word Bearers" targetId="9edf-435d-b09a-9dd3" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="615e-dbe4-e349-94ca" name="LA -  XVIII: Salamanders" targetId="765e-788c-dde3-4683" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0fd7-0093-a46a-ad80" name="LA - XIX: Raven Guard" targetId="64c8-badb-7d2a-890a" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

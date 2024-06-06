@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="72ba-61c2-37ad-c785" name="LA -   III: Emperor&apos;s Children" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="9025-fdec-da16-541a" name="LA -   III: Emperor&apos;s Children" revision="2038" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <entryLinks>
     <entryLink id="a119-3943-4b8b-b651" name="Captain Lucius" hidden="true" collective="false" import="false" targetId="0707-1e4b-27da-9cd4" type="selectionEntry">
       <modifiers>
@@ -1170,12 +1170,10 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6bb0-90ba-4237-be04" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
-          <comment>template_id_b24f-3ae0-4cbb-b016</comment>
-        </categoryLink>
         <categoryLink id="08e2-3af5-4784-ad0c" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">
           <comment>template_id_fd26-8e6b-4521-92b9</comment>
         </categoryLink>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="5872-2ef3-54e3-720" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e34c-4e68-da27-f688" name="Legion Malcador Assault Tank Squadron" hidden="true" collective="false" import="false" targetId="528b-183f-5e27-8b0c" type="selectionEntry">
@@ -3086,6 +3084,40 @@
         <entryLink import="true" name="Warlord Traits" hidden="false" id="5a78-4ff0-d90c-7645" type="selectionEntryGroup" targetId="0cb4-896e-a455-243b"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="ab9b-5bf0-4cc-57a1" name="Legion Macharius Omega Heavy Tank" hidden="true" collective="false" import="false" targetId="6865-9d88-95dc-2d3f" type="selectionEntry">
+      <comment>template_id_4a67-a1f3-4189-9e6e</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <comment>node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d344-d97b-4687-8a62" type="greaterThan">
+                  <comment>node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo">
+                  <comment>node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo">
+                  <comment>node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo">
+                  <comment>node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="d9bb-7bc1-2518-b03f" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">
+          <comment>template_id_fd26-8e6b-4521-92b9</comment>
+        </categoryLink>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="f55d-5798-7a3d-fd1a" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0de5-8b3c-74a0-858e" name="Fulgrim" hidden="false" collective="false" import="true" type="unit">
@@ -3322,6 +3354,7 @@ A unit with this special rule gains +1 to the score used to calculate the winner
         </infoLink>
         <infoLink name="Stubborn" hidden="false" type="rule" id="cff0-6431-d93a-dc2d" targetId="7989-1f2c-a43d-82ae"/>
         <infoLink id="dff4-89f0-a334-fbb9" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
+        <infoLink name="Chosen Warriors" hidden="false" id="9e35-58e9-7edc-4a6c" type="rule" targetId="13d1-9270-6539-08ed"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="99d4-024f-39b9-f2dd" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -3430,7 +3463,7 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           <profiles>
             <profile id="49f9-a644-e073-d49d" name="Phoenix Terminator" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -4530,6 +4563,11 @@ then he gains +1 to his Attacks Characteristic.</description>
                     <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0de5-8b3c-74a0-858e" type="atLeast"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="0" field="d2ee-04cb-5f8a-2642">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="b02a-103b-67d8-212b" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <profiles>
                 <profile id="7e6c-7f12-29bc-b5a0" name="Blade of the Laer" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -4645,7 +4683,7 @@ then he gains +1 to his Attacks Characteristic.</description>
       <profiles>
         <profile id="eb12-17e2-1019-a269" name="Rylanor the Unyielding" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
           <characteristics>
-            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Dreadnought (Unique)</characteristic>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Dreadnought (Character, Unique)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
             <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
             <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
@@ -4662,6 +4700,17 @@ then he gains +1 to his Attacks Characteristic.</description>
       <infoLinks>
         <infoLink id="d4b7-14c2-70f2-06a4" name="Crusader" hidden="false" targetId="c705-0829-75f6-a785" type="rule"/>
         <infoLink id="8fff-2cd7-b38c-e631" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
+        <infoLink name="The Honored One" hidden="false" id="1443-b375-1e03-a465" type="rule" targetId="130d-ed6f-db5f-94ef"/>
+        <infoLink name="Hatred (X)" hidden="false" id="3b1e-c807-c95f-1221" type="rule" targetId="dc0b-fe69-6b71-e0a4">
+          <modifiers>
+            <modifier type="set" value="Hatred (Traitors)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="It Will Not Die (X)" hidden="false" id="ec65-ca71-19c6-4e46" type="rule" targetId="2784-d0be-a4e2-890f">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7acc-1ab8-5189-f03c" name="Dreadnought Unit Type" hidden="false" targetId="4280-4963-02b5-e31d" primary="false"/>
@@ -5091,8 +5140,8 @@ then he gains +1 to his Attacks Characteristic.</description>
           <entryLinks>
             <entryLink id="fac2-096b-ca3e-9da9" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry"/>
             <entryLink id="7c5f-8a55-7cb3-dc9f" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry"/>
-            <entryLink id="f161-d3a8-e0d2-b274" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry"/>
             <entryLink id="957b-ffdf-b69d-cbfb" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="43f5-3815-6b3a-a363" type="selectionEntry"/>
+            <entryLink import="true" name="Multi-Melta w/ Suspensor Web" hidden="false" id="f53b-b069-7b47-4788" type="selectionEntry" targetId="363d-7173-cf11-066b"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5897,28 +5946,6 @@ then he gains +1 to his Attacks Characteristic.</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="cf9e-45a6-8e1a-33be" name="Storm Eagle Gunship" hidden="true" collective="false" import="true" targetId="8aa5-ff31-7de7-19d4" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="0173-3310-6bae-ed99" name="Dreadclaw Drop Pod" hidden="true" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1977-49f2-7910-f177" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink id="afd6-5a33-28fd-1e3d" name="Land Raider Proteus Carrier" hidden="true" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -6059,7 +6086,7 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Daemon Primarch (Unique)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">9&quot;</characteristic>
-                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">9</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">7</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">7</characteristic>
@@ -6083,14 +6110,14 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
             <rule name="Resplendent Wings" hidden="false" id="c3ef-7907-9642-bdcd" publicationId="7f9d-5e88-241d-e861" page="105">
               <description>Fulgrim’s altered form descended from tortured skies on delicate wings. Though fragile in appearance, when punctured by bullet or blade, they rapidly reknit, remaining perfect and unblemished.
 
-
 At the start of the controlling player’s Movement phase a model with Resplendent Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Resplendent Wings to move up to 14”, regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Resplendent Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their movement in Dangerous Terrain. A model with Resplendent Wings that have been activated treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its movement at least 1” away from any model from another unit.
-
 
 A model with Resplendent Wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Unit Sub-type to Run). When making a Run move for a model with activated Resplendent Wings, add the Initiative Characteristic of the model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with Resplendent Wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
 
+During a Reaction made in any Phase, a player may not choose to activate a model’s Resplendent Wings to gain any bonus to its Movement Characteristic.
 
-During a Reaction made in any Phase, a player may not choose to activate a model’s Resplendent Wings to gain any bonus to its Movement Characteristic.</description>
+
+Fulgrim Transfigured is counted as having a Legion Warhawk Jump Pack for rules and interactions that affect or require that wargear.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6305,7 +6332,7 @@ A Warlord with this Trait and all models in a unit the Warlord has joined that h
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="6393-649c-7213-a327" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Legions Astartes or Hereticus" hidden="false" id="d744-9ab9-93ab-ce79">
