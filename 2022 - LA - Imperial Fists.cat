@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d371-14a7-bf2b-1f20" name="LA -   VII: Imperial Fists" revision="2033" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d371-14a7-bf2b-1f20" name="LA -   VII: Imperial Fists" revision="2036" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="b3e4-1487-4ab7-7515" name="Alexis Polux" hidden="false" collective="false" import="false" targetId="9229-b4f9-2213-9672" type="selectionEntry">
       <modifiers>
@@ -5218,11 +5218,6 @@ Both weapons are counted as ‘Power’ weapons for those rules that affect such
           </costs>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Rogal Dorn" hidden="false" id="3ae1-8a20-2105-6412">
-          <categoryLinks>
-            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1f17-6de2-5b9b-7ac3" primary="false" name="Independent Character"/>
-            <categoryLink targetId="ad5f-31db-8bc7-5c46" id="f029-9448-404f-ae32" name="Primarch Unit Type" primary="false"/>
-            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="f116-a066-47cf-8359" name="Unique Sub-type" primary="false"/>
-          </categoryLinks>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c4a-7b87-f844-27b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ab-39a7-6473-2369" type="max"/>
@@ -5244,9 +5239,6 @@ Both weapons are counted as ‘Power’ weapons for those rules that affect such
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="1f17-6de2-5b9b-7ac3" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>

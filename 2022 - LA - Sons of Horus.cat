@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="db61-af86-a1bc-6c06" name="LA -  XVI: Sons of Horus" revision="2036" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="db61-af86-a1bc-6c06" name="LA -  XVI: Sons of Horus" revision="2039" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="c2a2-9b6d-b384-3f43" name="XVI: Sons of Horus" hidden="false" collective="false" import="false" targetId="01b4-57c7-bf61-2abf" type="selectionEntry">
       <modifiers>
@@ -3563,17 +3563,9 @@
                 <infoLink id="5651-2420-0871-121f" name="Master of War" hidden="false" targetId="9445-c0b8-f082-54cb" type="rule"/>
                 <infoLink id="2f6b-7800-e71c-ed83" name="Master of Weapons" hidden="false" targetId="ade0-2be2-4fad-a2b9" type="rule"/>
               </infoLinks>
-              <categoryLinks>
-                <categoryLink id="3877-3563-8980-fce4" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
-              <categoryLinks>
-                <categoryLink targetId="4f07-3d45-4f28-a0c6" id="3877-3563-8980-fce4" primary="false" name="Independent Character"/>
-                <categoryLink targetId="ad5f-31db-8bc7-5c46" id="ef75-a0e0-48ff-890a" name="Primarch Unit Type" primary="false"/>
-                <categoryLink targetId="aa94-5c65-d1f1-46a4" id="6c08-64d8-449c-9a43" name="Unique Sub-type" primary="false"/>
-              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -5228,7 +5220,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="773d-17eb-9834-2e2a" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
-        <categoryLink id="d4f8-7cfd-49ff-ca02" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+        <categoryLink id="d4f8-7cfd-49ff-ca02" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="43e1-e69b-439b-ac0f"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="2ba0-4682-47b7-a1c2" name="HQ:"/>
       </categoryLinks>
@@ -5236,7 +5228,7 @@
         <selectionEntry type="model" import="true" name="Tybalt Marr" hidden="false" id="da20-54b1-fdb-9659" page="192" publicationId="d882-d2a-5da1-92c4">
           <categoryLinks>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="d42-4abd-3e06-f45" primary="false" name="Independent Character"/>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6c7d-d51d-432f-a82f" name="Infantry Unit Type" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6c7d-d51d-432f-a82f" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="c07e-c6fc-41e0-b0ec" name="Character" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="dda5-3fc8-4915-aac4" name="Unique Sub-type" primary="false"/>
           </categoryLinks>
@@ -6309,7 +6301,7 @@ Blood and Honour – When a Wound is allocated to Vheren Ashurhaddon by his cont
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3a68-c48b-4613-bab4" name="Infantry Unit Type" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3a68-c48b-4613-bab4" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="3a39-5179-4b56-85e4" name="Character" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="76a6-8678-4247-a7cd" name="Unique Sub-type" primary="false"/>
           </categoryLinks>

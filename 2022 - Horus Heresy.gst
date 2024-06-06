@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="66e4-4610-1d0e-3c25" name="Horus Heresy (Panoptica)" revision="2002" battleScribeVersion="2.03" authorName="Panoptica Development Team (Imported by LeonisAstra)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="66e4-4610-1d0e-3c25" name="Horus Heresy (Panoptica)" revision="2003" battleScribeVersion="2.03" authorName="Panoptica Development Team (Imported by LeonisAstra)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="e2a4-ac85-1bef-22f5" name="Github" shortName="LeonisAstra/horus-heresy-panoptica" publisherUrl="https://github.com/LeonisAstra/horus-heresy-panoptica/"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -2408,10 +2408,6 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink name="Blackshield Oaths" hidden="false" id="4ed3-a358-1189-a2d4" targetId="cb34-ca48-547a-5d90"/>
         <categoryLink name="Lords of War:" hidden="false" id="b22b-446e-4bbd-267b" targetId="c658-dc6b-727b-c488">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="ed14-42fc-d5e5-4942" includeChildSelections="true"/>
-            <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="ff8-b5b1-7226-6a49" includeChildSelections="true"/>
-          </constraints>
           <modifiers>
             <modifier type="set" field="ff8-b5b1-7226-6a49" value="0">
               <conditionGroups>
@@ -2423,10 +2419,6 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
               </conditionGroups>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed14-42fc-d5e5-4942" type="min"/>
-            <constraint field="forces" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff8-b5b1-7226-6a49" type="max"/>
-          </constraints>
         </categoryLink>
         <categoryLink id="7830-1ff6-6c95-2493" name="LoW &amp; Primarchs (25% Limit)" hidden="false" targetId="2eaf-32d6-9d1d-d906" primary="false">
           <modifiers>
@@ -18172,7 +18164,7 @@ A Detachment with this Oath may not be selected as part of any army that include
 
 
 This does not allow those models to select Warlord Traits, Rites of War, Consul Types, Praetor upgrades, or other options available to models with that variant of the Legiones Astartes (X) special rule and does not allow the Detachment to include units restricted to Detachments of that Faction.</description>
-  </rule>
+    </rule>
     <rule id="d789-8a0c-7182-79c4" name="Countermeasures" publicationId="9fab-fea7-a93c-2074" page="165" hidden="false">
       <description>A model with this Special Rule has a 5+ Invulnerable Save against any Shooting Attacks which have the Skyfire Special Rule made against it. A model with this Special Rule which does not make a Zoom move in the Controlling Player’s Movement Phase cannot claim the benefit of this Special Rule during the rest of the Controlling Player’s turn, as well as the Opposing Player’s turn.</description>
     </rule>

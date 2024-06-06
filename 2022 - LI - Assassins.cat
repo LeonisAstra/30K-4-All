@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2dde-e269-90db-8d33" name="LI - Assassins and Agents" revision="2011" battleScribeVersion="2.03" authorName="Maye Gelt" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2dde-e269-90db-8d33" name="LI - Assassins and Agents" revision="2012" battleScribeVersion="2.03" authorName="Maye Gelt" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="c1fd-3919-f4bf-a990" name="Clade Adamus Assassin" publicationId="15a4-fc68-502d-48a9" page="120" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1367,7 +1367,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
           <categoryLinks>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="115e-3c4a-4823-aac1" name="Psyker:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="7633-3b2c-4627-96ff" name="Character" primary="false"/>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="bbeb-7fd3-476c-b7aa" name="Infantry Unit Type" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="bbeb-7fd3-476c-b7aa" name="Infantry:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
