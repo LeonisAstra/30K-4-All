@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="db61-af86-a1bc-6c06" name="LA -  XVI: Sons of Horus" revision="2035" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="db61-af86-a1bc-6c06" name="LA -  XVI: Sons of Horus" revision="2036" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="c2a2-9b6d-b384-3f43" name="XVI: Sons of Horus" hidden="false" collective="false" import="false" targetId="01b4-57c7-bf61-2abf" type="selectionEntry">
       <modifiers>

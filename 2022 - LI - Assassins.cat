@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2dde-e269-90db-8d33" name="LI - Assassins and Agents" revision="2010" battleScribeVersion="2.03" authorName="Maye Gelt" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2dde-e269-90db-8d33" name="LI - Assassins and Agents" revision="2011" battleScribeVersion="2.03" authorName="Maye Gelt" library="true" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="c1fd-3919-f4bf-a990" name="Clade Adamus Assassin" publicationId="15a4-fc68-502d-48a9" page="120" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -30,6 +30,11 @@
         <infoLink id="2226-c89c-e5fc-3d45" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
         <infoLink id="e9b1-bf56-095d-f9ff" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
         <infoLink id="84e7-571f-66d3-0eee" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
+        <infoLink name="Preferred Enemy (X)" hidden="false" id="acaa-9381-ae43-788" type="rule" targetId="37ab-d4db-891a-de8c">
+          <modifiers>
+            <modifier type="set" value="Preferred Enemy (Characters)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0023-51b9-50b3-c66b" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
@@ -166,10 +171,13 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="d615-c0e4-6d17-107e" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="ca4f-321c-519e-b34b" name="Clade Callidus Assassin" publicationId="15a4-fc68-502d-48a9" page="116" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="75fb-99a0-9ecb-7166" name="Clade Callidus Assassin" publicationId="15a4-fc68-502d-48a9" page="116" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+        <profile id="75fb-99a0-9ecb-7166" name="Clade Callidus Assassin" publicationId="9fab-fea7-a93c-2074" page="147" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Assassin, Light)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
@@ -177,7 +185,7 @@
             <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
             <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
             <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-            <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
             <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
             <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
             <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
@@ -215,7 +223,10 @@
 may not be targeted for a Shooting Attack, Charge or
 Reaction of any kind by an enemy unit as long as the unit
 with polymorphine has not made an attack of any kind
-during the battle. Once a unit or model with polymorphine has made a Shootin gAttack (including during a Reaction) then polymorphine has no futher effect.</characteristic>
+during the battle. Once a unit or model with polymorphine has made a Shootin gAttack (including during a Reaction) then polymorphine has no futher effect. 
+
+
+In addition, Polymorphine’s effects immediately end if an enemy unit ends its Movement in the Controlling Player’s Movement Phase within 6” of the model equipped with Polymorphine</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -293,10 +304,13 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="d615-c0e4-6d17-107e" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="7c0a-f6df-88f7-e29a" name="Clade Culexus Assassin" publicationId="15a4-fc68-502d-48a9" page="115" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4564-a7a7-fad5-89fb" name="Clade Culexus Assassin" publicationId="15a4-fc68-502d-48a9" page="115" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+        <profile id="4564-a7a7-fad5-89fb" name="Clade Culexus Assassin" publicationId="9fab-fea7-a93c-2074" page="147" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Assassin, Light, Anathema)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
@@ -304,7 +318,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
             <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
             <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-            <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
             <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
             <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
             <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
@@ -368,12 +382,12 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3751-a32f-b1ae-218b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b94f-7e4b-0c02-57c1" name="Animus Speculum" publicationId="15a4-fc68-502d-48a9" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="b94f-7e4b-0c02-57c1" name="Animus Speculum" publicationId="9fab-fea7-a93c-2074" page="147" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Rending (6+), Psy-shock</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Rending (6+), Psy-shock, Soul-Death</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -385,6 +399,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             </infoLink>
             <infoLink id="6f37-90be-2c76-8d80" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
             <infoLink id="7224-8b40-2056-cd8c" name="Psy-shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
+            <infoLink name="Soul-Death" hidden="false" id="36a7-b143-b58b-fc15" type="rule" targetId="ced3-6b8d-80a2-a6fd"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -419,6 +434,9 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="d615-c0e4-6d17-107e" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="a3c0-cb13-aef7-8838" name="Clade Eversor Assassin" publicationId="15a4-fc68-502d-48a9" page="118" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -454,6 +472,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <modifier type="set" field="name" value="Counter-Attack (1)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="No Witness" hidden="false" id="69f0-1fb1-a1bc-f4fa" type="rule" targetId="e053-84f7-23bf-75ef"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3e59-53b2-2e89-e5c7" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
@@ -543,6 +562,9 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="d615-c0e4-6d17-107e" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="c109-bb90-d38f-ce07" name="Clade Vanus Infocyte Assassin" publicationId="15a4-fc68-502d-48a9" page="124" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -586,9 +608,12 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79fd-e7c2-2ddb-d8de" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9320-3e0b-895d-a211" name="Auspectre" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+            <profile id="9320-3e0b-895d-a211" name="Auspectre" publicationId="9fab-fea7-a93c-2074" page="148" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy models cannot be deployed using the Infiltrate special rule within 18&quot; of a model with an auspectre. In addition, when any enemy unit is deployed to the battlefield from Reserves, a model with an auspectre may make the Interceptor Advanced Reaction (see page 309 of the Horus Heresy: Age of Darkness rulebook) without expending a point of the Reactive player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal threee Reaction limit in a given Phase. Instead of usin gthe profile of a weapon the model has, a model with the auspectre may instead make a Leadership test. If the Leadership test is passed, the controlling player may instead make a Shooting Attack with any Defensive weapon available to any model with the Vehicle Unit Type (both friendly or enemy within 12&quot;, that is in range and line of sight of the targeted model. If the Leadership test is failed, the model may not make an Interceptor Advanced Reaction.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy models cannot be deployed using the Infiltrate special rule within 18&quot; of a model with an auspectre. In addition, when any enemy unit is deployed to the battlefield from Reserves, a model with an auspectre may make the Interceptor Advanced Reaction (see page 309 of the Horus Heresy: Age of Darkness rulebook) without expending a point of the Reactive player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal threee Reaction limit in a given Phase. Instead of usin gthe profile of a weapon the model has, a model with the auspectre may instead make a Leadership test. If the Leadership test is passed, the controlling player may instead make a Shooting Attack with any Defensive weapon available to any model with the Vehicle Unit Type (both friendly or enemy within 12&quot;, that is in range and line of sight of the targeted model. If the Leadership test is failed, the model may not make an Interceptor Advanced Reaction.
+
+
+Note that weapons selected to fire in this manner must still follow the rules and restrictions placed upon them by their mountings, Unit Types, or Unit Sub-types, such as allowed targets for reactions in the case of Knights and Titans only being allowed to react to other Knights and Titans, Super-heavy Vehicles, Lumbering Flyers or any model with 8 or more Wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -632,7 +657,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
           <profiles>
             <profile id="ee8b-8261-7110-fede" name="Autotomic Servo-limbs" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, at the start of any turn, the controlling player of the model with the autotomagic servo-limbs may choose to grant the model the Hit &amp; Run special rule unitil the start of their next turn.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, at the start of any turn, the Controlling Player of a model with Autotomic Servo-Limbs may choose to grant that model the Counter-Attack (2) Special Rule until the start of their next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -659,6 +684,9 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="d615-c0e4-6d17-107e" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="b1b9-e6d8-a7c2-f252" name="Clade Venenum Assassin" publicationId="15a4-fc68-502d-48a9" page="122" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -689,6 +717,11 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
         <infoLink id="a53d-cd94-834c-1e22" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
         <infoLink id="be2a-a441-9b99-7967" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
         <infoLink id="7283-74ac-17f6-31af" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
+        <infoLink name="Fleet (X)" hidden="false" id="3d07-6d12-55b1-d8b8" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+          <modifiers>
+            <modifier type="set" value="Fleet (2)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f41a-599a-1e9e-1289" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
@@ -702,12 +735,12 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bca-0088-cd73-686f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="023d-47fb-270f-5970" name="Hookfang" publicationId="15a4-fc68-502d-48a9" page="123" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="023d-47fb-270f-5970" name="Hookfang" publicationId="9fab-fea7-a93c-2074" page="175" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Poisoned (3+), The Venem</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Poisoned (3+), The Venem, Breaching (5+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -720,6 +753,11 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <infoLink id="ff6b-6778-161d-803b" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Poisoned (3+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Breaching (X)" hidden="false" id="a6bf-b290-1928-e1ae" type="rule" targetId="a760-f736-1bf3-fa3c">
+              <modifiers>
+                <modifier type="set" value="Breaching (5+)" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -782,10 +820,13 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="d615-c0e4-6d17-107e" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="0b9a-903b-c3de-5075" name="Clade Vindicare Assassin" publicationId="15a4-fc68-502d-48a9" page="114" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="faee-8596-e437-1e0e" name="Clade Vindicare Assassin" publicationId="15a4-fc68-502d-48a9" page="114" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+        <profile id="faee-8596-e437-1e0e" name="Clade Vindicare Assassin" publicationId="9fab-fea7-a93c-2074" page="147" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Assassin, Light)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
@@ -793,7 +834,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
             <characteristic name="BS" typeId="74ae-c840-0036-d244">8</characteristic>
             <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
             <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-            <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
             <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
             <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
             <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
@@ -825,7 +866,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">100&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Murderous Strike (5+), Rending (6+), Sniper</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Murderous Strike (5+), Rending (6+), Sniper, Brutal (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -841,6 +882,11 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
               </modifiers>
             </infoLink>
             <infoLink id="71d6-43fd-0ac5-3f88" name="Sniper" hidden="false" targetId="9cd8-e726-5dbe-b106" type="rule"/>
+            <infoLink name="Brutal (X)" hidden="false" id="d5b0-1635-bcb1-66ca" type="rule" targetId="5079-1fec-d32b-8b84">
+              <modifiers>
+                <modifier type="set" value="Brutal (2)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -905,13 +951,23 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
       <profiles>
         <profile id="c516-0961-ebaf-22c5" name="Panoply Of The Assassin" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models with the Panoply of the Assassin have a 4+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models with the Panoply of the Assassin have a 4+ Armour Save and a 4+ Invulnerable Save. A model equipped with the Panoply of the Assassin also gains Frag Grenades, and the Hit &amp; Run and Shrouded (5+) Special Rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Shrouded (X)" hidden="false" id="8be5-fd46-67b1-463a" type="rule" targetId="10c3-fdb0-089f-ca65">
+          <modifiers>
+            <modifier type="set" value="Shrouded (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hit &amp; Run" hidden="false" id="177-1073-a70c-a58b" type="rule" targetId="5986-e960-d432-affd"/>
+        <infoLink name="Frag Grenades" hidden="false" id="af80-babf-aaae-a26b" type="profile" targetId="ccc0-4896-212b-4d53"/>
+        <infoLink name="Grenades" hidden="false" id="7ee7-d82f-f993-1c46" type="rule" targetId="6f5f-8f7c-d18b-cd42"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="7363-5a05-4102-24fa" name="Clade Assassins (Loyalist)" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
@@ -1203,6 +1259,7 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e250-c088-29d2-b595" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Psychic Discipline: Anathemata" hidden="false" id="5bd7-5384-ad6b-f68" type="selectionEntry" targetId="c6ec-edc0-034e-ed45" publicationId="9fab-fea7-a93c-2074" page="150"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -1271,12 +1328,12 @@ during the battle. Once a unit or model with polymorphine has made a Shootin gAt
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88c8-dd2a-1298-c9b4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5476-f035-bffd-0917" name="Lidless Stare (Psychic Weapon)" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+                <profile id="5476-f035-bffd-0917" name="Lidless Stare (Psychic Weapon)" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" publicationId="9fab-fea7-a93c-2074" page="173">
                   <characteristics>
                     <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">Template</characteristic>
                     <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">2</characteristic>
                     <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">-</characteristic>
-                    <characteristic name="Type" typeId="2159-62b6-4337-d516">Pinning, Force</characteristic>
+                    <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Pinning, Force, Instant Death</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="66e4-4610-1d0e-3c25" name="Horus Heresy (Panoptica)" revision="2001" battleScribeVersion="2.03" authorName="Panoptica Development Team (Imported by LeonisAstra)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="66e4-4610-1d0e-3c25" name="Horus Heresy (Panoptica)" revision="2002" battleScribeVersion="2.03" authorName="Panoptica Development Team (Imported by LeonisAstra)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="e2a4-ac85-1bef-22f5" name="Github" shortName="LeonisAstra/horus-heresy-panoptica" publisherUrl="https://github.com/LeonisAstra/horus-heresy-panoptica/"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -957,13 +957,28 @@ In addition, when a Fast Vehicle moves, it may choose to move at Flat-out:</desc
     <categoryEntry id="d82b-1980-74f8-5dac" name="Allied Detachment" hidden="false"/>
     <categoryEntry id="d615-c0e4-6d17-107e" name="Assassin Sub-Type" publicationId="15a4-fc68-502d-48a9" page="128" hidden="false">
       <rules>
-        <rule id="9522-1b3d-f849-fd60" name="Assassin Sub-Type" publicationId="15a4-fc68-502d-48a9" page="128" hidden="false">
+        <rule id="9522-1b3d-f849-fd60" name="Assassin Sub-Type" publicationId="9fab-fea7-a93c-2074" page="148" hidden="false">
           <description>• Models with the Assassin Sub-type ignore all movement penalties when moving or Charging through terrain of any kind and automatically pass all Dangerous Terrain tests they are called upon to make.
 • Models with the Independant Character special rule may not join a unit composed only of models with the Assassin Sub-type.
 • Models with the Assassin Sub-type may not Embark on any model with the Transport Sub-type.
-• Modesl with the Assassin Sub-type may never be selected as an army&apos;s Warlord</description>
+• Models with the Assassin Sub-type may never be selected as an army&apos;s Warlord
+• Models with the Assassin Sub-type gain the Precision Shots (2+),
+Precision Strikes (2+), and Predator’s Gaze Special Rule</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink name="Precision Shots (X)" hidden="false" id="85d3-81b6-9e35-890c" type="rule" targetId="4b71-81ee-31f4-fa09">
+          <modifiers>
+            <modifier type="set" value="Precision Shots (2+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision Strikes (X)" hidden="false" id="10c9-a753-b291-90b9" type="rule" targetId="2206-8497-8fe1-e973">
+          <modifiers>
+            <modifier type="set" value="Precision Strikes (2+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Predator&apos;s Gaze" hidden="false" id="8ef5-4127-7ecf-e0b0" type="rule" targetId="9f34-bb3b-e63b-299a"/>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="0af0-ea84-09d7-2b1f" name="Close-order Sub-type" publicationId="15a4-fc68-502d-48a9" page="129" hidden="false">
       <rules>
@@ -1168,7 +1183,12 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
 • A model with the Gargantuan Unit Sub-type may attack with all weapons they have in each Shooting Attack they make, including as part of a Reaction.
 • A model with the Gargantuan Unit Sub-type may make Shooting Attacks with Heavy and Ordnance weapons, counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • No model that does not have the Gargantuan Unit Sub-type may join a unit that includes a model with the Gargantuan Unit Sub-type.
-• A model with the Gargantuan Unit Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot be Wounded or affected by any Attack with the Psychic Focus special rule. Weapons with the Force special rule that are used to make Attacks against a model with the Gargantuan Unit Sub-type are not affected and are resolved normally.</description>
+• A model with the Gargantuan Unit Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot be Wounded or affected by any Attack with the Psychic Focus special rule. Weapons with the Force special rule that are used to make Attacks against a model with the Gargantuan Unit Sub-type are not affected and are resolved normally.
+• Any unit entirely composed of models with the Gargantuan Unit Type
+may choose to ignore the Heroic Stand Special Rule, ignoring any
+penalties normally applied for declining a Challenge, unless the
+Challenge was issued by a model with the Knight, Gargantuan, Titan,
+Primarch, or Daemon Primarch Unit Types.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1200,7 +1220,7 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
 • Failed To Wound rolls, made for weapons with the Armourbane (X) special rule, and against a unit that includes any models with this Unit Sub-type must be re-rolled.
 • A model with the Mechanised Unit Sub-type may attack with all weapons it has when making a Shooting Attack, including as part of a Reaction.
 • A model with the Mechanised Unit Sub-type may attack with Heavy and Ordnance weapons while counting as stationary even if it has moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• A model with the Mechanised Unit Sub-type is affected by the Haywire, Detonation and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+• Any attacks made against a unit with the Mechanised Unit Sub-type are resolved as if the model had the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.
 • No model that does not also have the Mechanised Unit Sub‑type may join a unit that includes one or more models with the Mechanised Unit Sub-type.</description>
         </rule>
       </rules>
@@ -1242,7 +1262,10 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
     <categoryEntry id="a443-dbf4-cb6c-4da1" name="Corrupted Engine Sub-type" hidden="false">
       <rules>
         <rule id="6aed-6080-ba72-6007" name="Corrupted Engine Sub-type" publicationId="6bcf-2297-2bcd-51be" page="8" hidden="false">
-          <description>• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead.
+          <description>An army that uses the Cohort Doctrine (Iron Pattern Cohort) may take a single unit with the Corrupted Engine Unit Sub-type. An army can only include a maximum of one unit with the Corrupted Engine Unit Sub-type chosen in this manner.
+
+
+• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead.
 • Any rule, effect or modifier that would affect a model with the Corrupted Unit Sub-type also affects a model with the Corrupted Engine Unit Sub-type (e.g., the Anathema Sub-type special rules or the Inexorable special rule).
 • Any unit composed entirely of models with the Corrupted Engine Unit Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Corrupted Engine Unit Sub-type fails a Morale check, it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
 • Any Hits inflicted on a model with the Corrupted Engine Unit Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
@@ -1737,7 +1760,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3210-baff-f554-8019" type="max"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3210-baff-f554-8019" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b095-12d9-ff21-c90b" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false">
@@ -1802,7 +1825,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink id="1ef7-5f17-ade4-e6c1" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="369a-4e2e-f7c8-5941" type="max"/>
+            <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="369a-4e2e-f7c8-5941" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="a360-c557-9119-a286" name="Ogryn Conscripts (Compulsory)" hidden="false" targetId="d813-b3e9-24f0-78bd" primary="false">
@@ -2075,7 +2098,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         <categoryLink id="13d3-d01e-f52f-e687" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="c1eb-5ad0-5c14-b414" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b40d-bc3b-2e1b-1243" type="max"/>
+            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b40d-bc3b-2e1b-1243" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="e7a0-a7e0-e7b8-8578" name="Ogryn Conscripts (Compulsory)" hidden="false" targetId="d813-b3e9-24f0-78bd" primary="false">
@@ -2330,7 +2353,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </categoryLink>
         <categoryLink id="2b19-38ad-1275-ddd4" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b039-28cb-fcb1-592b" type="max"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b039-28cb-fcb1-592b" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7d46-361b-5baf-f109" name="Ogryn Conscripts (Compulsory)" hidden="false" targetId="d813-b3e9-24f0-78bd" primary="false">
@@ -3763,7 +3786,7 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
         <profile id="71e6-ddb0-279a-7101" name="Grenade launcher - Krak (Secondary)" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
           </characteristics>
@@ -5237,7 +5260,7 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
     </selectionEntry>
     <selectionEntry id="ff4d-6e1b-7b44-9b72" name="Volkite Macro-Saker" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f429-67a3-5a34-0d16" name="Volkite Macro-Saker" publicationId="a716-c1c4-7b26-8424" page="134" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="f429-67a3-5a34-0d16" name="Volkite Macro-Saker" publicationId="9fab-fea7-a93c-2074" page="172" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
@@ -5456,7 +5479,7 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
       <profiles>
         <profile id="102e-3487-6e68-51e2" name="Krak Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 3 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 4 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7735,23 +7758,16 @@ A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not 
       </constraints>
       <rules>
         <rule id="bd1e-ded3-8252-561d" name="Paragon of Metal" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-          <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1.
+          <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1. A model which has this Special Rule changes their Armour Save to 2+.
 In addition, a model with the Paragon of Metal special rule may not be targeted or affected by any Cybertheurgic Power or any Weapon with the Data-djinn special rule, either friendly or enemy.</description>
         </rule>
-        <rule id="aa64-ebfc-e457-1e0d" name="Paragon Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="91" hidden="false">
+        <rule id="aa64-ebfc-e457-1e0d" name="Paragon Unit Sub-type" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false">
           <description>The following rules apply to all models with the Paragon Unit Sub-type:
 • Models with the Paragon Unit Sub-type are not affected by special rules that negatively modify their Characteristics (other than Wounds or Hull Points).
 • A model with the Paragon Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
 • Models with the Paragon Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.
-
-
-From December 2023 Liber Mechanicum FAQ, page 2:
-
-
-Q. Can a unit with the Paragon Unit Sub-type
-make Reactions?
-A. No.</description>
+• In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reactions, ignoring restrictions from any Unit Type or Sub-type that would prevent it from doing so, as long as the Controlling Player has Reaction allotment available.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8246,7 +8262,7 @@ A. No.</description>
         <infoLink id="8e9f-be33-224b-961b" name="Bolter (Primary)" hidden="false" targetId="ace5-c6fe-e205-07d1" type="profile"/>
         <infoLink id="7761-21ff-412e-6181" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="5a4d-9a53-9faf-fbda" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="4dc3-e17b-d90a-f373" name="Grenade launcher - Krak (Secondary)" hidden="false" targetId="71e6-ddb0-279a-7101" type="profile"/>
+        <infoLink id="4dc3-e17b-d90a-f373" name="Grenade launcher - Krak (Secondary)" hidden="false" targetId="71e6-ddb0-279a-7101" type="profile" publicationId="9fab-fea7-a93c-2074" page="171"/>
         <infoLink id="beb1-60fd-93a6-0eda" name="Grenade launcher - Frag (Secondary)" hidden="false" targetId="5bff-6214-348d-0536" type="profile"/>
       </infoLinks>
       <costs>
@@ -9741,10 +9757,10 @@ Note that this is an exception to the normal rules for Fortifications, and if as
       <profiles>
         <profile id="c65a-2132-c8cd-1696" name="Stormhammer Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordinance 1, Massive Blast (7&quot;)</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Lance, Exoshock (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10042,10 +10058,26 @@ Note that this is an exception to the normal rules for Fortifications, and if as
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 5</characteristic>
           </characteristics>
         </profile>
+        <profile name="Ripper Gun&apos;s Bayonet" hidden="false" id="1342-81ab-9617-fcf2" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="9fab-fea7-a93c-2074" page="177">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reaping Blow (1), Two-Handed</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Reaping Blow (X)" hidden="false" id="73c8-a129-1a6-d354" type="rule" targetId="bd8c-4f52-d682-1b40">
+          <modifiers>
+            <modifier type="set" value="Reaping Blow (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Two-handed" hidden="false" id="70a5-f834-db76-1830" type="rule" targetId="4c23-e863-a569-7617"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="bbc4-b218-ade0-80a1" name="Thunderstub" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -10977,6 +11009,119 @@ Be aware that we are actively trying to find a solution to this, but it is less 
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry id="bc17-b7a5-deed-7bf7" name="Conversion Destructor" hidden="false" collective="false" import="true" type="upgrade" publicationId="9fab-fea7-a93c-2074" page="171">
+      <profiles>
+        <profile id="d7b-6641-cfc9-ee25" name="Conversion Destructor (1)" publicationId="9fab-fea7-a93c-2074" page="171" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">0 - 18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Blind</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="317f-716e-29f-5abf" name="Conversion Destructor (2)" publicationId="9fab-fea7-a93c-2074" page="171" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More Than 18&quot; - 42&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Blind, Sunder</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fbdf-e4ec-cde9-dab1" name="Conversion Destructor (3)" publicationId="9fab-fea7-a93c-2074" page="171" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More Than 42&quot; - 80&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Blind, Sunder, Wrecker</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7f92-1a32-5381-9013" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+        <infoLink id="649b-adea-25cc-54a6" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" value="Large Blast (5&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Sunder" hidden="false" id="2f67-ecb7-6552-c6d7" type="rule" targetId="20e2-75cf-bc16-cd8f"/>
+        <infoLink name="Wrecker" hidden="false" id="eb9d-c9ac-f531-2b14" type="rule" targetId="ba77-a802-55df-da67"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Praetor Launcher" hidden="false" id="c123-e9f7-ee20-c4f9" collective="false" publicationId="9fab-fea7-a93c-2074" page="170">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="629a-cc77-d839-28f4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff80-42b5-635d-c91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Praetor Launcher - Firestorm" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="152e-7733-d4ae-b642" publicationId="9fab-fea7-a93c-2074" page="170">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="f49-866f-ee5d-93d8" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" hidden="false" id="39fb-bc6d-9987-67b5" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" hidden="false" id="dbab-2ec6-6db1-6882" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" hidden="false" id="a1d7-e525-6d26-4b60" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Barrage, Massive Blast (7&quot;), Pinning, Shell Shock (2), Rending (5+), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Praetor Launcher - Foehammer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5e6f-403d-95ab-3e4c" publicationId="9fab-fea7-a93c-2074" page="170">
+          <characteristics>
+            <characteristic name="Range" hidden="false" id="7258-6a05-4321-c3d5" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" hidden="false" id="f1a0-854a-a086-8f59" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" hidden="false" id="ade2-a2fd-7140-74f2" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" hidden="false" id="fc-ee77-cc0d-1a5b" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Guided Fire, Breaching (5+), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" hidden="false" id="ea5e-314e-5b6-d8a7" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast" hidden="false" id="ae30-bb54-6c9d-560b" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink name="Pinning" hidden="false" id="85f2-bc0b-63d5-66dc" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Barrage" hidden="false" id="c2d9-1bb9-32f-8fdb" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink name="Breaching (X)" hidden="false" id="49c9-b86f-eeac-f9a8" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Ignores Cover" hidden="false" id="6a0b-ebc3-5d28-e1c8" type="rule" targetId="fdb5-59e2-c446-1cbc"/>
+        <infoLink name="Shell Shock (X)" hidden="false" id="c7c7-d186-99b8-6c1e" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" value="Shell Shock (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Guided Fire" hidden="false" id="a625-1de4-2467-3d8d" type="rule" targetId="fa1e-0112-943e-b1f6"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" hidden="false" id="c724-d5ba-bb13-e6eb" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="682a-c2bd-16c-db51" name="Exterminator Autocannon" hidden="false" collective="false" import="true" type="upgrade" publicationId="9fab-fea7-a93c-2074" page="170">
+      <profiles>
+        <profile id="68e4-f262-a7f8-a6ca" name="Exterminator Autocannon" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Rending (5+), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a649-b6ba-c967-ef41" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a662-a610-ab23-f8b4" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -14883,8 +15028,8 @@ For the purposes of Movement, Shooting Attacks, and Charges, a model deployed v
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24f-3621-d68e-3cb1" type="max"/>
           </constraints>
           <rules>
-            <rule id="e36c-1974-5c74-ccc6" name="Legacy of the Great Crusade" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and Discipline Masters in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
+            <rule id="e36c-1974-5c74-ccc6" name="Legacy of the Great Crusade" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and units that contain a Discipline Master or Mounted Discipline Master in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
             </rule>
           </rules>
           <costs>
@@ -14897,8 +15042,8 @@ For the purposes of Movement, Shooting Attacks, and Charges, a model deployed v
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbed-3131-a2c8-ab64" type="max"/>
           </constraints>
           <rules>
-            <rule id="8d20-f35d-f6d9-1186" name="Clanfolk Levy" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads, with all models in Imperialis Militia Cavalry Squads selected as Compulsory Troops choices gaining a bonus of +1 to their Leadership Characteristic (this does not allow Imperialis Militia Cavalry Squads to be selected as non-Compulsory Troops choices). In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
+            <rule id="8d20-f35d-f6d9-1186" name="Clanfolk Levy" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads. In addition, all models in Imperialis Militia Cavalry Squads gain a bonus of +1 to their Leadership Characteristic. In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
             </rule>
           </rules>
           <costs>
@@ -14987,8 +15132,8 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Cyber-augment o
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34cf-0bac-d780-299a" type="max"/>
           </constraints>
           <rules>
-            <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="48c2-d023-0069-001a" page="10" hidden="false">
-              <description>All eligible units and models gain the Feel No Pain (6+) and Slow and Purposeful special rules. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
+            <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All eligible units and models gain the Feel No Pain (6+) Special Rule, and any eligible unit may be given the Slow and Purposeful Special Rule at no additional points cost. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -15110,8 +15255,8 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d59-f3d7-3290-1e26" type="max"/>
           </constraints>
           <rules>
-            <rule id="ddaa-0389-1b2e-89ae" name="Kinfolk Helots" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Toughness Characteristic but also lower their Initiative and Movement Characteristics by -1 (to a minimum of 1, models with a Movement of 0 or - are not affected and remain Movement 0 or -). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) special rule, or if they also have the Independent Character special rule gain the Battlesmith (5+) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+            <rule id="ddaa-0389-1b2e-89ae" name="Kinfolk Helots" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All eligible units and models change their Toughness Characteristic to be one higher than its starting value (a Toughness characteristic of 3 being changed to 4 on their statline, for example), but also change their Initiative and Movement Characteristics to be one lower than its starting value (in the same way as above). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) Special Rule, or if they also have the Independent Character Special Rule gain the Battlesmith (5+) Special Rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
             </rule>
           </rules>
           <costs>
@@ -15131,8 +15276,8 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb11-ba20-4ab6-86c6" type="max"/>
           </constraints>
           <rules>
-            <rule id="b726-7fd3-991b-4752" name="Abhuman Muster" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Strength Characteristic but also lower their Ballistic Skill by -1 (to a minimum of 1) and, if they do not already possess any variant of the Bulky (X) special rule, gain the Bulky (2) special rule. All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Hammer of Wrath (1) special rule, or if they also have the Independent Character special rule or the Monstrous Unit Sub-type gain the Hammer of Wrath (2) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+            <rule id="b726-7fd3-991b-4752" name="Abhuman Muster" publicationId="9fab-fea7-a93c-2074" page="152" hidden="false">
+              <description>All eligible units and models change their Strength and Movement Characteristic to be one higher than its starting value (a Strength characteristic of 3 being changed to 4 on their statline, for example), but also change their Ballistic Skill Characteristic to be one lower than its starting value (in the same way as above) and, if they do not already possess any variant of the Bulky (X) Special Rule, gain the Bulky (2) Special Rule. All eligible models in a Detachment with this Provenance gain the Hammer of Wrath (1) Special Rule. If a model also has the Character Unit Sub-type or the Monstrous Unit Sub-type, they gain the Hammer of Wrath (2) Special Rule instead, or +1 to an existing Hammer of Wrath (X) Special Rule if they already have the Hammer of Wrath (2) Special Rule. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.”</description>
             </rule>
           </rules>
           <costs>
@@ -17218,10 +17363,22 @@ Assault Phase).
       <description>When destroyed, a model with this special rule resolves Catastrophic Damage at AP 2</description>
     </rule>
     <rule id="1f93-c765-f7b2-a025" name="Destructor" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>Any model which suffers an unsaved Wound or Hull Point loss from a weapon with this special rule instead suffers D6 unsaved Wounds or Hull Points of damage. In addition, if the target of this attack is a model with the Knight, Titan, Super-heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
+      <description>When a model is allocated a Wound or Hull Point Loss inflicted by a weapon with this Special Rule, it does not suffer only one Wound or Hull Point of damage, but instead suffers D6 Wounds or Hull Points of damage instead, with all of the Wounds or Hull Points inflicted using the same AP and special rules as that of the initial Wound. Roll to save against each Wound or Hull Point of damage inflicted separately, but note that Wounds or Hull Points of damage caused in excess of a given model’s remaining Wounds or Hull Points do not spill over to other models and are lost.
+
+
+In addition, if the target of this attack is a model with the Knight, Titan, Gargantuan, Super-Heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
     </rule>
     <rule id="4eb9-9e5e-bb27-3644" name="Disruption (X)" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>To Hit rolls of the value X indicated made by a weapon with this rule cause an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought or Automata Unit Types, instead of rolling To Wound.</description>
+      <description>To Hit rolls of the value X indicated made by a weapon with this Special Rule cause an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought, Automata, or Armiger Unit Types, instead of rolling To Wound.
+
+
+On weapons which do not roll to Hit, such as Template or Blast Weapons, a D6 should be rolled for every applicable target - a roll of X or higher causes an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought, Automata, or Armiger Unit Types.
+
+
+Only Invulnerable Saves or Damage Mitigation rolls may be taken against Wounds or Hull Points of damage inflicted automatically by this Special Rule.
+
+
+If a model armed with a weapon with this Special Rule receives a Ballistic Skill modifier (such as Night Fighting or being forced to make Snap Shots, etc), then they may only gain the benefit of the Disruption (X) Special Rule on a successful Hit (provided the Hit Roll is equal to or better than the value X).</description>
     </rule>
     <rule id="1cc2-eaee-8bcf-96d3" name="Grav Wave" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
       <description>Any successful Charge that targets a unit containing a model with a weapon with this special rule is always counted as a Disordered Charge.</description>
@@ -17254,7 +17411,10 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>A model with this Special Rule must target the closest enemy model as per the following limitations and restrictions:
 - Any model armed with a weapon of Strength 7 or more must target the nearest enemy model with the Vehicle, Automata, or Dreadnought Sub-types.
 - Any model armed with a weapon of Strength 6 or below must target the nearest enemy model without the Vehicle, Automata, or Dreadnought Sub-types.
-- Any model armed with a weapon with the Skyfire Special Rule must target the nearest enemy model with the Flyer Sub-type. If no such target is in range, then the Controlling Player may select a target as normal.</description>
+- Any model armed with a weapon with the Skyfire Special Rule must target the nearest enemy model with the Flyer Sub-type. 
+
+
+If no such target is in range, then the Controlling Player may select a target as normal.</description>
     </rule>
     <rule id="c036-66e2-4e07-c2b8" name="Automated Artillery Sub-type" publicationId="e77a-823a-da94-16b9" page="16" hidden="false">
       <description>The following rules apply to all models with the Automated Artillery Sub-type:
@@ -17273,7 +17433,10 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a number of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondary Shooting Attack targeting a different enemy unit of any combination - however, each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.
 
 
-Instead of the above, in a turn in which a model with this Special Rule either remained Stationary or moved at Combat Speed during the Controlling Player’s Movement Phase, then for the duration of the Controlling Player’s following Shooting Phase, it may make Shooting Attacks as if it had the Super Heavy Sub-Type.</description>
+A model with this Special Rule must be assigned to another unit made up entirely of models with the Vehicle Unit Type purchased as part of the same Tercio.
+
+
+In addition, a model with this Special Rule may still make Shooting Attacks as normal in a turn in which they use their Cognis-Signum to provide +1 Ballistic Skill to all other models in their unit, even though this would normally be prevented by using this Wargear.</description>
     </rule>
     <rule id="71fa-da0d-0056-9072" name="Kharash" hidden="false">
       <modifiers>
@@ -17295,7 +17458,7 @@ Scatter dice.
 • The penalty to Leadership is ignored by any unit with the Fearless or Stubborn special rules. A Primarch unit, or any unit with the Night Vision special rule ignores both the penalties to Leadership and Ballistic Skill and the restrictions on drawing line of sight to other units.
 • Note that in some missions, if the Player with Strategic Advantage elects to not activate Night Fighting, the Opposing Player may still have the Night Fighting Rules in effect on a roll of a 4+.</description>
     </rule>
-    <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="48c2-d023-0069-001a" page="41" hidden="false">
+    <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="9fab-fea7-a93c-2074" page="154" hidden="false">
       <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any Special Rules that would normally grant additional Attacks.</description>
     </rule>
     <rule id="2dfc-b3cc-7ede-2827" name="Impale" publicationId="6bcf-2297-2bcd-51be" page="15" hidden="false">

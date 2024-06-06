@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ee0f-23d3-8682-53c4" name="LI - Sisters of Silence" revision="2020" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ee0f-23d3-8682-53c4" name="LI - Sisters of Silence" revision="2021" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <categoryEntries>
     <categoryEntry id="b760-8313-847f-1afa" name="Obivion HQ" hidden="false"/>
     <categoryEntry id="a9b6-f66f-e8ee-553e" name="Judgement HQ" hidden="false"/>
@@ -48,7 +48,7 @@
       <rules>
         <rule id="e2d9-fe0d-1717-3a37" name="Anathema Sub-type" publicationId="15a4-fc68-502d-48a9" page="129" hidden="false">
           <description>• A unit that includes at least one model with the Anathema Sub-type may not be directly targeted by any Psychic Power or use any Psychic power or make attacks with a Psychic Weapon, Psychic Powers whose effects would otherwise be applied to a unit that includes at least one model with the Anathema Sub-type (due to area of effect, scattering or other rules) have no effect, but are not cancelled and may continue to affect other units.
-• A model with the Anathema Sub-type that is allocated Wounds caused by a Psychic Weapon (which is any weapon granted to a unit or model by a Psychic Discipline) will always fail to Wound without any dice being rolled and any special rules attached to that Psychic Weapon will not trigger. Any Wounds allocated to a model with the Anathema Unit Sub-type caused by a Force Weapon gain no benefit from the Force special rules, but are otherwise resolved as normal. These effects do not apply to a model with the Transport Sub-type that has models with the Anathema Sub-type Embarked within, unless the model with the Transport Sub-type also has the Anathema Sub-type.
+• A model with the Anathema Sub-type that is allocated Wounds caused by a Psychic Weapon (which is any weapon granted to a unit or model by a Psychic Discipline) will always fail to Wound without any dice being rolled and any special rules attached to that Psychic Weapon will not trigger. Any Wounds allocated to a model with the Anathema Unit Sub-type caused by a Force Weapon gain no benefit from the Force, Achean Force, or Soul Tear Special Rules, but are otherwise resolved as normal.
 • All models that no not have the Anathema Sub-type but are part of a unit that includes one of more models with the Anathema Sub-type, suffer a penalty of -2 to their Leadership Characteristic. Any unit with at least one model within 6&quot; of a model with th eAnathema Sub-type suffers a penalty of -1 to the Leadership of all models in the unit that do not also have the Anathema Sub-type, or -2 if that unit includes one of more models with the Corrupted Unit Sub-type. Note that these two penalties are not cumulative; they apply only the more severe penalty. However, they do stack with other special that modify Leadership (such as Fear (X)).
 • A unit that is Embarked on a Vehicle, Fortification or Building suffers no penalties to its Leadership Characteristic due to the Anathema Sub-type, However, units with the Stubborn special rule do suffer penalties to their Leadership from the effects of this Sub-type (note that this only applies to the Stubborn special rule, and other special rules that ignore panalties to Leadership ignore the effects of the Anathema Sub-type).
 
@@ -564,7 +564,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <infoLink id="b8b4-eca3-ad62-92ed" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3b0d-35f3-aae3-11f4" name="3) May upgrade any one weapon to have the Master-crafted" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="3b0d-35f3-aae3-11f4" name="2) May upgrade any one weapon to have the Master-crafted" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cca9-b397-e0a5-6dc0" type="max"/>
               </constraints>
@@ -587,10 +587,10 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="38f4-d578-753e-0f66" name="1) Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="836d-c1f4-167c-8b3b">
+            <selectionEntryGroup id="38f4-d578-753e-0f66" name="1) Select any Two Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="836d-c1f4-167c-8b3b">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce2-1709-cefb-45b8" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa4-4935-9781-6f26" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce2-1709-cefb-45b8" type="min"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa4-4935-9781-6f26" type="max"/>
               </constraints>
               <entryLinks>
                 <entryLink id="836d-c1f4-167c-8b3b" name="Execution Blade" hidden="false" collective="false" import="true" targetId="adc6-3519-204d-2921" type="selectionEntry">
@@ -850,136 +850,128 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="e4ea-0dcf-667c-14a9" name="2) Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e26f-47fb-d98a-7b69">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7fb-9884-dd57-71f7" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f012-b2fb-d6c1-675f" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="e26f-47fb-d98a-7b69" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+                <entryLink import="true" name="Archaeotech Pistol" hidden="false" id="8129-b104-c3dd-4864" collective="false" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Bolt Pistol">
+                    <modifier type="set" value="Master-crafted Archaeotech Pistol" field="name">
                       <conditions>
-                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7c-bc91-2e20-30db" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5d6-7cab-cdf8-d9d2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="f824-1ed8-cf48-3ebb" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                    <infoLink name="Master-crafted" hidden="false" id="2716-8188-f325-c4d" targetId="6de0-55b0-bf21-48b9" type="rule">
                       <modifiers>
-                        <modifier type="set" field="hidden" value="true">
+                        <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                </entryLink>
-                <entryLink id="0fc0-9e0c-d12d-d0fa" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="e337-adf4-a11f-0280" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Hand Flamer">
-                      <conditions>
-                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="286a-e455-5e38-4a09" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="8050-bc67-0471-fda2" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                </entryLink>
-                <entryLink id="e0d5-8c67-d7b3-5c30" name="Needle Pistol" hidden="false" collective="false" import="true" targetId="fdd4-06c7-4608-b07f" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Needle Pistol">
-                      <conditions>
-                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461b-9f7a-b9d3-5ad5" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="5ca3-e3af-5f2d-686f" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
+                            <condition type="equalTo" value="0" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" hidden="false" id="7209-9588-76b6-7ac1" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
-                <entryLink id="af10-93fe-af53-02dd" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="aa85-5d0-acf7-808a" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Plasma Pistol">
+                    <modifier type="set" value="Master-crafted Bolt Pistol" field="name">
                       <conditions>
-                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6944-af71-138d-5c7d" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3368-1d9e-877e-743e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="681f-761e-58c2-597f" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                    <infoLink name="Master-crafted" hidden="false" id="41d5-cc9d-827-3bb0" targetId="6de0-55b0-bf21-48b9" type="rule">
                       <modifiers>
-                        <modifier type="set" field="hidden" value="true">
+                        <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
+                            <condition type="equalTo" value="0" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </entryLink>
+                <entryLink import="true" name="Hand Flamer" hidden="false" id="ed69-ca20-2696-e4a7" collective="false" targetId="e337-adf4-a11f-0280" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="Master-crafted Hand Flamer" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e12-e694-3f3c-c5b2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Master-crafted" hidden="false" id="7b50-88d-a73c-8bca" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </entryLink>
+                <entryLink import="true" name="Needle Pistol" hidden="false" id="9da0-73b5-8123-9b7c" collective="false" targetId="fdd4-06c7-4608-b07f" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="Master-crafted Needle Pistol" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad23-a5a6-1119-7640" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Master-crafted" hidden="false" id="507a-8da3-1103-aee6" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" hidden="false" id="4012-4238-a136-56ca" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="e179-e3ee-8df0-22b6" name="Archaeotech Pistol" hidden="false" collective="false" import="true" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="1715-7ced-6324-7a58" collective="false" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Archaeotech Pistol">
+                    <modifier type="set" value="Master-crafted Plasma Pistol" field="name">
                       <conditions>
-                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5b5-2756-dc23-48d8" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b353-8590-affb-4b50" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="96a5-e085-aea6-e39e" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                    <infoLink name="Master-crafted" hidden="false" id="ff5d-e341-cecb-16ba" targetId="6de0-55b0-bf21-48b9" type="rule">
                       <modifiers>
-                        <modifier type="set" field="hidden" value="true">
+                        <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="242a-f8b0-21dc-b14a" type="equalTo"/>
+                            <condition type="equalTo" value="0" field="selections" scope="6be2-d4b9-2a64-f164" childId="242a-f8b0-21dc-b14a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" hidden="false" id="3eeb-57b7-dbc8-f0a2" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1764,7 +1756,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
           <profiles>
             <profile id="715c-8943-4b28-4923" name="Silent Fury" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Character, Light, Skirmish, Anathema)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Character, Light, Antigrav, Skirmish, Anathema)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">18</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
@@ -1802,6 +1794,11 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <infoLink id="a0a5-78ee-d2a8-f6fd" name="Hatred (X)" hidden="false" targetId="dc0b-fe69-6b71-e0a4" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Hatred (Psyker, Daemon, Corrupted)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Firing Protocols (X)" hidden="false" id="ce4e-8e21-f7ef-f8c8" type="rule" targetId="32a3-f599-5c92-2945">
+              <modifiers>
+                <modifier type="set" value="Firing Protocols (2)" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -2337,6 +2334,9 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <categoryLink targetId="59a4-7b61-600a-c457" id="2e60-51f0-4ba3-b06f" name="Skirmish Sub-type" primary="false"/>
             <categoryLink targetId="7e5d-d73e-8ff4-7345" id="a3fe-a911-4218-b75d" name="Anathema Sub-type" primary="false"/>
           </categoryLinks>
+          <modifiers>
+            <modifier type="add" value="4303-1348-cce4-9501" field="category"/>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2535,15 +2535,15 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                   <characteristics>
                     <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Line, Anathema)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
-                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
-                    <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                    <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
                     <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
-                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2594,10 +2594,10 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f98c-acc3-52c0-e438" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="4392-b160-a459-ffa3" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="e483-2f6c-c2ba-3f8e" type="selectionEntry" targetId="9196-3af7-9545-e62b">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a2b7-7a5c-a930-f133" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dae-83a0-d0f6-fdf2" type="min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2446-c313-2576-883f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c04a-57a3-d10a-87f1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -2730,10 +2730,10 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8791-dbb3-014e-be55" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="b53b-ab7a-7273-3ad4" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="3fb4-da57-2cb5-ed30" type="selectionEntry" targetId="9196-3af7-9545-e62b">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac6-8b0e-547e-cd1d" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4073-ad39-c541-78c4" type="min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bfb-58e9-e49a-d382" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3a-3933-2648-a0a4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -2887,10 +2887,10 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2cf-2e79-dc8c-6235" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="68c0-0595-dd4a-e40c" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="4e76-6753-e15a-3765" type="selectionEntry" targetId="9196-3af7-9545-e62b">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbb2-9355-d197-73c9" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="659c-988c-6c2c-bb25" type="min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c20-ca7-6ea1-88b2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19ea-62a5-6d54-b53" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -2933,7 +2933,6 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
       <categoryLinks>
         <categoryLink id="2dbd-dcff-f67e-57d4" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="bee8-f85e-9c9f-71cc" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
-        <categoryLink id="9647-5e27-4d48-5fca" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
         <categoryLink id="e35f-892f-5cf1-8766" name="Light Sub-type" hidden="false" targetId="bff2-ae16-74a8-8712" primary="false"/>
         <categoryLink id="9141-5125-97c3-d1cb" name="Anathema Sub-type" hidden="false" targetId="7e5d-d73e-8ff4-7345" primary="false"/>
         <categoryLink id="55eb-6a52-6728-5484" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" targetId="b6d7-6924-37fb-dd32" primary="false"/>
@@ -2962,8 +2961,14 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             </profile>
           </profiles>
           <rules>
-            <rule id="e181-6e76-57bc-4118" name="Vigilant Covenant" publicationId="15a4-fc68-502d-48a9" page="51" hidden="false">
-              <description>A Knight Vestal Covenant is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, each model in the Knight Vestal Covenant may leave this unit and join another unit from the same Detachment they were selected as part of.</description>
+            <rule id="e181-6e76-57bc-4118" name="Vigilant Covenant" publicationId="9fab-fea7-a93c-2074" page="145" hidden="false">
+              <description>A Vigilant Covenant is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins, all models in a Vigilant Covenant must be assigned to another unit from another unit from the same detachment if the army they were selected as part of. Knight Vestals may only be assigned to units entirely composed of models with the Infantry Unit Type and the Silent Sisterhood (X) Special Rule.
+
+
+A Knight Vestal cannot be assigned to any unit that includes one or more models with the Independent Character Special Rule or Unique Unit Sub-type (but such models may join a unit that includes a Knight Vestal as normal during either deployment or any following turn).
+
+
+No more than one Knight Vestal may be assigned to any given unit. Once assigned to a unit, the Knight Vestal is considered part of that unit and may not leave under any circumstances - if that unit is removed as a casualty then the Knight Vestal is removed as well. In battles using Victory Points, no Victory Points are ever scored for removing a Knight Vestal as a casualty. When assigned to a unit, a Knight Vestal gains all of the Special Rules (with the exception of those that specifically forbid it, such as the Bitter Duty Special Rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional wargear options available to the unit to which it is assigned</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3485,18 +3490,18 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8d-bd9f-0e48-feee" type="max"/>
           </constraints>
           <profiles>
-            <profile id="46f0-6456-36f2-c78a" name="Eradicator Mistress" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <profile id="46f0-6456-36f2-c78a" name="Eradicator Mistress" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" publicationId="9fab-fea7-a93c-2074" page="145">
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Anathema, Character)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
-                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
-                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
               </characteristics>
             </profile>
@@ -3640,6 +3645,12 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1450-a1a7-6cc4-5cc6" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Voidsheen Cloak" hidden="false" id="4837-f2cd-f031-7895" collective="false" targetId="9449-eb87-30c1-43c0" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2ff-2efe-b066-2e7c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdef-9590-ec5c-73b5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3663,13 +3674,13 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Light, Anathema)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
-                    <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                    <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
                     <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
-                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
                   </characteristics>
                 </profile>
@@ -3699,9 +3710,15 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b9-6e1e-ce49-8a1f" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Voidsheen Cloak" hidden="false" id="e346-9054-8d00-144e" collective="false" targetId="9449-eb87-30c1-43c0" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6df-90d7-df72-ba8f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1467-3a33-5d8d-377f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="bff2-ae16-74a8-8712" id="1a0b-cda2-422b-a4ad" name="Light Sub-type" primary="false"/>
@@ -3791,12 +3808,18 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf0-ff7e-9106-0aff" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Voidsheen Cloak" hidden="false" id="b019-c05d-15a4-a0a4" collective="false" targetId="9449-eb87-30c1-43c0" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d6d6-dbc-e337-51b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5201-5df0-158f-4fb6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
               <infoLinks>
-                <infoLink id="c4f7-365a-e592-0f7e" name="Eradicator" targetId="1a1e-a7fd-7c32-3f56" type="profile"/>
+                <infoLink id="c4f7-365a-e592-0f7e" name="Eradicator" targetId="1a1e-a7fd-7c32-3f56" type="profile" publicationId="9fab-fea7-a93c-2074" page="145"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink targetId="bff2-ae16-74a8-8712" id="96df-1558-4545-b990" name="Light Sub-type" primary="false"/>
@@ -3820,7 +3843,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2df-539a-6cc6-92a3" name="Prosecutor Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
@@ -4511,7 +4534,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0431-a02c-03b4-f114" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e14d-0b1e-4185-fb25" name="Silent Sisterhood (Chamber of Obivion)" hidden="false" collective="false" import="true" targetId="7856-71cb-a1fb-bc43" type="selectionEntry">
+        <entryLink id="e14d-0b1e-4185-fb25" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false" collective="false" import="true" targetId="7b50-6b5d-e6f9-420b" type="selectionEntry" publicationId="9fab-fea7-a93c-2074" page="145">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3273-8e39-f86d-6cbb" type="min"/>
           </constraints>
@@ -4599,7 +4622,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 <entryLink id="3f76-eeb7-d812-b12a" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="3d50-2f85-06ff-6aee" type="selectionEntry"/>
                 <entryLink id="d046-533d-3b5e-fdef" name="Execution Blade" hidden="false" collective="false" import="true" targetId="adc6-3519-204d-2921" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -4897,7 +4920,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 </infoLink>
                 <infoLink id="a9a8-91ea-7ca1-60ba" name="Rage (X)" hidden="false" targetId="564d-3550-ae44-2f99" type="rule">
                   <modifiers>
-                    <modifier type="set" field="name" value="Rage (1)"/>
+                    <modifier type="set" field="name" value="Rage (2)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -5034,7 +5057,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 </infoLink>
                 <infoLink id="6bf1-885e-f51a-4e36" name="Rage (X)" hidden="false" targetId="564d-3550-ae44-2f99" type="rule">
                   <modifiers>
-                    <modifier type="set" field="name" value="Rage (1)"/>
+                    <modifier type="set" field="name" value="Rage (2)"/>
                   </modifiers>
                 </infoLink>
                 <infoLink id="1948-674a-38d9-e6d3" name="Cyber Felidae" targetId="fa66-ffb8-0dad-a440" type="profile"/>
@@ -5125,7 +5148,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b739-d90c-49d7-903c" name="Firebrand Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
@@ -6239,6 +6262,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <repeat field="selections" scope="d748-5878-98f6-b592" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
+                <modifier type="set" value="Adrathic Destructor w/ Suspensor Web" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink id="31c3-2bd3-2990-6899" name="Vratine Missile Launcher" hidden="false" collective="false" import="true" targetId="0ee4-7a2e-804a-a934" type="selectionEntry">
@@ -6249,6 +6273,19 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                   </repeats>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Suspensor Web" hidden="true" id="47f8-34e0-8341-9028" type="selectionEntry" targetId="6472-db7f-08b0-d7c7">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="parent" childId="8339-4003-fe88-b536" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3523-3f04-fd70-33d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1941-ef8a-824e-a656" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -6584,13 +6621,21 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
       <profiles>
         <profile id="176e-afc8-202c-dfa6" name="Erinyes Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Erinyes jetbike has a snare cannon and sets the Unit Type of any model with an Erinyes jetbike to Cavalry (Antigrav) (The model keeps any additional Sub-types it may have). In addition, a model with an Erinyes jetbike gains the Shrouded (6+) special rule on any turn in which it has moved, or the Shrouded (5+) special rule if it has Run in that turn.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Erinyes jetbike has a snare cannon and sets the Unit Type of any model with an Erinyes jetbike to Cavalry (Antigrav) (The model keeps any additional Sub-types it may have). In addition, a model with an Erinyes jetbike gains the Shrouded (6+) special rule on any turn in which it has moved, or the Shrouded (5+) special rule if it has Run in that turn. In addition, any model equipped with an Erinyes Jetbike sets its Movement Characteristic to 18”, and gains the Skilled Rider and Battle-Hardened (1) Special Rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Skilled Rider" hidden="false" id="33db-75ce-df02-9d14" type="rule" targetId="89cc-21e0-bee2-6a89"/>
+        <infoLink name="Battle-Hardened (X)" hidden="false" id="3dbd-37c4-796f-19ab" type="rule" targetId="5c3b-ed0b-4ad0-d547">
+          <modifiers>
+            <modifier type="set" value="Battle-Hardened (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="8404-1251-6f3a-70bd" name="Vratine Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
@@ -6623,10 +6668,10 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d956-d8c6-9427-4faa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2167-88b0-0dcd-76b6" name="Vratine Grenade Launcher - Krak" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="2167-88b0-0dcd-76b6" name="Vratine Grenade Launcher - Krak" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" publicationId="9fab-fea7-a93c-2074" page="171">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
                 <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
               </characteristics>
@@ -6903,7 +6948,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d732-3008-0d8e-c711" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4249-7465-c325-e974" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+            <entryLink id="4249-7465-c325-e974" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry" publicationId="9fab-fea7-a93c-2074" page="145">
               <modifiers>
                 <modifier type="set" value="Hull (Front) Mounted multi-melta" field="name"/>
               </modifiers>
@@ -7066,7 +7111,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <infoLink id="5723-b67b-9c61-4c71" name="Loyalist" hidden="false" targetId="d1de-a45d-2b9b-c878" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="212f-b3d9-ce1b-7664" name="1) Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3785-36e1-67cc-e4fe">
+            <selectionEntryGroup id="212f-b3d9-ce1b-7664" name="1) Select any Two Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3785-36e1-67cc-e4fe">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d498-1991-0083-fea4" type="max"/>
               </constraints>
@@ -7302,122 +7347,115 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="8dd9-c968-38a1-7dcf" name="2) Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ad1-0048-0f7c-df8b">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825b-68a7-27ed-70c3" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="6ad1-0048-0f7c-df8b" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Bolt Pistol">
-                      <conditions>
-                        <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                <entryLink import="true" name="Archaeotech Pistol" hidden="false" id="e629-1d86-1f51-3260" collective="false" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f46-859d-98b4-f322" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e23-cd35-9714-d6cb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="8ffd-a208-2cef-0a38" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                </entryLink>
-                <entryLink id="1e97-9e9a-38a9-3789" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="e337-adf4-a11f-0280" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Hand Flamer">
-                      <conditions>
-                        <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c403-0597-8f27-fdfe" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="55f7-708b-7631-40d0" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                </entryLink>
-                <entryLink id="baad-ca47-fc42-7b04" name="Needle Pistol" hidden="false" collective="false" import="true" targetId="fdd4-06c7-4608-b07f" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Needle Pistol">
-                      <conditions>
-                        <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cb3-37f6-a376-9f2d" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="cfba-e2c3-4eab-af14" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" hidden="false" id="4506-2b40-5ca-cd88" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
-                <entryLink id="1a58-af9f-8f39-311d" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="6ad1-0048-0f7c-df8b" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Master-crafted Plasma Pistol">
+                    <modifier type="set" value="Master-crafted Bolt Pistol" field="name">
                       <conditions>
-                        <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7be5-3b99-a65e-3ec9" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f46-859d-98b4-f322" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="898d-0c6b-a074-6b3d" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                    <infoLink name="Master-crafted" hidden="false" id="8ffd-a208-2cef-0a38" targetId="6de0-55b0-bf21-48b9" type="rule">
                       <modifiers>
-                        <modifier type="set" field="hidden" value="true">
+                        <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition field="selections" scope="a46b-9c18-a39f-0ca8" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72cc-351b-909a-9129" type="equalTo"/>
+                            <condition type="equalTo" value="0" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </entryLink>
+                <entryLink import="true" name="Hand Flamer" hidden="false" id="1e97-9e9a-38a9-3789" collective="false" targetId="e337-adf4-a11f-0280" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="Master-crafted Hand Flamer" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c403-0597-8f27-fdfe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Master-crafted" hidden="false" id="55f7-708b-7631-40d0" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </entryLink>
+                <entryLink import="true" name="Needle Pistol" hidden="false" id="baad-ca47-fc42-7b04" collective="false" targetId="fdd4-06c7-4608-b07f" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="Master-crafted Needle Pistol" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb3-37f6-a376-9f2d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Master-crafted" hidden="false" id="cfba-e2c3-4eab-af14" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" hidden="false" id="5706-886-b9c3-38b8" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="e629-1d86-1f51-3260" name="Archaeotech Pistol" hidden="false" collective="false" import="true" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="1a58-af9f-8f39-311d" collective="false" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="Master-crafted Plasma Pistol" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e23-cd35-9714-d6cb" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be5-3b99-a65e-3ec9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Master-crafted" hidden="false" id="898d-0c6b-a074-6b3d" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="a46b-9c18-a39f-0ca8" childId="72cc-351b-909a-9129" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" hidden="false" id="84e3-7005-404a-514b" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="6dc6-a07f-3e78-f3d1" name="3) May upgrade any one weapon to have the Master-crafted" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6dc6-a07f-3e78-f3d1" name="2) May upgrade any one weapon to have the Master-crafted" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac2-7570-7db9-baec" type="max"/>
               </constraints>
@@ -7569,7 +7607,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
-                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7610,10 +7648,10 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2482-6990-f46b-0ad6" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="5598-eee6-c207-cca7" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="2336-68cc-2821-cbfd" type="selectionEntry" targetId="9196-3af7-9545-e62b">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="310d-0a23-4353-daa2" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f34-6f1a-145b-37b5" type="min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63e1-601-344b-4f09" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30f6-ba28-665d-2328" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -7650,12 +7688,6 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="0cea-c0aa-5664-a898" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438c-6c3c-2145-8e97" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aaf-b1a2-38f7-6cae" type="min"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="65b7-ef5f-6ec1-f178" name="Voidsheen Cloak" hidden="false" collective="false" import="true" targetId="9449-eb87-30c1-43c0" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1819-5138-ed03-c7ca" type="max"/>
@@ -7678,6 +7710,12 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f7c-2e2a-0aff-037a" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4057-af3d-8cd0-8cb5" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="d981-508e-3a43-b57d" type="selectionEntry" targetId="9196-3af7-9545-e62b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d519-c117-35d5-f7e5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b9c-56ee-bdb5-9446" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -7714,12 +7752,6 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="cb26-2997-e94c-d698" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b540-a7b7-512d-d072" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67da-0a4f-ffad-64bd" type="min"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="e29d-acd0-44ac-d5df" name="Voidsheen Cloak" hidden="false" collective="false" import="true" targetId="9449-eb87-30c1-43c0" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e6-0ba1-92d6-557e" type="max"/>
@@ -7742,6 +7774,12 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f75-2fee-be0a-8da9" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d10-1d7c-9996-830a" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="c958-101b-4360-1c6f" type="selectionEntry" targetId="9196-3af7-9545-e62b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65f7-9eb-7cbc-413e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="866-69be-80c6-986c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -7847,12 +7885,6 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="5b45-adfb-af67-bbca" name="Vratine Armour" hidden="false" collective="false" import="true" targetId="91c6-82e2-3c3e-fe76" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d073-a30c-a29c-cc62" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c914-68b0-e44d-c340" type="min"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="a548-192f-125c-562c" name="Voidsheen Cloak" hidden="false" collective="false" import="true" targetId="9449-eb87-30c1-43c0" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b824-5372-80c3-77eb" type="max"/>
@@ -7875,6 +7907,12 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b35-32ca-f8a7-4d60" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a0f-1251-00e4-7163" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Artificer Armour" hidden="false" id="12ce-40d2-2bc4-2b81" type="selectionEntry" targetId="9196-3af7-9545-e62b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0e6-3b7e-617-3b5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9b6-8228-744a-5caf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>

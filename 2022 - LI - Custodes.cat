@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1776" name="LI - Custodes" revision="2020" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1776" name="LI - Custodes" revision="2021" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <categoryEntries>
     <categoryEntry id="ccca-a9de-0cd9-f8be" name="Legio Custodes" hidden="false">
       <infoLinks>
@@ -417,7 +417,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="d2ee-04cb-5f8a-2642" scope="roster" value="3000" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
+                <condition field="d2ee-04cb-5f8a-2642" scope="roster" value="2000" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                 <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d926-652f-8436-30ce" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -456,7 +456,7 @@
           </profiles>
           <rules>
             <rule id="e88c-465d-fc13-d71d" name="Tribune of the Golden Legion" hidden="false">
-              <description>A model with this specialrule may only be included in the Primary Detachment of an army with a total value of at least 3,000 points. Furthermore, unless Constantin Valdor is also part of the same army, a model with this specialrule must be chosen as the army’s Warlor</description>
+              <description>A model with this Special Rule may only be included in the Primary Detachment of an army with a total value of at least 2,000 points. Furthermore, unless Constantin Valdor is also part of the same army, a model with this Special Rule must be chosen as the army’s Warlord.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -490,12 +490,12 @@
                   </costs>
                 </entryLink>
                 <entryLink id="80d7-e8ea-f760-7c32" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
-                <entryLink id="9464-6576-ae15-0d36" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+                <entryLink id="9464-6576-ae15-0d36" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry"/>
+                <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
-                <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry"/>
                 <entryLink id="d420-be7e-17f3-efcc" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -513,7 +513,7 @@
                 </entryLink>
                 <entryLink id="9146-b43c-8dc9-b221" name="Paragon Glaive" hidden="false" collective="false" import="true" targetId="a9fc-4298-7b35-8ef4" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9f52-9a89-827f-3e02" name="Guardian Axe" hidden="false" collective="false" import="true" targetId="1334-e423-944e-9499" type="selectionEntry"/>
@@ -782,13 +782,16 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-da16-84b9-22a8" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="04f1-3907-5bb5-d06e" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d50a-ec64-213f-e67b" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="f114-1264-5f4d-862c" name="Pyrithite Spear" hidden="false" collective="false" import="true" targetId="4620-e360-7dd2-f908" type="selectionEntry">
@@ -854,7 +857,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ab03-271b-4a46-8fbe" name="Infantry Unit Type" primary="false"/>
@@ -1281,7 +1284,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
                   </characteristics>
@@ -1533,7 +1536,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
                   </characteristics>
@@ -1815,7 +1818,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
                   </characteristics>
@@ -2077,9 +2080,17 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b14-abce-9f97-9fe0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ba8a-0da7-2ccc-c438" name="Tarsus Buckler" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+                    <profile id="ba8a-0da7-2ccc-c438" name="Tarsus Buckler (Wargear)" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
                         <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reduce the Strength characteristic of Shooting Attacks made against a unit in which the majority of models have a Tarsus Buckler by -2 (to a minimum of 1).</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Tarsus Buckler (Weapon)" hidden="false" id="4f79-af8a-8232-f9e" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2089,7 +2100,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2b53-452a-435d-f29d" name="Venatari w/ Venatari Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2134,7 +2145,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2173,7 +2184,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a39-6452-e075-c8d6" name="Sagittarum Guard Squad" publicationId="15a4-fc68-502d-48a9" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -2300,7 +2311,7 @@
       <profiles>
         <profile id="09e1-791e-2a1c-d2c8" name="Praesidium Shield" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Praesidium shield confers a 5+ Invulnerable Save – this does not stack with existing Invulnerable Saves and if a model has more than one such save, the controlling player must select one to use against any Wounds inflicted on that model. In addition, a model with a Praesidium shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Praesidium Shield adds +1 to its Invulnerable Save (to a maximum of 3+) or an Invulnerable Save of 6+ if they do not already possess one. In addition, a model with a Praesidium Shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-Handed Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2745,7 +2756,7 @@
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (9&quot;)</characteristic>
           </characteristics>
         </profile>
@@ -2764,7 +2775,7 @@
     </selectionEntry>
     <selectionEntry id="2b1d-a84d-9b3f-8ad6" name="Infernus Firepike" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="17b5-35b3-97b8-7b9f" name="Infernus Firepike" hidden="false" targetId="8ee5-48ce-ca14-40e4" type="profile"/>
+        <infoLink id="17b5-35b3-97b8-7b9f" name="Infernus Firepike" hidden="false" targetId="8ee5-48ce-ca14-40e4" type="profile" publicationId="9fab-fea7-a93c-2074" page="171"/>
         <infoLink id="ef92-d64b-522a-5966" name="Torrent (X)" hidden="false" targetId="5cfb-fc94-e6db-43b8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Torrent (9&quot;)"/>
@@ -3001,18 +3012,23 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d6f-2162-5a4f-d8b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="377d-10d8-9548-a5ac" name="Telemon Cestus" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="377d-10d8-9548-a5ac" name="Telemon Cestus" publicationId="9fab-fea7-a93c-2074" page="175" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Sunder</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Sunder, Brutal (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="5af8-74d5-7765-899d" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
             <infoLink id="d9cc-aa8c-ffda-00ee" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
+            <infoLink name="Brutal (X)" hidden="false" id="5299-e42-9dd-63cd" type="rule" targetId="5079-1fec-d32b-8b84">
+              <modifiers>
+                <modifier type="set" value="Brutal (3)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3212,6 +3228,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
             <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Skilled Rider" hidden="false" id="63f0-fd9c-15cc-3dce" type="rule" targetId="89cc-21e0-bee2-6a89"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3430,12 +3447,12 @@ the Front Armour during the same Phase.�</characteristic>
               </costs>
             </entryLink>
             <entryLink id="affd-2143-1c9e-17f6" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
-            <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+            <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry"/>
+            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
-            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry"/>
             <entryLink id="35b7-60c7-d938-44f7" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -3453,7 +3470,7 @@ the Front Armour during the same Phase.�</characteristic>
             </entryLink>
             <entryLink id="4b62-44bd-1fe7-2c96" name="Paragon Glaive" hidden="false" collective="false" import="true" targetId="a9fc-4298-7b35-8ef4" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="dc58-66af-84f4-984f" name="Guardian Axe" hidden="false" collective="false" import="true" targetId="1334-e423-944e-9499" type="selectionEntry"/>
@@ -3903,7 +3920,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </selectionEntry>
     <selectionEntry id="6526-bdfb-4ebe-6e0a" name="Orion Assault Dropship" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9365-981d-d422-7c4a" name="Orion Assault Dropship" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+        <profile id="9365-981d-d422-7c4a" name="Orion Assault Dropship" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" publicationId="9fab-fea7-a93c-2074" page="144">
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Flyer, Hover, Lumbering, Transport)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">19</characteristic>
@@ -3912,7 +3929,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">7</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">24</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">36</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
           </characteristics>
         </profile>
@@ -4040,12 +4057,12 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </selectionEntry>
     <selectionEntry id="2357-23af-0317-1a79" name="Adrastus Bolt Caliver" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1658-9859-8604-bf91" name="Adrastus Bolt Caliver - (Bolt Volley)" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="1658-9859-8604-bf91" name="Adrastus Bolt Caliver - (Bolt Volley)" publicationId="9fab-fea7-a93c-2074" page="171" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Shred Pinning</characteristic>
           </characteristics>
         </profile>
         <profile id="c953-8e34-9c71-92e2" name="Adrastus Bolt Caliver - (Disintegrator)" publicationId="15a4-fc68-502d-48a9" page="146" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -4061,6 +4078,8 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <infoLink id="aba3-d0ba-2ccf-89bc" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="0efd-9220-7866-2b14" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
         <infoLink id="3e1e-bd96-b92e-c3b6" name="One Use/One Shot" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
+        <infoLink name="Shred" hidden="false" id="fc5-7c64-d2ae-6916" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+        <infoLink name="Pinning" hidden="false" id="6889-97af-de6-c5c2" type="rule" targetId="1c96-205c-59a0-3cf2"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4293,7 +4312,12 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
   <sharedProfiles>
     <profile id="3ddf-fb5c-220a-9581" name="Golden Exemplar (Warlord Trait)" publicationId="15a4-fc68-502d-48a9" page="17" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
       <characteristics>
-        <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any combat with at least one friendly model within 12&quot; of a Warlord with this Trait, or a combat which includes a Warlord with this Trait, gains a bonus of +1 to the number of Wounds caused for the purposes of deciding which side has won a combat during the Assault phase. In addition, while Engaged in a Challenge a Warlord with this Trait adds a bonus of +1 to their Attacks and Initiative Characteristics.</characteristic>
+        <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any combat with at least one friendly model within 12&quot; of a Warlord with this Trait, or a combat which includes a Warlord with this Trait, gains a bonus of +1 to the number of Wounds caused for the purposes of deciding which side has won a combat during the Assault phase. In addition, while Engaged in a Challenge a Warlord with this Trait adds a bonus of +1 to their Attacks and Initiative Characteristics.
+
+
+Furthermore, the first Reaction made in each Game Turn by this
+Warlord and any unit he has joined does not use up a point of the
+Controlling Player’s Reaction Allotment.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
