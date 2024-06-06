@@ -8426,7 +8426,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033d-3201-da9d-137c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="39d6-965a-61b0-56b5" name="Thermios AP missile" hidden="false" collective="false" import="true" targetId="215a-8348-38fc-553d" type="selectionEntry">
+        <entryLink id="39d6-965a-61b0-56b5" name="Thermios AP Missile" hidden="false" collective="false" import="true" targetId="215a-8348-38fc-553d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244b-9858-4870-afa2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a302-34e4-6517-61ce" type="max"/>
