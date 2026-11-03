@@ -645,6 +645,270 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Magos Prime" hidden="false" id="cdd0-d0c5-6a72-28e2" type="selectionEntry" targetId="9a5a-a411-463d-b98a">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="4f27-bab9-b13b-ab02" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5061-82d5-d672-5b5b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Magos Prime On Abeyant" hidden="false" id="c38a-d301-87fb-e3bb" type="selectionEntry" targetId="6ef6-3412-4083-82ca">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="36e4-2e02-a5d1-e60e" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7fb0-82f1-807a-5b8a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skitarii Centurius" hidden="false" id="dc4e-9442-36c8-b44c" type="selectionEntry" targetId="3283-a0b5-40b2-b42b">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="4d3e-6644-c9fa-ebea" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a688-8eb4-9f2b-36a3" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sicarian Clademaster" hidden="false" id="dbb1-bf76-50c7-5598" type="selectionEntry" targetId="0e52-17c2-4d08-9b49">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="15a8-1f65-196b-390e" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="2706-e3a8-efb3-4b50" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Praetorian Servitor Maniple" hidden="false" id="f325-c51c-f768-8855" type="selectionEntry" targetId="3ad7-7e46-47b0-a70d">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="3d8d-3c0a-44c2-96bf" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c082-31c6-ca03-feae" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arkhan Land" hidden="false" id="f51e-11e9-56b4-e255" type="selectionEntry" targetId="d09a-1b47-44b2-8770">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="65e6-28e2-f44f-e1ae" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="fd02-f35c-fde5-47fa" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Remiare" hidden="false" id="6543-8e6f-b083-a1bc" type="selectionEntry" targetId="f3d1-035f-45e4-9200">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="742b-9b96-1828-c58b" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1bf4-254c-1c30-9fe1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Koriel Zeth" hidden="false" id="149c-42c6-88c3-73cc" type="selectionEntry" targetId="2d75-642e-452f-9819">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="d835-5171-8725-9c3e" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7656-ba61-f2fe-fc52" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kelbor-Hal" hidden="false" id="f370-f896-9a57-2747" type="selectionEntry" targetId="7d76-881f-4660-aeae">
+      <categoryLinks>
+        <categoryLink targetId="e031-3c2-e3f8-d40a" id="db81-61d8-bd86-9489" primary="true" name="Primarch:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="605f-2aef-4f06-add0" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sarumiat Battle-Automata Maniple" hidden="false" id="e9ec-b9f1-83f9-fb10" type="selectionEntry" targetId="98ec-1704-49af-a944">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="db28-41f1-d45a-6cf4" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1938-1ea7-a188-c639" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cydonian Dragoons" hidden="false" id="f53f-1ffc-76f4-5755" type="selectionEntry" targetId="4328-d2e2-4958-9832">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="9592-9a31-db3f-fe9e" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="3341-7a8a-95e2-b2d2" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skitarii Liquidator Cohort" hidden="false" id="44a8-a298-fa52-e8d4" type="selectionEntry" targetId="bbcc-1014-4233-b4ca">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="d618-17c3-6460-ca20" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="cd78-df1c-20c0-c00d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sicarian Kill-Clade" hidden="false" id="8ff4-1671-f75a-9211" type="selectionEntry" targetId="018f-666c-4720-a52c">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="c077-62fe-2e36-88ed" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="156a-82bf-9974-688c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kataphron Breacher Servitor Maniple" hidden="false" id="9e4e-d839-e7f3-ab56" type="selectionEntry" targetId="63c2-289d-4951-bbab">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="7597-7f77-9496-e789" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="99bf-249e-b841-8bd7" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kataphron Destructor Servitor Maniple" hidden="false" id="c49a-610a-cc96-2cd8" type="selectionEntry" targetId="4860-763a-4d5f-a100">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="dfb0-f560-2db0-1cfb" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8e7c-a593-ddac-d336" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cydonian Sisterhood Clade" hidden="false" id="795c-f2f5-2174-8870" type="selectionEntry" targetId="ebde-170b-4d3a-8ec6">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="8559-ee0c-9e51-e4b6" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ee30-bf8a-da00-d7ec" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Triaros Guardian" hidden="false" id="902d-1683-2da9-4074" type="selectionEntry" targetId="5c45-e837-4481-a21f">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="858c-a085-304a-2a93" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c329-f61f-9b7e-c230" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skitarii Vanguard Cohort" hidden="false" id="a003-2859-6080-2019" type="selectionEntry" targetId="ac2d-8025-4c68-9ecb">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="582a-96f1-97af-6282" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8cea-d04f-fc01-d477" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skitarii Ranger Cohort" hidden="false" id="85c5-57c9-a81a-53c5" type="selectionEntry" targetId="5d5e-9998-45ab-a2b1">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="8936-84ff-861f-aa17" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d690-3e74-1e36-5b6d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skitarii Decimator Cohort" hidden="false" id="37d1-20eb-21d7-2d55" type="selectionEntry" targetId="47e1-1640-4c1b-9868">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="77d5-aadf-899e-e636" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="603c-36a8-a3e6-dcda" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Electro-Priest Conclave" hidden="false" id="41f1-7afb-4a06-e6e9" type="selectionEntry" targetId="2048-5044-4f8a-92aa">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="abe3-8a69-c958-484b" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ac1b-2cd1-a85e-8c74" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kastelan Battle-Automata Maniple" hidden="false" id="b47b-8ffc-6234-f720" type="selectionEntry" targetId="5e9e-ee9e-4109-b184">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f44e-3030-8dad-ad7b" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="f3ca-d574-73d1-9811" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skorpius Dunerider" hidden="false" id="f10c-16b9-f9c7-84ff" type="selectionEntry" targetId="95d4-05b4-4256-beea">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="1994-f000-bc11-b17d" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="cbce-2fd4-12a9-cb8d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Porphetian Armoured Carrier" hidden="false" id="1404-7651-8974-1a7e" type="selectionEntry" targetId="fca2-504c-4bf1-b816">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f143-5cce-8db7-8437" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="cc70-8feb-5f05-4f8c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cyber-Carnivora Pack" hidden="false" id="9ac6-9c9b-b63c-43f4" type="selectionEntry" targetId="0d7f-d87f-4035-909d">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="9b5c-ff61-9c3f-5b26" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="687d-deb9-ab62-49c1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pteraxii Skyhunter Cohort" hidden="false" id="aa76-6f6a-d7f5-524b" type="selectionEntry" targetId="0e07-d492-497f-8794">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="e3bd-34c0-f266-78cd" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8b0c-e795-c1b1-404a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Serberys Tormentor Conclave" hidden="false" id="e512-67e1-c03d-9c6e" type="selectionEntry" targetId="8b68-e97f-46a6-8e74">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="34cb-81c8-e3bf-2421" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8dfe-354d-da33-3c66" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herax Battle-Automata Maniple" hidden="false" id="881a-8962-89f4-10b4" type="selectionEntry" targetId="20c7-aa8c-4353-9c50">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="6970-393b-25e1-b46b" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="79ef-c68f-1d8d-14f1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mechanicum Lightning Strike Fighter" hidden="false" id="d65f-9704-29b0-9a94" type="selectionEntry" targetId="3352-b09c-4de6-b9f6">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="bfa7-4529-d746-979f" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="3005-849d-a34e-9093" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mechanicum Avenger Strike Fighter" hidden="false" id="2c09-af7e-383b-d20d" type="selectionEntry" targetId="a679-61e5-4837-a32d">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="ccfc-ff05-4a29-fdf2" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1af9-4ef0-ea9d-52a8" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archaeopter Transvector Squadron" hidden="false" id="6c49-ee99-17aa-3cab" type="selectionEntry" targetId="89cb-bac1-4fed-839e">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="f7a5-50ab-f5d1-5e84" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="6b60-6cf4-e542-1a76" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archaeopter Imperator Squadron" hidden="false" id="eb57-7bcb-e221-5a25" type="selectionEntry" targetId="3c6b-3763-4bf8-8b9d">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="5c58-be5b-7553-8454" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="194c-4209-e1fd-b1d5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mechanicum Arvus Lighter" hidden="false" id="88fc-2afd-61e5-16a3" type="selectionEntry" targetId="ea18-0635-4e8c-9819">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="ea90-9456-7603-3660" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="675f-f215-3a7a-23af" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thanatar-Cynis Siege-Automata Maniple" hidden="false" id="4de2-5932-d025-a91e" type="selectionEntry" targetId="836a-80d6-4875-852e">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="3217-90f2-4e7d-f087" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="975b-c4e6-b891-eaa5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kharax Siege-Automata Maniple" hidden="false" id="51ec-6f29-2232-498d" type="selectionEntry" targetId="0b39-bf03-4745-b30d">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="5211-b296-4273-1749" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="25cb-a5dc-eb83-1df8" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sepketar Siege-Automata Maniple" hidden="false" id="21bd-5833-dbd2-8333" type="selectionEntry" targetId="f48f-c003-413e-872f">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="8d07-9bff-6a75-1d21" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="fb75-71af-7a7a-46e7" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ironstrider Ballistarii" hidden="false" id="3f56-563e-e45f-46c9" type="selectionEntry" targetId="cca2-87b6-4284-9887">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="5245-d311-23b6-8c76" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="129e-ecc4-46e8-1c8d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Onager Dunecrawler Squadron" hidden="false" id="a780-ac76-5d5c-571d" type="selectionEntry" targetId="2eea-26db-47fe-9273">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="6f70-fc7b-f953-2d95" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ddbe-4233-66ae-6d3e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skorpius Disintegrator Squadron" hidden="false" id="aca5-8996-c7ef-d2b3" type="selectionEntry" targetId="bf41-5ec2-4e06-9dd8">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="c4fa-a304-4fb8-37b4" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="478a-ef65-d957-43c7" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ordinatus-Exemplar War Construct" hidden="false" id="9b94-5f6b-32ab-bf79" type="selectionEntry" targetId="3142-53ad-4a7d-8790">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="91e2-a082-33ab-5e0c" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="9f02-7725-2c59-c086" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Kaban Machine" hidden="false" id="6d99-8217-6d38-4a4a" type="selectionEntry" targetId="3957-dc7c-4d9f-9019">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="dfde-101c-2006-c5d1" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="3c22-6535-a620-5d44" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hierarch Siege-Automata" hidden="false" id="849d-2440-b156-57fd" type="selectionEntry" targetId="451c-344d-4195-8398">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="cf06-ccb0-bb39-f47e" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="514c-4915-3a76-a42d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Oppressor Super-Heavy Siege Tank" hidden="false" id="19bf-9f72-32bf-cc15" type="selectionEntry" targetId="fa5b-ff06-4971-8feb">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="b84b-38b6-a866-42e9" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="2413-fb88-7b94-a869" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ordinatus-Minoris Macro Engine" hidden="false" id="990a-bbd7-d8b2-8c2f" type="selectionEntry" targetId="f17f-69a7-413a-bbb5">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="8e16-3172-556e-90e3" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c9fd-f876-7939-c4c6" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d0f2-ee39-450c-39db" name="Archmagos Prime" publicationId="bde1-6db1-163b-3b76" page="20" hidden="false" collective="false" import="true" type="unit">
@@ -818,6 +1082,22 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+            <entryLink id="f64c-4286-e504-69f2" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+              </entryLink>
+            <entryLink id="fa6b-214d-f2cb-2d7e" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+              </entryLink>
+            <entryLink id="f324-1192-12c0-feaa" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+              </entryLink>
+            <entryLink id="f300-8b98-4c0b-20b6" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+              </entryLink>
+            <entryLink id="9d25-efe5-7201-4229" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+              </entryLink>
+            <entryLink id="64da-d81e-1809-5c2c" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+              </entryLink>
+            <entryLink id="dc58-a928-e5bf-e771" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+              </entryLink>
+            <entryLink id="beba-fa96-6f7c-cd7d" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+              </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="de1b-c169-e406-509d" name="May take one of the following options:" hidden="false" collective="false" import="true">
@@ -935,6 +1215,29 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="847e-79dc-baba-2b30" name="An Archmagos Prime may exchange a Graviton Gun for one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a78-4e43-dec1-9f9a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4c00-b850-37a8-7189" name="Magnarail Lance" hidden="false" collective="false" import="true" targetId="713b-8d52-4f43-a02a" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfde-4f90-4cfd-d29d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8409-444d-5674-8734" name="Transonic Cannon" hidden="false" collective="false" import="true" targetId="d4ed-9618-452a-97d1" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa08-579f-b336-20b5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="34f8-3711-2e5b-5bad" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry">
@@ -1074,6 +1377,22 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+            <entryLink id="115d-ae4b-7d68-caae" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+              </entryLink>
+            <entryLink id="b53b-16de-ba4e-c4e0" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+              </entryLink>
+            <entryLink id="8d36-5c55-10a1-a7f7" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+              </entryLink>
+            <entryLink id="ed7d-8745-c93f-17f9" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+              </entryLink>
+            <entryLink id="d955-200c-aa65-1a5a" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+              </entryLink>
+            <entryLink id="94fb-4840-f2f6-fde6" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+              </entryLink>
+            <entryLink id="f353-c539-8633-cb57" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+              </entryLink>
+            <entryLink id="94ef-ced4-8d08-9bfa" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+              </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7a33-fa4c-6c53-b688" name="May take any of the following options:" hidden="false" collective="false" import="true">
@@ -1186,6 +1505,41 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7fe7-2858-4486-59a3" name="An Archmagos Prime on Abeyant who does not select a Servo-Arm, Conversion Beamer, Graviton Imploder, or Machinator array may select the following:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="6323-50e2-a4c2-58c3" name="Mechadendrite Hive" hidden="false" collective="false" import="true" targetId="9c99-9e6e-4e40-8654" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3761-e0cf-7f71-be8e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+        <selectionEntryGroup id="1bd1-e4ad-325f-6ced" name="An Archmagos Prime on Abeyant may exchange a Graviton Gun for one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db9a-8ff2-4689-b4de" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5f0e-2ca1-c4eb-245e" name="Magnarail Lance" hidden="false" collective="false" import="true" targetId="713b-8d52-4f43-a02a" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97f5-bddd-58b1-60fb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e82b-4e13-7940-b4a4" name="Transonic Cannon" hidden="false" collective="false" import="true" targetId="d4ed-9618-452a-97d1" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a63-51c9-4d41-b3d7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="080a-3d66-7fa3-b65d" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry">
@@ -1434,6 +1788,29 @@
             <entryLink id="d346-3f15-034c-2f55" name="Power Lance" hidden="false" collective="false" import="true" targetId="a4c8-c8ff-87f2-1ac9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="deb2-594e-ae9d-1145" name="A Magos Dominus may exchange a Graviton Gun for one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fd0-ff3b-9a64-82cb" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6ced-5e4f-db1e-80c1" name="Magnarail Lance" hidden="false" collective="false" import="true" targetId="713b-8d52-4f43-a02a" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4a-97c1-709a-1a20" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="678d-3e87-15b5-2dc1" name="Transonic Cannon" hidden="false" collective="false" import="true" targetId="d4ed-9618-452a-97d1" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fbd-6cf0-efd5-27fa" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9dcc-9b17-198f-5691" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
@@ -1663,6 +2040,41 @@
             <entryLink id="f388-cb25-32e1-4576" name="Power Lance" hidden="false" collective="false" import="true" targetId="a4c8-c8ff-87f2-1ac9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="f10c-21e5-e352-df50" name="A Magos Dominus on Abeyant who does not select a Servo-Arm, Conversion Beamer, or Machinator array may select the following:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="925f-de68-41a7-342e" name="Mechadendrite Hive" hidden="false" collective="false" import="true" targetId="9c99-9e6e-4e40-8654" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95bb-630f-5d7f-c8ef" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+        <selectionEntryGroup id="7331-2ca8-8e0d-99f0" name="A Magos Dominus on Abeyant may exchange a Graviton Gun for one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="709d-89af-110c-4b45" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="798b-3567-ef9f-57d6" name="Magnarail Lance" hidden="false" collective="false" import="true" targetId="713b-8d52-4f43-a02a" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac3-17bf-2f2d-f2d9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="db23-42aa-ea3b-3dfe" name="Transonic Cannon" hidden="false" collective="false" import="true" targetId="d4ed-9618-452a-97d1" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ca-c30e-4318-c8ef" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="fc61-b732-41ab-b1b8" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
@@ -2535,6 +2947,22 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink id="1cf2-aba5-622c-305b" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="d9f6-12fe-1090-f289" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="a7a3-42fb-8d41-4252" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="9107-3c8e-3640-d087" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="ce17-fcf0-d8d1-bbbb" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="3823-7e62-af3a-f31b" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="1eb5-7597-763e-318c" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="2b72-160d-c294-56ef" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+                  </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="9d2b-4794-279e-3f3e" name="May take one of the following additional ranged weapons:" hidden="false" collective="false" import="true">
@@ -2554,6 +2982,29 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="514e-6b8b-3a80-762a" name="The Arcuitor may take one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3289-f635-f5e4-c623" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b00d-9685-f1fd-73e5" name="Mel-Cerebrae Striderframe" hidden="false" collective="false" import="true" targetId="7c74-5a23-4f71-b63f" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90a9-e335-c4d7-d1ed" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="99ea-6972-8b26-4efb" name="Utan Jump Booster" hidden="false" collective="false" import="true" targetId="30b5-2dcd-6b27-067c" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c52b-49ff-cfe3-d33f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="ff37-9067-bceb-f46b" name="Archaeotech Pistol" hidden="false" collective="false" import="true" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
@@ -3022,7 +3473,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Cumbersome, Unwieldy</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Makeshift Weapon, Murderous Strike (4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3217,7 +3668,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b178-7d35-136f-d305" name="Arlatax Battle-Automata Maniple" publicationId="bde1-6db1-163b-3b76" page="40" hidden="false" collective="false" import="true" type="unit">
@@ -3342,7 +3793,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                     </rule>
                   </rules>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3410,7 +3861,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
-                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">2</characteristic>
@@ -3530,6 +3981,9 @@ This unit may be upgraded freely as described in their profile, though they may 
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
+      <rules>
+        <rule id="116d-c9e8-cd48-c461" name="Errata: Ursarax Cohort (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Any Ursarax may exchange their two lightning claws for:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="0e08-6b7e-8fff-1f02" name="Vultarax Stratos-Automata Squadron" publicationId="bde1-6db1-163b-3b76" page="43" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -3599,8 +4053,9 @@ This unit may be upgraded freely as described in their profile, though they may 
               <profiles>
                 <profile id="e90a-5837-2524-80f0" name="Stratos Thrusters" publicationId="9fab-fea7-a93c-2074" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.
-On a Game Turn in which a model armed with Stratos Thrusters activates them, they may elect to gain the Skyfire Special Rule for all Ranged Weapons they are armed with. In addition, a model equipped with Stratos Thrusters also gains the Deep Strike Special Rule. A model with an activated set of Stratos Thrusters may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.”</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16" for the duration of the controlling player’s turn. This allows the unit to move up to 16", regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16" (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.
+On a Game Turn in which a model armed with Stratos Thrusters activates them, they may elect to gain the Skyfire Special Rule for all Ranged Weapons they are armed with. In addition, a model equipped with Stratos Thrusters also gains the Deep Strike Special Rule. A model with an activated set of Stratos Thrusters may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1" away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.”
+On a Game Turn in which a model armed with Stratos Thrusters activates them, they may elect to gain the Skyfire Special Rule for all Ranged Weapons they are armed with. In addition, a model equipped with Stratos Thrusters also gains the Deep Strike Special Rule. A model with an activated set of Stratos Thrusters may move over both friendly and enemy models or units without penalty-but must end its Movement at least 1" away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3649,6 +4104,20 @@ On a Game Turn in which a model armed with Stratos Thrusters activates them, th
             <categoryLink targetId="4303-1348-cce4-9501" id="9970-338f-4b04-8d10" name="Antigrav Sub-type" primary="false"/>
             <categoryLink targetId="2440-b64e-cb24-87f0" id="52b3-8b0b-4a04-bb52" name="Cybernetica Sub-type:" primary="false"/>
           </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a509-a7e0-4dfc-6e24" name="Any Vultarax in the squadron may purchase:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b5c9-cf51-dd73-1299" name="Two Power Blade Arrays" hidden="false" collective="false" import="true" targetId="2dfc-737d-4b54-828b" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2d-8b06-d302-19e7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3911,7 +4380,7 @@ On a Game Turn in which a model armed with Stratos Thrusters activates them, th
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7f-0206-4b1e-fa13" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="13a7-7d49-5ab4-996a" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry">
+        <entryLink id="13a7-7d49-5ab4-996a" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="name" value="Centerline Mounted Karacnos Mortar Battery"/>
           </modifiers>
@@ -4023,6 +4492,18 @@ On a Game Turn in which a model armed with Stratos Thrusters activates them, th
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="2cd4-ef17-b221-dc96" name="The Squadron may purchase:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="2fc5-c43b-2e7e-a3a7" name="Flare Shields" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1c-340f-f163-832e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="da1e-b01e-67f5-1b36" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
@@ -4084,7 +4565,8 @@ On a Game Turn in which a model armed with Stratos Thrusters activates them, th
           <profiles>
             <profile id="110b-b86e-c1d0-0936" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored. In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored. In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.
+In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4198,6 +4680,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
         </infoLink>
         <infoLink id="fb06-e4bf-f374-e5b4" name="Reinforced Structure" hidden="false" targetId="5b0d-5362-e961-f3b0" type="rule"/>
         <infoLink id="565c-f3ae-d92b-1685" name="Subterranean Assault" hidden="false" targetId="33d4-d46d-7f47-3ad2" type="rule"/>
+        <infoLink id="42b5-ab02-8673-1d23" name="Transport Bay" hidden="false" type="rule" targetId="0662-8b8d-38e8-60f8"></infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd10-1dfe-07bf-f938" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -4216,7 +4699,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Guided Fire</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4244,7 +4727,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="800"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="700"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Ordinatus Dispersion Shield" hidden="false" id="61cc-128d-787d-2ce2" type="selectionEntry" targetId="808a-6ab8-6d40-6006"/>
@@ -4378,7 +4861,8 @@ In addition, Archmagos Anacharis Scoria provides all effects, benefits, and rul
           <profiles>
             <profile id="a23c-8539-83e1-b021" name="Forbidden Protocols" publicationId="9fab-fea7-a93c-2074" page="138" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
               <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty. Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria has joined, even though this would normally not be permitted as the unit would no longer be a unit containing only Automata.</characteristic>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6" of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty. Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria has joined, even though this would normally not be permitted as the unit would no longer be a unit containing only Automata.
+Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria has joined, even though this would normally not be permitted as the unit would no longer be a unit containing only Automata.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4505,7 +4989,7 @@ In addition, Archmagos Anacharis Scoria provides all effects, benefits, and rul
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d8-b111-9437-3776" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e731-ba8b-286f-1d55" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry"/>
+            <entryLink id="e731-ba8b-286f-1d55" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="47fb-46ce-c58d-55e3" name="Hull (Front) Mounted Volkite Culverin" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e9c-05d4-6bfe-dc9f">
@@ -5327,6 +5811,107 @@ In addition, Archmagos Anacharis Scoria provides all effects, benefits, and rul
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="58d3-c892-5643-95c7" name="Any model in the unit may replace their Two Heavy Bolters with one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e5-1bbb-be36-c08d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="ed2d-b070-494f-9079" name="Gravis Heavy Flamer" hidden="false" collective="false" import="true" targetId="1aa9-8c00-499e-b2bb" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e9-85c1-d942-5b0d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee77-ef3d-32bf-af23" name="Two Multi-Lasers" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7426-bc10-583c-536f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b7a2-2b79-eba3-5916" name="Two Twin-Linked Rotor Cannons" hidden="false" collective="false" import="true" targetId="e12a-2ade-cf0b-e7ae" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b8-dec1-64fb-7fbf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6671-8ae8-b3eb-3d32" name="Multi-Melta and Searchlight" hidden="false" collective="false" import="true" targetId="d71e-ed71-2bc0-2f82" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b65a-1080-36f9-29a1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4ce3-f1ed-bd6d-c14e" name="Volkite Dual-Culverin" hidden="false" collective="false" import="true" targetId="015f-ee1b-46c1-8937" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f3-597e-9d54-ef74" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dae0-7368-74ea-1c00" name="Quad Launcher (with Frag and Shatter Shells)" hidden="false" collective="false" import="true" targetId="fa5e-9141-6f1c-7e65" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d43e-dd54-5076-f89a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+        <selectionEntryGroup id="b6fa-2798-159f-2dcd" name="If the Mechanicum Tarantula Sentry Gun Battery is entirely armed with Hyperios Missile Launchers, one may be upgraded to a:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9782-71f4-2934-2fdd" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="79c3-7b2f-cdca-6559" name="Hyperios Command Platform" hidden="false" collective="false" import="true" targetId="fb42-0378-47f8-a132" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f8-f642-5a7b-dcdd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+        <selectionEntryGroup id="c9b5-67b2-64df-b41f" name="The Mechanicum Tarantula Sentry Gun Battery may choose one of the following deployment options:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9a4-e837-4398-76bf" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2eb3-8c4f-72bb-13a7" name="Forward Deployment" hidden="false" collective="false" import="true" targetId="55c3-f33b-4b2c-ba4a" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f2-bce5-c48a-f455" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d321-1fd5-73b0-5f24" name="Concealed Positions" hidden="false" collective="false" import="true" targetId="8352-0ae8-409e-85e2" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73e1-3629-b7c0-bdb4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cfe7-6f32-b861-f6a9" name="Drop Capsules" hidden="false" collective="false" import="true" targetId="ccb7-158a-4205-b2f3" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9605-17a9-6988-1fde" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5704,7 +6289,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         <profile id="bf44-a73f-e84f-2132" name="Macrocarid Explorator" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" publicationId="9fab-fea7-a93c-2074" page="143">
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport)</characteristic>
-            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
             <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">14</characteristic>
@@ -5722,6 +6307,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
       <categoryLinks>
         <categoryLink id="cfaa-e6aa-efcd-a369" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="2fa0-e6a3-e7c8-efb0" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="4522-766b-7a17-866b" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9fcc-a5f0-7ac8-b1c2" name="May take:" hidden="false" collective="false" import="true">
@@ -5814,6 +6400,34 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="39dd-f038-89c6-58c9" name="A Macrocarid Explorator may purchase any of the following:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e4b7-fef3-10e8-e27c" name="Servo-Rig" hidden="false" collective="false" import="true" targetId="f92b-0404-4f7b-8bc6" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ad-82d4-f4e5-7af0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="72cb-b93e-a825-2d9d" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf6-6b4c-1150-d20b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4316-39f4-583d-c5bc" name="Explorator Augury Web" hidden="false" collective="false" import="true" targetId="35b7-8e9d-41d2-803b" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb86-2b28-76fb-9c2f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c361-60bd-444f-99c8" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
@@ -5830,6 +6444,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
     <selectionEntry id="6353-c4c3-d099-002e" name="Ordo Reductor Artillery Tank Battery" publicationId="3886-76e5-438f-159f" page="8" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d424-806b-eacc-5647" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="2401-8d4c-5ea0-b2d6" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+        <categoryLink id="a1ce-f7ef-6df5-c35c" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="20e6-4da8-9633-646a" name="Ordo Reductor Artillery Tanks" hidden="false" collective="false" import="true" defaultSelectionEntryId="727f-715f-263f-9a1a">
@@ -6713,6 +7329,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <rules>
+        <rule id="ca19-32b4-cbff-d7c6" name="Errata: Ordo Reductor Artillery Tank Battery" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Add a heading above the profile for the Demolisher Cannon to read as follows: "All weapons listed here are counted as 'Artillery' weapons for those rules which affect such weapons."</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="ebf8-fbe4-1473-7903" name="Ordo Reductor Minotaur Battery" publicationId="3886-76e5-438f-159f" page="10" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -6750,7 +7369,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <selectionEntryGroups>
             <selectionEntryGroup id="4aa9-3e5d-adc3-8322" name="May Take:" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="ae07-5dc8-7ef1-651d" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+                <entryLink id="ae07-5dc8-7ef1-651d" name="Hull (Rear) Mounted Hunter- Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb8-3c44-3db6-8ba0" type="max"/>
                   </constraints>
@@ -6797,11 +7416,71 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4a64-d32a-d526-17fb" name="Any Ordo Reductor Minotaur may take one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe28-b7fd-1677-2b8b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b90f-f731-189e-e786" name="Pintle Mounted Twin-Linked Bolter" hidden="false" collective="false" import="true" targetId="6f1a-81b3-2662-aef5" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4056-b449-65dc-8e7c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c06d-f8bc-a936-e39d" name="Pintle Mounted Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ed-1138-fa0e-51b8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a508-f425-89db-847c" name="Pintle Mounted Combi-Weapon (Any Type)" hidden="false" collective="false" import="true" targetId="abb6-6faa-d94e-be67" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1c-998b-8f19-8bd2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b891-2c0e-8fcf-9bb1" name="Pintle Mounted Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9db-4e70-73de-cff8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="11ec-30df-8bad-b796" name="Pintle Mounted Havoc Launcher" hidden="false" collective="false" import="true" targetId="bde9-5abf-ec3d-2273" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf4-b199-c0ef-405f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f4e2-94f1-a081-2ecd" name="Pintle Mounted Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4816-2ad6-99cb-3b8b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+  </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="5f24-4626-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="e048-9e5e-507c-5bae" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="e123-456e-507c-5trc" name="Daemons - Bound Daemons" targetId="d114-c205-18d5-4e95" type="catalogue" importRootEntries="true"/>
+    <catalogueLink name="[Ingenium] Mechanicum" targetId="4f40-72d0-2942-778b" type="catalogue" id="99f2-c9c5-220b-2c7e"/>
   </catalogueLinks>
 </catalogue>

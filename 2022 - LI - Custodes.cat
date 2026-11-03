@@ -344,7 +344,8 @@
       <profiles>
         <profile id="981e-5353-dd39-e63a" name="Golden Exemplar" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
           <characteristics>
-            <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any combat with at least one friendly model within 12&quot; of a Warlord with this Trait, or a combat which includes a Warlord with this Train, gains a bonus of +1 to the number of Wounds caused for the purposes of deciding which side has won the combat during the Assault phase. In addition, while engaged in a Challenge a Warlord with this Trait adds a bonus of +1 to their Attacks and Initiative Characteristics.</characteristic>
+            <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any combat with at least one friendly model within 12" of a Warlord with this Trait, or a combat which includes a Warlord with this Train, gains a bonus of +1 to the number of Wounds caused for the purposes of deciding which side has won the combat during the Assault phase. In addition, while engaged in a Challenge a Warlord with this Trait adds a bonus of +1 to their Attacks and Initiative Characteristics.
+Furthermore, the first Reaction made in each Game Turn by this Warlord and any unit he has joined does not use up a point of the Controlling Player’s Reaction Allotment.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -577,6 +578,14 @@
                 </entryLink>
                 <entryLink id="80d7-e8ea-f760-7c32" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
                 <entryLink id="9464-6576-ae15-0d36" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry"/>
+                <entryLink id="9ded-ba14-f57e-23ad" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry"/>
+                <entryLink id="3f23-2a06-9fed-24b6" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry"/>
+                <entryLink id="2dc6-2a9f-a9c6-3974" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry"/>
+                <entryLink id="bc37-a3f3-4634-1bd6" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry"/>
+                <entryLink id="f639-e7f7-5c05-3898" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry"/>
+                <entryLink id="af5f-56ff-4f15-a045" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry"/>
+                <entryLink id="af4d-60b4-a3f4-6f18" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry"/>
+                <entryLink id="6fbe-984a-3f58-901f" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry"/>
                 <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
@@ -853,12 +862,12 @@
                         <constraint type="max" value="1" field="selections" scope="76da-acc0-3ffb-6161" shared="true" id="43db-1502-652e-fc60" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Paragon Blade" hidden="false" id="c5df-2884-81d4-d672" collective="false" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+                    <entryLink import="true" name="Meridian Swords" hidden="false" id="c5df-2884-81d4-d672" collective="false" targetId="695d-f7d5-6f32-1d3a" type="selectionEntry">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b3c-c853-41b4-4dd0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" id="9a7b-5f6a-61d9-7d2b" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" id="9a7b-5f6a-61d9-7d2b" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -886,20 +895,20 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="500a-cfd0-6613-74c9" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="3baa-0c93-737e-2986" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
+                <entryLink id="3baa-0c93-737e-2986" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="f99c-9468-c0c6-a865" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-da16-84b9-22a8" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                   </costs>
                 </entryLink>
-                <entryLink id="04f1-3907-5bb5-d06e" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
+                <entryLink id="04f1-3907-5bb5-d06e" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="695d-f7d5-6f32-1d3a" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d50a-ec64-213f-e67b" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                   </costs>
                 </entryLink>
                 <entryLink id="f114-1264-5f4d-862c" name="Pyrithite Spear" hidden="false" collective="false" import="true" targetId="4620-e360-7dd2-f908" type="selectionEntry">
@@ -2234,7 +2243,7 @@
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
                   </characteristics>
@@ -2267,7 +2276,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Kinetic Destoyer" hidden="false" id="4cca-afcb-536c-b7c9" type="selectionEntry" targetId="d0d7-a54c-fe1b-40b6"/>
@@ -2315,7 +2324,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2354,7 +2363,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a39-6452-e075-c8d6" name="Sagittarum Guard Squad" publicationId="15a4-fc68-502d-48a9" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -2498,7 +2507,7 @@
       <profiles>
         <profile id="09e1-791e-2a1c-d2c8" name="Praesidium Shield" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Praesidium Shield adds +1 to its Invulnerable Save (to a maximum of 3+) or an Invulnerable Save of 6+ if they do not already possess one. In addition, a model with a Praesidium Shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-Handed Special Rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Praesidium Shield adds +1 to its Invulnerable Save (to a maximum of 3+) or an Invulnerable Save of 6+ if they do not already possess one. In addition, a model with a Praesidium Shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-Handed Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2715,7 +2724,7 @@
       <profiles>
         <profile id="2c20-7354-c2a9-d6e5" name="Arachnus Storm Cannon" publicationId="15a4-fc68-502d-48a9" page="143" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Lance, Exoshock (6+)</characteristic>
@@ -2935,10 +2944,19 @@ the Front Armour during the same Phase.�</characteristic>
               </costs>
             </entryLink>
             <entryLink id="affd-2143-1c9e-17f6" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
-            <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry"/>
-            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="f99c-9468-c0c6-a865" type="selectionEntry"/>
+            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="695d-f7d5-6f32-1d3a" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
               </costs>
             </entryLink>
             <entryLink id="35b7-60c7-d938-44f7" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">

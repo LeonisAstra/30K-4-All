@@ -161,6 +161,9 @@
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="f366-260f-4815-b01d" name="Character" primary="false"/>
             <categoryLink targetId="7d95-f9d1-440a-67bd" id="4729-9aff-48a8-b0ff" name="Monstrous Sub-type" primary="false"/>
           </categoryLinks>
+          <infoLinks>
+            <infoLink id="90d1-b909-3d0f-197c" name="Lords of the Ruinstorm" hidden="false" type="rule" targetId="5dc2-4340-f325-c938"></infoLink>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -541,7 +544,7 @@
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
-                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="append" field="ddd7-6f5c-a939-b69e" value="(Heavy)">
@@ -721,7 +724,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Beasts" hidden="false" id="69ad-927-c71b-6b24" publicationId="8775-88f5-cfdd-24f6" page="10">
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="db7d-815a-fd7-6518" targetId="caad-e621-38e5-cb5f"/>
@@ -772,7 +775,7 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Daemon Beast w/ Daemon Armaments" hidden="false" id="e8d9-781b-531d-9386" publicationId="8775-88f5-cfdd-24f6" page="10">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="12ce-1575-7802-1ec6"/>
@@ -819,7 +822,7 @@
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Daemon Beast w/ Immaterial Flame" hidden="false" id="5828-5d74-9c9b-edc5" publicationId="8775-88f5-cfdd-24f6" page="10">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d0f7-ad9b-b159-8d54"/>
@@ -1012,6 +1015,9 @@
             <categoryLink targetId="6399-5c65-7833-1025" id="5117-229f-4e4b-9d10" name="Line Sub-type" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="17da-3c9d-454c-8c01" name="Skirmish Sub-type" primary="false"/>
           </categoryLinks>
+          <infoLinks>
+            <infoLink id="4ef9-ff33-aa45-8476" name="Daemonic Hordes" hidden="false" type="rule" targetId="8857-3e84-ca6f-a40e"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1032,7 +1038,6 @@
             <modifier type="set" field="name" value="Æthereal Invulnerability (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Swarm" hidden="false" type="rule" id="eea2-a8c-2c72-49ba" targetId="0bc2-fcb2-dd25-c10a"/>
         <infoLink name="Support Squad" hidden="false" type="rule" id="8282-b9ea-e72a-3905" targetId="768e-56d6-ca52-24ae"/>
         <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" id="62be-99e4-c9c6-1c81" targetId="aec0-c3aa-1e4e-1779">
           <modifiers>
@@ -1192,7 +1197,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="8599-7755-d965-7c69" targetId="caad-e621-38e5-cb5f"/>
@@ -1291,6 +1296,9 @@
             <categoryLink targetId="e699-d9cd-e68e-46d9" id="7ca2-ecec-440a-b9fc" name="Daemon Unit Type" primary="false"/>
             <categoryLink targetId="7d95-f9d1-440a-67bd" id="3cae-b86c-4395-a3d6" name="Monstrous Sub-type" primary="false"/>
           </categoryLinks>
+          <infoLinks>
+            <infoLink id="2c1b-15f7-3bd2-8946" name="Feeding Frenzy" hidden="false" type="rule" targetId="167f-f372-456f-bd28"></infoLink>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1530,6 +1538,9 @@
             <categoryLink targetId="e699-d9cd-e68e-46d9" id="794f-5d11-4d31-8378" name="Daemon Unit Type" primary="false"/>
             <categoryLink targetId="f479-3c81-1e42-1b3a" id="390d-0f39-4a2f-8d01" name="Gargantuan Unit Sub-type" primary="false"/>
           </categoryLinks>
+          <infoLinks>
+            <infoLink id="bf11-e1d5-7b45-24c6" name="Warp Resplendent" hidden="false" type="rule" targetId="9049-4422-5120-ef52"></infoLink>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2505,6 +2516,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Daemon Library" id="6a4d-7b3c-1cc1-591e" targetId="ef0a-91e4-838c-3973"/>
+    <catalogueLink type="catalogue" name="Panoptica Library" id="af76-5164-cde5-6bc8" targetId="69b7-3f60-9f7f-8ce5"/>
     <catalogueLink type="catalogue" name="LI - Assassins and Agents" id="8e51-2e3c-9a19-fa1" targetId="2dde-e269-90db-8d33"/>
   </catalogueLinks>
   <sharedRules>

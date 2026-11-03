@@ -44,11 +44,14 @@
 • A model with the Armiger Unit Type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
 • A model of the Armiger Type may fire Heavy and Ordnance weapons and counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • No model that is not also of the Armiger Unit Type may join a unit that includes an Armiger model.
-• A model with the Armiger Unit type is affected by the Haywire, Detonation, Armourbane (X) and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.</description>
+• A model with the Armiger Unit type is affected by the Haywire, Detonation, Armourbane (X) and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+A unit with the Armiger Unit Type cannot be destroyed as a result of a Sweeping Advance made by a unit with the Infantry Unit Type. A unit with the Armiger Unit Type automatically passes any Pinning tests they would be required to make. Any attacks made against a unit with the Armiger Unit Type are resolved as if the Armigers have the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.</description>
         </rule>
         <rule name="Armiger and Moirax Talons" hidden="false" id="d840-fbd0-352e-b33e" publicationId="bde1-6db1-163b-3b76" page="102">
           <description>The Scout Knights of the Taghmata and Questoris Households often roamed the battlefield independently as the vanguard of their orders. While each war machine strode the battlefield distant from their companions, they shared fierce bonds of fealty and brotherhood.
-When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit.</description>
+When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit.
+A unit with the Armiger Unit Type cannot be destroyed as a result of a Sweeping Advance made by a unit with the Infantry Unit Type. A unit with the Armiger Unit Type automatically passes any Pinning tests they would be required to make. Any attacks made against a unit with the Armiger Unit Type are resolved as if the Armigers have the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.
+Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -159,10 +162,7 @@ When deployed onto the battlefield (either at the start of the battle or when ar
       <profiles>
         <profile id="d6e7-9365-6336-6a51" name="Ionic Deflector" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Ionic Deflector gains a 5+ Invulnerable Save, and any model with an Ionic Deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death Special Rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death Special Rule inflicted on it.
-
-
-In addition, when a model with an Ionic Deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Ionic Deflector gains a 5+ Invulnerable Save, and any model with an Ionic Deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death Special Rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death Special Rule inflicted on it. In addition, when a model with an Ionic Deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3" suffer an automatic Hit at Str 8, AP -.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -640,7 +640,8 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
           <description>Archmagos Draykavac has the Artificia Machina and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
         </rule>
         <rule id="cf9e-42d8-ee4d-f5f3" name="High Techno-arcana: Stataraga" publicationId="bde1-6db1-163b-3b76" page="61" hidden="false">
-          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included. In addition, when selected as a Troops Choice in a Questoris Knights Detachment, Archmagos Draykavac gains the Patris Cybernetica Special Rule.</description>
+          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included. In addition, when selected as a Troops Choice in a Questoris Knights Detachment, Archmagos Draykavac gains the Patris Cybernetica Special Rule.
+In addition, when selected as a Troops Choice in a Questoris Knights Detachment, Archmagos Draykavac gains the Patris Cybernetica Special Rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1156,7 +1157,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                         <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;-480&quot;</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10/8/6</characteristic>
                         <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Apocalyptic Mega-blast, Barrage, Seismic Shock, Concussive (1)</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Apocalyptic Mega-Blast, Barrage, Breaching (4+), Seismic Shock, Concussive (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1170,7 +1171,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                       </modifiers>
                     </infoLink>
                     <infoLink id="6144-f232-a2ec-cbfc" name="Seismic Shock" hidden="false" targetId="5e0d-b2af-e7b4-a8cd" type="rule"/>
-                  </infoLinks>
+                  <infoLink name="Breaching (X)" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c" id="7cef-f885-a673-f588"><modifiers><modifier type="set" field="name" value="Breaching (4+)"/></modifiers></infoLink></infoLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
@@ -1182,15 +1183,14 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                         <characteristic name="Range" typeId="95ba-cda7-b831-6066">36-180&quot;</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">14</characteristic>
                         <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Apocalyptic Blast (10&quot;), Sunder</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Apocalyptic Blast (10&quot;), Ignores Cover</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="4c35-3d2e-d3b5-84da" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
-                    <infoLink id="3425-b947-9ecf-f504" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
                     <infoLink id="6b45-5d0a-e5c4-22e3" name="Destroyer" hidden="false" targetId="44d6-09b2-3bd3-b2d6" type="rule"/>
-                  </infoLinks>
+                  <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="f5ff-642c-cf46-65b6"/></infoLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
@@ -1409,7 +1409,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="eeba-8a20-d62c-cacb" name="Void Shields" hidden="false" targetId="c503-f5b8-3da0-16e6" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Void Shields (8)"/>
+                <modifier type="set" field="name" value="Void Shields (8). 6"/>
               </modifiers>
             </infoLink>
             <infoLink id="5b96-ad84-3640-2604" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
@@ -1896,7 +1896,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">64&quot;</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, Rending (6+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Sunder, Rending (6+)</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="5f64-9724-2862-6c79" name="Phaeton Autocannon - Ignis rounds" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -1904,7 +1904,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">64&quot;</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Ignores Cover, Rending (6+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Ignores Cover, Rending (6+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2024,7 +2024,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Sunder, Brutal (2)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2886,9 +2886,9 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <profile id="3a19-23cb-df6c-b5b2" name="Shock Lance (Melee)" publicationId="bde1-6db1-163b-3b76" page="123" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Exoshock (5+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Sunder, Shock Pulse, Concussive (2), Brutal (3), Exoshock (2+)</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7a2f-9429-f59e-431a" name="Shock Lance (Ranged)" publicationId="bde1-6db1-163b-3b76" page="119" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -3466,7 +3466,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0101-c016-8f7f-6ddf" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ac3f-09f6-b607-867e" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry"/>
+            <entryLink id="ac3f-09f6-b607-867e" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7074-0e84-ac6c-ee14" name="Hull (Front) Mounted Volkite Culverin" hidden="false" collective="false" import="true" defaultSelectionEntryId="426b-0f9f-7cc2-a3c7">
@@ -3791,7 +3791,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Cumbersome, Armourbane (Melee), Instant Death</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Instant Death</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5195,7 +5195,8 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           </constraints>
           <rules>
             <rule id="c149-a9f6-4cbe-aa10" name="Thanatar Maniple" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-              <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated asa single unit.</description>
+              <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated asa single unit.
+Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
             </rule>
           </rules>
           <selectionEntryGroups>
@@ -5243,7 +5244,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="467a-4d09-3317-b057" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (2)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -5387,6 +5388,18 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup id="f91a-9c37-c977-261f" name="Any model in the Maniple may purchase:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7235-34d5-981e-8df5" name="Searchlights" hidden="false" collective="false" import="true" targetId="a280-c496-4014-aca3" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb34-fa43-a93b-948b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="8ea9-e0ad-492b-4eb5" name="Paragon of Metal" hidden="false" collective="false" import="true" targetId="cc2a-46fe-bbf3-6ba2" type="selectionEntry">
@@ -5416,6 +5429,9 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <rules>
+        <rule id="6a26-f2c0-3a20-e0e1" name="Errata: Thanatar Siege-Automata Maniple" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Wargear: One Shock Charger (Thanatar-Calix only).</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="2952-52d9-49e2-cbfd" name="Titan Power Fist" publicationId="bde1-6db1-163b-3b76" page="122" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5748,8 +5764,8 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Sunder</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (4)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5815,12 +5831,13 @@ Invulnerable Saves granted by a Mechanicum Protectiva do not stack with other In
           <profiles>
             <profile id="11fa-16c9-2547-4274" name="Cybernetica Exortus (Cybertheurgic Rite)" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit with a model within 12&quot; which contains at least one model with the Automata Unit Type and apply one of the following effects to all models with the Automata Unit Type in the unit:
-• When making a Charge roll for the unit in the same turn as this Rite is used, as long as the unit contains at least one model with the Automata Unit Type, you may roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
+                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit with a model within 12" which contains at least one model with the Automata Unit Type and apply one of the following effects to all models with the Automata Unit Type in the unit:
+• When making a Charge roll for the unit in the same turn as this Rite is used, as long as the unit contains at least one model with the Automata Unit Type, roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
 • The unit (not each individual model) ignores the first Wound inflicted upon it in each Shooting Attack that targets it until the beginning of the controlling player’s next player turn. Simply discard that Wound without allocating it to a model.
-• The Controlling Player may choose to add either +1 to its BS or WS until the start of the Controlling Player’s next Shooting Phase.
+• The unit may add either +1 to its Ballistic Skill or Weapon Skill Characteristics (to a maximum of 5) until the end of the Controlling Player’s current turn.
 • Until the start of the controlling player’s next turn as the Active player, the unit may ignore the restriction against making Reactions imposed by the Automata Unit Type.
-The Cybertheurgist’s controlling player may choose to make a Cybertheurgy check before using this power, if the Check is successful then two different options may be applied to the target unit instead of one. If the Check is failed then no options may be chosen and the Cybertheurgist suffers Cybertheurgic Feedback.</characteristic>
+The Cybertheurgist’s controlling player may choose to make a Cybertheurgy check before using this power, if the Check is successful then two different options may be applied to the target unit instead of one. If the Check is failed then no options may be chosen and the Cybertheurgist suffers Cybertheurgic Feedback.
+FAQ: As the ability to ignore a Wound inflicted upon the unit happens before any allocation is done, Special Rules like Brutal (X) and so on would not trigger on a Wound so discarded.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5976,7 +5993,7 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
           <profiles>
             <profile id="90d2-faf0-e267-7e00" name="Ephemera Perfidiae (Cybertheurgic Rite)" publicationId="9fab-fea7-a93c-2074" page="139" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single enemy unit with a model within 12&quot; that is entirely composed of models with the Vehicle, Dreadnought, or Automata Unit Type (but not any models with the Super-Heavy, Lumbering, Titan, or Knight Sub-types). The Cybertheurgist’s Controlling Player may immediately make a Shooting Attack as if they controlled the chosen unit – this Shooting Attack may target any unit that is considered an enemy unit by the Cybertheurgist’s Controlling Player and is made as Snap Shots. The Cybertheurgist may choose to make a Cybertheurgy check before making this Shooting Attack, and if successful the Shooting Attack is made using the Cybertheurgist’s BS and is not made as Snap Shots. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack is made. An enemy unit used to make a Shooting Attack with this Rite may attack normally in its Controlling Player’s turn and gains the nHatred (Cybertheurgists) Special Rule for the rest of the battle.</characteristic>
+                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single enemy unit with a model within 12" that is entirely composed of models with the Vehicle, Dreadnought, or Automata Unit Type (but not any models with the Super-Heavy, Lumbering, Titan, or Knight Sub-types). The Cybertheurgist’s Controlling Player may immediately make a Shooting Attack as if they controlled the chosen unit – this Shooting Attack may target any unit that is considered an enemy unit by the Cybertheurgist’s Controlling Player and is made as Snap Shots. The Cybertheurgist may choose to make a Cybertheurgy check before making this Shooting Attack, and if successful the Shooting Attack is made using the Cybertheurgist’s BS and is not made as Snap Shots. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack is made. An enemy unit used to make a Shooting Attack with this Rite may attack normally in its Controlling Player’s turn and gains the Hatred (Cybertheurgists) Special Rule for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6133,9 +6150,11 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
       <profiles>
         <profile id="49e3-0125-7461-31f6" name="Incunabulan Jet Pack" publicationId="9fab-fea7-a93c-2074" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6&quot; and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase. This extra move can only be made in the Controlling Player&apos;s own Shooting Phase.
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6" and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6" during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase. This extra move can only be made in the Controlling Player's own Shooting Phase.
 Any model with an Incunabulan jet pack also gains the Bulky (2) and Deep Strike special rules, or if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead. Models with an Incunabulan jet pack may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their size due to the Bulky (X) special rule.
-During any Reaction that allows a unit to Move, a unit composed entirely of models with Incunabulan jet packs increases the distance of that Move by 6 and allows it to ignore terrain in the same manner as other Incunabulan jet pack moves. A model with an activated Incunabulan Jet Pack may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so. It should be noted that, for the purposes of Reactions, an Incunabulan Jet Pack is classed as having being activated for the purposes of moving over any models or terrain.</characteristic>
+During any Reaction that allows a unit to Move, a unit composed entirely of models with Incunabulan jet packs increases the distance of that Move by 6 and allows it to ignore terrain in the same manner as other Incunabulan jet pack moves. A model with an activated Incunabulan Jet Pack may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1" away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so. It should be noted that, for the purposes of Reactions, an Incunabulan Jet Pack is classed as having being activated for the purposes of moving over any models or terrain.
+This extra move can only be made in the Controlling Player's own Shooting Phase.
+A model with an activated Incunabulan Jet Pack may move over both friendly and enemy models or units without penalty-but must end its Movement at least 1" away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so. It should be noted that, for the purposes of Reactions, an Incunabulan Jet Pack is classed as having being activated for the purposes of moving over any models or terrain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6158,9 +6177,10 @@ During any Reaction that allows a unit to Move, a unit composed entirely of mode
       <profiles>
         <profile id="94a1-e8ec-8bb1-1d1c" name="Utan Jump Booster" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Utan jump boosters may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn. This allows the unit to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance, see the Horus Heresy: Age of Darkness rulebook, page 181). In addition, the unit ignores terrain while Moving and Charging. A unit that ends or begins its movement or a Charge in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Utan jump boosters, and treats all Difficult Terrain as Dangerous Terrain.
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Utan jump boosters may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn. This allows the unit to move up to 12", regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance, see the Horus Heresy: Age of Darkness rulebook, page 181). In addition, the unit ignores terrain while Moving and Charging. A unit that ends or begins its movement or a Charge in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Utan jump boosters, and treats all Difficult Terrain as Dangerous Terrain.
 A unit composed entirely of models with Utan jump boosters may not Run. During Reactions made in any Phase, a unit composed entirely of models with Utan jump boosters may not activate them to gain any bonus to their Movement Characteristic. Any model with an Utan jump booster also gains the Deep Strike special rule. Additionally, models with an Utan jump booster may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their Unit Type and their size due to the Bulky (X) special rule.
-A model with an activated Utan Jump Booster may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
+A model with an activated Utan Jump Booster may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1" away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.
+A model with an activated Utan Jump Booster may move over both friendly and enemy models or units without penalty-but must end its Movement at least 1" away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6386,7 +6406,7 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 5, Deflagrate</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Deflagrate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6791,8 +6811,8 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance1, Barrage, Large Blast (5&quot;), Pinning, Ignores Cover</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Pinning, Shell Shock (1), Ignores Cover, Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6802,7 +6822,7 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
         <infoLink id="9f39-3c74-f8aa-7d63" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="655b-b583-fc24-19ba" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="fbc3-b924-7ba4-01cb" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
-      </infoLinks>
+      <infoLink name="Shell Shock (X)" hidden="false" type="rule" targetId="46b7-63a1-941c-96a5" id="a837-1e63-4407-e3a9"><modifiers><modifier type="set" field="name" value="Shell Shock (1)"/></modifiers></infoLink><infoLink name="Wrecker" hidden="false" type="rule" targetId="ba77-a802-55df-da67" id="3e04-608c-2b5c-9e07"/></infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -7120,7 +7140,7 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Sunder</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3), Sunder</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7479,7 +7499,7 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
           </constraints>
           <rules>
             <rule id="f787-1170-60a1-31b9" name="Animatus Malevolence (Cybertheurgic Rite)" hidden="false">
-              <description>Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit within 12&quot; that is entirely composed of models with the Corrupted Engine Unit Sub-type and then apply one of the following effects:
+              <description>Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit within 12" that contains any models with the Corrupted Engine Unit Sub-type or models with both the Automata Unit Type and the Corrupted Unit Sub-type, and then apply one of the following effects:.
 • The chosen unit may immediately move a number of inches up to its unmodified Initiative Characteristic directly towards the nearest enemy unit. If the chosen unit has mixed Initiative Characteristics, use the highest unmodified Characteristic.
 • All models in the chosen unit improve their Invulnerable Save by 1, to a maximum of 3+, until the beginning of the controlling player’s next turn, (e.g., a model with an Invulnerable Save of 5+ improves their save to 4+).
 • All models in the unit add 1 to their WS and I characteristics until the end of the subsequent Assault phase.
@@ -7687,8 +7707,7 @@ Aucteller: When engaged in a Challenge against an enemy model with the Knight, T
         <selectionEntry id="1682-2560-347c-e798" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e7b6-ec43-a395-cc62" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Hull Points by +1, gains the Character Unit Sub-type and the Implacable special rule.
-Implacable: An attack targeting a model with this Special Rule reduces the number of Hull Points of damage inflicted from any attack by -1, to a minimum of 1, and reduces all rolls on the vehicle damage table by 1.</description>
+              <description>An attack targeting a model with this Special Rule reduces the number of Hull Points of damage inflicted from any attack by -1, to a minimum of 1, and reduces all rolls on the vehicle damage table by 1.</description>
             </rule>
           </rules>
           <costs>
@@ -7775,7 +7794,8 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
 - The unit may immediately move a number of inches equal to twice the Initiative Characteristic of the majority of models in the unit. This movement is not Running, and therefore, if the unit did not Run in the Movement phase, it may still make Shooting Attacks and declare a Charge as normal for the remainder of the turn.
 - This ability may not be used on any unit which is locked in combat.
 
-• The Sanguine Hook: A model with this special rule gains the Ephemera Lacyraemarta Cybertheurgic Arcana, but may not select any other Cybertheurgic Arcana from those available with the Cybertheurgist special rule.</description>
+• The Sanguine Hook: A model with this special rule gains the Ephemera Lacyraemarta Cybertheurgic Arcana, but may not select any other Cybertheurgic Arcana from those available with the Cybertheurgist special rule.
+This ability may not be used on any unit which is locked in combat, and may only be used on units composed entirely of models from the Mechanicum Faction.</description>
             </rule>
           </rules>
           <costs>
@@ -7880,6 +7900,24 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
 • Harbinger of Devastation: During the battle’s set-up, but before Objective markers have been placed or deployment has been determined, the player that controls a model with this special rule may nominate up to three areas of terrain, Buildings, or Fortifications. If the chosen item is an area of terrain that provides a Cover Save, then that Cover Save is removed and the area counts as both Difficult Terrain and Dangerous Terrain. If the item chosen is a Building or Fortification then all rolls on the Building Damage table made for that Building or Fortification gain a modifier of +1. If two or more players control models with this special rule, they roll off. They then take turns nominating terrain, starting with the winner of the roll-off, until each player has nominated three pieces of terrain, or chosen to pass. A piece of terrain can only be nominated once by this rule.
 
 • Secrets of Annihilation: A model with this special rule gains the Artificia Reductor Cybertheurgic Arcana, but may not select any other Cybertheurgic Arcana from those available with the Cybertheurgist special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54a6-f9a0-cd71-cceb" name="Skitariiax-Primus" publicationId="f856-58d6-ef02-7d3e" page="87" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4d9d-5ca9-9b65-75f5" name="Skitariiax-Primus" publicationId="f856-58d6-ef02-7d3e" page="87" hidden="false">
+              <description>A model with this Special Rule gains the Skitariiax-Protectorate and Data Inviolate Special Rules. An Archmagos Prime may select this option instead of the Orders of Higher Techno-Arcana upgrades found elsewhere.</description>
+            </rule>
+            <rule id="1b2a-849b-8e67-4a3e" name="Skitariiax-Protectorate" publicationId="f856-58d6-ef02-7d3e" page="87" hidden="false">
+              <description>The Archmagos Prime gains the Datasphere Uplink, Command Node, and Feel No Pain (5+) Special Rules. They also gain the Skitarii Unit Sub-Type.
+A Detachment which contains an Archmagos Prime with the Skitariiax-Primus Order of Higher Techno-Arcana must have its Compulsory Troops Choices composed of Skitarii Ranger Cohorts or Skitarii Vanguard Cohorts.
+In addition, any Triaros Armoured Conveyors or Tech-Priest Auxilia units taken in a Detachment which contains an Archmagos Prime with the Skitariiax-Primus gain the Datasphere Uplink Special Rule.</description>
+            </rule>
+            <rule id="d948-fb28-7d22-4332" name="Data Inviolate" publicationId="f856-58d6-ef02-7d3e" page="87" hidden="false">
+              <description>When selecting the Datasphere Uplink Protocols to use before the battle begins, you may select two instead of the normal one permitted; you may activate both during the battle, but these may not be activated during the same Game Turn. You cannot select the same protocol twice.</description>
             </rule>
           </rules>
           <costs>
@@ -8333,10 +8371,12 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
       <description>A model with the Knight or Titan Unit Sub-types that has weapons with this special rule may make the Overwatch Reaction when it is triggered by models that do not have the Knight, Titan, Super-heavy, or Lumbering Unit Sub-types, or that have fewer than 8 Wounds. When making Shooting Attacks as part of the Overwatch Reaction, the Reacting model may only make Shooting Attacks with weapons with this special rule.</description>
     </rule>
     <rule id="66b8-7232-1ed3-3f70" name="God-Engine" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
+      <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24" of a model with this special rule gain the Fearless special rule.
+In addition, all units wholly within 18” of a model with this Special Rule and which have a Kyropatris Field Generator gain the Line Sub-type.</description>
     </rule>
     <rule id="f83c-9442-8102-5da4" name="Pride of Place" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-      <description>A model with this special rule may not embark upon any model with the Transport Unit Sub-type, regardless of its Unit Type or any special rules the model with the Transport Sub-type may have. A model which has this Special Rule changes their Armour Save to 2+. In addition, a model with this Special Rule gains the Bulky (X) Special Rule, where X is equal to the model’s starting Wounds Characteristic.</description>
+      <description>A model with this special rule may not embark upon any model with the Transport Unit Sub-type, regardless of its Unit Type or any special rules the model with the Transport Sub-type may have. A model which has this Special Rule changes their Armour Save to 2+. In addition, a model with this Special Rule gains the Bulky (X) Special Rule, where X is equal to the model’s starting Wounds Characteristic.
+A model with this Special Rule may ignore the restrictions applied by it if the Unit with the Transport Sub-type they are attempting to Embark onto also has the Super-Heavy Sub-type. In addition, a model with this Special Rule gains the Bulky (X) Special Rule, where X is equal to the model’s starting Wounds Characteristic.</description>
     </rule>
     <rule id="f420-6cdb-5d9b-ef30" name="Cybertheurgic Focus" publicationId="bde1-6db1-163b-3b76" page="94" hidden="false">
       <description>Before making any To Hit rolls with this weapon, the Cybertheurgist must make a Cybertheurgy check. If the Check is passed then the Cybertheurgist may attack as normal using the profile shown for this weapon. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</description>
@@ -8400,9 +8440,9 @@ Treat Archmagos Anarcharis Scoria as an Archmagos Prime.on Abeyant.</description
     <profile id="fe4c-3b4d-5b20-0357" name="Reaper Chainfist" publicationId="bde1-6db1-163b-3b76" page="120" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee)</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Armourbane (Melee), Brutal (3), Exoshock (3+)</characteristic>
       </characteristics>
     </profile>
     <profile id="4329-1f62-cf9b-2ff4" name="Galvanic Caster - Hammershot" publicationId="bde1-6db1-163b-3b76" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">

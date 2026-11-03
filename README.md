@@ -107,7 +107,7 @@ We didn't maintain the template so it's not recommended to re-run bscopy
 * [Liber Astartes Errata and FAQ V1.0](https://www.warhammer-community.com/wp-content/uploads/2022/09/yq5znaB0N5sLyARr.pdf)
 * [Liber Hereticus Errata and FAQ V1.0](https://www.warhammer-community.com/wp-content/uploads/2022/09/3s4WA1UGgC15iDp2.pdf)
 * [Liber Mechanicum Errata and FAQ V1.0](https://www.warhammer-community.com/wp-content/uploads/2022/09/RQ0Pcrm0LJB5BwSG.pdf)
-* [Liber Panoptica v5.2](https://hh-ageofdarkness.itch.io/liberpanoptica)
+* [Liber Panoptica v5.3](https://hh-ageofdarkness.itch.io/liberpanoptica)
 
 ## Links ##
 

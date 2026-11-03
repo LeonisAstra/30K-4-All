@@ -646,6 +646,270 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="702b-bf97-e225-211d" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Imperialis Militia Astropath" hidden="false" id="f96a-9bcb-df8a-dc03" type="selectionEntry" targetId="515c-288b-4eb7-a839">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="a4cd-8db0-4f33-4340" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="795a-9fc0-77e5-3adb" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Ascendant Rogue Psyker" hidden="false" id="e382-fba8-738c-95ed" type="selectionEntry" targetId="0136-cc67-438a-94ea">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="5fe4-ac2f-a8f5-ae1a" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="fb32-3ff9-b0db-dded" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Mounted Command Cadre" hidden="false" id="c613-9e7f-ae66-759d" type="selectionEntry" targetId="4d75-865c-455d-b3d2">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="dba1-4050-a240-cf11" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ae40-3869-72e0-e0f2" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Demagogue Cadre" hidden="false" id="be21-3310-5cb0-c105" type="selectionEntry" targetId="78ac-7086-4f68-966c">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="e7c0-bb52-733e-edef" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="748c-d148-1a55-d028" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Ratling Squad" hidden="false" id="dab5-5486-fef2-6e22" type="selectionEntry" targetId="0c7f-3ef1-46e1-bfac">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="91b2-6079-84c9-21cc" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="763c-8fa0-335b-b5a4" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer Auxilia Detachment" hidden="false" id="7cc2-dea8-16c2-b334" type="selectionEntry" targetId="cea3-578e-47da-9a00">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="5ba3-f937-6924-8843" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d661-1a7b-95e3-aeba" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Kinfolk Exo-Driller Team" hidden="false" id="961e-b438-25a6-8a9f" type="selectionEntry" targetId="eda0-7dd7-49f7-b031">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="bc3a-6474-271b-ca34" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d540-8e63-ccb1-1648" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Ogryn Beastmasters" hidden="false" id="2d37-f025-4485-2047" type="selectionEntry" targetId="c3ce-4dd3-43e8-9956">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="9dce-e5c5-5730-b528" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d85b-28be-5970-3f12" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Voidjumpers" hidden="false" id="4404-bf07-53fb-2fd6" type="selectionEntry" targetId="1b54-66fa-45cd-9fbd">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="e380-5f41-bb3d-26c3" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c665-4f30-39cd-865d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Chimera Transport" hidden="false" id="3315-3127-fa28-a707" type="selectionEntry" targetId="f8e7-cdb0-4847-b2de">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="4a7f-f045-b63e-2d8f" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a5a0-337b-92cb-8cd2" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Aurox Transport" hidden="false" id="a87d-72fe-5632-db85" type="selectionEntry" targetId="89ee-290d-402e-88d8">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="182d-9ecb-25b1-971d" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e2bf-5643-6661-effe" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Rhino Transport" hidden="false" id="a539-e5f4-db70-1dc8" type="selectionEntry" targetId="22d1-d526-4603-b94c">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="b663-b0aa-3802-4861" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="433d-38bd-e612-7310" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Rhino Advancer" hidden="false" id="a273-82e1-76f1-8aba" type="selectionEntry" targetId="9e5c-fa0f-4dd7-8519">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="1552-d4d1-e3c1-8709" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1032-7cad-6c18-4591" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Termite Assault Drill" hidden="false" id="e65f-fcbc-fb10-5e34" type="selectionEntry" targetId="5ee4-3199-4f2f-a347">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f942-5a4e-caa4-dd1f" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ac19-72f8-95c2-3799" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Land Raider Proteus Carrier" hidden="false" id="42b7-beb3-e983-a420" type="selectionEntry" targetId="dea2-90a9-4bcd-99e9">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f0af-d27c-1fe3-c1a3" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5d6a-95d9-2c80-77a1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mutated Spawn" hidden="false" id="a0c6-bf75-1ada-fc11" type="selectionEntry" targetId="5964-cd1a-453d-99f4">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="b93d-1e39-8757-2591" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1bc8-e974-8e76-d8d6" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Hellhound Flame Tank Squadron" hidden="false" id="bd61-e7dc-ad7a-c0e7" type="selectionEntry" targetId="ad96-66c6-483d-b0d4">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="7ccd-b3b8-a59a-69fb" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="f9e8-4cab-87bd-a85e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Centaur Combat Tractor Squadron" hidden="false" id="d0a3-7b1f-9d59-95c8" type="selectionEntry" targetId="e3da-795a-4712-a769">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="d893-a45a-d513-3ca0" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="447a-52d5-e1d2-301b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Salamander Scout Squadron" hidden="false" id="1abd-1faf-ecea-e758" type="selectionEntry" targetId="a511-8df6-456c-83bd">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="2691-be66-8a4e-f232" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1871-2e20-bb07-946d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Pegasus Assault Squadron" hidden="false" id="f962-645a-e110-7e3e" type="selectionEntry" targetId="ee4a-52b3-4b39-a64f">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="d59d-59f8-7b23-4b01" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e807-7297-aff7-330c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Kelaino Squadron" hidden="false" id="307e-7f1d-1ae1-b101" type="selectionEntry" targetId="5fe3-efab-460c-be83">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="41eb-eee3-90ec-c6b0" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="86ec-9531-ab77-d8f9" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Kelaino Sky-Talon Squadron" hidden="false" id="86e7-e4c4-8f78-1603" type="selectionEntry" targetId="b63d-3270-48a4-9e16">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="e136-1ad7-ef5e-94c1" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a187-dbbd-17bf-a9c3" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Wolf Rapid Response Section" hidden="false" id="391b-8c88-24a3-1aa0" type="selectionEntry" targetId="0ad5-c0fa-4c69-bd38">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="a13d-69a1-3c4a-c757" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="9f3c-499c-adad-b89b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Achilles Light Vehicle Squadron" hidden="false" id="b7b6-e9b7-a696-5efc" type="selectionEntry" targetId="ba1b-6b50-4ed7-8ac6">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="11cf-e301-ad1b-9b23" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e946-3799-97a3-a717" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Venator Medium Vehicle Squadron" hidden="false" id="ddde-b9ba-bd76-6f2f" type="selectionEntry" targetId="ef6c-e2a7-4eeb-bd60">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="3edd-ea30-7770-a948" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c5de-4526-6430-1f25" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Carnodon Squadron" hidden="false" id="159c-c8fb-4dbf-bc2f" type="selectionEntry" targetId="27d4-51f9-44e2-9203">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="8d61-13d4-73c7-2b25" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="6ffd-e5aa-e17f-71d5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Hades Breaching Drill" hidden="false" id="24cb-9e13-b2c9-a18f" type="selectionEntry" targetId="24a2-dac8-4e7b-ae3a">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="9a97-94bf-6019-f226" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5832-6575-877a-8b3a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Greater Mutated Spawn" hidden="false" id="ca67-8382-71df-bf45" type="selectionEntry" targetId="ea17-f999-4ad1-b225">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="b36e-46df-d29d-ba5a" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="fa4f-9dd9-5086-9d4d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Sabre Battery" hidden="false" id="4fd4-d4c1-1860-4634" type="selectionEntry" targetId="3d07-2086-48a9-a3b2">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="ba59-76a4-808d-f70a" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="b54c-6417-136f-cb8f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Macharius Heavy Tank Squadron" hidden="false" id="92bc-969f-53d5-bb72" type="selectionEntry" targetId="0484-1a5a-4808-a0b0">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="5d6f-b77c-3ac5-29cd" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="9851-84d5-b071-be38" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Macharius Omega Heavy Tank" hidden="false" id="e6f5-22e7-62fd-8988" type="selectionEntry" targetId="c292-11b6-45dc-a2b1">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="469e-f6bc-8852-697e" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d573-23ad-995f-fba9" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Malcador Defensor Heavy Tank Squadron" hidden="false" id="d980-b96a-cbb5-3efc" type="selectionEntry" targetId="5eb2-0c6b-4845-9c1c">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="e53c-4a41-4857-49b9" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a160-3936-d970-9083" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Minotaur Battery" hidden="false" id="a2c8-5c1d-7ef9-c046" type="selectionEntry" targetId="c4f7-e4ad-434e-981c">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="486e-546e-cc45-aa8d" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e6d2-87f2-662f-308f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Praetorian Heavy Tank" hidden="false" id="ac8f-9976-2ccd-c2bb" type="selectionEntry" targetId="cddb-d2a6-4e3a-94f3">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="9452-91e5-b526-c19e" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5330-54a1-37d9-7756" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Hydra Flak Tank Squadron" hidden="false" id="20ee-86d9-f2c2-fea6" type="selectionEntry" targetId="ab48-7a56-4e6c-9238">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="7eb7-ff49-c6d9-b2cf" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e2a3-6513-9d64-c1cf" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Manticore Missile Tank Battery" hidden="false" id="ef55-9082-fcaf-f480" type="selectionEntry" targetId="9507-4d55-4e20-bc77">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="8711-28be-fa4a-f32a" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d976-2c5d-102e-f0e5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Helios Ordnance Carrier Squadron" hidden="false" id="e7aa-b748-1fef-5c75" type="selectionEntry" targetId="6855-6a40-4dd8-aa7f">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a2ff-74e7-ade1-4606" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c9c3-2c92-dd5b-da9f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Goliath Heavy Vehicle Squadron" hidden="false" id="c6d4-e209-2308-7854" type="selectionEntry" targetId="569a-c745-4007-99de">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="7e7e-53dd-7c7d-197d" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="6c55-4446-82de-3467" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Ironcrawler Squadron" hidden="false" id="42fe-348c-7720-3a2b" type="selectionEntry" targetId="680d-71d3-4d99-a73a">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a2c7-71bd-4893-51c1" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="9bab-7bd3-c7f1-5b6e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Artillery Battery" hidden="false" id="44a8-9820-92d1-29ca" type="selectionEntry" targetId="540e-9e01-437e-8388">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="8a5a-97ce-e8e2-959a" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8ddc-2b8e-e35c-2977" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Marauder Bomber" hidden="false" id="782e-70d2-9b43-3732" type="selectionEntry" targetId="0ced-831d-4c63-9e2b">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="e456-1122-a5c9-1db4" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8d65-5da9-8a0a-8067" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Marauder Destroyer" hidden="false" id="c9f9-eee3-2f6d-dc8b" type="selectionEntry" targetId="1427-76c2-46b3-ad32">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="178b-6abc-32f5-bdba" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a1b2-c879-4694-be71" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Praetor Armoured Assault Launcher" hidden="false" id="1468-72ed-f31f-6a7f" type="selectionEntry" targetId="9f75-4af7-447d-a352">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="4c4d-af1f-effa-3ff0" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="367d-a053-1c27-6ee0" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperialis Militia Crassus Armoured Assault Transport" hidden="false" id="55c8-cc21-8160-a285" type="selectionEntry" targetId="dfce-5857-4f9e-bc43">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="4fda-ac9c-d13d-88a9" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="4566-fdd0-dbef-304a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="aa19-eda7-e81e-9868" name="IM - Force Commander" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -1080,6 +1344,78 @@ Unless noted, the effects of any rules featured in the Provenance’s descriptio
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
+                <entryLink id="4e78-f023-10cd-3f3b" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="8e97-f637-7311-43f3" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="6525-41fc-da7a-8b62" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="6855-c81a-4b01-5e8b" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="a75c-9910-3ecb-ce12" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="15dd-e07c-59a9-739f" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="fd40-43f7-9e82-96cd" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="aed6-74cb-c00c-865a" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
                 <entryLink import="true" name="Corposant Stave" hidden="false" type="selectionEntry" id="9cda-21f4-a67a-4b17" targetId="cfc3-0ca2-ebdc-e6b0">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -1237,6 +1573,9 @@ Unless noted, the effects of any rules featured in the Provenance’s descriptio
       <categoryLinks>
         <categoryLink name="SA or IM Unit" hidden="false" id="d890-6760-a8c1-f0e4" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
+      <rules>
+        <rule id="b2eb-1e5e-e550-d6d2" name="Errata: Imperial Militia Force Commander (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>*A Mounted Force Commander uses the Mounted Force Commander profile instead of the Force Commander profile, gains the Militia Cavalry Mount Wargear (see page 37), gains the Relentless, Scout, and Hammer of Wrath (1) Special Rules and replaces the Infantry Unit Type with the Cavalry Unit Type, as well as gaining the Skirmish and Light Sub-types, but otherwise keeping all other Sub-types it previously had.</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="64e6-42ff-959d-02a1" name="IM - Medicae Detachment" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2016,6 +2355,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <rules>
+                    <rule id="b5ed-7dff-7d16-acbc" name="Mounted Discipline Master" publicationId="9fab-fea7-a93c-2074" page="13" hidden="false">
+                      <description>*A Mounted Discipline Master uses the Mounted Discipline Master profile instead of the Discipline Master profile, gains the Militia Cavalry Mount Wargear (see page 37), gains the Relentless, Scout, and Hammer of Wrath (1) Special Rules and replaces the Infantry Unit Type with the Cavalry Unit Type, as well as gaining the Skirmish and Light Sub-types, but otherwise keeping all other Sub-types it previously had. A Discipline Master upgraded to a Mounted Discipline Master must be assigned to either an Imperialis Militia Cavalry Squad, Imperialis Militia Wolf Rapid Response Section, or Imperialis Militia Mounted Command Cadre – this ignores the usual restrictions on assigning models via the Among the Flock Special Rule to units based on Unit Type.</description>
+                    </rule>
+                  </rules>
                   <infoLinks>
                     <infoLink id="055c-da57-fce5-7abd" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
@@ -2872,6 +3216,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
       </costs>
+      <rules>
+        <rule id="86be-6317-ca8f-bbd4" name="Errata: Imperialis Militia Command Cadre (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>For every five models in the unit, one Militia Bodyguard in the squad may exchange their Lasgun for one of the following:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="b4a8-0824-b604-3277" name="IM - Infantry Squad" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -3676,7 +4023,8 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <rules>
                 <rule id="e5da-18a3-fb79-318f" name="Expendable" publicationId="48c2-d023-0069-001a" page="18" hidden="false">
-                  <description>The opposing player never gains Victory points for removing a unit that includes any models with this special rule as casualties. However, if a unit that includes any models with this special rule fails a Morale check, it does not Fall Back, but instead all models in the unit are removed from play as casualties immediately.</description>
+                  <description>The opposing player never gains Victory points for removing a unit that includes any models with this special rule as casualties. However, if a unit that includes any models with this special rule fails a Morale check, it does not Fall Back, but instead all models in the unit are removed from play as casualties immediately.
+FAQ: A Warlord which joins a unit containing any models with the Expendable Special Rule still gives Victory Points for Slay the Warlord, First Strike, or any other Primary or Secondary Mission Objectives as normal when slain.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5165,6 +5513,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="21"/>
       </costs>
+      <rules>
+        <rule id="f538-8b84-c76f-f76f" name="Errata: Imperialis Militia Grenadier Squad (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>For every ten models in the unit, up to two Grenadiers in the squad may exchange their Lasgun for one of the following:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="3f92-41db-02f5-d0cd" name="IM - Fire Support Squad" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -5983,8 +6334,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <entryLink id="502f-76e9-4101-f1c5" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
+      <rules>
+        <rule id="5de5-4692-b5e9-9371" name="Errata: Imperialis Militia Reconnaissance Squad (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Any model in the unit may exchange their Shotguns, Lascarbines, or Stubcarbines for one of the following:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="69d4-e221-a0cb-e428" name="IM - Field Gun Battery" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6999,7 +7353,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     </modifierGroup>
                   </modifierGroups>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Light, Skirmish, Militia)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Light, Militia, Skirmish, Character)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">14</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -7148,6 +7502,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="18"/>
       </costs>
+      <rules>
+        <rule id="d6ba-7e25-2aa4-b524" name="Errata: Imperialis Militia Cavalry Squad (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>For every five models in the unit, one Militia Outrider in the unit may take one of the following:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="173c-2148-c3ce-9c5c" name="IM - Beastmasters" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -7685,6 +8042,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       <categoryLinks>
         <categoryLink name="SA or IM Unit" hidden="false" id="82a2-cd04-8cb1-47a6" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
+      <rules>
+        <rule id="b75b-c314-88a5-2591" name="Errata: Imperialis Militia Beastmasters" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Fleet (1) (Militia Handlers only).</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="987d-3f99-2c52-3da4" name="IM - Sentinel Squadron" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -7726,7 +8086,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <infoLink id="d440-93c9-a2fa-1d83" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b86e-0b1e-454a-88c8" name="Infantry:" primary="false"/>
@@ -8184,6 +8544,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </profiles>
       <infoLinks>
         <infoLink id="5ee1-217d-bbbf-01be" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+        <infoLink id="6b86-310f-4740-fbb7" name="Independent Fire Control" hidden="false" type="rule" targetId="64ca-719e-b563-e3df"></infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c8e8-f90f-b0b0-d692" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -8554,7 +8915,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <profiles>
                 <profile id="5f6a-4688-67cf-c9ee" name="Earthshaker Gun Carriage" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Static Artillery, Heavy)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Static Artillery*, Heavy)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">-</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">-</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -8595,7 +8956,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <profiles>
                 <profile id="a57a-049b-e64e-6da7" name="Medusa Gun Carriage" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Static Artillery, Heavy)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Static Artillery*, Heavy)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">-</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">-</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -9417,7 +9778,7 @@ equal to the number of Militia Gunners in the unit when making a Shooting Attack
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="4bdb-22e5-ea96-f338" name="Boarding Shield" hidden="false" collective="false" import="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
+                <entryLink id="4bdb-22e5-ea96-f338" name="Boarding Shield (and the Heavy Sub-type)" hidden="false" collective="false" import="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
@@ -9739,7 +10100,7 @@ equal to the number of Militia Gunners in the unit when making a Shooting Attack
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09c5-94c0-68b1-4feb" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Boarding Shield" hidden="false" id="34d3-8301-bd1-4b9f" collective="false" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
+                <entryLink import="true" name="Boarding Shield (and the Heavy Sub-type)" hidden="false" id="34d3-8301-bd1-4b9f" collective="false" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a497-35e7-ffe8-adb2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -9797,7 +10158,7 @@ equal to the number of Militia Gunners in the unit when making a Shooting Attack
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Boarding Shield" hidden="false" id="f673-e9b0-d924-8fe8" collective="false" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
+                <entryLink import="true" name="Boarding Shield (and the Heavy Sub-type)" hidden="false" id="f673-e9b0-d924-8fe8" collective="false" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8b04-73a5-1fc7-17a7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -10861,8 +11222,8 @@ equal to the number of Militia Gunners in the unit when making a Shooting Attack
           </modifiers>
         </infoLink>
         <infoLink name="Support Squad" hidden="false" type="rule" id="3b6e-32f8-5d2a-3c89" targetId="768e-56d6-ca52-24ae"/>
-        <infoLink name="Swarm" hidden="false" type="rule" id="bb0a-6a7c-f9c-96bf" targetId="0bc2-fcb2-dd25-c10a"/>
         <infoLink id="6961-8f0c-258d-85d0" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
+        <infoLink id="9fca-8128-6753-c8cb" name="Daemonic Hordes" hidden="false" type="rule" targetId="8857-3e84-ca6f-a40e"/>
       </infoLinks>
       <modifiers>
         <modifier type="add" field="category" value="9231-183c-b97b-63f9">
@@ -11165,7 +11526,8 @@ equal to the number of Militia Gunners in the unit when making a Shooting Attack
               <profiles>
                 <profile id="bccd-681c-4acc-d9dd" name="Merchant Princeling" publicationId="48c2-d023-0069-001a" page="6" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
-                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All of the weapons possessed by a Warlord with this Trait gain the Master-crafted special rule. Before any models are placed onto the battlefield as part of deployment, the controlling player of this Warlord may select a single unit under their control – designated as the ‘Lifeguard’ unit. The Lifeguard unit must be composed entirely of models with the Militia Unit Sub-type, and all models in the Lifeguard unit gain the Heavy Unit Sub-type, if they did not already have it, and may re-roll all failed To Hit rolls of ‘1’ made in any phase or as part of a Reaction. The Warlord with this Trait must be deployed as part of the Lifeguard unit and may not voluntarily leave that unit during play. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent’s Assault phase as long as the Warlord has not been removed as a casualty. If the Warlord has a Retinue unit of any kind, this unit is instead automatically designated as the Warlord’s Lifeguard unit.</characteristic>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All of the weapons possessed by a Warlord with this Trait gain the Master-crafted special rule. Before any models are placed onto the battlefield as part of deployment, the controlling player of this Warlord may select a single unit under their control – designated as the ‘Lifeguard’ unit. The Lifeguard unit must be composed entirely of models with the Militia Unit Sub-type, and all models in the Lifeguard unit gain the Heavy Unit Sub-type, if they did not already have it, and may re-roll all failed To Hit rolls of ‘1’ made in any phase or as part of a Reaction. The Warlord with this Trait must be deployed as part of the Lifeguard unit and may not voluntarily leave that unit during play. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent’s Assault phase as long as the Warlord has not been removed as a casualty. If the Warlord has a Retinue unit of any kind, this unit is instead automatically designated as the Warlord’s Lifeguard unit.
+If the Warlord has a Retinue unit of any kind, this unit is instead automatically designated as the Warlord’s Lifeguard unit. A Warlord with this Trait also gains the Heavy Unit Sub-Type.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11423,7 +11785,8 @@ A model with the Infantry Unit Type that selects a Militia cavalry mount as an u
       <description>Provenance</description>
     </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="9fab-fea7-a93c-2074" page="153" hidden="false">
-      <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties. If taken as part of a Mortalis Assault Force Organisation Chart, a unit that includes any models with this Special Rule may only make the Suppress Reaction.</description>
+      <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties. If taken as part of a Mortalis Assault Force Organisation Chart, a unit that includes any models with this Special Rule may only make the Suppress Reaction.
+If taken as part of a Mortalis Assault Force Organisation Chart, a unit that includes any models with this Special Rule may only make the Suppress Reaction.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
@@ -11433,5 +11796,6 @@ A model with the Infantry Unit Type that selects a Militia cavalry mount as an u
     <catalogueLink type="catalogue" name="Daemons - Daemons of the Ruinstorm" id="36bf-86e2-87b4-9336" targetId="724d-13c4-628c-f642"/>
     <catalogueLink type="catalogue" name="Mechanicum" id="a933-4626-1551-c187" targetId="eb19-d768-b767-c84b"/>
     <catalogueLink type="catalogue" name="Militia Library" id="2912-1477-893f-45be" targetId="4ab9-25ad-4d80-2f7d"/>
+    <catalogueLink name="[Imperatus] Militia" targetId="fe6-832a-e16c-408e" type="catalogue" id="eac2-3e33-bcca-aa51"/>
   </catalogueLinks>
 </catalogue>

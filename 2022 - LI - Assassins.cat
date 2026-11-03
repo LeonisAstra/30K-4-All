@@ -195,7 +195,8 @@
       </profiles>
       <rules>
         <rule id="13e2-d9f7-eb0d-301d" name="Reign of Confusion" publicationId="15a4-fc68-502d-48a9" page="117" hidden="false">
-          <description>When rolling to Seize the Initiative against a force tht includes a model with this special rule ,a successful result must be rerolled.</description>
+          <description>When rolling to Seize the Initiative against a force tht includes a model with this special rule ,a successful result must be rerolled.
+In addition, whilst the effects of Polymorphine are active, the model equipped with it does not count as a Scoring or Denial Unit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -226,7 +227,8 @@ with polymorphine has not made an attack of any kind
 during the battle. Once a unit or model with polymorphine has made a Shootin gAttack (including during a Reaction) then polymorphine has no futher effect. 
 
 
-In addition, Polymorphine’s effects immediately end if an enemy unit ends its Movement in the Controlling Player’s Movement Phase within 6” of the model equipped with Polymorphine</characteristic>
+In addition, Polymorphine’s effects immediately end if an enemy unit ends its Movement in the Controlling Player’s Movement Phase within 6” of the model equipped with Polymorphine
+In addition, whilst the effects of Polymorphine are active, the model equipped with it does not count as a Scoring or Denial Unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -314,7 +316,7 @@ In addition, Polymorphine’s effects immediately end if an enemy unit ends its
           <characteristics>
             <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Assassin, Light, Anathema)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
-            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
             <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
             <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
             <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
@@ -473,6 +475,7 @@ In addition, Polymorphine’s effects immediately end if an enemy unit ends its
           </modifiers>
         </infoLink>
         <infoLink name="No Witness" hidden="false" id="69f0-1fb1-a1bc-f4fa" type="rule" targetId="e053-84f7-23bf-75ef"/>
+        <infoLink id="4429-6cce-fee1-98c8" name="No Witnesses" hidden="false" type="rule" targetId="6b91-5dcc-41e8-b59f"></infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3e59-53b2-2e89-e5c7" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
@@ -586,7 +589,8 @@ In addition, Polymorphine’s effects immediately end if an enemy unit ends its
       </profiles>
       <rules>
         <rule id="856e-b57c-3474-c865" name="Noospheric Interloper" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false">
-          <description>Instead of making a Shooting Attack, a model with this special rule may make a Leadership test. If this test is passed, the controlling player may nominate a single enemy model within 12&quot; that has the Automata type - this model immediately suffers D3 Wounds with no Armour Saves or Damage Mitigation rolls allowed. If this reduces the model to 0 Wounds and it is removed as a casualty, the controlling player may nominate another model with the Automata Unit Type within 12&quot; of the model with this special rule. This model also suffers D3 Wounds with no Armour Saves of Damage Mitigation rolls allowed. Regardless of the result of this dice roll, no futher Wounds may be allocated by this attack in any one Shooting phase. If the Leadership test is failed, the Venus Infocyte immediately suffers a single Wound with no Armour Saves of Damage Mititation rolls allowed, and their are no futher effects.</description>
+          <description>Instead of making a Shooting Attack, a model with this special rule may make a Leadership test. If this test is passed, the controlling player may nominate a single enemy model within 12" that has the Automata type - this model immediately suffers D3 Wounds with no Armour Saves or Damage Mitigation rolls allowed. If this reduces the model to 0 Wounds and it is removed as a casualty, the controlling player may nominate another model with the Automata Unit Type within 12" of the model with this special rule. This model also suffers D3 Wounds with no Armour Saves of Damage Mitigation rolls allowed. Regardless of the result of this dice roll, no futher Wounds may be allocated by this attack in any one Shooting phase. If the Leadership test is failed, the Venus Infocyte immediately suffers a single Wound with no Armour Saves of Damage Mititation rolls allowed, and their are no futher effects.
+Note that weapons selected to fire in this manner must still follow the rules and restrictions placed upon them by their mountings, Unit Types, or Unit Sub-types, such as allowed targets for reactions in the case of Knights and Titans only being allowed to react to other Knights and Titans, Super-heavy Vehicles, Lumbering Flyers or any model with 8 or more Wounds.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -610,10 +614,11 @@ In addition, Polymorphine’s effects immediately end if an enemy unit ends its
           <profiles>
             <profile id="9320-3e0b-895d-a211" name="Auspectre" publicationId="9fab-fea7-a93c-2074" page="148" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy models cannot be deployed using the Infiltrate special rule within 18&quot; of a model with an auspectre. In addition, when any enemy unit is deployed to the battlefield from Reserves, a model with an auspectre may make the Interceptor Advanced Reaction (see page 309 of the Horus Heresy: Age of Darkness rulebook) without expending a point of the Reactive player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal threee Reaction limit in a given Phase. Instead of usin gthe profile of a weapon the model has, a model with the auspectre may instead make a Leadership test. If the Leadership test is passed, the controlling player may instead make a Shooting Attack with any Defensive weapon available to any model with the Vehicle Unit Type (both friendly or enemy within 12&quot;, that is in range and line of sight of the targeted model. If the Leadership test is failed, the model may not make an Interceptor Advanced Reaction.
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy models cannot be deployed using the Infiltrate special rule within 18" of a model with an auspectre. In addition, when any enemy unit is deployed to the battlefield from Reserves, a model with an auspectre may make the Interceptor Advanced Reaction (see page 309 of the Horus Heresy: Age of Darkness rulebook) without expending a point of the Reactive player's Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal threee Reaction limit in a given Phase. Instead of usin gthe profile of a weapon the model has, a model with the auspectre may instead make a Leadership test. If the Leadership test is passed, the controlling player may instead make a Shooting Attack with any Defensive weapon available to any model with the Vehicle Unit Type (both friendly or enemy within 12", that is in range and line of sight of the targeted model. If the Leadership test is failed, the model may not make an Interceptor Advanced Reaction.
 
 
-Note that weapons selected to fire in this manner must still follow the rules and restrictions placed upon them by their mountings, Unit Types, or Unit Sub-types, such as allowed targets for reactions in the case of Knights and Titans only being allowed to react to other Knights and Titans, Super-heavy Vehicles, Lumbering Flyers or any model with 8 or more Wounds.</characteristic>
+Note that weapons selected to fire in this manner must still follow the rules and restrictions placed upon them by their mountings, Unit Types, or Unit Sub-types, such as allowed targets for reactions in the case of Knights and Titans only being allowed to react to other Knights and Titans, Super-heavy Vehicles, Lumbering Flyers or any model with 8 or more Wounds.
+Note that weapons selected to fire in this manner must still follow the rules and restrictions placed upon them by their mountings, Unit Types, or Unit Sub-types, such as allowed targets for reactions in the case of Knights and Titans only being allowed to react to other Knights and Titans, Super-heavy Vehicles, Lumbering Flyers or any model with 8 or more Wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -657,7 +662,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
           <profiles>
             <profile id="ee8b-8261-7110-fede" name="Autotomic Servo-limbs" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, at the start of any turn, the Controlling Player of a model with Autotomic Servo-Limbs may choose to grant that model the Counter-Attack (2) Special Rule until the start of their next turn.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, at the start of any turn, the Controlling Player of a model with Autotomic Servo-Limbs may choose to grant that model the Counter-Attack (2) Special Rule until the start of their next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -951,7 +956,8 @@ Note that weapons selected to fire in this manner must still follow the rules a
       <profiles>
         <profile id="c516-0961-ebaf-22c5" name="Panoply Of The Assassin" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models with the Panoply of the Assassin have a 4+ Armour Save and a 4+ Invulnerable Save. A model equipped with the Panoply of the Assassin also gains Frag Grenades, and the Hit &amp; Run and Shrouded (5+) Special Rules.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models with the Panoply of the Assassin have a 4+ Armour Save and a 4+ Invulnerable Save. A model equipped with the Panoply of the Assassin also gains Frag Grenades, and the Hit &amp; Run and Shrouded (5+) Special Rules.
+A model equipped with the Panoply of the Assassin also gains Frag Grenades, and the Hit &amp; Run and Shrouded (5+) Special Rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1264,11 +1270,17 @@ Note that weapons selected to fire in this manner must still follow the rules a
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
+          <rules>
+            <rule id="b58d-8400-38a8-c303" name="Errata: Davinite Lodge Priest" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Add the Psychic Discipline: Anaethemata to those known by this unit.</description></rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <rules>
+        <rule id="34e7-dd8b-c52f-bda2" name="Errata: Davinite Lodge Priest" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Add the Psychic Discipline: Anaethemata to those known by this unit.</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="ce53-e40c-65b6-4d3a" name="Expeditionary Navigator" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1657,7 +1669,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
       </constraints>
       <rules>
         <rule name="Born Survivor" id="2b1c-bc7b-a673-2d35" hidden="false" publicationId="9fab-fea7-a93c-2074" page="130">
-          <description>The first time in any battle when a model with this Special Rule is reduced to 0 Wounds for any reason or otherwise removed from play as a casualty, the Controlling Player must immediately make a Leadership test for that model. If the Test is failed then the model is removed as a casualty as normal, but if the Test is passed then the model is not removed as a casualty, but instead remains in play and regains D3 Wounds.</description>
+          <description>The first time in any battle when a model with this Special Rule is reduced to 0 Wounds for any reason or otherwise removed from play as a casualty, the Controlling Player must immediately make a Leadership test for that model. If the Test is failed then the model is removed as a casualty as normal, but if the Test is passed then the model is not removed as a casualty, but instead remains in play and regains D3 Wounds.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1697,6 +1709,9 @@ Note that weapons selected to fire in this manner must still follow the rules a
           <costs>
             <cost name="Pts" id="6e1a-c09a-a98f-9d1f" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink id="54f7-9ed5-11f3-7cda" name="Shattered Legionary" hidden="false" type="rule" targetId="e005-cc38-8f90-6aab"></infoLink>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
