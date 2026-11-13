@@ -2,7 +2,7 @@
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="97bf-ffdb-3d04-a0ef" name="Questoris Household" revision="2008" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <forceEntries>
     <forceEntry id="28d3-4be2-608d-bf8a" name="0. Questoris Household Force Organisation Chart" hidden="false">
-      <categoryLinks>
+      <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition type="atLeast" value="1" field="forces" scope="roster" childId="b72c-5934-2e78-b7e6" shared="true" includeChildSelections="false" includeChildForces="false"/></conditions></modifier></modifiers><categoryLinks>
         <categoryLink id="f631-f41f-891c-211e" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
         <categoryLink id="2aac-bb02-6cd3-89e2" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
@@ -34,6 +34,26 @@
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="6fed-1e9-64f8-40e3"/>
       </constraints>
     </forceEntry>
+  <forceEntry id="b72c-5934-2e78-b7e6" name="0a. Questoris Crusader Host Force Organisation Chart (Primary Detachment Only)" hidden="false">
+      <modifiers><modifier type="set" field="hidden" value="true"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="forces" scope="roster" childId="d926-652f-8436-30ce" shared="true" includeChildSelections="false" includeChildForces="false"/><condition type="atLeast" value="1" field="forces" scope="roster" childId="5430-5be1-1613-be44" shared="true" includeChildSelections="false" includeChildForces="false"/><condition type="atLeast" value="1" field="forces" scope="roster" childId="28d3-4be2-608d-bf8a" shared="true" includeChildSelections="false" includeChildForces="false"/><condition type="atLeast" value="1" field="forces" scope="roster" childId="4868-734d-51cd-7b07" shared="true" includeChildSelections="false" includeChildForces="false"/><condition type="atLeast" value="1" field="forces" scope="roster" childId="aebe-bed9-b32f-a8ea" shared="true" includeChildSelections="false" includeChildForces="false"/></conditions></conditionGroup></conditionGroups></modifier></modifiers><categoryLinks>
+        <categoryLink id="7464-1f78-9474-1086" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
+        <categoryLink id="e550-25e3-35c1-cbd1" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4271-dc24-500b-e6e5" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="19e3-97da-49a1-a1ed" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6b58-ee01-fa49-63a6" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
+          <modifiers><modifier type="increment" field="2c1d-1cea-721c-56d3" value="2"><repeats><repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c658-dc6b-727b-c488" repeats="1" roundUp="false"/></repeats></modifier></modifiers><constraints><constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52c4-1e6b-3aef-586c" type="min"/><constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c1d-1cea-721c-56d3" type="max"/></constraints></categoryLink>
+        <categoryLink id="d3ac-90ef-69a0-a128" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="false">
+          <constraints><constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc51-ea85-344a-68ed" type="min"/><constraint field="selections" scope="force" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4593-665a-837a-b115" type="max"/></constraints></categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="a015-6205-93f9-c3d8"/>
+      </constraints>
+    <rules><rule id="fddc-4b57-834b-9f4f" name="Questoris Crusader Host Detachment" hidden="false"><description>The Questoris Crusader Host represents a new way to field your Questoris Knights in an army, giving more tactical flexibility - and the ability to bring more of your Knight Scions to bear! The Questoris Crusader Host Detachment may only be taken as a Primary Detachment. If you choose to do so, you may include an Allied Detachment as an Optional Detachment. See page 281 of the Horus Heresy: Age of Darkness Core Rulebook for more information about Allied Detachments. When used as your army’s Primary Detachment, the 25% limit on Lords of War choices does not count for units taken as part of the Primary Detachment of that army (but any Lords of War choices selected as part of any other Detachment must adhere to the 25% limit rule). A Questoris Crusader Host Detachment may only include units from the profiles listed in the Divisio Tactica: Questoris Household section of the Liber Mechanicum, Liber Ingenium, or any future publication which adds units to this Divisio Tactica. These units may not be selected as part of any other Force Organisation chart or Detachment besides a Lords of War or Households Detachment.
+Compulsory: 1 Lord of War. Optional: +9 Lords of War, +X Troops (for every Lord of War choice included as part of this Detachment, up to two Troops choices may be taken).
+Allied Detachment (Optional): Compulsory 1 HQ, 1 Troops. Optional +3 Troops, +2 Elites, +1 Fast Attack, +1 Heavy Support.</description></rule></rules></forceEntry>
   </forceEntries>
   <entryLinks>
     <entryLink id="f32d-4f08-ccfa-21bb" name="Divisio Tactica: Questoris Household" hidden="false" collective="false" import="false" targetId="807e-0cf8-7f28-7b6d" type="selectionEntry">
@@ -325,7 +345,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Questoris Knight Moirax Talon" hidden="false" id="6059-a067-b5c7-8802" type="selectionEntry" targetId="1057-b62a-4343-9be8">
-      <categoryLinks>
+      <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" id="1688-992e-ff18-21e8"/></constraints><categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="d7a9-4bb5-993d-7ae1" primary="true" name="Troops:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="2962-3587-6637-4145" primary="false" name="Unit:"/>
       </categoryLinks>

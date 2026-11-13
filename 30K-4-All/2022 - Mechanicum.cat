@@ -680,25 +680,25 @@
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="65e6-28e2-f44f-e1ae" primary="true" name="HQ:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="fd02-f35c-fde5-47fa" primary="false" name="Unit:"/>
       </categoryLinks>
-    </entryLink>
+    <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0b6-712f-0b12-a308" type="equalTo"/></conditions></modifier></modifiers></entryLink>
     <entryLink import="true" name="Remiare" hidden="false" id="6543-8e6f-b083-a1bc" type="selectionEntry" targetId="f3d1-035f-45e4-9200">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="742b-9b96-1828-c58b" primary="true" name="HQ:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="1bf4-254c-1c30-9fe1" primary="false" name="Unit:"/>
       </categoryLinks>
-    </entryLink>
+    <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/></conditions></modifier></modifiers></entryLink>
     <entryLink import="true" name="Koriel Zeth" hidden="false" id="149c-42c6-88c3-73cc" type="selectionEntry" targetId="2d75-642e-452f-9819">
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="d835-5171-8725-9c3e" primary="true" name="HQ:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="7656-ba61-f2fe-fc52" primary="false" name="Unit:"/>
       </categoryLinks>
-    </entryLink>
+    <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0b6-712f-0b12-a308" type="equalTo"/></conditions></modifier></modifiers></entryLink>
     <entryLink import="true" name="Kelbor-Hal" hidden="false" id="f370-f896-9a57-2747" type="selectionEntry" targetId="7d76-881f-4660-aeae">
       <categoryLinks>
         <categoryLink targetId="e031-3c2-e3f8-d40a" id="db81-61d8-bd86-9489" primary="true" name="Primarch:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="605f-2aef-4f06-add0" primary="false" name="Unit:"/>
       </categoryLinks>
-    </entryLink>
+    <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/></conditions></modifier></modifiers></entryLink>
     <entryLink import="true" name="Sarumiat Battle-Automata Maniple" hidden="false" id="e9ec-b9f1-83f9-fb10" type="selectionEntry" targetId="98ec-1704-49af-a944">
       <categoryLinks>
         <categoryLink targetId="7aee-565f-b0ae-294e" id="db28-41f1-d45a-6cf4" primary="true" name="Elites:"/>
@@ -890,7 +890,7 @@
         <categoryLink targetId="c658-dc6b-727b-c488" id="dfde-101c-2006-c5d1" primary="true" name="Lords of War:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="3c22-6535-a620-5d44" primary="false" name="Unit:"/>
       </categoryLinks>
-    </entryLink>
+    <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/></conditions></modifier></modifiers></entryLink>
     <entryLink import="true" name="Hierarch Siege-Automata" hidden="false" id="849d-2440-b156-57fd" type="selectionEntry" targetId="451c-344d-4195-8398">
       <categoryLinks>
         <categoryLink targetId="c658-dc6b-727b-c488" id="cf06-ccb0-bb39-f47e" primary="true" name="Lords of War:"/>
@@ -2127,7 +2127,7 @@
       </profiles>
       <rules>
         <rule id="cf28-db85-769d-2701" name="Walker in Ruin" publicationId="bde1-6db1-163b-3b76" page="26" hidden="false">
-          <description>Calleb Decima Invictus and any friendly units that have at least one model within 6&quot; of Caleb Decima Invictus have the Move Through Cover special rule.</description>
+          <description>Calleb Decima Invictus and any friendly units that have at least one model within 6" of Caleb Decima Invictus have the Move Through Cover special rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2194,7 +2194,7 @@
           <profiles>
             <profile id="be17-1994-4a60-cafd" name="Master-crafted Bolt Pistol" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">12"</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
                 <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Master-crafted</characteristic>
@@ -2723,7 +2723,7 @@
                 </infoLink>
               </infoLinks>
             </entryLink>
-          </entryLinks>
+          <entryLink id="9049-6764-cac2-8c06" name="Skorpius Dunerider" hidden="false" collective="false" type="selectionEntry" targetId="95d4-05b4-4256-beea" import="true"><modifiers><modifier type="set" field="hidden" value="true"><conditionGroups><conditionGroup type="or"><conditions><condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="atLeast"/></conditions></conditionGroup></conditionGroups></modifier></modifiers></entryLink><entryLink id="b7c0-4d0d-9955-4654" name="Porphetian Armoured Carrier" hidden="false" collective="false" type="selectionEntry" targetId="fca2-504c-4bf1-b816" import="true"><modifiers><modifier type="set" field="hidden" value="true"><conditionGroups><conditionGroup type="or"><conditions><condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="atLeast"/><condition field="selections" scope="0eae-0c52-1087-a3b0" value="8" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/></conditions></conditionGroup></conditionGroups></modifier></modifiers></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3809-6add-1c91-5262" name="Techno-Arcana (for all Tech-Priests and Magos Auxilia in unit)" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false" collective="false" import="true">
           <constraints>
@@ -2759,7 +2759,7 @@
             <selectionEntry id="4f03-e19e-7327-89cd" name="Lachrimallus" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="c533-6e23-37cb-e47f" name="Lachrimallus" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>Tech-Priests, Magos Auxilia and Servo-automata in the unit have the Feel No Pain (5+) special rule. Friendly Adsecularis Tech-thrall units with at least one model within 6&quot; of one or more Tech-Priest or Magos Auxilia with this special rule add +1 to their Feel No Pain Damage Mitigation rolls or gain the Feel No Pain (6+) special rule if they do not already possess the Feel No Pain (X) special rule.</description>
+                  <description>Tech-Priests, Magos Auxilia and Servo-automata in the unit have the Feel No Pain (5+) special rule. Friendly Adsecularis Tech-thrall units with at least one model within 6" of one or more Tech-Priest or Magos Auxilia with this special rule add +1 to their Feel No Pain Damage Mitigation rolls or gain the Feel No Pain (6+) special rule if they do not already possess the Feel No Pain (X) special rule.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3762,7 +3762,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                       <profiles>
                         <profile id="e71b-e137-8d96-bc1d" name="Light Autocannon" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                           <characteristics>
-                            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36"</characteristic>
                             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
                             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
                             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
@@ -4338,7 +4338,7 @@ On a Game Turn in which a model armed with Stratos Thrusters activates them, the
       </profiles>
       <rules>
         <rule id="6634-4243-b2d0-39e6" name="Hazardous Munitions" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-          <description>If a model with this special rule suffers an Explodes result on the Vehicle Damage table as a result of a Melee or Shooting Attack, the Explodes result causes nearby units to suffer a Str 8, AP 4 Hit for each model within D6+6&quot; instead of the usual damage and area of effect.</description>
+          <description>If a model with this special rule suffers an Explodes result on the Vehicle Damage table as a result of a Melee or Shooting Attack, the Explodes result causes nearby units to suffer a Str 8, AP 4 Hit for each model within D6+6" instead of the usual damage and area of effect.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4588,13 +4588,13 @@ In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">72</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Large Blast (5&quot;), Sonic Wave, Pinning, Armourbane (Ranged), Murderous Strike (5+), Ignores Cover</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Large Blast (5"), Sonic Wave, Pinning, Armourbane (Ranged), Murderous Strike (5+), Ignores Cover</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
             <rule id="8e53-b538-e67a-4966" name="Sonic Wave" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
-              <description>When making a Shooting Attack with this weapon, place the Large Blast (5&quot;) marker so that its edge touches the Front hull of the firing model. Instead of scattering this Blast marker, move the template in a direct line away from the firing model, travelling in any direction within the weapon’s 45° forward firing arc until its maximum range is reached or the template leaves the battlefield. All models the template passes over suffer a single automatic Hit. Flyers are also Hit if the template passes over their base. Should a model with the Knight, Titan, Super-heavy Vehicle, Building or Fortification Unit Type be Hit by this attack, increase the Strength of the attack to 10.</description>
+              <description>When making a Shooting Attack with this weapon, place the Large Blast (5") marker so that its edge touches the Front hull of the firing model. Instead of scattering this Blast marker, move the template in a direct line away from the firing model, travelling in any direction within the weapon’s 45° forward firing arc until its maximum range is reached or the template leaves the battlefield. All models the template passes over suffer a single automatic Hit. Flyers are also Hit if the template passes over their base. Should a model with the Knight, Titan, Super-heavy Vehicle, Building or Fortification Unit Type be Hit by this attack, increase the Strength of the attack to 10.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4661,10 +4661,10 @@ In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts
       </profiles>
       <rules>
         <rule id="ef34-76df-c134-302e" name="Terrestrial Disregard" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-          <description>Instead of using the normal rules for Subterranean Assault, when a model with this special rule enters play via Subterranean Assault, place an Apocalyptic Blast marker (10&quot;) anywhere on the battlefield that is at least 1&quot; from any enemy model, battlefield edge or piece of Impassable Terrain and then scatter that marker (see the Scatter rules on page 152 of the Horus Heresy: Age of Darkness rulebook).
-If the marker’s final position is within 1&quot; of an enemy model, any battlefield edge or a piece of Impassable Terrain, then the controlling player’s opponent may move that model to any position within 18&quot; that is more than 1&quot; from any enemy model, battlefield edge or piece of Impassable Terrain. If there is no suitable position within 18&quot;, then the model may be repositioned by the controlling player’s opponent anywhere on the battlefield that is more than 1&quot; from any enemy model, battlefield edge or piece of Impassable Terrain.
-Once the final position of the marker has been determined, the controlling player may place the model with this special rule on the battlefield so long as the centre of the marker is underneath part of the model’s hull, and the model remains more than 1&quot; away from any enemy model. After the model has been placed, each Fortification within 6&quot; of it immediately suffers D6 Str 10, AP 2 Hits, and nearby units suffer one S10, AP 2 Hit for each model within 6&quot; of the model. Any unit that suffers one or more Hits from this effect must take an immediate Pinning test.
-The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult Terrain and Dangerous Terrain for the remainder of the battle.</description>
+          <description>Instead of using the normal rules for Subterranean Assault, when a model with this special rule enters play via Subterranean Assault, place an Apocalyptic Blast marker (10") anywhere on the battlefield that is at least 1" from any enemy model, battlefield edge or piece of Impassable Terrain and then scatter that marker (see the Scatter rules on page 152 of the Horus Heresy: Age of Darkness rulebook).
+If the marker’s final position is within 1" of an enemy model, any battlefield edge or a piece of Impassable Terrain, then the controlling player’s opponent may move that model to any position within 18" that is more than 1" from any enemy model, battlefield edge or piece of Impassable Terrain. If there is no suitable position within 18", then the model may be repositioned by the controlling player’s opponent anywhere on the battlefield that is more than 1" from any enemy model, battlefield edge or piece of Impassable Terrain.
+Once the final position of the marker has been determined, the controlling player may place the model with this special rule on the battlefield so long as the centre of the marker is underneath part of the model’s hull, and the model remains more than 1" away from any enemy model. After the model has been placed, each Fortification within 6" of it immediately suffers D6 Str 10, AP 2 Hits, and nearby units suffer one S10, AP 2 Hit for each model within 6" of the model. Any unit that suffers one or more Hits from this effect must take an immediate Pinning test.
+The area under the Apocalyptic Blast marker (10") is treated as Difficult Terrain and Dangerous Terrain for the remainder of the battle.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4680,7 +4680,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
         </infoLink>
         <infoLink id="fb06-e4bf-f374-e5b4" name="Reinforced Structure" hidden="false" targetId="5b0d-5362-e961-f3b0" type="rule"/>
         <infoLink id="565c-f3ae-d92b-1685" name="Subterranean Assault" hidden="false" targetId="33d4-d46d-7f47-3ad2" type="rule"/>
-        <infoLink id="42b5-ab02-8673-1d23" name="Transport Bay" hidden="false" type="rule" targetId="0662-8b8d-38e8-60f8"></infoLink>
+        <infoLink id="42b5-ab02-8673-1d23" name="Transport Bay" hidden="false" type="rule" targetId="0662-8b8d-38e8-60f8"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd10-1dfe-07bf-f938" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -4696,7 +4696,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
           <profiles>
             <profile id="0467-907b-9f6f-bbb7" name="Terrebrax Rocket Battery" publicationId="bde1-6db1-163b-3b76" page="118" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48"</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
                 <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Guided Fire</characteristic>
@@ -4717,7 +4717,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
               <characteristics>
                 <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Aktaeus class seismic excavator macro-drill grants the Ordinatus Aktaeus the Ordinatus Transport Bay special rule.
 In addition, once per battle, at the end of the controlling player’s Movement phase, the Ordinatus Aktaeus may employ its seismic excavator macro-drill to cause a Seismic Shockwave. When this occurs, the Ordinatus Aktaeus cannot move for the rest of the battle and counts as a vehicle that has suffered an irreparable Immobilised result on the Vehicle Damage table (although no Hull Point loss is suffered). Units may not choose to Embark or Disembark from the Ordinatus Aktaeus in a turn in which the Seismic Shockwave ability is used, but may do so as normal in subsequent turns.
-At the beginning of each of the controlling player’s Shooting phases for the rest of the battle after the Ordinatus Aktaeus has employed its seismic excavator macro-drill to cause a Seismic Shockwave, pick a point within 6&quot; of the front of the hull of the Ordinatus Aktaeus (for the purposes of determining this point you should use the Front arc of the unit). All units, friendly or enemy (excluding the Ordinatus Aktaeus itself), within a number of inches equal to the current Game Turn number multiplied by 6 of this point suffer D6 Str 7, AP 4 Hits with the Pinning special rule. Models with the Vehicle Unit Type are hit on their weakest Armour Facing. Should a model with the Vehicle Unit Type suffer a Penetrating Hit from this attack, it immediately suffers from Crew Shaken in addition to any other effect.</characteristic>
+At the beginning of each of the controlling player’s Shooting phases for the rest of the battle after the Ordinatus Aktaeus has employed its seismic excavator macro-drill to cause a Seismic Shockwave, pick a point within 6" of the front of the hull of the Ordinatus Aktaeus (for the purposes of determining this point you should use the Front arc of the unit). All units, friendly or enemy (excluding the Ordinatus Aktaeus itself), within a number of inches equal to the current Game Turn number multiplied by 6 of this point suffer D6 Str 7, AP 4 Hits with the Pinning special rule. Models with the Vehicle Unit Type are hit on their weakest Armour Facing. Should a model with the Vehicle Unit Type suffer a Penetrating Hit from this attack, it immediately suffers from Crew Shaken in addition to any other effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5324,7 +5324,7 @@ Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria 
             </profile>
             <profile id="ec18-9798-fc0b-3b79" name="Greuso Protocol" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false" typeId="90b9-7fab-87db-aed3" typeName="Reactions">
               <characteristics>
-                <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction may be made whenever an enemy unit declares a Charge targeting a friendly unit with the Automata Unit Type or Knight Unit Sub-type which is within 12&quot; of another friendly unit that includes at least one model with the Greuso Protocol special rule and is not itself locked in combat. The unit with the Greuso Protocol special rule may make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. A unit that makes a Shooting Attack as part of a Greuso Protocol Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapons or special rules that otherwise ignore line of sight, and Vehicles may only fire Defensive Weapons. Template weapons used as part of a Greuso Protocol Reaction use the Wall of Death rule instead of firing normally. The unit targeted by the Greuso Protocol Reaction may not take Cover Saves against Wounds inflicted as part of that Reaction.</characteristic>
+                <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction may be made whenever an enemy unit declares a Charge targeting a friendly unit with the Automata Unit Type or Knight Unit Sub-type which is within 12" of another friendly unit that includes at least one model with the Greuso Protocol special rule and is not itself locked in combat. The unit with the Greuso Protocol special rule may make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. A unit that makes a Shooting Attack as part of a Greuso Protocol Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapons or special rules that otherwise ignore line of sight, and Vehicles may only fire Defensive Weapons. Template weapons used as part of a Greuso Protocol Reaction use the Wall of Death rule instead of firing normally. The unit targeted by the Greuso Protocol Reaction may not take Cover Saves against Wounds inflicted as part of that Reaction.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5535,7 +5535,7 @@ Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria 
               <profiles>
                 <profile id="98d3-823f-1e08-d81d" name="Mitra-lock" publicationId="3886-76e5-438f-159f" page="3" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">8&quot;</characteristic>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">8"</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
                     <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Shred</characteristic>
@@ -5602,7 +5602,7 @@ Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria 
         <categoryLink id="a77d-3c79-c679-ab5a" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2384-f5ce-ea5a-dd2d" name="Show Subterranean Assault rule (it&apos;s really long)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2384-f5ce-ea5a-dd2d" name="Show Subterranean Assault rule (it's really long)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7045-d090-02d9-c3cb" type="max"/>
           </constraints>
@@ -5787,7 +5787,7 @@ Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria 
                   <profiles>
                     <profile id="d107-d58c-77b3-a7c4" name="Hyperios Missile Launcher" publicationId="3886-76e5-438f-159f" page="5" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48"</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                         <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
                         <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Skyfire</characteristic>
@@ -5994,7 +5994,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <profiles>
             <profile id="ed58-ab1d-8677-a983" name="Haemonculite Cyber-corpus" publicationId="3886-76e5-438f-159f" page="2" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When Inar Satarael lose his last Wound, but before he is removed as a casualty, all models both friendly and enemy within D6&quot;, suffer an automatic Hit at Str 6, Ap -. In addition, in any battle in which Inar Satarael loses his last Wound, or is otherwise removed from play as a casualty, the controlling player must immediately roll a D6. On a result of a 4+, the opposing player scores no Victory points from destroying Inar Satarael in applicable mission objectives or secondary objectives.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When Inar Satarael lose his last Wound, but before he is removed as a casualty, all models both friendly and enemy within D6", suffer an automatic Hit at Str 6, Ap -. In addition, in any battle in which Inar Satarael loses his last Wound, or is otherwise removed from play as a casualty, the controlling player must immediately roll a D6. On a result of a 4+, the opposing player scores no Victory points from destroying Inar Satarael in applicable mission objectives or secondary objectives.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6010,7 +6010,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <profiles>
             <profile id="fe64-47e9-122e-5bb0" name="Twin-linked Maxima Bolter" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">12"</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
                 <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Twin-linked</characteristic>
@@ -6072,7 +6072,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         <profile id="3399-eef2-caa7-9a33" name="Mechanicum Land Raider Phobos" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport, Reinforced)</characteristic>
-            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12&quot;</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12"</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
             <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">14</characteristic>
@@ -6477,7 +6477,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                     </profile>
                     <profile name="New Profile" hidden="false" id="f598-ac27-df74-e45" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" publicationId="9fab-fea7-a93c-2074" page="143">
                       <characteristics>
-                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The centerline cannon equip to this mount is counted as &apos;Artillery&apos; weapon for those rules which affect such a weapon.</characteristic>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The centerline cannon equip to this mount is counted as 'Artillery' weapon for those rules which affect such a weapon.</characteristic>
                       </characteristics>
                       <alias>
                         <undefined>Artillery Mount</undefined>

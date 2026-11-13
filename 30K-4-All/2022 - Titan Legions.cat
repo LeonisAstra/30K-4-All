@@ -2,7 +2,7 @@
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a9b6-d320-8343-dadc" name="Titan Legions" revision="2013" battleScribeVersion="2.03" library="false" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" type="catalogue">
   <forceEntries>
     <forceEntry id="aebe-bed9-b32f-a8ea" name="0. Titan Maniple" hidden="false">
-      <categoryLinks>
+      <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition type="atLeast" value="1" field="forces" scope="roster" childId="b72c-5934-2e78-b7e6" shared="true" includeChildSelections="false" includeChildForces="false"/></conditions></modifier></modifiers><categoryLinks>
         <categoryLink id="20a9-5d4b-e686-aa09" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7441-87f2-a319-dc9e" type="min"/>
@@ -668,7 +668,7 @@
     <selectionEntry id="4fc3-7259-f9b0-71cd" name="Secutarii Peltast Phalanx" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="56e7-b54b-877c-5f0c" name="Blind Barrage" publicationId="bde1-6db1-163b-3b76" page="102" hidden="false">
-          <description>So long as a unit with this special rule contains at least five models with galvanic casters, once per battle during the controlling player’s Shooting phase, the unit may make a Blind Barrage instead of making a Shooting Attack. Select a friendly unit with a model within 18&quot; and within line of sight of the unit making the Blind Barrage. That friendly unit gains the Shrouded (4+) special rule until the beginning of the controlling player’s next player turn. Models with the Vehicle Unit Type, the Knight Unit Sub-type, the Titan Unit Sub-type, or the Monstrous Unit Sub-type may not be the target of a Blind Barrage</description>
+          <description>So long as a unit with this special rule contains at least five models with galvanic casters, once per battle during the controlling player’s Shooting phase, the unit may make a Blind Barrage instead of making a Shooting Attack. Select a friendly unit with a model within 18" and within line of sight of the unit making the Blind Barrage. That friendly unit gains the Shrouded (4+) special rule until the beginning of the controlling player’s next player turn. Models with the Vehicle Unit Type, the Knight Unit Sub-type, the Titan Unit Sub-type, or the Monstrous Unit Sub-type may not be the target of a Blind Barrage</description>
         </rule>
       </rules>
       <infoLinks>

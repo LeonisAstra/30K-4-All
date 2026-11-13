@@ -37,6 +37,7 @@
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
+    <costType id="5e1f-9a7c-4b30-a1d2" name="Module Slots" defaultCostLimit="-1" hidden="true"/>
   </costTypes>
   <profileTypes>
     <profileType id="4bb2-cb95-e6c8-5a21" name="Unit">
@@ -1512,7 +1513,8 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-          </modifiers>
+          <modifier type="set" field="hidden" value="true"><conditions><condition type="atLeast" value="1" field="forces" scope="roster" childId="b72c-5934-2e78-b7e6" shared="true" includeChildSelections="false" includeChildForces="false"/></conditions></modifier>
+      </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cdb-d88d-5c88-7ff1" type="min"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b58e-f1a1-e46a-bf94" type="max"/>
@@ -2143,6 +2145,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
       </modifiers>
     </forceEntry>
     <forceEntry id="5430-5be1-1613-be44" name="ZM 1. Mortalis Assault Force Organisation Chart" hidden="false">
+      <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition type="atLeast" value="1" field="forces" scope="roster" childId="b72c-5934-2e78-b7e6" shared="true" includeChildSelections="false" includeChildForces="false"/></conditions></modifier></modifiers>
       <constraints>
         <constraint field="forces" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce4d-7e2a-4698-b234" type="max"/>
       </constraints>

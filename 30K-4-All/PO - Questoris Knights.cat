@@ -27,8 +27,19 @@
                 <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Armiger</characteristic>
               </characteristics>
             </profile>
+          <profile id="3c6d-9dbf-134c-4b09" name="Greuso Protocol" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false" typeId="90b9-7fab-87db-aed3" typeName="Reactions">
+              <characteristics>
+                <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction may be made whenever an enemy unit declares a Charge targeting a friendly unit with the Automata Unit Type or Knight Unit Sub-type which is within 12" of another friendly unit that includes at least one model with the Greuso Protocol special rule and is not itself locked in combat. The unit with the Greuso Protocol special rule may make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. A unit that makes a Shooting Attack as part of a Greuso Protocol Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapons or special rules that otherwise ignore line of sight, and Vehicles may only fire Defensive Weapons. Template weapons used as part of a Greuso Protocol Reaction use the Wall of Death rule instead of firing normally. The unit targeted by the Greuso Protocol Reaction may not take Cover Saves against Wounds inflicted as part of that Reaction.</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
-          <constraints>
+          <rules><rule id="1a7d-1f04-636f-4d3d" name="Greuso Protocol" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
+              <description>A unit that includes one or more models with this special rule may make use of the Greuso Protocol Advanced Reaction.</description>
+            </rule>
+          </rules><infoLinks><infoLink id="845c-1d85-6398-1c0d" name="Armiger Unit-Type" hidden="false" targetId="53f7-6b93-cc7a-b976" type="rule"/>
+            <infoLink id="f8b8-d8e7-d358-2425" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
+            <infoLink id="1273-bd0a-d3fc-6b5b" name="Armiger and Moirax Talons" hidden="false" targetId="d840-fbd0-352e-b33e" type="rule"/>
+          </infoLinks><constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93f5-16cf-4bb9-a87c"/>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="334e-31fd-4390-b081"/>
           </constraints>
@@ -47,16 +58,16 @@
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any Questoris Knight Moirax may exchange its Volkite Veuglaire and/or its Siege Claw with in-built Irad-Cleanser for any of the following weapons:" id="572b-708c-44d0-9f71">
+            <selectionEntryGroup name="Any Questoris Knight Moirax may exchange its Volkite Veuglaire for any of the following weapons:" id="572b-708c-44d0-9f71" defaultSelectionEntryId="06ba-9a13-46e0-b3dd">
               <entryLinks>
                 <entryLink name="Volkite Veuglaire" hidden="false" type="selectionEntry" targetId="0dd0-0edf-9526-cc6b" id="06ba-9a13-46e0-b3dd">
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1592-198e-4c22-b65e"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1592-198e-4c22-b65e"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Siege Claw with in-built Irad-Cleanser" hidden="false" type="selectionEntry" targetId="6a06-cbf5-fbbf-85fe" id="7d76-2c8a-4b0a-beae">
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="71a4-5a1a-4969-8147"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71a4-5a1a-4969-8147"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Lightning Lock" hidden="false" type="selectionEntry" targetId="dd74-951d-8540-5ea1" id="d59f-f94e-4066-993a">
@@ -64,7 +75,7 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8032-1fa9-4c97-831d"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8032-1fa9-4c97-831d"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Conversion Beam Cannon" hidden="false" type="selectionEntry" targetId="5775-0d94-8e13-8c1f" id="be8c-6592-4fb3-93c6">
@@ -72,7 +83,7 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c157-0635-4976-8393"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c157-0635-4976-8393"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Graviton Pulsar" hidden="false" type="selectionEntry" targetId="115a-86e7-896f-b872" id="3d49-97b3-42f4-b0dd">
@@ -80,20 +91,61 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d4fa-7343-4d0b-b525"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4fa-7343-4d0b-b525"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="58b5-121a-465b-8fa7"/>
-              </constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58b5-121a-465b-8fa7"/>
+              <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebe6-e96d-13d4-9558"/></constraints>
+            </selectionEntryGroup>
+          <selectionEntryGroup name="Any Questoris Knight Moirax may exchange its Siege Claw with in-built Irad-Cleanser for any of the following weapons:" id="7147-421b-6e26-d878" defaultSelectionEntryId="f576-3282-9787-86d3">
+              <entryLinks>
+                <entryLink name="Volkite Veuglaire" hidden="false" type="selectionEntry" targetId="0dd0-0edf-9526-cc6b" id="ce87-ad4e-dc84-f1e3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3baa-7159-f13e-2d7b"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Siege Claw with in-built Irad-Cleanser" hidden="false" type="selectionEntry" targetId="6a06-cbf5-fbbf-85fe" id="f576-3282-9787-86d3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b55-ca93-4165-7996"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Lightning Lock" hidden="false" type="selectionEntry" targetId="dd74-951d-8540-5ea1" id="dda4-29a9-e2b1-ff45">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfff-d20d-cbae-2548"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Conversion Beam Cannon" hidden="false" type="selectionEntry" targetId="5775-0d94-8e13-8c1f" id="a4e1-5835-bb9d-f2ef">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9009-2061-a556-d85a"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Graviton Pulsar" hidden="false" type="selectionEntry" targetId="115a-86e7-896f-b872" id="d1e7-3bae-814b-45c2">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfce-af7e-69e4-a79a"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fa1-9866-3792-d21a"/>
+              <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0aa-692b-3f05-2763"/></constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="225"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Armiger&apos;</comment>
+Could not find type or subtype 'Armiger'</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -106,10 +158,7 @@ Could not find type or subtype &apos;Armiger&apos;</comment>
         <infoLink name="Night Vision" hidden="false" type="rule" targetId="683e-b4f2-f032-d31b" id="1d72-bdc8-4402-9e30"/>
         <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="ea09-79f5-465a-a05c"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Greuso Protocol
-Could not find rule: Moirax Talon</comment>
-    </selectionEntry>
+      </selectionEntry>
     <selectionEntry name="Knight Maeliviax" type="unit" id="1a0b-82a7-4c82-9fe0" page="72" publicationId="f856-58d6-ef02-7d3e">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="4136-a96a-46d1-979c"/>
@@ -323,7 +372,7 @@ Could not find rule: Moirax Talon</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5310-8dfc-4f28-83d7"/>
               </constraints>
             </entryLink>
-          </entryLinks>
+          <entryLink id="7c6e-a20d-2421-7e4d" name="Carapace Mounted Siegebreaker Cannons" hidden="false" collective="false" type="selectionEntry" targetId="e7a5-cee7-4501-b797" import="true"><constraints><constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4860-f8ce-52bd-d8c1"/><constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5a8a-6412-81b9-168a"/></constraints><modifiers><modifier type="decrement" field="4860-f8ce-52bd-d8c1" value="1"><repeats><repeat value="1" repeats="1" field="selections" scope="9bba-0f55-47ac-8530" childId="8aac-2e0d-4d7d-ae3a" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/></repeats></modifier><modifier type="decrement" field="5a8a-6412-81b9-168a" value="1"><repeats><repeat value="1" repeats="1" field="selections" scope="9bba-0f55-47ac-8530" childId="8aac-2e0d-4d7d-ae3a" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/></repeats></modifier><modifier type="decrement" field="4860-f8ce-52bd-d8c1" value="1"><repeats><repeat value="1" repeats="1" field="selections" scope="9bba-0f55-47ac-8530" childId="bd87-e395-1602-d73a" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/></repeats></modifier><modifier type="decrement" field="5a8a-6412-81b9-168a" value="1"><repeats><repeat value="1" repeats="1" field="selections" scope="9bba-0f55-47ac-8530" childId="bd87-e395-1602-d73a" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/></repeats></modifier><modifier type="decrement" field="4860-f8ce-52bd-d8c1" value="1"><repeats><repeat value="1" repeats="1" field="selections" scope="9bba-0f55-47ac-8530" childId="0e77-6285-22bb-1534" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/></repeats></modifier><modifier type="decrement" field="5a8a-6412-81b9-168a" value="1"><repeats><repeat value="1" repeats="1" field="selections" scope="9bba-0f55-47ac-8530" childId="0e77-6285-22bb-1534" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/></repeats></modifier></modifiers></entryLink></entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Knight Dominus must select two of the following Arm Mounted weapon options, in any combination:" id="0ff0-9e66-438f-99b3">
               <entryLinks>
@@ -335,7 +384,7 @@ Could not find rule: Moirax Talon</comment>
                     <modifier type="set" field="name" value="Arm Mounted Conflagration Cannon"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d53-a93c-4834-a284"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4d53-a93c-4834-a284"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Thundercoil Harpoon" hidden="false" type="selectionEntry" targetId="4107-2391-4d00-8ed7" id="33dd-d9fa-4a26-b93d">
@@ -346,7 +395,7 @@ Could not find rule: Moirax Talon</comment>
                     <modifier type="set" field="name" value="Arm Mounted Thundercoil Harpoon"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f9b-da61-44ef-ae4a"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4f9b-da61-44ef-ae4a"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Plasma Decimator" hidden="false" type="selectionEntry" targetId="aff5-27b3-46b0-b6d1" id="f718-bf2c-4c6e-b0b4">
@@ -357,7 +406,7 @@ Could not find rule: Moirax Talon</comment>
                     <modifier type="set" field="name" value="Arm Mounted Plasma Decimator"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="138e-8287-4685-a16b"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="138e-8287-4685-a16b"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Sonic Pulsar" hidden="false" type="selectionEntry" targetId="3994-4629-42e7-8ff8" id="d95e-6a07-4789-a6a7">
@@ -368,7 +417,7 @@ Could not find rule: Moirax Talon</comment>
                     <modifier type="set" field="name" value="Arm Mounted Sonic Pulsar"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f25-c992-412b-af63"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7f25-c992-412b-af63"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Volcano Lance" hidden="false" type="selectionEntry" targetId="3d7a-73a2-447c-aa31" id="2c5a-c35d-4239-bb96">
@@ -379,13 +428,13 @@ Could not find rule: Moirax Talon</comment>
                     <modifier type="set" field="name" value="Arm Mounted Volcano Lance"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1df-ae0e-4c7d-a6f2"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1df-ae0e-4c7d-a6f2"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5be-8ee0-4e32-ba7f"/>
-              </constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a5be-8ee0-4e32-ba7f"/>
+              <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6166-7672-f550-8855"/></constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Knight Dominus may exchange any of its Carapace Mounted Siegebreaker Cannons for:" id="3c95-c274-402f-b6dd">
               <entryLinks>
@@ -395,9 +444,9 @@ Could not find rule: Moirax Talon</comment>
                   </costs>
                   <modifiers>
                     <modifier type="set" field="name" value="Two Carapace Mounted Shieldbreaker Missiles"/>
-                  </modifiers>
+                  <modifier type="set" field="name" value="Two Carapace Mounted Shieldbreaker Missiles"/></modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d80-a351-4b72-8680"/>
+                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1d80-a351-4b72-8680"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Twin-Linked Icarus Autocannon" hidden="false" type="selectionEntry" targetId="bd87-e395-1602-d73a" id="84aa-0f07-4471-92fa">
@@ -408,7 +457,7 @@ Could not find rule: Moirax Talon</comment>
                     <modifier type="set" field="name" value="Carapace Mounted Twin-Linked Icarus Autocannon"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="391d-0e5a-4d6c-a06b"/>
+                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="391d-0e5a-4d6c-a06b"/>
                   </constraints>
                 </entryLink>
               </entryLinks>

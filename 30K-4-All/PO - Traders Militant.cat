@@ -1650,7 +1650,7 @@
         <infoLink name="Sworn to Serve" hidden="false" type="rule" targetId="cea7-a995-475d-9481" id="0ee4-3eba-4b3d-b5a2"/>
       </infoLinks>
       <rules>
-        <rule name="Weaponsmith&apos;s Ingenuity" hidden="false" id="a121-a687-cea-7cef" page="290" publicationId="892-6266-f55f-1b9d">
+        <rule name="Weaponsmith's Ingenuity" hidden="false" id="a121-a687-cea-7cef" page="290" publicationId="892-6266-f55f-1b9d">
           <description>Once per game turn, at the start of the Controlling Player’s Shooting Phase, the Controlling Player may choose to roll on the below chart. The result rolled applies to all models in the unit with the Trader Militant Sub-faction until the start of the Controlling Player’s next Shooting Phase.
 • 1 → The weapons of all models affected gain the Gets Hot Special Rule, or if they already have it, a to-Hit roll of a 1 or a 2 triggers the effects of the Special Rule instead.
 • 2 → The modifications have no noticeable effect.
@@ -7785,7 +7785,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="0. Aegis Militant" hidden="false" id="4868-734d-51cd-7b07">
-      <constraints>
+      <modifiers><modifier type="set" field="hidden" value="true"><conditions><condition type="atLeast" value="1" field="forces" scope="roster" childId="b72c-5934-2e78-b7e6" shared="true" includeChildSelections="false" includeChildForces="false"/></conditions></modifier></modifiers><constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="772b-b3c5-8041-962a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
       <categoryLinks>
@@ -8031,7 +8031,7 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Trader&apos;s Militant" hidden="false" id="96c0-4c34-aae8-dec3" type="selectionEntry" targetId="b3c-b7a3-8cee-e47e" defaultAmount="1">
+    <entryLink import="true" name="Trader's Militant" hidden="false" id="96c0-4c34-aae8-dec3" type="selectionEntry" targetId="b3c-b7a3-8cee-e47e" defaultAmount="1">
       <categoryLinks>
         <categoryLink targetId="e90d-e5a8-f42d-da84" id="a3cc-4182-147e-f2bb" primary="true" name="Allegiance:"/>
       </categoryLinks>
