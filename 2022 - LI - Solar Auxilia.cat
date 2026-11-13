@@ -810,6 +810,216 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Lord Marshal Ireton Masade" hidden="false" id="cde7-8f95-3be8-74c8" type="selectionEntry" targetId="bbfc-3ecc-4d10-b3de">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="5e3b-7a7b-f4c7-1738" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="849d-85e4-1810-7e7d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Battle Psyker" hidden="false" id="eb3e-ea98-8d28-ef12" type="selectionEntry" targetId="aeec-9d3a-4d2b-b235">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="27b8-935b-ed45-f3c7" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="53a2-465d-b5e8-4af3" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Furibundus Dreadnought Talon" hidden="false" id="675f-14f8-1234-269c" type="selectionEntry" targetId="2266-8662-4610-adab">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="eb55-ae91-9c58-38a4" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="9aa4-6543-c469-9a87" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Possessed Auxilia" hidden="false" id="980d-cd88-14f8-134f" type="selectionEntry" targetId="022e-bce8-4a52-80cb">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="accb-247a-d4e7-8854" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7cf8-507f-bcba-f60f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Extremis Boarding Rig Section" hidden="false" id="91d8-9aa9-4dda-5277" type="selectionEntry" targetId="c9f5-c244-40bc-9cb1">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="c7cf-f72d-c134-93bb" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="b2e5-2776-a8c1-1123" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer Auxilia Section" hidden="false" id="567f-101a-ac91-af73" type="selectionEntry" targetId="5ec1-ae0c-4644-9810">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="b37d-a152-e36e-6a2f" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5401-af05-6a98-24c1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Auxilia Breacher Tercio Each Auxilia Breacher Tercio Is A Single Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" hidden="false" id="2d9d-2b04-1abf-9f40" type="selectionEntry" targetId="3310-b0ef-4e41-9a06">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="1b4e-b373-2392-f3a4" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="62ef-a6d0-c513-4b61" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Breacher Section" hidden="false" id="c9db-8e8b-8611-6419" type="selectionEntry" targetId="db2d-343f-49a2-ab33">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f732-d62f-cee9-8cf7" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="480c-6a96-d6bf-2323" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Auxilia Infantry Support Tercio Each Auxilia Infantry Support Tercio Is A Single Non-Compulsory Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" hidden="false" id="2668-4020-1c5b-f473" type="selectionEntry" targetId="6fad-1e31-42a4-90ba">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="86ad-b358-e813-3602" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="55b9-7b86-9f64-e66e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Pioneer Section" hidden="false" id="dd5c-6049-bee3-8aa4" type="selectionEntry" targetId="f72d-5f43-4d86-973f">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="f84e-c3dc-328c-64ed" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="bcc3-63de-48e0-de46" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Special Weapons Section" hidden="false" id="ff3c-6ee5-809d-d622" type="selectionEntry" targetId="8a36-a3d0-44a6-a8ac">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="5255-ff5a-3a12-50d8" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="b478-28fc-6047-e159" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Heavy Weapons Section" hidden="false" id="6a19-d07e-661b-2e4f" type="selectionEntry" targetId="ca94-82b2-438f-ab63">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="1ee8-2bb7-e69e-cbf6" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="acd6-e1b3-a631-882a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Chimera Transport" hidden="false" id="7720-7112-b377-345a" type="selectionEntry" targetId="c052-5fc4-48d3-8edc">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="7db3-6604-ed2e-3362" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="4c7d-af6d-6496-5214" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Auxilia Verticalis Drop Tercio Each Solar Auxilia Drop Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="1a2a-fea9-f75e-4925" type="selectionEntry" targetId="124a-f32d-4442-b42b">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="13dc-8f8d-63bf-81d4" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="77a7-b4a3-e8f9-4de4" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Verticalis Drop Section" hidden="false" id="b11c-94c5-ea5a-35bf" type="selectionEntry" targetId="ac43-ffce-4f42-8220">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="9c17-7bdf-24ac-8a6b" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a0d7-328c-3d17-f31a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Verticalis Drop Sentinel Squadron" hidden="false" id="f006-e703-ed61-f34c" type="selectionEntry" targetId="d795-a6df-4632-a2b3">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="4ffc-9d1a-84fc-474c" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d5e3-3991-d470-784b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Auxilia Light Armoured Tercio Each Auxilia Light Armoured Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="87eb-8d7b-d134-bf0b" type="selectionEntry" targetId="a520-ed43-4d78-b257">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="1fe4-c597-b46c-1998" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="af7f-37ea-47f5-c068" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Salamander Scout Squadron" hidden="false" id="455e-8584-3799-8103" type="selectionEntry" targetId="3bc7-43f4-4f0a-a5cb">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="3f08-c21c-9e2a-27eb" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="865d-32aa-d443-ff83" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Pegasus Assault Squadron" hidden="false" id="193e-16f8-7ee0-b1ab" type="selectionEntry" targetId="ba90-233d-4f93-a1f0">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="2886-ada8-4515-b913" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="79f3-e2d5-4098-1105" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Auxilia Carnodon Tercio Each Auxilia Carnodon Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="5b97-64e7-9adf-18c7" type="selectionEntry" targetId="b287-36c9-40a2-abc5">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="a298-2fb9-ddbf-fb80" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c2e3-880d-52e5-cb10" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Tempestor Land Speeder Squadron" hidden="false" id="1694-f67c-5a18-ea78" type="selectionEntry" targetId="9510-1c96-4cfe-ae17">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="10a0-8f1d-4fb3-28d6" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="2335-5088-46ca-dbb3" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Hellhound Flame Tank Squadron" hidden="false" id="140d-2150-c8a7-3fa9" type="selectionEntry" targetId="522c-4262-4041-8226">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="4a4d-c0af-1fba-6dc4" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="32d2-7e43-c7b7-dcb0" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Divisio Aeronautica Avenger Strike Fighter" hidden="false" id="a2d1-290b-e4bf-4d34" type="selectionEntry" targetId="bba1-0a9b-4dc3-b677">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="c743-1f50-3afb-e1f2" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="1e55-d4d1-388d-8128" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Kelaino Squadron" hidden="false" id="880f-a0d2-6c15-95f4" type="selectionEntry" targetId="58df-6a8f-4d5c-9cd8">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="6e24-bc61-fd33-e604" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="3f42-5c68-4a1d-2a8c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Aello Gunship Squadron" hidden="false" id="e733-fd66-f1be-aefc" type="selectionEntry" targetId="f14b-9c7e-49a5-8d08">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="5e9e-bfd3-1a43-df48" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a4e7-ec72-21c9-bc80" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Ocypete Gunship Squadron" hidden="false" id="f87d-676a-4c90-28b0" type="selectionEntry" targetId="38a3-8291-4911-a216">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="61e7-a2d5-15ba-461a" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="158d-95e8-f281-c59f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Hades Breaching Drill" hidden="false" id="5840-c50f-316d-4db1" type="selectionEntry" targetId="6fe3-70e8-4c6e-bd58">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="3f8e-1882-b403-e094" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7e8b-3979-cbac-835e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Macharius Omega Heavy Tank" hidden="false" id="d7a3-45b7-10d6-33ab" type="selectionEntry" targetId="a91d-e612-47ee-9d84">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="b386-c813-677f-fc8f" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="dfc3-f337-361f-e4a9" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Praetorian Heavy Tank Squadron" hidden="false" id="ef6a-7fd8-88da-de8e" type="selectionEntry" targetId="1e6e-a529-48f3-a488">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="1ded-3437-771f-1fb3" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e860-9893-1514-319b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Hydra Flak Tank Battery" hidden="false" id="1c12-6bb9-ceab-49cc" type="selectionEntry" targetId="5bc1-68e3-45a4-9654">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="7d70-20dd-b746-85e5" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="3381-5146-5669-e407" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Auxilia Artillery Tercio Additions The Unit Listed Below May Be Selected Instead Of Or As Well As The Other Options Presented In Other Publications For An Auxilia Artillery Tercio" hidden="false" id="2de6-4333-d6d7-6d4e" type="selectionEntry" targetId="5a26-d499-4251-a65c">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="631e-a854-74fd-365d" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c856-fd51-9511-29fd" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Manticore Missile Tank Battery" hidden="false" id="a1e9-97b2-e271-2542" type="selectionEntry" targetId="dccf-1636-412a-9775">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="c12d-fa61-cde9-92aa" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ad70-c828-298c-b75d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Deathstrike Missile Platform" hidden="false" id="e0c5-f85d-ffae-9512" type="selectionEntry" targetId="a3b7-9e16-452a-a23f">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a2a7-8086-b7d4-e655" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="13a6-5342-65d9-17b7" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Divisio Aeronautica Marauder Bomber" hidden="false" id="8c4b-ca7f-b4fc-b717" type="selectionEntry" targetId="ff20-da37-490c-9baf">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="876d-71a8-e6fb-3892" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7666-6f84-dd01-230c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Divisio Aeronautica Marauder Destroyer" hidden="false" id="de63-ea34-4136-bd9e" type="selectionEntry" targetId="577a-ddee-48fc-9610">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="592d-c36f-8938-ec92" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7863-a1d0-ba4d-44d1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9dd4-325a-c1cb-fac2" name="Legate Marshal" hidden="false" collective="false" import="true" type="unit">
@@ -872,6 +1082,7 @@
               </modifiers>
             </infoLink>
             <infoLink id="e674-1cda-ba3c-0cfb" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
+            <infoLink id="a6a1-4779-dae8-f6e9" name="Field Officer" hidden="false" type="rule" targetId="14d8-69c5-4a46-8cce"></infoLink>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="060d-d998-a340-70ee" name="May exchange their Laspistol and/or Close Combat Weapon for one of the Following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="506a-61e7-02e4-b9d2">
@@ -916,6 +1127,78 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
+                <entryLink id="90c5-8df7-5eb0-b630" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="29a9-b56c-49eb-ea98" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="81cc-aeb8-dce6-bde4" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="46f6-b933-d156-ae9a" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="1fc7-aab5-47c6-74c9" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="ff3d-cf19-b797-73e0" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="35c6-44e1-80fb-af69" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
+                <entryLink id="a658-ba82-14eb-75a4" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-Crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="3e04-d00a-bb4a-5f72" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7835-34c0-8253-3fc5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  </entryLink>
                 <entryLink id="506a-61e7-02e4-b9d2" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="3d50-2f85-06ff-6aee" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Master-Crafted Close Combat Weapon">
@@ -1200,6 +1483,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule id="1b9f-e181-55d4-be50" name="Errata: Solar Auxilia Legate Marshal (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Solar Auxilia Legate Marshal may exchange either their Laspistol and/or Close Combat Weapon for one of the following options:</description></rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Lifeward Section" hidden="false" id="2a87-dbc1-ad18-9949" publicationId="d882-d2a-5da1-92c4" page="186">
           <constraints>
@@ -1216,7 +1502,7 @@
                   <characteristics>
                     <characteristic name="Unit Type" id="bc75-1a50-dbad-100f" hidden="false" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
                     <characteristic name="Move" id="f10e-7724-2f5f-369d" hidden="false" typeId="893e-2d76-8f04-44e5">6</characteristic>
-                    <characteristic name="WS" id="7aa2-c8af-b1fe-94ca" hidden="false" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                    <characteristic name="WS" id="7aa2-c8af-b1fe-94ca" hidden="false" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                     <characteristic name="BS" id="18e2-451e-943a-ce0e" hidden="false" typeId="74ae-c840-0036-d244">4</characteristic>
                     <characteristic name="S" id="69ba-ce11-81d1-3381" hidden="false" typeId="e478-41d4-a092-48a8">3</characteristic>
                     <characteristic name="T" id="e6c4-b9db-d740-4ec4" hidden="false" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
@@ -1338,6 +1624,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <infoLinks>
+                <infoLink id="4310-7bf0-c8e3-acfb" name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d"></infoLink>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Auxilia Protector w/ Heavy Melee Weapon" hidden="false" id="15bd-9d36-66e6-37c3">
               <categoryLinks>
@@ -1522,6 +1811,9 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <rules>
+        <rule id="b6de-aa6a-5300-2f63" name="Errata: Solar Auxilia Legate Marshal (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Solar Auxilia Legate Marshal may exchange either their Laspistol and/or Close Combat Weapon for one of the following options:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="e9d4-7207-71e0-0762" name="Tactical Command Tercio" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1737,6 +2029,7 @@
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Close Combat Weapon" hidden="false" id="8472-98db-32c6-3b4e" type="selectionEntry" targetId="19ab-4d64-f6a7-9f81"/>
+                <entryLink id="e412-43ca-f078-43df" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="3d50-2f85-06ff-6aee" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
@@ -1745,6 +2038,9 @@
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="1f7f-9894-48d0-a8a9" name="Infantry:" primary="false"/>
                 <categoryLink targetId="0af0-ea84-09d7-2b1f" id="82d8-8f4c-4f28-8088" name="Close-order Sub-type" primary="false"/>
               </categoryLinks>
+              <infoLinks>
+                <infoLink id="d9cf-6fbd-e283-735b" name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed"></infoLink>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="672b-ea90-3efc-dee2" name="Auxilia Captain" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -2976,7 +3272,7 @@
               <selectionEntries>
                 <selectionEntry id="0e92-6f2e-8f92-40bf" name="Veletarii w/ Power Sword" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1011-7d26-c096-6d0c" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1011-7d26-c096-6d0c" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="d55c-a815-fca3-ee7a" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3005,7 +3301,7 @@
                 </selectionEntry>
                 <selectionEntry id="6e26-de36-1442-bf11" name="Veletarii w/ Power Lance" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff05-f5f1-0f4d-d019" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff05-f5f1-0f4d-d019" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="c3fa-1bf1-90fe-5ff3" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3034,7 +3330,7 @@
                 </selectionEntry>
                 <selectionEntry id="2ccc-2dc8-9580-f134" name="Veletarii w/ Power Maul" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af2-bcc2-ec38-96e0" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af2-bcc2-ec38-96e0" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="e672-dd79-0784-b7ec" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3063,7 +3359,7 @@
                 </selectionEntry>
                 <selectionEntry id="c39a-711f-3566-712d" name="Veletarii w/ Volkite Charger" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ff-babf-7da4-a70a" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ff-babf-7da4-a70a" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="b46b-492a-7e17-61de" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3092,7 +3388,7 @@
                 </selectionEntry>
                 <selectionEntry id="0797-e0e8-65b9-9a4a" name="Veletarii w/ Power Axe" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd6-dd94-5d41-dfcf" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd6-dd94-5d41-dfcf" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="f81e-a329-ec72-2a89" name="Veletarii" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -3159,7 +3455,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-87f4-1ad8-9ce2" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-87f4-1ad8-9ce2" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="d542-cb70-04d1-4169" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3195,7 +3491,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="280a-f343-5c76-96be" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="280a-f343-5c76-96be" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="bea6-1566-1daa-d125" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3231,7 +3527,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c4-2ecd-2399-57b3" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c4-2ecd-2399-57b3" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="6ff5-6ca2-b290-6622" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3267,7 +3563,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad4-ac3d-65f6-873f" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad4-ac3d-65f6-873f" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="5dcb-b922-a27e-c565" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3303,7 +3599,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9153-294f-4c90-b9c8" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9153-294f-4c90-b9c8" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="dbae-36d4-0282-452f" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -4892,9 +5188,9 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 <profile id="6573-9a7d-f256-722e" name="Charonite Claws" publicationId="9fab-fea7-a93c-2074" page="174" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Rending (6+), Murderous Strike (6+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Rending (5+), Murderous Strike (6+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5565,7 +5861,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
               <selectionEntries>
                 <selectionEntry id="38fa-8a5c-8183-737e" name="Auxilia Veteran w/ Lasrifle" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a5-bdd1-9156-35d0" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a5-bdd1-9156-35d0" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="1588-db82-569c-00c0" name="Auxilia Veteran" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -5615,7 +5911,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 </selectionEntry>
                 <selectionEntry id="88a5-af55-4a9b-63bf" name="Auxilia Veteran w/ Lasrifle and Bayonet" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c02b-237d-2b57-034f" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c02b-237d-2b57-034f" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="3afc-f5af-1577-970a" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5652,7 +5948,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed1-5136-f4bf-a5af" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed1-5136-f4bf-a5af" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="4f7d-da15-e34f-7825" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5683,7 +5979,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d127-1aa4-adfe-35d8" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d127-1aa4-adfe-35d8" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="c792-4200-5e45-8947" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5714,7 +6010,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e1-ac80-a81a-8e6c" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e1-ac80-a81a-8e6c" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="5f1e-dade-67d6-13c8" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5745,7 +6041,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8688-4f80-c216-97d9" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8688-4f80-c216-97d9" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="f119-5753-9ded-4a5c" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5776,7 +6072,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5cb-f801-c441-0f24" type="max"/>
+                    <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5cb-f801-c441-0f24" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="a5d1-730e-57e4-45e0" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -6910,6 +7206,13 @@ While at least one model with a Command Vox is present on the battlefield and n
                     <selectionEntry id="dbc6-3573-177d-e0a4" name="Leman Russ Battle Tank" hidden="false" collective="false" import="true" type="model">
                       <profiles>
                         <profile id="4ccd-b32d-caca-2016" name="Leman Russ Battle Tank" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+                <modifiers>
+                  <modifier type="set" field="8d4e-2aea-fffc-d556" value="11">
+                    <conditions>
+                      <condition field="selections" scope="813c-fa93-375d-5f3e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d4a-05a3-1589-915d" type="atLeast"/>
+                    </conditions>
+                  </modifier>
+                </modifiers>
                           <characteristics>
                             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
@@ -7539,6 +7842,9 @@ While at least one model with a Command Vox is present on the battlefield and n
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="33"/>
               </costs>
+              <infoLinks>
+                <infoLink id="ec8a-beaf-466c-36fb" name="Artillery Spotters" hidden="false" type="rule" targetId="a373-9d03-0a41-339e"></infoLink>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -8161,7 +8467,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                           </modifiers>
                           <characteristics>
                             <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Automated Artillery)</characteristic>
-                            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">-</characteristic>
+                            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">3+</characteristic>
                             <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">-</characteristic>
                             <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
                             <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
@@ -8170,7 +8476,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                             <characteristic name="I" typeId="62d3-22d7-2d49-52dc">-</characteristic>
                             <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">-</characteristic>
                             <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">5</characteristic>
-                            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+                            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8354,7 +8660,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3aef-f336-3b44-7f26" name="3) May exchange its Side (Left) &amp; Side (Right) Mounted heavy bolters for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9020-c4fb-3589-9f16">
+            <selectionEntryGroup id="3aef-f336-3b44-7f26" name="3) May exchange its Hull (Left) &amp; Hull (Right) Mounted heavy bolters for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9020-c4fb-3589-9f16">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b546-23b9-7c07-9d65" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c8-464e-3c0f-cffa" type="max"/>
@@ -9368,7 +9674,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                     <modifier type="set" field="name" value="Pintle Mounted Multi-Laser"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="59c3-deaf-d900-d1fb" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
@@ -9563,7 +9869,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="25d6-a17a-5db1-6969" name="Two Sponson Mounted Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -9586,7 +9892,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="32ae-5000-8b0a-19ef" name="Two Sponson Mounted Multi-lasers" hidden="false" collective="false" import="true" type="upgrade">
@@ -9770,7 +10076,7 @@ While at least one model with a Command Vox is present on the battlefield and n
                   <rules>
                     <rule id="38c8-414f-35c2-bf17" name="Field Repair (X)" hidden="false">
                       <modifiers>
-                        <modifier type="set" field="name" value="Field Repair (4+)">
+                        <modifier type="set" field="name" value="Field Repair (3+)">
                           <comment>Panoptica 150</comment>
                         </modifier>
                       </modifiers>
@@ -10085,7 +10391,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
                             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
                             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 3, Twin-linked, Exoshock (6+), Sunder, Gets Hot</characteristic>
+                            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Twin-Linked, Exoshock (5+), Sunder, Gets Hot</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -10093,7 +10399,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                         <infoLink name="Twin-linked" hidden="false" id="3e8d-571d-9615-97e0" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
                         <infoLink name="Exoshock (X)" hidden="false" id="ba09-3c43-6460-2b5b" type="rule" targetId="69ca-318a-b47a-7a3c">
                           <modifiers>
-                            <modifier type="set" value="Exoshock (6+)" field="name"/>
+                            <modifier type="set" value="Exoshock (5+)" field="name"/>
                           </modifiers>
                         </infoLink>
                         <infoLink name="Gets Hot" hidden="false" id="d96b-f5f2-2a89-af93" type="rule" targetId="679f-9d97-5ace-a652"/>
@@ -10173,7 +10479,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="120b-e5ac-6dfc-aed7" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+                <entryLink id="120b-e5ac-6dfc-aed7" name="Hull (Rear) Mounted Hunter- Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Rear) Mounted Hunter-Killer Missile">
                       <comment>Panoptica 150</comment>
@@ -10227,7 +10533,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
       <selectionEntries>
         <selectionEntry id="83fd-3959-0a1c-1815" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c92-9871-cb11-6f1e" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c92-9871-cb11-6f1e" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75f1-9d79-2ce9-8793" type="min"/>
           </constraints>
           <profiles>
@@ -10343,7 +10649,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="235"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="335"/>
           </costs>
           <infoLinks>
             <infoLink name="Independent Fire Control" hidden="false" id="beea-bb7-2149-caf0" type="rule" targetId="64ca-719e-b563-e3df"/>
@@ -10352,7 +10658,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="1) Main Cannon" hidden="false" id="f63b-b35f-38f5-9de2" collective="false" import="true" defaultSelectionEntryId="4530-f4f8-699a-99d9">
@@ -10880,6 +11186,9 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         <infoLink name="Tank Desant" hidden="false" id="c6ea-617e-796b-2c0d" type="rule" targetId="f690-0d4f-dae7-d730"/>
         <infoLink name="Assault Vehicle" hidden="false" id="3ac3-44e0-8973-d0ae" type="rule" targetId="aa61-11f6-2bb5-7c0e"/>
       </infoLinks>
+      <rules>
+        <rule id="75a0-ba2a-5ca6-4236" name="Errata: Solar Auxilia Stormlord" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Solar Auxilia Stormlord has one Access Point at the rear of the hull.</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="4713-c9ee-2c57-9457" name="Shadowsword" hidden="false" collective="false" import="true" type="unit" publicationId="9fab-fea7-a93c-2074" page="151">
       <profiles>
@@ -10995,7 +11304,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="525"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d0b-9f37-cd30-0db7" name="Stormsword" hidden="false" collective="false" import="true" type="unit" publicationId="9fab-fea7-a93c-2074" page="151">
@@ -11529,7 +11838,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry name="Aethon Heavy Sentinel Squadron" type="unit" id="a67f-63df-43c3-8e3c" page="182" publicationId="d882-d2a-5da1-92c4">
@@ -11565,7 +11874,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
               <entryLinks>
                 <entryLink name="Autocannon" hidden="false" type="selectionEntry" targetId="56b3-de09-9fea-deb6" id="9d8c-2100-4ce3-be82">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e14e-cf71-4616-b0f4"/>
@@ -11573,7 +11882,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                 </entryLink>
                 <entryLink name="Volkite Culverin" hidden="false" type="selectionEntry" targetId="170d-44e0-455c-8207" id="290b-6678-4687-bf31">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e65c-16ff-4c3f-875e"/>
@@ -11581,7 +11890,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                 </entryLink>
                 <entryLink name="Lascannon" hidden="false" type="selectionEntry" targetId="b252-5a86-6e0f-218b" id="5b13-71a3-43a0-b489">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54b4-58a3-454b-8775"/>
@@ -11595,7 +11904,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Incinerator" hidden="false" id="3c54-73b6-d719-7a12" publicationId="d882-d2a-5da1-92c4" page="183">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                   <profiles>
                     <profile name="Heavy Incinerator" hidden="false" id="1bc6-11d3-26ac-4ad3" publicationId="2d3f-82d2-9db5-ca6d" page="2" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -11617,15 +11926,15 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Melta lance" hidden="false" id="333e-3b04-ddb-34eb" publicationId="d882-d2a-5da1-92c4" page="183">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                   <profiles>
                     <profile name="Melta lance" hidden="false" id="5e51-b891-c549-3df6" publicationId="2d3f-82d2-9db5-ca6d" page="2" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18</characteristic>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                         <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Ranged)</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Ungainly, Lance, Sudden Strike (2), Two-Handed, One Use</characteristic>
                       </characteristics>
                       <comment>Different from the Melta lance that militia can take</comment>
                     </profile>
@@ -11655,7 +11964,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                         <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
                         <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Large Blast (5&quot;), Barrage, Twin-linked</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Large Blast (5&quot;), Barrage, Twin-Linked, Pinning</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11671,12 +11980,12 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="fc64-443f-4134-ccbb" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                <entryLink import="true" name="4 Hunter-Killer Missiles" hidden="false" id="fc64-443f-4134-ccbb" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
                   <modifiers>
                     <modifier type="set" value="4 Hunter-killer missiles" field="name"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -11790,7 +12099,7 @@ until the start of the controlling player’s next turn.</characteristic>
                         <characteristic name="Range" id="dba6-b007-f145-48b3" hidden="false" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
                         <characteristic name="Strength" id="88f0-cd1a-8e7d-da06" hidden="false" typeId="24d9-b8e1-a355-2458">6</characteristic>
                         <characteristic name="AP" id="b591-5f5c-28a5-b10" hidden="false" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                        <characteristic name="Type" id="259a-38ee-a78c-f199" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
+                        <characteristic name="Type" id="259a-38ee-a78c-f199" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Rupture (6+)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11801,6 +12110,7 @@ until the start of the controlling player’s next turn.</characteristic>
                         <modifier type="set" value="Blast (3&quot;)" field="name"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink id="b796-5d3d-14d5-eb58" name="Rupture (X)" hidden="false" targetId="78fb-d1d8-c774-d235" type="rule"><modifiers><modifier type="set" field="name" value="Rupture (6+)"/></modifiers></infoLink>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -11844,7 +12154,7 @@ until the start of the controlling player’s next turn.</characteristic>
           <rules>
             <rule id="05af-452b-0e23-3b16" name="Reborn Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false">
               <description>Effects
-• All models with the Infantry Unit Type in a Detachment using this Cohort Doctrine gain a bonus of +1 to their Leadership Characteristic, to a maximum of Leadership 10, and the Stubborn Special Rule.
+• All models with the Infantry Unit Type in a Detachment using this Cohort Doctrine gain a bonus of +1 to their Leadership Characteristic, to a maximum of Leadership 10, and the Stubborn Special Rule.
 • When making a Shooting Attack during any Game Turn in which the attacking unit has not Moved, a unit from a Detachment using this Cohort Doctrine may re-roll all failed To Hit rolls of ‘1’.
 
 Limitations
@@ -11881,7 +12191,8 @@ Limitations
           <rules>
             <rule id="a28b-aeef-6d88-8985" name="Armoured Fist Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false">
               <description>Effects
-• A Detachment using this Cohort Doctrine may select Auxilia Armoured Tercios as Troops choices. An Auxilia Armoured Tercio selected as a Troops choice may only consist of a single unit. Auxilia Armoured Tercios selected as Compulsory Troop Choices in a Primary Detachment using this Cohort Doctrine gain the Line Unit Sub-type. The first time in a game that any models with the Infantry Unit Type Disembark from their own Dedicated Transport, they gain the Relentless special rule until the end of that turn. (THIS MUST BE MANUALLY CHECKED)
+• A Detachment using this Cohort Doctrine may select Auxilia Armoured Tercios as Troops choices. An Auxilia Armoured Tercio selected as a Troops choice may only consist of a single unit, Auxilia Armoured Tercios selected as Compulsory Troop Choices in a Primary Detachment using this Cohort Doctrine gain the Line Unit Sub-type.
+• The first time in a game that any models with the Infantry Unit Type Disembark from their own Dedicated Transport, they gain the Relentless Special Rule until the end of that turn.
 • In a Primary Detachment using this Cohort Doctrine, a single Solar Auxilia Armoured Command Section composed of only a single Leman Russ Command Tank, must be selected as a HQ choice. This Leman Russ Command Tank gains the Cohort Doctrines special rule and must be selected as the army’s Warlord and must use the Armoured Legate Warlord trait (see below). A model with the Vehicle Unit Type must be selected as the Warlord of an army using this Cohort Doctrine, regardless of any rules which would require a model to be selected as the army’s Warlord (note this means that some units and Characters cannot be selected as part of this army):
 
 Warlord Trait: Armoured Legate
@@ -11913,7 +12224,8 @@ Close Combat Weapon with a Chainsword for +1 point per model.”
 
 Limitations
 • All models in a Detachment using this Cohort Doctrine with the Close-order Unit Sub-type lose that Unit Sub-type.
-• A Detachment using this Cohort Doctrine may not include more than one Auxilia Veletaris Tercio.</description>
+• A Detachment using this Cohort Doctrine may not include more than one Auxilia Veletaris Tercio.
+Any model in a Detachment using this Cohort Doctrine may replace a Close Combat Weapon with a Chainsword for +1 point per model.</description>
             </rule>
           </rules>
           <costs>
@@ -11943,7 +12255,7 @@ Limitations
           <rules>
             <rule id="bf71-d394-4968-20e3" name="Siege Pattern Cohorts" publicationId="9fab-fea7-a93c-2074" page="146" hidden="false">
               <description>Effects (THIS MUST BE CHECKED MANUALLY)
-• A Detachment using this Cohort Doctrine may select Auxilia Artillery Tercios and Solar Auxilia Armoured Batteries as both Elites and Heavy Support choices. In addition, they may select Solar Auxilia Artillery Battery squads as both Heavy Support and Fortification choices.
+• A Detachment using this Cohort Doctrine may select Auxilia Artillery Tercios and Solar Auxilia Armoured Batteries as both Elites and Heavy Support choices. In addition, they may select Solar Auxilia Artillery Battery squads as both Heavy Support and Fortification choices.
 • When a model from a Detachment using this Cohort Doctrine makes a Shooting Attack with any weapon with the Barrage and/or Blast special rules, the controlling player may choose to re-roll the Scatter dice (but not any D6 rolled to determine the distance of any scatter).
 • Any unit eligible to purchase a Dedicated Transport may instead elect to purchase a Defence Line without occupying a Fortification Force Organisation slot, but the cost in points must be counted towards the army total as usual.
 • When a model from a Detachment using this Cohort Doctrine makes a Shooting Attack with any weapon with the Barrage Special Rule, if the enemy unit they are targeting is in Line of Sight of a friendly model equipped with a Command Vox then it should be counted as firing directly at that enemy unit, even if it is outside of Line of Sight of the firing model.
@@ -11951,7 +12263,8 @@ Limitations
 Limitations (THIS MUST BE CHECKED MANUALLY)
 • All units in a Detachment using this Cohort Doctrine with the option to select a Dedicated Transport must select that option, or have purchased a Defence Line, at the normal cost in points – If a Dedicated Transport was purchased for a unit, it does not have to start the battle Embarked on that Dedicated Transport.
 • A Detachment using this Cohort Doctrine may only be selected for an
-army’s Primary Detachment.</description>
+army’s Primary Detachment.
+A Detachment using this Cohort Doctrine may only be selected for an army’s Primary Detachment.</description>
             </rule>
           </rules>
           <costs>
@@ -11998,7 +12311,7 @@ Limitations
             <rule name="Reconnaissance Pattern Cohorts" id="7e04-8329-9f52-1bc1" hidden="false" publicationId="d882-d2a-5da1-92c4" page="179">
               <description>Effects
 • A Detachment using this Cohort Doctrine may select Solar Auxilia Hermes Light Sentinel Squadrons as Troops choices. Solar Auxilia Hermes Light Sentinel Squadrons selected as Compulsory Troops choices gain the Line Unit Sub-type.
-• Solar Auxilia Veletaris Assault Squadrons in this Detachment gain the Outflank special rule.
+• Solar Auxilia Hermes Veletaris Squadrons in this Detachment gain the Outflank Special Rule.
 • Aethon Heavy Sentinel Squadrons may include up to 4 additional Aethon Heavy Sentinels instead of up to 2 additional Aethon Heavy Sentinels.
 
 Limitations
@@ -12722,7 +13035,7 @@ The 2nd bullet point about Veletaris Assault Squadrons getting Outflank is not i
       <description>A Solar Auxilia Rapier Battery must have one Auxilia Gunner per Rapier Carrier in order for all Rapier Carriers to make Shooting Attacks in the Shooting phase. If, at the start of any of the controlling player’s Shooting phases, the Solar Auxilia Rapier Battery contains fewer Auxilia Gunners than Rapier Carriers, then only a number of Rapier Carriers equal to the number of  Auxilia Gunners may make Shooting Attacks in that Shooting phase. In addition, as long as there are at least as many Auxilia Gunners in the unit as there are Rapier Carriers, then the unit cannot be Pinned, automatically passing any Pinning tests it is called upon to take without any dice being rolled (this benefit is lost immediately once the number of Auxilia Gunners is reduced to less than the number of Rapier Carriers in the unit).</description>
     </rule>
     <rule id="a217-f49a-7a73-981d" name="Demolition Vehicle" publicationId="15a4-fc68-502d-48a9" page="131" hidden="false">
-      <description>A model with this Special Rule may declare and make charge moves, even if it would normally be prevented from doing so by any Unit Types or Sub-types. When a model with this Special Rule is in combat, at Initiative step 10 it inflicts one automatic hit using the profile below on any one enemy model it is in base contact with (chosen by the player that controls the model with this Special Rule). Once this Hit is resolved, the model with this special rule is automatically removed as a casualty (the removal of this model does not add any Wounds to the total used to determine which side has won the Assault).
+      <description>A model with this Special Rule may declare and make charge moves, even if it would normally be prevented from doing so by any Unit Types or Sub-types. At Initiative step 10, instead of rolling To Hit as normal, a model with this Special Rule instead inflicts one automatic Hit using the profile below on any one enemy model it is in base contact with (chosen by the player that controls the model with this Special Rule). Once this Hit is resolved, the model with this special rule is automatically removed as a casualty (the removal of this model does not add any Wounds to the total used to determine which side has won the Assault).
 
 Weapon Range Str AP Type
 Demo charge - 10 1 Melee, Armourbane (Melee), Instant Death, Brutal (2)</description>
@@ -12748,5 +13061,6 @@ When an Allied Detachment drawn from the Solar Auxilia Army List has a version o
     <catalogueLink id="e048-9e5e-507c-5bac" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink name="[Imperatus] Solar Auxilia" targetId="e960-66e8-21db-ebb4" type="catalogue" id="bd05-3072-21be-7bb0"/>
   </catalogueLinks>
 </catalogue>

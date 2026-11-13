@@ -324,7 +324,7 @@ Divination, Telepathy, Telekinesis (see the Horus Heresy: Age of Darkness Core R
       <description>As long as a model with this Special Rule is on the battlefield (but not in Reserves) then all Reserve rolls made by the Controlling Player may be re-rolled.</description>
     </rule>
     <rule name="Attack Wing" id="6ea3-f600-4743-9403" page="279" publicationId="892-6266-f55f-1b9d">
-      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this Special Rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+      <description>A unit with this Special Rule containing more than one model must be deployed together, but once deployed act as separate units, including for purposes of VP and Units Destroyed.</description>
     </rule>
     <rule name="Auramite Talon" id="67e1-accf-4c46-b2ed" page="279" publicationId="892-6266-f55f-1b9d">
       <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this Special Rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
@@ -490,7 +490,8 @@ Instead, the Controlling Player gains access to the Combat Air Patrol Advanced R
 Advanced Reaction: Combat Air Patrol Advanced Reactions are available to specific players as noted in their description. Unlike Core Reactions they are activated in unique and specific circumstances, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.</description>
     </rule>
     <rule name="Combat Air Patrol" id="6e62-a12e-4502-adf3" page="287" publicationId="892-6266-f55f-1b9d">
-      <description>Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Air Patrol Reaction.</description>
+      <description>Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Air Patrol Reaction.
+FAQ: When resolving a Combat Air Patrol Advanced Reaction, the flyer enters the battlefield and shoots entirely during the Movement Phase. As a result, because this is not resolved in the Shooting Phase, the flyer which made this reaction is not able to declare it is using the Skyfire Special Rule.</description>
     </rule>
     <rule name="Slayer of Kings" id="3d43-0c7e-499e-a2e3" page="287" publicationId="892-6266-f55f-1b9d">
       <description>A model with this Special Rule gains the Preferred Enemy (Independent Characters) Special Rule, but this Special Rule is not conferred to any model that does not have the Slayer of Kings Special Rule.</description>
@@ -558,7 +559,11 @@ A model with this Special Rule may always react, ignoring the restrictions appli
 In addition, a model with this Special Rule may never be affected by Cybertheurgy from any source, whether friendly or enemy.</description>
     </rule>
     <rule name="Datasphere Uplink" id="b3c7-fd8a-4c89-8e85" page="90" publicationId="f856-58d6-ef02-7d3e">
-      <description>During deployment, if you have any models present in your army with the Datasphere Uplink Special Rule, you must select one of the following Protocols. At the start of any Game Turn, you may activate your chosen Protocol; it remains active until the start of the next Game Turn, with all models in your army with the Datasphere Uplink Special Rule gaining the effects specified.</description>
+      <description>During deployment, if you have any models present in your army with the Datasphere Uplink Special Rule, you must select one of the following Protocols. At the start of any Game Turn, you may activate your chosen Protocol; it remains active until the start of the next Game Turn, with all models in your army with the Datasphere Uplink Special Rule gaining the effects specified.
+Scrapcoded Exultation: All models with the Datasphere Uplink Special Rule gain the Shrouded (6+) Special Rule.
+Self-Repair Programming: All models with the Datasphere Uplink Special Rule which have taken a Wound or Hull Point of Damage but remain in play regain +1 Wound or +1 Hull Point respectively, up to their starting Characteristic.
+Predatory Engrams: All models with the Datasphere Uplink Special Rule add +1 to their Attacks and Initiative Characteristics.
+Targeting Cryptogram: All models with the Datasphere Uplink Special Rule add +1 to their Ballistic Skill Characteristic.</description>
     </rule>
     <rule name="Defensor-Grid Projector" id="246a-b015-4555-a7d5" page="90" publicationId="f856-58d6-ef02-7d3e">
       <description>Any friendly units wholly within 6&quot; of a model with this Special Rule are protected by its Void Shields. As long as the unit with this Special Rule has Void Shields remaining, Shooting attacks directed at units protected by the Void Shields strike the Void Shields instead.
@@ -587,9 +592,7 @@ If a Shooting attack successfully collapses a Void Shield, and the unit with thi
 In addition, any rolls on the Vehicle Damage Table that target a model with this Special Rule add +1 to the result.</description>
     </rule>
     <rule name="Overseer Transport" id="f488-c633-4f3e-a464" page="91" publicationId="f856-58d6-ef02-7d3e">
-      <description>Any model with the Mechanicum Faction Allegiance and the Independent Character Special Rule may purchase this model as a Dedicated Transport, and embark upon it before the game begins.
-If you wish, they may be joined by another unit, which then counts as though the character had joined it - as long as they fit in the transport’s capacity, and they are able to join the unit! Paired Weapons Some weapons require they are used together to achieve full effectiveness.
-A model armed with a weapon with this Special Rule gains an extra Attack.</description>
+      <description>Any model with the Mechanicum Faction Allegiance and the Independent Character Special Rule may purchase this model as a Dedicated Transport, and embark upon it before the game begins. If you wish, they may be joined by another unit, which then counts as though the character had joined it - as long as they fit in the transport’s capacity, and they are able to join the unit!</description>
     </rule>
     <rule name="Praetorian Retinue" id="8d12-5bcf-4c58-8b7c" page="92" publicationId="f856-58d6-ef02-7d3e">
       <description>A Praetorian Servitor Maniple may only be included in a Detachment if they are selected as a Retinue Squad. They may only be selected as a Retinue Squad in a Detachment that includes at least one model with the Independent Character Special Rule, and either the Feudal Hierarchy or Command Node Special Rules. The model which allowed the Praetorian Servitor Maniple to be selected must be the squad’s leader. A Praetorian Servitor Maniple selected as a Retinue Squad must be deployed with the model selected as its Leader, and the Leader may not voluntarily leave the Retinue Squad during play.
@@ -619,6 +622,24 @@ The Repulsor Grid cannot be activated by any weapon which does not roll to Hit.<
     </rule>
     <rule name="Zenith Protocol" id="dcc4-e9a5-4289-b3e5" page="93" publicationId="f856-58d6-ef02-7d3e">
       <description>As long as the Praetorian Retinue’s Leader is alive, all Praetorian Servitors in the Maniple gain a bonus of +1 to their Weapon Skill and Ballistic Skill Characteristics.</description>
+    </rule>
+    <rule id="8857-3e84-ca6f-a40e" name="Daemonic Hordes" publicationId="9fab-fea7-a93c-2074" page="127" hidden="false">
+      <description>If a model with the Daemonic Hordes Special Rule suffers an unsaved Wound from a Blast (any size) or Template weapon, each unsaved Wound is multiplied to two unsaved Wounds. In addition, a model with this Special Rule cannot suffer Instant Death as a result of any Attack which has a Strength value of double its Toughness Characteristic - Though attacks which would otherwise inflict Instant Death in this way may not benefit from the Feel No Pain (X) or Corrupted Resilience Special Rule. Attacks which have the Instant Death Special Rule in their profile are unaffected by this Special Rule and function normally.</description>
+    </rule>
+    <rule id="5dc2-4340-f325-c938" name="Lords of the Ruinstorm" publicationId="9fab-fea7-a93c-2074" page="128" hidden="false">
+      <description>Only one model with this Special Rule may be included per 1,500 points in your army.</description>
+    </rule>
+    <rule id="53e5-987e-4ec3-b2da" name="Sensor Flare" publicationId="9fab-fea7-a93c-2074" page="128" hidden="false">
+      <description>If a model is Hit by a weapon with this Special Rule, it must take an immediate Blind Test.</description>
+    </rule>
+    <rule id="e005-cc38-8f90-6aab" name="Shattered Legionary" publicationId="9fab-fea7-a93c-2074" page="129" hidden="false">
+      <description>You can include this model in a Shattered Legion Detachment that includes models representing the same Legion as this model's corresponding variant of Legiones Astartes (X). When you do so, replace this model's Legiones Astartes (X) Special Rule with the Legiones Astartes (Shattered Legions) Special Rule. This is an exception to the normal rules for Legiones Astartes (Shattered Legions). When included in a Shattered Legions Detachment, this model must represent the same Legion as the variant of Legiones Astartes (X) that is being replaced.</description>
+    </rule>
+    <rule id="7a76-96ff-ca4e-ad9b" name="Tank Desant (X)" publicationId="9fab-fea7-a93c-2074" page="129" hidden="false">
+      <description>Any unit embarked upon a Transport with this Special Rule may fire up to (X) ranged weapons (where X is the number in brackets next to the Special Rule), measuring from the Transport’s model. If the unit chooses to fire in this way, they are counted as having moved - note that this may prevent them from shooting certain weapon types. Units with any Special Rule that allows them to count as stationary for the purposes of Shooting attacks (such as Relentless, Legiones Astartes (Death Guard), etc) may not benefit from them whilst embarked on a Transport with this Special Rule.</description>
+    </rule>
+    <rule id="47d7-5f3d-9b38-c43d" name="The Black Shield" publicationId="9fab-fea7-a93c-2074" page="129" hidden="false">
+      <description>You can include Crysos Morturg model in a Blackshields Detachment. When you do so, replace this model’s Legiones Astartes (Death Guard) Special Rule with the Legiones Astartes (Blackshields) Special Rule. In addition, if Crysos Morturg is selected as the army’s Warlord in a Blackshields Detachment he gains the Master of the Legion Special Rule. If Crysos Morturg is selected as the army’s Warlord in a Blackshields Detachment, you can include Death Guard Mortus Poisoner Squads as part of that Detachment. If you do so, replace their Legiones Astartes (Death Guard) Special Rule with the Legiones Astartes (Blackshields) Special Rule.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -670,7 +691,7 @@ The Repulsor Grid cannot be activated by any weapon which does not roll to Hit.<
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">36&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 10, Pinning, Shell Shock (1), Reactor Overload</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 15, Pinning, Shell Shock (1), Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -783,7 +804,7 @@ Could not find rule: Harrower</comment>
           </modifiers>
         </infoLink>
         <infoLink name="Haywire" hidden="false" type="rule" targetId="1dd4-7a75-5c59-8425" id="dc42-6e38-4a48-8758"/>
-      </infoLinks>
+      <infoLink name="Graviton Collapse" hidden="false" type="rule" targetId="60d8-5964-8671-7f3b" id="cdf6-bdf9-3ec9-254c"/></infoLinks>
       <profiles>
         <profile name="Grav-Flux Bombard" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="8234-21c3-4450-afbf" page="171" publicationId="9fab-fea7-a93c-2074">
           <characteristics>
@@ -804,10 +825,13 @@ Could not find rule: †Graviton Collapse</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Rupture (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="28e0-ce54-73bf-2742" name="Rupture (X)" hidden="false" targetId="78fb-d1d8-c774-d235" type="rule"><modifiers><modifier type="set" field="name" value="Rupture (6+)"/></modifiers></infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry name="Grenade Launcher - Krak" type="upgrade" id="8177-b3d1-4044-a5db">
       <profiles>
@@ -816,10 +840,13 @@ Could not find rule: †Graviton Collapse</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Rupture (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="7a45-99d6-d069-21c0" name="Rupture (X)" hidden="false" targetId="78fb-d1d8-c774-d235" type="rule"><modifiers><modifier type="set" field="name" value="Rupture (6+)"/></modifiers></infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry name="Arachnus Storm Cannon" type="upgrade" id="2710-f86d-4537-bd37">
       <infoLinks>
@@ -844,7 +871,7 @@ Could not find rule: †Graviton Collapse</comment>
     <selectionEntry name="Belicosa Volcano Cannon" type="upgrade" id="e21a-7b5a-4f4c-8684">
       <infoLinks>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="379c-15e7-4657-bab5"/>
-      </infoLinks>
+      <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="f5b8-ba3b-3559-b85f"><modifiers><modifier type="set" field="name" value="Apocalyptic Blast (10&quot;)"/></modifiers></infoLink></infoLinks>
       <profiles>
         <profile name="Belicosa Volcano Cannon" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="20a5-5034-4a05-be89" page="172" publicationId="9fab-fea7-a93c-2074">
           <characteristics>
@@ -901,7 +928,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     <selectionEntry name="Nemesis Volcano Cannon 36&quot; -" type="upgrade" id="53c1-084d-4857-ae26">
       <infoLinks>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="b0ee-d04d-46bd-a68c"/>
-      </infoLinks>
+      <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="e76e-8ee1-ec37-a6cb"><modifiers><modifier type="set" field="name" value="Apocalyptic Blast (10&quot;)"/></modifiers></infoLink></infoLinks>
       <profiles>
         <profile name="Nemesis Volcano Cannon 36&quot; -" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="0266-1ce7-4d3f-9ff2" page="172" publicationId="9fab-fea7-a93c-2074">
           <characteristics>
@@ -924,7 +951,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
         </infoLink>
         <infoLink name="Exoshock (X)" hidden="false" type="rule" targetId="69ca-318a-b47a-7a3c" id="6448-76b7-4166-9e76">
           <modifiers>
-            <modifier type="set" field="name" value="Exoshock (6+)"/>
+            <modifier type="set" field="name" value="Exoshock (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink name="Sunder" hidden="false" type="rule" targetId="20e2-75cf-bc16-cd8f" id="5ed6-4a77-4d79-a607"/>
@@ -936,7 +963,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">36&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">9</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 3, Twin-Linked, Exoshock (6+), Sunder, Gets Hot</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 2, Twin-Linked, Exoshock (5+), Sunder, Gets Hot</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1049,7 +1076,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
           <characteristics>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
-            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">6</characteristic>
             <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning,Shell Shock (1)</characteristic>
           </characteristics>
         </profile>
@@ -1119,7 +1146,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">72&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">9</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Massive Blast (7&quot;), Rending (4+), Reactor Overload</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Massive Blast (7&quot;), Rending (4+), Reactor Overload, Plasma Burn</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1319,6 +1346,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="8ec2-46e0-9156-d63d" name="Rupture (X)" hidden="false" targetId="78fb-d1d8-c774-d235" type="rule"><modifiers><modifier type="set" field="name" value="Rupture (6+)"/></modifiers></infoLink>
       </infoLinks>
       <profiles>
         <profile name="Heavy Chainsword" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="676a-4b18-4015-86df" page="174" publicationId="9fab-fea7-a93c-2074">
@@ -1326,7 +1354,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">+2</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">-</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Shred, Two-Handed, Rending (6+)</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Shred, Two-Handed, Rupture (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1676,7 +1704,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">x2</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Unwieldy, Haywire</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Unwieldy, Haywire, Two-Handed</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1734,7 +1762,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">+3</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Two-Handed, Rending (6+), Murderous Strike (6+)</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Two-Handed, Rending (5+), Murderous Strike (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1915,7 +1943,7 @@ Could not find rule: The Venem</comment>
             <modifier type="set" field="name" value="Two-Handed"/>
           </modifiers>
         </infoLink>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="43e9-2e13-91b0-ab28"/><infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="832e-abae-f772-4b39"/></infoLinks>
       <profiles>
         <profile name="Melta Lance" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="77d9-a631-4987-9432" page="175" publicationId="9fab-fea7-a93c-2074">
           <characteristics>
@@ -1997,7 +2025,7 @@ Whenever targeted by a Shooting Attack, the range between an attacking unit and 
       <infoLinks>
         <infoLink name="Instant Death" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3" id="6c11-66cc-454a-a7ee"/>
         <infoLink name="Distortion Impalement" hidden="false" type="rule" targetId="6145-7aa1-4176-854b" id="1ba7-dc02-485d-9772"/>
-      </infoLinks>
+      <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="b9a6-6018-d7f1-7932"><modifiers><modifier type="set" field="name" value="Apocalyptic Mega-Blast"/></modifiers></infoLink></infoLinks>
       <profiles>
         <profile name="D-Bombard" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="85f5-008b-44b8-ad48" page="152" publicationId="a368-64f0-10c7-c49d">
           <characteristics>
@@ -3528,7 +3556,7 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="7d41-2042-2a47-6cc1"/></infoLinks>
       <profiles>
         <profile name="Star Bolas" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2a31-829c-4487-87e5" page="154" publicationId="a368-64f0-10c7-c49d">
           <characteristics>
@@ -3569,7 +3597,7 @@ Could not find rule: One Shot</comment>
         </infoLink>
         <infoLink name="Vortex" hidden="false" type="rule" targetId="a0d8-9118-002e-613d" id="127d-fd4b-4159-873f"/>
         <infoLink name="Ponderous Aim" hidden="false" type="rule" targetId="8bc0-efe7-4762-8dc7" id="2693-bf14-4881-89c6"/>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="ad4b-873b-9a39-fed6"/><infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="b9ff-6d6b-f683-90ad"/></infoLinks>
       <profiles>
         <profile name="Vortex Grenade" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2f27-97cf-4c86-b420" page="300" publicationId="892-6266-f55f-1b9d">
           <characteristics>
@@ -4727,7 +4755,7 @@ Any model equipped with a Vyper Jetbike must change its Unit Type to Cavalry (An
             <modifier type="set" field="name" value="Concussive (2)"/>
           </modifiers>
         </infoLink>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="f28a-7c70-a47a-da93"/></infoLinks>
       <profiles>
         <profile name="Shield" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="9da0-659f-47a9-be80" page="161" publicationId="a368-64f0-10c7-c49d">
           <characteristics>
@@ -5241,7 +5269,7 @@ Any model with a Warp Jump Generator also gains the Bulky (2) and Deep Strike sp
           </modifiers>
         </infoLink>
         <infoLink name="Haywire" hidden="false" type="rule" targetId="1dd4-7a75-5c59-8425" id="a92a-e15e-40d7-a56e"/>
-      </infoLinks>
+      <infoLink name="Concussive (X)" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826" id="8a84-7528-998d-2b57"></infoLink><infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="ac61-af16-e4a7-a6b5"/></infoLinks>
       <profiles>
         <profile name="EM-Storm Charge" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="983a-8f8c-4d48-9c26" page="85" publicationId="3970-79bb-bdc6-9599">
           <characteristics>
@@ -5380,7 +5408,7 @@ Could not find rule: One Use</comment>
         </infoLink>
         <infoLink name="Crawling Fire" hidden="false" type="rule" targetId="8258-a7af-e4df-531d" id="5855-e5db-495c-8ce7"/>
         <infoLink name="Lingering Death" hidden="false" type="rule" targetId="be87-f0e5-7446-972b" id="c5f8-ca02-4605-894b"/>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="fa4c-7fac-b462-1ac4"/></infoLinks>
       <profiles>
         <profile name="Phosphex Cluster Bombs" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="1702-2c63-41d5-ad18" page="85" publicationId="3970-79bb-bdc6-9599">
           <characteristics>
@@ -5763,7 +5791,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">12&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">5</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot,Breaching (5+)</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Instant Death, Armourbane (Ranged), Breaching (4+), Gets Hot, Ejector Blowout</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5820,7 +5848,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">12</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Blast (3&quot;), Sunder, Rending (6+), Brutal (3), Wrecker</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Blast (3&quot;), Sunder, Rending (5+), Brutal (3), Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5837,7 +5865,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
         <infoLink name="Pinning" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2" id="d998-84fb-4013-adbd"/>
         <infoLink name="Breaching (X)" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c" id="4fe7-bd0a-4710-9077">
           <modifiers>
-            <modifier type="set" field="name" value="Breaching (6+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -5847,7 +5875,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">12 -240&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">9</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 2, Barrage, Large Blast (5&quot;), Shred, Pinning, Breaching (6+)</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 2, Barrage, Large Blast (5&quot;), Shred, Pinning, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5864,7 +5892,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
         <infoLink name="Pinning" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2" id="5765-be5d-4626-b2c6"/>
         <infoLink name="Breaching (X)" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c" id="97c5-4a87-4aea-b648">
           <modifiers>
-            <modifier type="set" field="name" value="Breaching (6+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -5874,7 +5902,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">12 -240&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">9</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Barrage, Large Blast (5&quot;), Shred, Pinning, Breaching (6+)</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Ordnance 1, Barrage, Large Blast (5&quot;), Shred, Pinning, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6282,6 +6310,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="18b4-9fbf-46fd-34cc" name="Rupture (X)" hidden="false" targetId="78fb-d1d8-c774-d235" type="rule"><modifiers><modifier type="set" field="name" value="Rupture (4+)"/></modifiers></infoLink>
       </infoLinks>
       <profiles>
         <profile name="Macharius Battle Cannon" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="e42c-8bfa-438a-a485" page="294" publicationId="892-6266-f55f-1b9d">
@@ -6289,7 +6318,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
             <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
-            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 1, Large Blast (5&quot;), Twin-Linked, Pinning, Shell Shock (1),Breaching (6+)</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 2, Large Blast (5&quot;), Rupture (4+), Breaching (6+), Pinning, Shell Shock (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7277,7 +7306,7 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
       <infoLinks>
         <infoLink name="Plasma Burn" hidden="false" type="rule" targetId="efaa-c932-9788-9ade" id="0620-0af5-40dd-b94d"/>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="2cb8-a195-4355-b8a9"/>
-      </infoLinks>
+      <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="1a1a-f3e0-ad54-2c50"><modifiers><modifier type="set" field="name" value="Apocalyptic Blast (10&quot;)"/></modifiers></infoLink></infoLinks>
       <profiles>
         <profile name="Deathstrike Missile - Plasma Warhead P" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="f40d-9cb5-4231-b3f8" page="298" publicationId="892-6266-f55f-1b9d">
           <characteristics>
@@ -7306,7 +7335,7 @@ Could not find rule:</comment>
       <infoLinks>
         <infoLink name="Eye of the Storm" hidden="false" type="rule" targetId="c8d1-3794-4ffc-8b3d" id="3d69-60d3-42f6-a415"/>
         <infoLink name="Impact Flash" hidden="false" type="rule" targetId="aff3-a166-441a-88c2" id="11fe-459a-4e0f-8294"/>
-      </infoLinks>
+      <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="f0b1-452c-6ccf-9791"><modifiers><modifier type="set" field="name" value="Apocalyptic Mega-Blast"/></modifiers></infoLink></infoLinks>
       <comment>!BSC Errors from 20240406-1709
 Could not find rule: Apocalyptic Mega-Blast
 Could not find rule:</comment>
@@ -7372,7 +7401,7 @@ Could not find rule:</comment>
         </infoLink>
         <infoLink name="Crawling Fire" hidden="false" type="rule" targetId="8258-a7af-e4df-531d" id="45df-8bb4-407b-b5c0"/>
         <infoLink name="Lingering Death" hidden="false" type="rule" targetId="be87-f0e5-7446-972b" id="9b6f-5240-4ceb-8450"/>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="cab3-1e75-5518-9551"/></infoLinks>
       <profiles>
         <profile name="Phosphex Bomb" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="9c39-e994-4879-98d1" page="299" publicationId="892-6266-f55f-1b9d">
           <characteristics>
@@ -7737,7 +7766,7 @@ Could not find rule: One Use</comment>
       <infoLinks>
         <infoLink name="Instant Death" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3" id="37a5-f9d7-4cf4-92bb"/>
         <infoLink name="Gets Hot" hidden="false" type="rule" targetId="679f-9d97-5ace-a652" id="49c2-b997-47e8-b973"/>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="de95-c8f1-a0eb-23af"/></infoLinks>
       <profiles>
         <profile name="Adrastus Bolt Caliver - Disintegrator" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="351f-31a9-4756-b82f" page="300" publicationId="892-6266-f55f-1b9d">
           <characteristics>
@@ -9743,7 +9772,7 @@ Vratine Voidplate confers a 2+ Armour Save. In addition, a unit that includes an
             <modifier type="set" field="name" value="Concussive (3)"/>
           </modifiers>
         </infoLink>
-      </infoLinks>
+      <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="5a6c-1770-6a25-3368"><modifiers><modifier type="set" field="name" value="Apocalyptic Blast (10&quot;)"/></modifiers></infoLink></infoLinks>
       <profiles>
         <profile name="Graviton Ruinator" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="7c6d-f1f8-45a8-af69" page="98" publicationId="f856-58d6-ef02-7d3e">
           <characteristics>
@@ -10050,7 +10079,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     <selectionEntry name="Shieldbreaker Missile" type="upgrade" id="8aac-2e0d-4d7d-ae3a">
       <infoLinks>
         <infoLink name="Shieldbreaker" hidden="false" type="rule" targetId="0262-3e27-47a9-8de0" id="c9f2-c38c-4f8a-832f"/>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="ac37-8d7a-89fe-5821"/></infoLinks>
       <profiles>
         <profile name="Shieldbreaker Missile" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="551c-bb72-4a95-a035" page="99" publicationId="f856-58d6-ef02-7d3e">
           <characteristics>
@@ -10100,7 +10129,7 @@ Could not find rule: One Use</comment>
           </modifiers>
         </infoLink>
         <infoLink name="Vortex" hidden="false" type="rule" targetId="a0d8-9118-002e-613d" id="82d1-6a8f-4281-ba8f"/>
-      </infoLinks>
+      <infoLink name="One Use/One Shot" hidden="false" type="rule" targetId="df0c-5423-b892-491e" id="2c58-9f86-4cd0-8f29"/></infoLinks>
       <profiles>
         <profile name="Vortex Missile" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="cbf1-bd18-49d2-9cdc" page="99" publicationId="f856-58d6-ef02-7d3e">
           <characteristics>
@@ -11364,7 +11393,7 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
 •     Failed To Wound rolls, made for weapons with the Armourbane (X) special rule, and against a unit that includes any models with this Unit Sub-type must be re-rolled.
 •     A model with the Mechanised Unit Sub-type may attack with all weapons it has when making a Shooting Attack, including as part of a Reaction.
 •     A model with the Mechanised Unit Sub-type may attack with Heavy and Ordnance weapons while counting as stationary even if it has moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-•     Any attacks made against a unit with the Mechanised Unit Sub-type are resolved as if the model had the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.
+•     Any attacks made against a unit with the Mechanised Unit Sub-type are resolved as if the model had the Dreadnought Unit Type. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.
 •     No model that does not also have the Mechanised Unit Sub-type may join a unit that includes one or more models with the Mechanised Unit Sub-type.</description>
         </rule>
       </rules>
@@ -11412,8 +11441,7 @@ A unit which passes suffers no negative penalty, and in addition may react as no
           <description>The following rules apply to all models with the Corrupted Sub-type:
 •     All models with the Corrupted Unit Sub-type gain the Fear (1) Special Rule.
 •     Any Hits inflicted on a model with the Corrupted Unit Sub-type by a weapon with the Force or Psychic Focus Special Rules gain the Instant Death Special Rule.
-•     Any unit composed entirely of models with the Corrupted Unit Sub-type is immune to the effects of the Fear (X) Special Rule, automatically passes Regroup tests, and cannot choose to fail a Morale check due to the Our Weapons Are Useless Special Rule. When a unit composed entirely of models with the Corrupted Unit Sub-type fails a Morale check it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
-•     No unit that does not also have the Corrupted Unit Sub-type or the Daemon Unit Type may join a unit that includes one or more models with the Corrupted Unit Sub-type.</description>
+•     Any unit composed entirely of models with the Corrupted Unit Sub-type is immune to the effects of the Fear (X) Special Rule, automatically passes Regroup tests, and cannot choose to fail a Morale check due to the Our Weapons Are Useless Special Rule. No unit that does not also have the Corrupted Unit Sub-type or the Daemon Unit Type may join a unit that includes one or more models with the Corrupted Unit Sub-type.</description>
         </rule>
       </rules>
     </categoryEntry>

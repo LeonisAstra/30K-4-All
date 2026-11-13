@@ -480,6 +480,46 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Arcanite Shock Maul" hidden="false" id="fa31-e806-8973-fe56" type="selectionEntry" targetId="2def-6a99-346e-c9a5" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fdaa-439f-4b0a-28a6"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Biocore Shatterblade" hidden="false" id="2239-84f4-1165-5561" type="selectionEntry" targetId="af6e-a0e2-4245-3bf5" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3202-6161-3238-492b"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Paired Mirrorblades" hidden="false" id="1f49-3150-af25-3465" type="selectionEntry" targetId="44e0-b55b-e8f4-1c24" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3cf9-1a86-81d2-402b"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Aetheric Whisper-Blade" hidden="false" id="d38f-926f-1a55-21a9" type="selectionEntry" targetId="1d98-35a2-cd11-57e0" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="62d4-970b-379d-b902"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Gyrocyclic Reaper Blade" hidden="false" id="afe8-7ce2-13c5-38a2" type="selectionEntry" targetId="93db-95ac-eead-34c5" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a928-74fd-162d-a572"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Accelerator Hammer" hidden="false" id="d556-5d06-58ee-e97c" type="selectionEntry" targetId="96a0-34c6-1f0b-4cb9" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9432-1f7a-6e89-65f8"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Hydragyric Executioner" hidden="false" id="a71a-247c-da8c-2103" type="selectionEntry" targetId="96d7-7ed2-5d6f-cde7" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="10a4-8bf1-95c4-e771"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Nanofractal Falchion" hidden="false" id="35a6-f521-43a1-2941" type="selectionEntry" targetId="1d0f-2fba-d38f-89a1" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="17f4-f400-da9d-f981"/>
+                  </constraints>
+                  </entryLink>
                 <entryLink import="true" name="Kinetic Destoyer" hidden="false" id="a0c5-74ca-459e-6e3d" type="selectionEntry" targetId="e525-c925-da58-c511" sortIndex="17">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a14d-5a3d-b3e7-feea"/>
@@ -653,6 +693,46 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Arcanite Shock Maul" hidden="false" id="3234-ccc1-179e-ec10" type="selectionEntry" targetId="2def-6a99-346e-c9a5" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d611-f7d1-b441-ba06"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Biocore Shatterblade" hidden="false" id="6aeb-7276-a48f-dd37" type="selectionEntry" targetId="af6e-a0e2-4245-3bf5" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b09c-2357-f9d3-7f71"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Paired Mirrorblades" hidden="false" id="dad1-b0ff-dd5d-e7ca" type="selectionEntry" targetId="44e0-b55b-e8f4-1c24" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9bc7-3ba4-9666-ec60"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Aetheric Whisper-Blade" hidden="false" id="a7f5-14cb-d86b-826a" type="selectionEntry" targetId="1d98-35a2-cd11-57e0" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8cc7-ebd7-6a06-7ed3"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Gyrocyclic Reaper Blade" hidden="false" id="f7e9-1218-5887-1e4b" type="selectionEntry" targetId="93db-95ac-eead-34c5" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9879-8f19-89ac-cf7f"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Accelerator Hammer" hidden="false" id="63c0-ed1c-e483-1551" type="selectionEntry" targetId="96a0-34c6-1f0b-4cb9" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1ef5-1bce-5341-1986"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Hydragyric Executioner" hidden="false" id="75dd-9669-1897-9253" type="selectionEntry" targetId="96d7-7ed2-5d6f-cde7" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6af0-8479-fcc8-3fc7"/>
+                  </constraints>
+                  </entryLink>
+                <entryLink import="true" name="Nanofractal Falchion" hidden="false" id="ba1d-60b4-5550-5935" type="selectionEntry" targetId="1d0f-2fba-d38f-89a1" sortIndex="21">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fa72-3d8f-fc98-35b4"/>
+                  </constraints>
+                  </entryLink>
                 <entryLink import="true" name="Kinetic Destoyer" hidden="false" id="1da3-7554-779e-e7fa" type="selectionEntry" targetId="e525-c925-da58-c511" sortIndex="17">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f6a-eb-170b-6b12"/>
@@ -1957,6 +2037,46 @@
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f04-0b34-4f41-b4fc"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Arcanite Shock Maul" hidden="false" type="selectionEntry" targetId="2def-6a99-346e-c9a5" id="7dd1-4ac0-1082-a23f" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="906a-9d33-b4d2-b8a0"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Biocore Shatterblade" hidden="false" type="selectionEntry" targetId="af6e-a0e2-4245-3bf5" id="f223-6b43-3fba-eba3" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b928-ac2e-9c85-3cf7"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Paired Mirrorblades" hidden="false" type="selectionEntry" targetId="44e0-b55b-e8f4-1c24" id="754d-a697-a46c-44a0" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fcb-f3ed-7edb-a5db"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Aetheric Whisper-Blade" hidden="false" type="selectionEntry" targetId="1d98-35a2-cd11-57e0" id="78a7-62d9-44b2-9896" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2c8-9911-eb2a-5b45"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Gyrocyclic Reaper Blade" hidden="false" type="selectionEntry" targetId="93db-95ac-eead-34c5" id="a8e0-6ae5-19b6-bdd5" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1176-27f4-668c-18b9"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Accelerator Hammer" hidden="false" type="selectionEntry" targetId="96a0-34c6-1f0b-4cb9" id="88af-2bc8-d241-aa8a" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7378-1a59-b09b-86c5"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Hydragyric Executioner" hidden="false" type="selectionEntry" targetId="96d7-7ed2-5d6f-cde7" id="89bb-7c7b-9852-7249" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="783b-cd74-5ca6-661c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Nanofractal Falchion" hidden="false" type="selectionEntry" targetId="1d0f-2fba-d38f-89a1" id="7e01-d651-ade4-861f" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="582f-18cf-cd0b-c8d8"/>
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Charnabal Weapon" hidden="false" id="69f7-d709-9a4c-8248" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9" sortIndex="1">
@@ -3759,6 +3879,46 @@ Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db81-73ec-45f4-9d4c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Arcanite Shock Maul" hidden="false" type="selectionEntry" targetId="2def-6a99-346e-c9a5" id="1c41-61b3-1577-4e59" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2a2-bf75-1de2-f956"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Biocore Shatterblade" hidden="false" type="selectionEntry" targetId="af6e-a0e2-4245-3bf5" id="2ce5-f414-bd7e-1cbd" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22b8-8446-571a-b88a"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Paired Mirrorblades" hidden="false" type="selectionEntry" targetId="44e0-b55b-e8f4-1c24" id="9dc5-ec60-1747-6124" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fc5-9ee1-669a-b4ae"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Aetheric Whisper-Blade" hidden="false" type="selectionEntry" targetId="1d98-35a2-cd11-57e0" id="fa4d-eadb-21ee-217c" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f954-bef3-caf1-d656"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Gyrocyclic Reaper Blade" hidden="false" type="selectionEntry" targetId="93db-95ac-eead-34c5" id="4cfc-9a73-6b80-53a8" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee9f-88c7-24f3-c3de"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Accelerator Hammer" hidden="false" type="selectionEntry" targetId="96a0-34c6-1f0b-4cb9" id="29fe-7595-36e7-9a96" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a5a-80ae-3dd0-2a68"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Hydragyric Executioner" hidden="false" type="selectionEntry" targetId="96d7-7ed2-5d6f-cde7" id="6166-972f-6236-2181" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ea9-af56-5787-23fd"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Nanofractal Falchion" hidden="false" type="selectionEntry" targetId="1d0f-2fba-d38f-89a1" id="ec06-9cea-6b9e-386d" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acc8-634e-38c6-75c5"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Paragon Glaive" hidden="false" type="selectionEntry" targetId="a9fc-4298-7b35-8ef4" id="d197-5cbb-4fae-a68d" sortIndex="8">
@@ -7992,7 +8152,6 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5430-5be1-1613-be44" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3fdc-940f-dce1-23e9" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -8011,7 +8170,6 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5430-5be1-1613-be44" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3fdc-940f-dce1-23e9" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -8030,7 +8188,6 @@ Could not find wargear in The Land Raider Armoured Carrier may exchange its Two 
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d4f2-6da5-b6de-06ec" shared="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5430-5be1-1613-be44" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3fdc-940f-dce1-23e9" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

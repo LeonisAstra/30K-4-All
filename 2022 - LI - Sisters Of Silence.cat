@@ -868,6 +868,190 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink id="393e-c1d2-e34e-b4ab" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d4-6a2b-bdc8-890a" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ce1a-c08b-cc8c-7ac4" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="bd62-dc2a-ba7e-1bfc" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bad-5084-7083-5c0c" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ab9f-103d-942e-5d4b" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="c4c7-6db4-6a6b-1ea1" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de56-d8de-b41e-2807" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="dfe2-f86a-39a9-5c70" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="1a85-2f5b-e3be-63c2" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeb9-c1ca-efae-faec" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="d061-a185-c019-973c" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="2124-2295-c062-24d7" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b6-a9c7-db05-fccc" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="388b-ca01-fd0a-8400" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="640a-810e-772a-bc83" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547e-aa6f-2fca-2799" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3637-b2b4-ed87-c624" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="4fb7-5024-3d20-62ac" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="277d-756a-22b5-73fd" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3290-3693-da47-76fa" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
+                <entryLink id="f2a3-2518-42f8-978e" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Paragon Blade">
+                      <conditions>
+                        <condition field="selections" scope="6be2-d4b9-2a64-f164" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebf-dfbe-66d5-d80f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="25f3-b51f-8ad9-7eb2" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6be2-d4b9-2a64-f164" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="302c-f277-671c-512c" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  </entryLink>
                 <entryLink import="true" name="Archaeotech Pistol" hidden="false" id="8129-b104-c3dd-4864" collective="false" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" value="Master-crafted Archaeotech Pistol" field="name">
@@ -1056,12 +1240,18 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <categoryLink targetId="bff2-ae16-74a8-8712" id="6431-7236-4bd3-9ec6" name="Light Sub-type:" primary="false"/>
             <categoryLink targetId="7e5d-d73e-8ff4-7345" id="ed2f-7fd0-4d99-9c7b" name="Anathema Sub-type" primary="false"/>
           </categoryLinks>
+          <rules>
+            <rule id="1b92-4a07-462f-edd5" name="Errata: Knight Abyssal (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Knight Abyssal may exchange either her Execution blade and/or Bolt Pistol for one of the following options:</description></rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <comment>Updated to Imperatus</comment>
+      <rules>
+        <rule id="8465-56cb-6de7-ccc8" name="Errata: Knight Abyssal (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Knight Abyssal may exchange either her Execution blade and/or Bolt Pistol for one of the following options:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="9d32-1528-4e59-d1c5" name="Silent Judge" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1770,6 +1960,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
         <categoryLink id="f298-67b4-a90f-95ad" name="Anathema Sub-type" hidden="false" targetId="7e5d-d73e-8ff4-7345" primary="false"/>
         <categoryLink id="a6a3-d469-031a-9773" name="Silent Sisterhood (Chamber of Judgement)" hidden="false" targetId="b71a-371d-4401-9dc0" primary="false"/>
         <categoryLink id="f9fd-e06e-70df-4045" name="Judgement HQ" hidden="false" targetId="a9b6-f66f-e8ee-553e" primary="false"/>
+        <categoryLink id="d764-2d48-cb00-c6ef" name="Antigrav Sub-type" hidden="false" targetId="4303-1348-cce4-9501" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d203-1af5-2746-326c" name="Silent Fury" hidden="false" collective="false" import="true" type="model">
@@ -2357,6 +2548,7 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
             <categoryLink targetId="bff2-ae16-74a8-8712" id="b416-fea6-4f26-b398" name="Light Sub-type:" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="2e60-51f0-4ba3-b06f" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="7e5d-d73e-8ff4-7345" id="a3fe-a911-4218-b75d" name="Anathema Sub-type" primary="false"/>
+            <categoryLink id="f0c3-2da5-d8c5-d886" name="Antigrav Sub-type" hidden="false" targetId="4303-1348-cce4-9501" primary="false"/>
           </categoryLinks>
           <modifiers>
             <modifier type="add" value="4303-1348-cce4-9501" field="category"/>
@@ -3053,6 +3245,9 @@ In addition, the Leadership Characteristic of a model with the Anathema Unit Sub
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
       <comment>Updated to Imperatus</comment>
+      <rules>
+        <rule id="1baf-dd1a-f5ad-2769" name="Errata: Questora Cadre (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>Any model in the unit may exchange their Vratine Bolter for one of the following options:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="7f95-0220-f031-0986" name="Knight Vestal Covenant" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -4857,6 +5052,9 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="17"/>
       </costs>
       <comment>Updated to Imperatus</comment>
+      <rules>
+        <rule id="9d21-94fe-9d97-64cf" name="Errata: Silent Sisterhood (Chamber of Vigilance)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>This unit replaces the Silent Sisterhood (Chamber of Oblivion) Special Rule with the Silent Sisterhood (Chamber of Vigilance) Special Rule.</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="db4a-57f3-f451-da91" name="Pursuer Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -5062,7 +5260,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
                 <entryLink id="2d50-9e7a-dea2-5788" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="3d50-2f85-06ff-6aee" type="selectionEntry"/>
                 <entryLink id="3594-9ff8-50e4-f721" name="Execution Blade" hidden="false" collective="false" import="true" targetId="adc6-3519-204d-2921" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -5486,7 +5684,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
       <comment>Updated to Imperatus</comment>
     </selectionEntry>
@@ -6700,7 +6898,7 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
           <entryLinks>
             <entryLink id="90b8-aff7-0f92-1403" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
             <entryLink id="fc01-2529-ac53-3132" name="Snare Cannon" hidden="false" collective="false" import="true" targetId="d267-639b-ec89-95e2" type="selectionEntry"/>
-            <entryLink id="d9ad-fc98-bfca-6a83" name="Adrathic Destructor" hidden="false" collective="false" import="true" targetId="8339-4003-fe88-b536" type="selectionEntry">
+            <entryLink id="d9ad-fc98-bfca-6a83" name="Adrathic Devastator (with Suspensor Web)" hidden="false" collective="false" import="true" targetId="8339-4003-fe88-b536" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="20">
                   <repeats>
@@ -6709,6 +6907,9 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
                 </modifier>
                 <modifier type="set" value="Adrathic Destructor w/ Suspensor Web" field="name"/>
               </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
             </entryLink>
             <entryLink id="31c3-2bd3-2990-6899" name="Vratine Missile Launcher" hidden="false" collective="false" import="true" targetId="0ee4-7a2e-804a-a934" type="selectionEntry">
               <modifiers>
@@ -7038,13 +7239,16 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Rupture (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink id="39e1-bae4-f519-3e01" name="Rupture (X)" hidden="false" targetId="78fb-d1d8-c774-d235" type="rule"><modifiers><modifier type="set" field="name" value="Rupture (6+)"/></modifiers></infoLink>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="b1c3-8b22-bd1d-d318" name="Vratine Grenade Launcher Psky-out" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
@@ -7653,12 +7857,18 @@ No more than one Knight Vestal may be assigned to any given unit. Once assigned
             <categoryLink targetId="bff2-ae16-74a8-8712" id="023e-2d8b-4dea-96ef" name="Light Sub-type:" primary="false"/>
             <categoryLink targetId="7e5d-d73e-8ff4-7345" id="12d4-74a6-4719-bcdd" name="Anathema Sub-type" primary="false"/>
           </categoryLinks>
+          <rules>
+            <rule id="ed78-b293-b066-31e5" name="Errata: Knight Centura (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Knight Centura may exchange either her Execution blade and/or Bolt Pistol for one of the following options:</description></rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <comment>Updated to Imperatus</comment>
+      <rules>
+        <rule id="cc23-d419-4b53-1340" name="Errata: Knight Centura (options)" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>A Knight Centura may exchange either her Execution blade and/or Bolt Pistol for one of the following options:</description></rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="7117-e1f5-1a14-9716" name="Raptora Cadre" publicationId="15a4-fc68-502d-48a9" page="50" hidden="false" collective="false" import="true" type="unit">
       <rules>

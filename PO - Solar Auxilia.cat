@@ -5,6 +5,7 @@
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="6448-0f9c-4d5a-bddd"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="84da-62f7-4182-b2d4" name="HQ"/>
+        <categoryLink id="8f96-4119-e490-e7e6" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
@@ -167,13 +168,13 @@ Could not find wargear Psi-Jammer
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Cohort Doctrines
-Could not find rule: Independent Character
 Could not find rule: Warlord: Master of the Battlefield</comment>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Battle Psyker" type="unit" id="aeec-9d3a-4d2b-b235" page="132" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="51b6-dc91-4265-9599"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="1e38-3840-4213-a4b3" name="HQ"/>
+        <categoryLink id="6ae2-ec05-899d-f710" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
@@ -349,8 +350,7 @@ Could not find wargear in An Auxilia Battle Psyker may select any of the followi
         <infoLink name="Field Officer" hidden="false" type="rule" targetId="14d8-69c5-4a46-8cce" id="4cb0-5384-4fc8-bc96"/>
         <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="6782-2c57-41d7-9410"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Furibundus Dreadnought Talon" type="unit" id="2266-8662-4610-adab" page="136" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -526,8 +526,10 @@ Could not find wargear Gravis Missile Launcher (with Frag and Krak Missiles)
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Two Dreadnought Power Gloves with in-built Twin-Linked Bolters
 	 Checked under Dreadnought Power Gloves with in-built Twin-Linked Bolter
-Could not find wargear in Any Furibundus Dreadnought may replace either of its Dreadnought Power Gloves with in-built Twin-Linked Bolters for one of the following options:
-Could not find type or subtype &apos;Dreadnought&apos;</comment>
+Could not find wargear in Any Furibundus Dreadnought may replace either of its Dreadnought Power Gloves with in-built Twin-Linked Bolters for one of the following options:</comment>
+          <categoryLinks>
+            <categoryLink id="2bfa-dddf-bb97-df3b" name="Dreadnought Unit-type:" hidden="false" targetId="4280-4963-02b5-e31d" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1144,16 +1146,15 @@ Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a94-33ad-4bd3-98b6"/>
               </constraints>
             </entryLink>
+            <entryLink id="dba2-f07f-d1de-c878" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e44-37c3-53e1-ae15" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acf8-7f54-c625-cb20" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3efd-23b7-4675-afa6" name="Infantry" primary="false"/>
             <categoryLink targetId="6399-5c65-7833-1025" id="a72d-36d9-40d8-9c2a" name="Line" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="f7c2-d5c6-4bf2-af02" name="Heavy" primary="false"/>
+            <categoryLink id="cbf8-f417-13d9-5c27" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+          
         </selectionEntry>
         <selectionEntry type="model" name="Auxilia Breacher Troop Master" id="246f-ea4d-4808-9972" page="144" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -1208,17 +1209,16 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6f7-26b9-42d3-86a6"/>
               </constraints>
             </entryLink>
+            <entryLink id="5d0a-6d42-9b47-97bb" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e71-22ce-969c-e417" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62fc-457e-a247-dddd" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="aa67-a07d-4d6b-b256" name="Infantry" primary="false"/>
             <categoryLink targetId="6399-5c65-7833-1025" id="3458-f122-4368-aeaa" name="Line" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="a6ea-f08f-4dfc-9f0a" name="Heavy" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="39fb-ca30-455b-a8bf" name="Character" primary="false"/>
+            <categoryLink id="3397-dacb-a61f-6a56" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1281,6 +1281,7 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd12-7b1f-4d48-b32f"/>
               </constraints>
             </entryLink>
+            <entryLink id="566c-30c8-c287-3eae" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4907-7433-8143-aec9" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e9-87e4-20ad-c7c5" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Auxilia Breacher Sergeant may exchange their Shotgun for the following option:" id="bf33-84d1-43b0-9295">
@@ -1411,15 +1412,13 @@ Could not find wargear Melta Bombs
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5c31-9614-402c-9ab4" name="Infantry" primary="false"/>
             <categoryLink targetId="6399-5c65-7833-1025" id="f6e4-24c3-41e1-a9a5" name="Line" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="93ae-b101-4339-8c41" name="Heavy" primary="false"/>
+            <categoryLink id="8697-a74f-38e8-4a62" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges
-Could not find wargear in The Auxilia Breacher Sergeant may select any of the following options:
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+Could not find wargear in The Auxilia Breacher Sergeant may select any of the following options:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Auxilia Breacher Sergeant" id="d95d-48f7-4a9a-a134" page="146" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -1468,6 +1467,7 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c69-0ff8-4775-a616"/>
               </constraints>
             </entryLink>
+            <entryLink id="2cc5-d2ec-32a7-33d0" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeaf-6837-1976-5255" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cfb-4d55-a0af-88cc" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Auxilia Breacher Sergeant may exchange their Shotgun for the following option:" id="6622-4147-4ad3-9974">
@@ -1599,12 +1599,10 @@ Could not find wargear Melta Bombs
             <categoryLink targetId="6399-5c65-7833-1025" id="3838-3c7c-4a14-9dcc" name="Line" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="3d3f-8a4e-4f02-922d" name="Heavy" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="de33-5ef6-45cb-9f3a" name="Character" primary="false"/>
+            <categoryLink id="7015-f607-919a-c35a" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges
-Could not find wargear in The Auxilia Breacher Sergeant may select any of the following options:
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+Could not find wargear in The Auxilia Breacher Sergeant may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1706,9 +1704,9 @@ Shotgun is in two option lists for Auxilia Breacher Sergeant, you will need to c
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8f9d-bc66-4bdc-96a8" name="Infantry" primary="false"/>
+            <categoryLink id="47e9-c536-76a7-cc77" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+          
         </selectionEntry>
         <selectionEntry type="model" name="Auxilia Troop Master" id="9871-0354-480e-ae39" page="148" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -1761,9 +1759,9 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7a6d-ebb6-4729-8f5c" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="21cc-5558-4dd7-bdeb" name="Character" primary="false"/>
+            <categoryLink id="89e6-9dce-47f7-569a" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1833,13 +1831,12 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b9d-55ca-48bb-95f1"/>
               </constraints>
             </entryLink>
+            <entryLink id="ff03-df9d-8a90-fbb0" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb6e-a332-5480-626d" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95cb-5d46-9f3d-2466" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="751a-ad1e-4b4c-9053" name="Infantry" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges</comment>
+          
         </selectionEntry>
         <selectionEntry type="model" name="Pioneer Weapons Team" id="2cfb-f63c-4f52-9332" page="150" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -1890,13 +1887,12 @@ Could not find wargear Breacher Charges
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ba-c775-4959-aa77"/>
               </constraints>
             </entryLink>
+            <entryLink id="b340-fcce-b621-67c6" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84aa-ed84-3fd3-b9e7" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8560-1d61-a992-1e6e" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8d8a-459c-4a68-b1a1" name="Infantry" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges</comment>
+          
         </selectionEntry>
         <selectionEntry type="model" name="Pioneer Sergeant" id="fd42-bccb-4751-bc7c" page="150" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -1945,14 +1941,13 @@ Could not find wargear Breacher Charges
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c59-f08f-4045-a01a"/>
               </constraints>
             </entryLink>
+            <entryLink id="2926-fa7b-d2c4-5025" name="Breacher Charges" hidden="false" collective="false" import="true" targetId="9622-f67e-4afe-09f3" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1228-480a-7cd5-bb34" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9494-98eb-f01d-2701" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e84c-5b89-4481-81ee" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="9476-4278-4847-a877" name="Character" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Breacher Charges
-	 Checked under Breacher Charges</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2110,13 +2105,13 @@ Could not find wargear Laspistol and Close Combat Weapon
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f176-c9f6-4fd0-9268" name="Infantry" primary="false"/>
             <categoryLink targetId="6399-5c65-7833-1025" id="d134-7d03-495d-be0e" name="Line" primary="false"/>
+            <categoryLink id="e08c-308c-1f06-7626" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="7"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in The Auxilia Sergeant may exchange their Flamer for the following option:
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+Could not find wargear in The Auxilia Sergeant may exchange their Flamer for the following option:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Auxilia Sergeant" id="c2f7-ed11-432d-b728" page="152" publicationId="892-6266-f55f-1b9d">
           <profiles>
@@ -2251,10 +2246,10 @@ Could not find wargear Laspistol and Close Combat Weapon
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c4e7-808c-475e-88b5" name="Infantry" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="3a7d-4d2d-4b47-99a8" name="Character" primary="false"/>
             <categoryLink targetId="6399-5c65-7833-1025" id="814a-3b04-4d54-bed6" name="Line" primary="false"/>
+            <categoryLink id="cf16-1a51-c522-18b5" name="Close-order Sub-type" hidden="false" targetId="0af0-ea84-09d7-2b1f" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in The Auxilia Sergeant may exchange their Flamer for the following option:
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+Could not find wargear in The Auxilia Sergeant may exchange their Flamer for the following option:</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4038,6 +4033,7 @@ Could not find wargear One Hunter-Killer Missile
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="4303-1348-cce4-9501" id="294f-e5c2-468a-b90d" name="Antigrav" primary="false"/>
+            <categoryLink id="e496-beae-11ea-2003" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
@@ -4049,8 +4045,7 @@ Could not find wargear in Any Tempestor Land Speeder may replace their Auxilia T
 Could not find wargear in Any Tempestor Land Speeder may replace their Auxilia Tempestor Land Speeder’s Havoc Launcher with one of the following options:
 Could not find wargear in Any Tempestor Land Speeder may replace their Auxilia Tempestor Land Speeder’s Havoc Launcher with one of the following options:
 Could not find wargear in Any Tempestor Land Speeder may replace their Auxilia Tempestor Land Speeder’s Havoc Launcher with one of the following options:
-Could not find wargear in Any Tempestor Land Speeder may select up to two of the following option:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Could not find wargear in Any Tempestor Land Speeder may select up to two of the following option:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4119,6 +4114,7 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b20-152b-4ba9-8e96"/>
               </constraints>
             </entryLink>
+            <entryLink id="9612-75b5-6355-3537" name="Vox-Interlock" hidden="false" collective="false" import="true" targetId="c04e-5624-3615-0660" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5550-d7aa-cf37-1661" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5bd-ef43-87df-9b59" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Aethon Heavy Sentinel may replace their Multi-Laser with one of the following options:" id="9cd7-a94d-4f59-acae">
@@ -4135,7 +4131,7 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 </entryLink>
                 <entryLink name="Volkite Culverin" hidden="false" type="selectionEntry" targetId="170d-44e0-455c-8207" id="2412-e3c1-4b8e-948a">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6403-0c20-4bae-8dbf"/>
@@ -4159,7 +4155,7 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 </entryLink>
                 <entryLink name="Lascannon" hidden="false" type="selectionEntry" targetId="8621-4e12-b3d2-116f" id="d82a-bbf3-4771-9d7f">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="543a-94ba-4233-8ae1"/>
@@ -4264,8 +4260,6 @@ Could not find wargear One Hunter-Killer Missile
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Vox-Interlock
-	 Checked under Vox-Interlock
 Could not find wargear in Any Aethon Heavy Sentinel may replace their Multi-Laser with one of the following options:
 Could not find wargear in Any Aethon Heavy Sentinel may replace their two Havoc Launchers with one of the following options:
 Could not find wargear in Any Aethon Heavy Sentinel may select up to two of the following option:</comment>
@@ -4739,9 +4733,10 @@ Could not find wargear Two Centreline Mounted Multiple Rocket Pods
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight
 Could not find wargear in Any Auxilia Kelaino may exchange their Two Hull (Front) Mounted Hellstrike Missiles for the following option:</comment>
+          <entryLinks>
+            <entryLink id="5d76-66e5-9150-daa2" name="Searchlight" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e953-6b91-b4a1-4ebb" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ebd-5aff-3729-b968" type="max"/></constraints></entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4805,11 +4800,11 @@ Could not find wargear in Any Auxilia Kelaino may exchange their Two Hull (Front
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Three Centreline Mounted Twin-Linked Lascannons
-	 Checked under Twin-Linked Lascannons
-Could not find wargear Searchlight
-	 Checked under Searchlight</comment>
+          
+          <entryLinks>
+            <entryLink id="176d-d61b-55fb-2384" name="Three Centreline Mounted Twin-Linked Lascannons" hidden="false" collective="false" import="true" targetId="3adf-7150-9ee6-b2de" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd9-f5f3-13a1-b0f0" type="min"/><constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e396-c456-5d39-8f49" type="max"/></constraints></entryLink>
+            <entryLink id="3a44-24a6-d01b-f7e2" name="Searchlight" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da3-690a-d9ec-dc2c" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f15-ae9e-7f83-6808" type="max"/></constraints></entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4892,6 +4887,7 @@ Could not find wargear Searchlight
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b72-da24-49c5-871d"/>
               </constraints>
             </entryLink>
+            <entryLink id="1b5a-6279-1f0d-f681" name="Searchlight" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce30-ad63-a383-216b" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c81c-6bd5-f79b-652e" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Auxilia Ocypete may exchange their two Centreline Mounted Gravis Multi-Lasers for one of the following options:" id="301a-61cf-4014-9ea5">
@@ -4986,8 +4982,6 @@ Could not find wargear Centreline Mounted Twin-Linked Punisher Rotary Cannon
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="110"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight
 Could not find wargear in Any Auxilia Ocypete may exchange their two Centreline Mounted Gravis Multi-Lasers for one of the following options:
 Could not find wargear in Any Auxilia Ocypete may exchange their two Centreline Mounted Gravis Multi-Lasers for one of the following options:
 Could not find wargear in Any Auxilia Ocypete may exchange their Two Hull (Front) Mounted Hellstrike Missiles for one of the following options:
@@ -6125,6 +6119,7 @@ Could not find wargear Centreline (Front) Mounted Twin-Linked Autocannon
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0b8-519f-4373-90bc"/>
               </constraints>
             </entryLink>
+            <entryLink id="f12e-8d1f-bd07-c016" name="Four Hull (Front) Mounted Fragmentation Bombs" hidden="false" collective="false" import="true" targetId="1a19-b6a4-dcc4-b7c4" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b5-d64f-9781-9664" type="min"/><constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8377-9796-5669-cdfb" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Auxilia Marauder Destroyer may exchange its eight Front (Hull) Mounted Hellstrike Missiles for the following option:" id="bd19-ca0e-4613-9524">
@@ -6159,8 +6154,6 @@ Could not find wargear Eight Hull (Front) Mounted Skystrike Missiles
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Eight Hull (Front) Mounted Hellstrike Missiles
 	 Checked under Hellstrike Missiles
-Could not find wargear Four Hull (Front) Mounted Fragmentation Bombs
-	 Checked under Fragmentation Bombs
 Could not find wargear in The Auxilia Marauder Destroyer may exchange its eight Front (Hull) Mounted Hellstrike Missiles for the following option:</comment>
         </selectionEntry>
       </selectionEntries>

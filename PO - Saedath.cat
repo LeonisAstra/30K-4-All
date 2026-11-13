@@ -5,6 +5,7 @@
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="e854-5ebd-434f-af02"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="6fb1-130a-485f-9012" name="HQ"/>
+        <categoryLink id="3830-3289-4fe2-6128" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
@@ -168,13 +169,13 @@ Could not find wargear in The Troupe Master may select any of the following:</co
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      
     </selectionEntry>
     <selectionEntry name="Shadowseer" type="unit" id="b139-833d-4e60-bf19" page="118" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="24b4-26de-4323-bfad"/>
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="884a-23ff-4e05-9be1" name="Elites"/>
+        <categoryLink id="b37c-7455-b841-a693" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
@@ -277,13 +278,13 @@ Could not find wargear in A Shadowseer may take the following:</comment>
         </infoLink>
         <infoLink name="Agent of Pandemonium" hidden="false" type="rule" targetId="6b5d-179c-433d-a3c0" id="b40b-6f60-4eef-a2dc"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      
     </selectionEntry>
     <selectionEntry name="Death Jester" type="unit" id="e26c-73c8-46d2-a456" page="119" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="b8ab-7388-42b9-b262"/>
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="d890-73a1-465c-8216" name="Elites"/>
+        <categoryLink id="86ed-8712-3e13-29e4" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
@@ -425,13 +426,13 @@ Could not find wargear in A Death Jester may take the following:</comment>
         <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="dde2-7cf2-4538-b97b"/>
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="4e47-1469-4641-9020"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      
     </selectionEntry>
     <selectionEntry name="Arebennian" type="unit" id="9e18-8453-4172-84ed" page="120" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="12cc-25c8-48fc-80d2"/>
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="f764-ecdd-485b-8f03" name="Elites"/>
+        <categoryLink id="6e3d-264a-24f5-7da2" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="200"/>
@@ -496,6 +497,7 @@ Could not find rule: Independent Character</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bf5-d56b-4046-9df9"/>
               </constraints>
             </entryLink>
+            <entryLink id="afd1-111f-2f49-af7d" name="Haywire Grenades" hidden="false" collective="false" import="true" targetId="9eab-36bd-453e-b49d" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f590-d65f-25ae-d52a" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e6-1762-142a-aa8e" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="164e-014e-4489-89ff" name="Infantry" primary="false"/>
@@ -503,9 +505,7 @@ Could not find rule: Independent Character</comment>
             <categoryLink targetId="59a4-7b61-600a-c457" id="c890-3af0-4c49-860a" name="Skirmish" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="5f64-e321-4f7f-867c" name="Character" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Haywire Grenades
-	 Checked under Haywire Grenades</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -539,8 +539,7 @@ Could not find wargear Haywire Grenades
         <infoLink name="Infiltrate" hidden="false" type="rule" targetId="0e32-5b92-a95a-8464" id="157c-4c51-4835-b491"/>
         <infoLink name="Soul Forfeit" hidden="false" type="rule" targetId="4f2c-e2c2-46f3-b5d4" id="18ff-644d-49f9-8200"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
+      
     </selectionEntry>
     <selectionEntry name="Troupe" type="unit" id="3d96-f4c2-4c4c-a467" page="124" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -875,17 +874,16 @@ Power Sword is in two option lists for Lead Player, you will need to combine the
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50af-f9b7-457a-90a9"/>
               </constraints>
             </entryLink>
+            <entryLink id="790d-4225-769a-93f2" name="Mirage Launchers" hidden="false" collective="false" import="true" targetId="f35d-7ef9-444a-80bd" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c718-b7e1-2c29-858c" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6276-c030-2c75-da5e" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="4303-1348-cce4-9501" id="5f14-a31b-4efb-991e" name="Antigrav" primary="false"/>
             <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="f77d-ed49-429a-b5db" name="Rillietann" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="06f4-1782-4cf9-bd5d" name="Skirmish" primary="false"/>
+            <categoryLink id="bdfb-f022-e44d-9188" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
+            <categoryLink id="bc70-d50b-bb9a-ded8" name="Transport Sub-type:" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Mirage Launchers
-	 Checked under Mirage Launchers
-Could not find type or subtype &apos;Cavalry&apos;
-Could not find type or subtype &apos;Transport*&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -987,6 +985,7 @@ Could not find type or subtype &apos;Transport*&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41d4-a08c-4c42-ba4d"/>
               </constraints>
             </entryLink>
+            <entryLink id="9cca-2389-c0f9-cb3c" name="Mirage Launchers" hidden="false" collective="false" import="true" targetId="f35d-7ef9-444a-80bd" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc62-b47b-788a-8c0b" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d77c-5891-b907-a030" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace its Skyweaver Jetbike’s Shuriken Cannon with the following:" id="920c-ec3c-420c-991a">
@@ -1024,14 +1023,12 @@ Could not find type or subtype &apos;Transport*&apos;</comment>
             <categoryLink targetId="4303-1348-cce4-9501" id="984a-4cc0-4746-8255" name="Antigrav" primary="false"/>
             <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="625c-52e0-4833-8804" name="Rillietann" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="fd87-dd3c-4cd9-b7d8" name="Skirmish" primary="false"/>
+            <categoryLink id="cd29-462f-2c08-82b7" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Mirage Launchers
-	 Checked under Mirage Launchers
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1134,6 +1131,7 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0965-bed6-4a75-9ed4"/>
               </constraints>
             </entryLink>
+            <entryLink id="e30c-d9ee-388e-9ecb" name="Mirage Launchers" hidden="false" collective="false" import="true" targetId="f35d-7ef9-444a-80bd" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ed-4941-c8fb-8cad" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="404d-e229-21f9-a655" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Haywire Cannon with the following:" id="88c6-e999-4a5d-9563">
@@ -1149,15 +1147,13 @@ Could not find wargear Prismatic Cannon
             <categoryLink targetId="4303-1348-cce4-9501" id="fb81-6204-4eeb-99ac" name="Antigrav" primary="false"/>
             <categoryLink targetId="e9cf-bae1-4a9a-8d47" id="dc8c-2bfe-4b54-9370" name="Rillietann" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="f0a5-6ec6-4d23-aca4" name="Skirmish" primary="false"/>
+            <categoryLink id="7687-71e7-27aa-fe07" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="90"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Mirage Launchers
-	 Checked under Mirage Launchers
-Could not find wargear in Any model in the unit may replace their Haywire Cannon with the following:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Could not find wargear in Any model in the unit may replace their Haywire Cannon with the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

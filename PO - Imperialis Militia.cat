@@ -5,6 +5,7 @@
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="06e5-d81b-4882-afac"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="8221-16e2-48a4-a0d7" name="HQ"/>
+        <categoryLink id="f4df-2497-73d8-6cc3" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
@@ -74,8 +75,7 @@ Could not find wargear Laspistol or Autopistol
         <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="3701-1b46-4496-a9ad"/>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
-Could not find rule: Adamantium Will (4+)
-Could not find rule: Independent Character</comment>
+Could not find rule: Adamantium Will (4+)</comment>
     </selectionEntry>
     <selectionEntry name="Imperialis Militia Ascendant Rogue Psyker" type="unit" id="0136-cc67-438a-94ea" page="203" publicationId="f505-5fc8-ee53-1cec">
       <categoryLinks>
@@ -488,6 +488,7 @@ Could not find wargear Longlas or Sniper Rifle
             <categoryLink targetId="bff2-ae16-74a8-8712" id="f8de-8c66-43fb-ab0b" name="Light" primary="false"/>
             <categoryLink targetId="66b2-c457-4d5e-8041" id="c7b4-0cc4-43c9-8ad6" name="Militia" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="7a8a-0dba-4704-be89" name="Skirmish" primary="false"/>
+            <categoryLink id="d935-ed75-4dc2-ddf2" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
@@ -500,8 +501,7 @@ Could not find wargear Lasgun or Autorifle
 Could not find wargear Militia Cavalry Mount
 	 Checked under Militia Cavalry Mount
 Could not find wargear in For every five models in the unit beyond its original starting size, one Mounted Militia Bodyguard may be upgraded to a:
-Could not find wargear in For every five models in the unit, one Mounted Militia Bodyguard in the squad may exchange their Lasgun for one of the following:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Could not find wargear in For every five models in the unit, one Mounted Militia Bodyguard in the squad may exchange their Lasgun for one of the following:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Mounted Militia Lieutenant" id="a114-9c8d-413e-84c2" page="204" publicationId="f505-5fc8-ee53-1cec">
           <profiles>
@@ -665,6 +665,7 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
             <categoryLink targetId="bff2-ae16-74a8-8712" id="918c-ffd0-42c4-91b8" name="Light" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="b346-dde9-4ae3-b5f8" name="Skirmish" primary="false"/>
             <categoryLink targetId="66b2-c457-4d5e-8041" id="4157-47f4-4578-9492" name="Militia" primary="false"/>
+            <categoryLink id="d1db-e7d0-91dc-8abc" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Laspistol or Autopistol
@@ -672,8 +673,7 @@ Could not find wargear Laspistol or Autopistol
 Could not find wargear Lasgun or Autorifle
 	 Checked under Lasgun or Autorifle
 Could not find wargear Militia Cavalry Mount
-	 Checked under Militia Cavalry Mount
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+	 Checked under Militia Cavalry Mount</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1073,12 +1073,12 @@ Could not find wargear Laspistol or Autopistol
             <categoryLink targetId="bff2-ae16-74a8-8712" id="ac37-42ac-4993-9266" name="Light" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="3c46-55e5-4515-a5f0" name="Skirmish" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="6387-417a-40ae-b137" name="Character" primary="false"/>
+            <categoryLink id="6211-8289-d148-c908" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Militia Cavalry Mount
 	 Checked under Militia Cavalry Mount
-Could not find wargear in Any Demagogue or Mounted Demagogue may exchange their Laspistol or Autopistol for one of the following options:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Could not find wargear in Any Demagogue or Mounted Demagogue may exchange their Laspistol or Autopistol for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2034,15 +2034,14 @@ Could not find wargear in All models in the unit may exchange their Shotguns and
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b7e-6b9b-418a-be87"/>
               </constraints>
             </entryLink>
+            <entryLink id="90cd-a1de-b465-7992" name="Two Sponson Mounted Lasgun Arrays" hidden="false" collective="false" import="true" targetId="fa2d-f03c-4906-b40e" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae62-91cc-8a12-29b5" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83b6-23ad-9648-f18e" type="max"/></constraints></entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="23a5-e835-4cfc-8ee9" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="c3d5-4387-4a34-9544" name="Transport" primary="false"/>
+            <categoryLink id="93d4-4d5d-9a4b-fa45" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Sponson Mounted Lasgun Arrays
-	 Checked under Lasgun Array
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2088,9 +2087,9 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="9b10-6a2b-42b7-b4db" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="b92e-9dea-4c7f-bc82" name="Transport" primary="false"/>
+            <categoryLink id="5f36-7ffd-6314-45f9" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2144,9 +2143,9 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="b41f-050f-45cc-8947" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="9d89-a034-44b2-ac7f" name="Transport" primary="false"/>
+            <categoryLink id="f8d6-a6f0-e430-a533" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2206,9 +2205,9 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="0187-9f8c-4d50-8b2d" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="709c-67b7-4fa8-8a3e" name="Transport" primary="false"/>
+            <categoryLink id="c3c7-805f-9e99-9184" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2274,9 +2273,9 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3219-478c-45d8-b5c8" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="a69a-f5fc-4e1f-8a0c" name="Transport" primary="false"/>
+            <categoryLink id="c09f-2cd2-57e8-4f4e" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2346,9 +2345,9 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="f821-18a4-4531-869a" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="170b-f546-41e8-aea5" name="Transport" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="c17e-ccc1-45e4-bfe9" name="Reinforced" primary="false"/>
+            <categoryLink id="c77f-105d-94c8-e6ed" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2400,9 +2399,10 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Mutated Appendages
-	 Checked under Mutated Appendage</comment>
+          
+          <entryLinks>
+            <entryLink id="c97b-fafe-28b8-7f49" name="Two Mutated Appendages" hidden="false" collective="false" import="true" targetId="8bbc-551e-4181-aeb1" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94a-f569-f128-caa9" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9459-b72e-8f5e-fa0e" type="max"/></constraints></entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2611,13 +2611,13 @@ Could not find wargear One Hull (Front) Hunter-Killer Missile
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="d06c-ee2a-43d8-8db0" name="Vehicle" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="e1a9-7f84-489a-bb3b" name="Reinforced" primary="false"/>
+            <categoryLink id="6278-271a-f632-776b" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Militia Hellhound may select any of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Militia Hellhound may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2769,13 +2769,13 @@ Could not find wargear One Hull (Front) Hunter-Killer Missile
             <categoryLink targetId="e2b6-b770-784c-9e95" id="ccee-0e4c-4846-9d74" name="Vehicle" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="c3dc-28f3-4509-9139" name="Fast" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="29d2-42e5-4bb7-9774" name="Transport" primary="false"/>
+            <categoryLink id="bedd-cc82-d44f-23ff" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Militia Centaur Tractor may select any of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Militia Centaur Tractor may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
@@ -2956,13 +2956,13 @@ Could not find wargear One Hull (Front) Hunter-Killer Missile
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="7b63-d652-4f4b-a35f" name="Vehicle" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="d5e3-9655-4c21-9f0c" name="Fast" primary="false"/>
+            <categoryLink id="e56e-31a0-92bc-3fc4" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Militia Salamander Scout Vehicle may select any of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Militia Salamander Scout Vehicle may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -3110,14 +3110,14 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="2eed-4c8e-48e3-b279" name="Vehicle" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="50a3-8116-4b1b-8900" name="Fast" primary="false"/>
+            <categoryLink id="ca6a-5239-f414-96b8" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Pintle-Mounted Auto-Launcher
-	 Checked under Auto-Launcher
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+	 Checked under Auto-Launcher</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -3227,9 +3227,10 @@ Could not find wargear Two Centreline Mounted Multiple Rocket Pods
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight
 Could not find wargear in Any Militia Kelaino may exchange their Two Hull (Front) Mounted Hellstrike Missiles for the following option:</comment>
+          <entryLinks>
+            <entryLink id="70ba-bbe3-5c0b-250b" name="Searchlight" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acea-b6ad-d2f2-7da5" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67c5-b11d-1f6e-c169" type="max"/></constraints></entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -3584,6 +3585,7 @@ Could not find wargear Laspistol or Autopistol
           <categoryLinks>
             <categoryLink targetId="66b2-c457-4d5e-8041" id="0edd-8af9-4850-bb89" name="Militia" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="370f-8e29-44a0-81dc" name="Skirmish" primary="false"/>
+            <categoryLink id="3b66-1e04-e924-8877" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -3593,8 +3595,7 @@ Could not find wargear Militia Cavalry Mount
 	 Checked under Militia Cavalry Mount
 Could not find wargear in Any model in the unit may exchange their Heavy Stubber for one of the following options:
 Could not find wargear in Any model which selects an option from the list above may choose to select the following option for that weapon:
-Could not find wargear in The Militia Heavy Outrider Sergeant may exchange their Laspistol or Autopistol, and/or Close Combat Weapon for one of the following options:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Could not find wargear in The Militia Heavy Outrider Sergeant may exchange their Laspistol or Autopistol, and/or Close Combat Weapon for one of the following options:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Militia Heavy Outrider Sergeant" id="c769-b2d0-4b1d-865c" page="236" publicationId="f505-5fc8-ee53-1cec">
           <profiles>
@@ -3802,14 +3803,14 @@ Could not find wargear Laspistol or Autopistol
             <categoryLink targetId="66b2-c457-4d5e-8041" id="fc3b-4616-4bf3-9329" name="Militia" primary="false"/>
             <categoryLink targetId="59a4-7b61-600a-c457" id="9212-d0a6-4619-8b7b" name="Skirmish" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="c2af-493e-4ca3-965f" name="Character" primary="false"/>
+            <categoryLink id="9fef-5573-e22a-8eca" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Militia Cavalry Mount
 	 Checked under Militia Cavalry Mount
 Could not find wargear in Any model in the unit may exchange their Heavy Stubber for one of the following options:
 Could not find wargear in Any model which selects an option from the list above may choose to select the following option for that weapon:
-Could not find wargear in The Militia Heavy Outrider Sergeant may exchange their Laspistol or Autopistol, and/or Close Combat Weapon for one of the following options:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+Could not find wargear in The Militia Heavy Outrider Sergeant may exchange their Laspistol or Autopistol, and/or Close Combat Weapon for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4028,6 +4029,7 @@ Could not find wargear Centreline Mounted Twin-Linked Heavy Stubber
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="14ed-d369-4a57-8995" name="Vehicle" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="1695-24ea-4c28-9253" name="Fast" primary="false"/>
+            <categoryLink id="f466-411d-cf7f-a2fa" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
@@ -4037,8 +4039,7 @@ Could not find wargear Turret Mounted Twin-Linked Heavy Stubber
 	 Checked under Twin-Linked Heavy Stubber
 Could not find wargear in Any model may replace their Turret-Mounted Twin-Linked Heavy Stubber with one of the following options:
 Could not find wargear in Any model may replace their Turret-Mounted Twin-Linked Heavy Stubber with one of the following options:
-Could not find wargear in Any model may select any of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any model may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4224,6 +4225,7 @@ Could not find wargear The Pathfinder Special Rule
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="2540-d398-4ea7-a848" name="Vehicle" primary="false"/>
+            <categoryLink id="d6c4-4fab-aac8-6856" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -4233,8 +4235,7 @@ Could not find wargear in Any model may replace their Turret-Mounted Gravis Mult
 Could not find wargear in Any model may replace their Turret-Mounted Gravis Multi-Laser with one of the following options:
 Could not find wargear in Any model may replace their Turret-Mounted Gravis Multi-Laser with one of the following options:
 Could not find wargear in Any model may replace their Turret-Mounted Gravis Multi-Laser with one of the following options:
-Could not find wargear in Any model may select any of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any model may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4427,12 +4428,12 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="e0d0-4802-4e73-a926" name="Vehicle" primary="false"/>
+            <categoryLink id="8a2e-52ca-c89f-d991" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
@@ -4476,9 +4477,9 @@ Could not find rule: None</comment>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="ca68-703b-4527-83d8" name="Vehicle" primary="false"/>
+            <categoryLink id="32aa-ce4f-303d-bb61" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4976,6 +4977,7 @@ Could not find wargear Hull (Front) Mounted Twin-Linked Plasma Cannon
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3cae-69b0-4e13-ad6f" name="Vehicle" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="5981-e929-4e68-89e9" name="Reinforced" primary="false"/>
+            <categoryLink id="1218-df1a-d477-d3d1" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
@@ -4986,8 +4988,7 @@ Could not find wargear One Hull (Front) Mounted Twin-Linked Heavy Stubber
 Could not find wargear in Any Militia Macharius Heavy Tank may exchange its Hull (Front) Mounted Twin-Linked Heavy Stubber for one of the following options:
 Could not find wargear in Any Militia Macharius Heavy Tank may exchange its Hull (Front) Mounted Twin-Linked Heavy Stubber for one of the following options:
 Could not find wargear in Any Militia Macharius Heavy Tank may exchange its Hull (Front) Mounted Twin-Linked Heavy Stubber for one of the following options:
-Could not find wargear in Any Militia Macharius Heavy Tank may exchange its Hull (Front) Mounted Twin-Linked Heavy Stubber for one of the following options:
-Could not find type or subtype &apos;Third Line&apos;</comment>
+Could not find wargear in Any Militia Macharius Heavy Tank may exchange its Hull (Front) Mounted Twin-Linked Heavy Stubber for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5210,9 +5211,9 @@ Could not find type or subtype &apos;Third Line&apos;</comment>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="1891-45b4-47fd-ae4b" name="Vehicle" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="890a-8af8-4aac-a77d" name="Reinforced" primary="false"/>
             <categoryLink targetId="d5df-57ac-8f3c-097b" id="c9ed-edad-444e-97f9" name="Bombard" primary="false"/>
+            <categoryLink id="98dc-6499-f66e-8076" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5433,6 +5434,7 @@ Could not find wargear One Hull (Left) Mounted Lascannon and one Hull (Right) Mo
             <categoryLink targetId="e2b6-b770-784c-9e95" id="1c8c-715a-468d-9ad3" name="Vehicle" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="9a63-b5f2-47a2-a108" name="Fast" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="a67e-681e-4d7b-8f8a" name="Reinforced" primary="false"/>
+            <categoryLink id="4b54-d8ce-ee81-f972" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
@@ -5440,8 +5442,7 @@ Could not find wargear One Hull (Left) Mounted Lascannon and one Hull (Right) Mo
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in Any Malcador Defensor Heavy Tank may exchange of its Hull (Left) and Hull (Right) Mounted Heavy Bolters for one of the following options:
 Could not find wargear in Any Malcador Defensor Heavy Tank may exchange of its Hull (Left) and Hull (Right) Mounted Heavy Bolters for one of the following options:
-Could not find wargear in Any Malcador Defensor Heavy Tank may exchange of its Hull (Left) and Hull (Right) Mounted Heavy Bolters for one of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Malcador Defensor Heavy Tank may exchange of its Hull (Left) and Hull (Right) Mounted Heavy Bolters for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5565,12 +5566,12 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="b6c5-5f1a-44ed-88d7" name="Vehicle" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="cd07-44b5-4ee6-a6da" name="Reinforced" primary="false"/>
             <categoryLink targetId="c4a5-4def-dc2c-7ce2" id="056e-c151-433a-ad7c" name="Slow" primary="false"/>
+            <categoryLink id="e340-d0e3-87a6-2ae4" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5805,10 +5806,10 @@ Could not find wargear Turret Mounted Oppressor Cannon with Coaxial Autocannon
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="4712-0ca9-4531-a781" name="Vehicle" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="0d70-0b7e-4088-b378" name="Reinforced" primary="false"/>
+            <categoryLink id="d492-5bf0-93bc-2786" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Militia Praetorian Heavy Tank may exchange its Turret Mounted Praetorian Battle Cannon for the following option:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Militia Praetorian Heavy Tank may exchange its Turret Mounted Praetorian Battle Cannon for the following option:</comment>
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
@@ -6054,6 +6055,7 @@ Could not find wargear One Phosphor Incendiary Missile
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="c522-b5fd-4b4f-a4cb" name="Vehicle" primary="false"/>
+            <categoryLink id="98e4-f1f8-b9a1-7026" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
@@ -6062,8 +6064,7 @@ Could not find wargear One Phosphor Incendiary Missile
 Could not find wargear Turret Mounted Manticore Missile Launcher (with 4 Manticore Missiles)
 	 Checked under Manticore Missile Launcher (with 4 Manticore Missiles)
 Could not find wargear in Any Militia Manticore Missile Tank may exchange any number of its Manticore Missiles for any of the following options, in any combination:
-Could not find wargear in Any Militia Manticore Missile Tank may exchange any number of its Manticore Missiles for any of the following options, in any combination:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Militia Manticore Missile Tank may exchange any number of its Manticore Missiles for any of the following options, in any combination:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6250,12 +6251,12 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="6c7c-3368-4a42-997d" name="Vehicle" primary="false"/>
+            <categoryLink id="8488-fe0c-f111-2bdc" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6460,13 +6461,13 @@ Could not find wargear Turret-Mounted Heavy Seismic Cannon
             <categoryLink targetId="e2b6-b770-784c-9e95" id="a5c5-a836-472a-aabe" name="Vehicle" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="7aa1-ff1f-41a6-bba9" name="Reinforced" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="467f-c1f4-447f-9c85" name="Transport" primary="false"/>
+            <categoryLink id="4c7e-98eb-e7e2-cc0c" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
           </costs>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Goliath Heavy Vehicle may replace its Turret-Mounted Gravis Multi-Laser with one of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Goliath Heavy Vehicle may replace its Turret-Mounted Gravis Multi-Laser with one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6607,6 +6608,7 @@ Could not find wargear Pintle Mounted Mounted Multi-Melta
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="396e-df64-4df6-8e8e" name="Reinforced" primary="false"/>
             <categoryLink targetId="c4a5-4def-dc2c-7ce2" id="b635-f675-4d86-bcb5" name="Slow" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="eca5-e349-40de-b70b" name="Transport" primary="false"/>
+            <categoryLink id="3f2a-fbfc-4895-4e31" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
@@ -6625,8 +6627,7 @@ Could not find wargear in Any Militia Ironcrawler may replace any of its Pintle 
 Could not find wargear in Any Militia Ironcrawler may replace any of its Pintle Mounted Heavy Stubbers with one of the following options:
 Could not find wargear in Any Militia Ironcrawler may replace any of its Pintle Mounted Heavy Stubbers with one of the following options:
 Could not find wargear in Any Militia Ironcrawler may replace any of its Pintle Mounted Heavy Stubbers with one of the following options:
-Could not find wargear in Any Militia Ironcrawler may replace any of its Pintle Mounted Heavy Stubbers with one of the following options:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in Any Militia Ironcrawler may replace any of its Pintle Mounted Heavy Stubbers with one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6771,12 +6772,12 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="7218-d8a8-4ef1-96d6" name="Vehicle" primary="false"/>
+            <categoryLink id="87ea-cb51-4e8b-2168" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6852,11 +6853,11 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="aa0e-67a8-41c5-a559" name="Vehicle" primary="false"/>
             <categoryLink targetId="4e84-2d57-4986-2b23" id="7b22-b48a-4b65-acd1" name="Flyer" primary="false"/>
             <categoryLink targetId="7f9b-c5ed-7edb-02dc" id="7ad4-c992-4591-a919" name="Lumbering" primary="false"/>
+            <categoryLink id="8a34-aaaa-8d60-2cd6" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Centreline (Front) Mounted Twin-Linked Autocannon
-	 Checked under Twin-Linked Autocannon
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+	 Checked under Twin-Linked Autocannon</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6919,6 +6920,7 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6382-0fb5-4ffd-9f00"/>
               </constraints>
             </entryLink>
+            <entryLink id="d2c9-f67d-d34c-cc7e" name="Four Hull (Front) Mounted Fragmentation Bombs" hidden="false" collective="false" import="true" targetId="1a19-b6a4-dcc4-b7c4" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7a-8aa6-ec0d-a4c5" type="min"/><constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d2-5148-9863-76e2" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Militia Marauder Destroyer may exchange its eight Front (Hull) Mounted Heavy Krak Rockets for the following option:" id="4e51-7f6e-41da-99d2">
@@ -6949,14 +6951,12 @@ Could not find wargear Eight Hull (Front) Mounted Heavy Frag Rockets
             <categoryLink targetId="e2b6-b770-784c-9e95" id="b858-bd9c-420d-aadd" name="Vehicle" primary="false"/>
             <categoryLink targetId="4e84-2d57-4986-2b23" id="c403-7a8b-4d92-9d51" name="Flyer" primary="false"/>
             <categoryLink targetId="7f9b-c5ed-7edb-02dc" id="3fce-74ac-444f-85fb" name="Lumbering" primary="false"/>
+            <categoryLink id="8c71-2c96-4e0e-11f2" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear Eight Hull (Front) Mounted Heavy Krak Rockets
 	 Checked under Heavy Krak Rockets
-Could not find wargear Four Hull (Front) Mounted Fragmentation Bombs
-	 Checked under Fragmentation Bombs
-Could not find wargear in The Militia Marauder Destroyer may exchange its eight Front (Hull) Mounted Heavy Krak Rockets for the following option:
-Could not find type or subtype &apos;Third-Line&apos;</comment>
+Could not find wargear in The Militia Marauder Destroyer may exchange its eight Front (Hull) Mounted Heavy Krak Rockets for the following option:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -7084,10 +7084,10 @@ Could not find type or subtype &apos;Third-Line&apos;</comment>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3122-8146-4b96-b353" name="Vehicle" primary="false"/>
+            <categoryLink id="5a05-bd28-c8c4-1c69" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+            <categoryLink id="65d9-9610-dead-ed00" name="Super-heavy Sub-type:" hidden="false" targetId="7381-1130-ca6e-1806" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Third-Line&apos;
-Could not find type or subtype &apos;Super-Heavy&apos;</comment>
+          
         </selectionEntry>
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
@@ -7131,6 +7131,7 @@ Could not find rule: None</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f038-609b-4d07-b685"/>
               </constraints>
             </entryLink>
+            <entryLink id="6b8b-69e2-53ec-9626" name="Smoke Launcher" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6041-dec4-ecb0-a0f7" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea6-257e-e2ba-7f75" type="max"/></constraints></entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Militia Crassus Assault Transport may exchange both of its Sponson Mounted Heavy Bolters for one of the following options:" id="a2a6-ad06-4c1e-9cde">
@@ -7222,15 +7223,13 @@ Could not find wargear Hull (Front, Left) Mounted Lascannons and Hull (Front, Ri
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="ee66-672c-46d6-a451" name="Vehicle" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="d95c-eae2-4525-b8f1" name="Transport" primary="false"/>
+            <categoryLink id="760f-be3a-5af4-643f" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+            <categoryLink id="53a1-7fc5-b471-9a4f" name="Super-heavy Sub-type:" hidden="false" targetId="7381-1130-ca6e-1806" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Smoke Launcher
-	 Checked under Smoke Launcher
 Could not find wargear in A Militia Crassus Assault Transport may exchange its Hull (Front, Left) Mounted Heavy Bolter and Hull (Front, Right) Mounted Heavy Bolter for one of the following options:
 Could not find wargear in A Militia Crassus Assault Transport may exchange its Hull (Front, Left) Mounted Heavy Bolter and Hull (Front, Right) Mounted Heavy Bolter for one of the following options:
-Could not find wargear in A Militia Crassus Assault Transport may exchange its Hull (Front, Left) Mounted Heavy Bolter and Hull (Front, Right) Mounted Heavy Bolter for one of the following options:
-Could not find type or subtype &apos;Third-Line&apos;
-Could not find type or subtype &apos;Super-Heavy&apos;</comment>
+Could not find wargear in A Militia Crassus Assault Transport may exchange its Hull (Front, Left) Mounted Heavy Bolter and Hull (Front, Right) Mounted Heavy Bolter for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

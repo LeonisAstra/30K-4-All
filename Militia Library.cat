@@ -23,7 +23,8 @@
       <profiles>
         <profile id="bf68-2f8c-e803-967b" name="Militia Standard" publicationId="9fab-fea7-a93c-2074" page="154" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule. A unit that includes at least one model with a Militia Standard gains the Line Sub-type for as long as that model is part of the unit.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule. A unit that includes at least one model with a Militia Standard gains the Line Sub-type for as long as that model is part of the unit.
+A unit that includes at least one model with a Militia Standard gains the Line Sub-type for as long as that model is part of the unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -86,7 +87,7 @@ All units selected in this manner count as part of the same Troops choice for th
 
 Once deployed onto the battlefield, all units selected in this manner are treated as separate and distinct units or choices for any Primary or Secondary Objectives or other special rules and operate as separate units in all ways. Units selected as part of the same Troops choice may have different options selected for them, and are not required to be identical.
 
-When assigning additional models to units using the Among the Ranks and Militia Medicae Support special rules, each unit selected using the Strength in Numbers special rule is considered separate and may have models assigned to it as per the normal rules as the controlling player chooses.</description>
+When assigning additional models to units using any Special Rules, each unit selected using the Strength in Numbers Special Rule is considered separate and may have models assigned to it as per the normal rules as the Controlling Player chooses.</description>
     </rule>
   </sharedRules>
 </catalogue>

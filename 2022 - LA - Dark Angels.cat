@@ -2949,6 +2949,233 @@
         <categoryLink targetId="7031-469a-1aeb-eab0" id="1308-6392-4fba-808c" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Legion Indomitus Praetor" hidden="false" id="8557-4123-b38d-a5d1" type="selectionEntry" targetId="0293-aa91-4e32-bd5f">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="f8ba-3b7d-1ae5-73f9" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="66e1-f6ff-9729-830c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="797c-b3e2-1e67-f0dd" type="selectionEntry" targetId="4d40-5fee-4219-8354">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="5662-26b4-ff70-8a68" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="cfd5-5a81-3cf2-249e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="f78a-4e57-db8c-a137" type="selectionEntry" targetId="3e29-1bf1-48c9-b302">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="f9d1-537a-d38f-2b30" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="830d-6bd7-3f39-6321" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Indomitus Command Squad" hidden="false" id="639f-eeb6-ea80-e0af" type="selectionEntry" targetId="10a1-9ca0-40bd-81fd">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="1038-3223-1632-9f08" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e6e5-2692-490b-60e9" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Contemptor Centurion" hidden="false" id="f7af-1480-ba45-c98c" type="selectionEntry" targetId="af55-3d23-4179-b438">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="1c11-67d6-5eb7-85fd" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8fca-1a0b-9aeb-3b30" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Castra Ferrum Centurion" hidden="false" id="7f3e-eb7c-2c94-919d" type="selectionEntry" targetId="7cbb-4e3a-4030-b935">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="3205-301b-bc7a-b4e0" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="616e-2ce3-8905-d33f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Land Raider Dionysus" hidden="false" id="c5ba-bd61-60ee-8a9c" type="selectionEntry" targetId="4f0d-7dbb-4d94-a26e">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="88b3-7660-3aae-7647" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="7c74-44bd-ebaa-f0d1" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Land Raider Tartaros" hidden="false" id="873b-a96c-a6f7-9e44" type="selectionEntry" targetId="9919-c7b2-474e-bb78">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="eca3-a05d-9828-3276" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="969e-7664-270f-7ba5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Terminator Saturnine Squad" hidden="false" id="2f3e-6efd-74a6-1145" type="selectionEntry" targetId="77f4-7d9e-429c-9101">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="22a4-bfee-fd54-c587" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="59f8-ad00-9a61-b06c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Assault Veteran Squad" hidden="false" id="df12-88be-4772-f54a" type="selectionEntry" targetId="bbbd-1956-4682-9ea4">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="e560-4c14-53cd-79b6" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8244-4f28-26a1-817c" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Contemptor-Cortus Dreadnought Talon" hidden="false" id="e0ac-2d69-34ca-332c" type="selectionEntry" targetId="970a-bd04-4d61-ae08">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="c5d5-a68b-15be-74fa" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ae1e-7f74-ecf3-f07a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="cbdd-52c8-630d-7043" type="selectionEntry" targetId="f928-6ae6-4699-ba2b">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="1d8c-f84b-d495-5da9" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="f31e-4926-2775-224f" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Servo-Automata Maniple" hidden="false" id="d06b-7a9c-4b20-65b1" type="selectionEntry" targetId="6c47-ea09-4079-82bb">
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="661f-9c9b-197d-2a99" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a41a-7f5d-7687-2091" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Hussar Squadron" hidden="false" id="3c1e-9f5c-9f7e-1447" type="selectionEntry" targetId="4437-5f83-4383-9545">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="a0b0-e371-37cd-464b" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d912-f6b5-61c8-831a" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Sky-Seeker Squadron" hidden="false" id="399d-1ac8-6a3b-dff6" type="selectionEntry" targetId="c0a1-df5f-4e38-89e8">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="4111-88f3-b203-c60a" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="4587-8d3d-9267-9c7d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Assault Support Squad" hidden="false" id="91ac-9877-6322-c371" type="selectionEntry" targetId="c91c-8095-41e1-a730">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="e666-9dbc-e067-9542" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8ea5-daba-3990-2767" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Novicii Squad*" hidden="false" id="4f86-8a88-85a2-6d2b" type="selectionEntry" targetId="7322-a79c-4ce8-8b16">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="7341-73c1-3831-f201" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="2bd6-78b7-1af2-78f9" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="38ab-9d88-51b5-2b9a" type="selectionEntry" targetId="83d6-bbaa-416c-9de9">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="970c-938a-6656-23ca" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="6344-5819-b0ba-5afd" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Whispercutter" hidden="false" id="9424-d0f2-2a37-ec9a" type="selectionEntry" targetId="b176-b2c5-477c-9200">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="fcb0-eb6c-a874-2d6a" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5442-b382-2f88-2c0e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mutated Spawn" hidden="false" id="a161-bf09-c8d6-c027" type="selectionEntry" targetId="d20c-e065-4357-b70c">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="b3bb-5cfa-c280-c7e4" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="d4f0-4ba3-4a79-a2ef" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Storm Eagle Transporter" hidden="false" id="3a1f-b400-bfe0-569c" type="selectionEntry" targetId="e88e-ed4c-45bf-b30a">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="e8c3-3d06-59fc-38d3" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="22f6-3126-49dd-e89e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Sicaran Incinerator Squadron" hidden="false" id="2284-a00b-428a-3b47" type="selectionEntry" targetId="bb59-1d00-42d4-aaa7">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="21cc-2ba3-7cdd-f29c" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="f315-47e1-acf0-cf6d" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Vindicator Thunderer Squadron" hidden="false" id="4654-bab9-cf28-49a6" type="selectionEntry" targetId="0154-d7ea-4dcf-8db1">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="8c3d-f8b0-b836-1157" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e092-f320-c266-57b5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Fire Raptor Destroyer" hidden="false" id="1459-a3b2-957b-cae6" type="selectionEntry" targetId="7264-ce9d-4a66-834e">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="1082-90f8-cb63-fb71" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a6f8-7ee8-d55d-9d6b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Early Great Crusade Havoc Squad" hidden="false" id="7bd9-307d-afec-3d4c" type="selectionEntry" targetId="e112-e4d2-45f7-b5bd">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="e6aa-867d-ef97-56e8" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="4e9b-818b-acd0-2459" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Tartaros Heavy Destroyer Squad" hidden="false" id="1fb9-47d2-57f6-4e48" type="selectionEntry" targetId="32a8-5aa5-4636-9115">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="b460-1dc1-2bd4-b3b0" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="255e-e591-f187-5326" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Cataphractii Heavy Destroyer Squad" hidden="false" id="3149-7b3d-656b-4bcd" type="selectionEntry" targetId="a80d-c621-43b6-8d8b">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="b149-5c95-2d9e-70d3" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="316a-815d-3c06-e9a5" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Banesword" hidden="false" id="d96f-c3c9-67cc-f27f" type="selectionEntry" targetId="658b-333a-4c15-b739">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="4402-d8ef-c6b6-defe" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ed12-fc48-2e4c-fc89" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Doomhammer" hidden="false" id="ee33-1757-d3ea-14f4" type="selectionEntry" targetId="ac9d-af7c-4709-a6d2">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="9014-d0c3-cc3f-c674" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c4e8-aa5b-e6e7-b669" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Orthrus Destroyer Squadron" hidden="false" id="1e07-9e73-c7ad-5e5f" type="selectionEntry" targetId="4b16-34fb-4262-95a2">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="4f73-505a-1aa6-9c38" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ee79-8a03-be94-2de4" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Basilisk Anti-Air Emplacement Battery" hidden="false" id="94e4-a03c-4b11-b8c4" type="selectionEntry" targetId="ca32-4dab-4bf6-b3ed">
+      <categoryLinks>
+        <categoryLink targetId="a24f-12d8-36c1-f477" id="e791-4ee6-274d-c953" primary="true" name="Fortification:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="6b99-6b8b-f40e-af47" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ece6-57f6-8d2b-6bb2" name="Luther" hidden="false" collective="false" import="false" targetId="9290-c27f-7f1b-368f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="bdb1-5994-c422-b941" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="8d7a-bf53-f8a5-f7fe" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e570-fb87-754e-1340" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9856-c3af-7add-84be" name="Merir Astelan" hidden="false" collective="false" import="false" targetId="906d-7511-216e-81a0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8aa1-69bb-122b-cfab" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="54f4-4364-9f6a-79a3" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="8eda-e539-82bd-d636" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b989-331c-5e38-a113" name="Inner Circle Indomitus Squad" hidden="false" collective="false" import="false" targetId="4010-77ea-953c-7e43" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f472-b899-c450-7a1f" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="3585-7813-a882-6e33" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4097-b2b4-d9da-da99" name="Corswain" hidden="false" collective="false" import="true" type="unit">
@@ -3507,6 +3734,7 @@
         <rule id="47cc-8e78-0978-4af0" name="Cybernetica Exterminator" publicationId="d0df-7166-5cd3-89fd" page="55" hidden="false">
           <description>The Excindio Battle-automata has the Animatus Excindor Cybertheurgic Weapon from the Artificia Machina Cybertheurgic  Arcana found on page 94 of Liber Mechanicum, but may not select any other Cybertheurgic Arcana, Cybertheurgic Rites or  Cybertheurgic Weapons.</description>
         </rule>
+        <rule id="4434-9583-7d3f-a8d4" name="Errata: Excindio Battle Automata" publicationId="f856-58d6-ef02-7d3e" hidden="false"><description>When the model loses its last wound, increase the explosion range by +4".</description></rule>
       </rules>
       <infoLinks>
         <infoLink id="c3de-0ae5-57a6-c385" name="It Will Not Die (X)" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
@@ -3732,7 +3960,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28ab-ad48-d8b3-0d5d" name="Farith Redloss" publicationId="d0df-7166-5cd3-89fd" page="45" hidden="false" collective="false" import="true" type="unit">
@@ -4411,6 +4639,9 @@ special rule.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88bc-8125-5d60-dc5b" type="max"/>
               </constraints>
               <entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
                 <entryLink id="fb22-8af6-ad71-855b" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry"/>
                 <entryLink id="be5e-aab5-ebee-8220" name="Terranic Greatsword" hidden="false" collective="false" import="true" targetId="68b3-a64c-a609-6615" type="selectionEntry">
                   <modifiers>
@@ -4465,7 +4696,7 @@ special rule.</description>
           <profiles>
             <profile id="dc37-aac1-0329-d898" name="Order Cenobites" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" publicationId="9fab-fea7-a93c-2074" page="124">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy), and the Unit Type for the Order Preceptor profile to Infantry (Character, Heavy)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -4490,6 +4721,9 @@ special rule.</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c594-ee20-08bc-dbeb" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="dabe-c265-b65c-4c57" name="Terranic Greatsword" hidden="false" collective="false" import="true" targetId="68b3-a64c-a609-6615" type="selectionEntry">
                   <modifiers>
@@ -4736,6 +4970,9 @@ special rule.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d25-f226-a2a1-86f6" type="max"/>
               </constraints>
               <entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
                 <entryLink id="ad78-bf51-98dd-dd52" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry"/>
                 <entryLink id="4b29-e590-9e95-4482" name="Advex-mors Greatsword" hidden="false" collective="false" import="true" targetId="12b8-ffd2-d5d6-28c5" type="selectionEntry">
                   <costs>
@@ -4752,6 +4989,22 @@ special rule.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink id="8e72-ab39-e7b7-ce49" name="Arcanite Shock Maul" hidden="false" collective="false" import="true" targetId="2def-6a99-346e-c9a5" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="61e8-cf57-8df3-9e69" name="Biocore Shatterblade" hidden="false" collective="false" import="true" targetId="af6e-a0e2-4245-3bf5" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="1537-72f1-5bec-2444" name="Paired Mirrorblades" hidden="false" collective="false" import="true" targetId="44e0-b55b-e8f4-1c24" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="1eb8-6632-bcbe-1736" name="Aetheric Whisper-Blade" hidden="false" collective="false" import="true" targetId="1d98-35a2-cd11-57e0" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="a3ae-4b56-e28c-c162" name="Gyrocyclic Reaper Blade" hidden="false" collective="false" import="true" targetId="93db-95ac-eead-34c5" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="f66b-3ab8-5b14-b167" name="Accelerator Hammer" hidden="false" collective="false" import="true" targetId="96a0-34c6-1f0b-4cb9" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="f746-530e-afbd-7bb1" name="Hydragyric Executioner" hidden="false" collective="false" import="true" targetId="96d7-7ed2-5d6f-cde7" type="selectionEntry">
+                  </entryLink>
+                <entryLink id="47a3-6d95-bef6-ea69" name="Nanofractal Falchion" hidden="false" collective="false" import="true" targetId="1d0f-2fba-d38f-89a1" type="selectionEntry">
+                  </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="a8c8-5c83-1317-b3e2" name="May take:" hidden="false" collective="false" import="true">
@@ -4807,6 +5060,9 @@ special rule.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084b-502e-5bf9-b573" type="max"/>
               </constraints>
               <entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
                 <entryLink id="1c3a-f1ec-8393-5b75" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry"/>
                 <entryLink id="29ca-468c-1dcf-2f9d" name="Advex-mors Greatsword" hidden="false" collective="false" import="true" targetId="12b8-ffd2-d5d6-28c5" type="selectionEntry">
                   <costs>
@@ -5178,7 +5434,8 @@ special rule.</description>
       </constraints>
       <rules>
         <rule id="14a8-3cea-225b-a998" name="Ancient of War" hidden="false">
-          <description>At the start of the battle, after deployment but before the first turn has begun, the controlling player may select a single Faction from the Allies in the Age of Darkness table, including either the Agents of the Emperor/Warmaster, that is represented in the enemy army. Marduk Sedras, and any friendly units with the Legiones Astartes (Dark Angels) special rule that have at least one model within 6&quot; of Marduk Sedras or a model with the Transport Subtype on which he is Embarked when all models have been deployed, but before the first Game Turn, gain the Preferred Enemy (Chosen Faction) special rule for all models in that unit for the duration of the battle. If Marduk Sedras is in Reserves, this special rule has no effect.</description>
+          <description>At the start of the battle, after deployment but before the first turn has begun, the controlling player may select a single Faction from the Allies in the Age of Darkness table, including either the Agents of the Emperor/Warmaster, that is represented in the enemy army. Marduk Sedras, and any friendly units with the Legiones Astartes (Dark Angels) special rule that have at least one model within 6" of Marduk Sedras or a model with the Transport Subtype on which he is Embarked when all models have been deployed, but before the first Game Turn, gain the Preferred Enemy (Chosen Faction) special rule for all models in that unit for the duration of the battle. If Marduk Sedras is in Reserves, this special rule has no effect.
+FAQ: The benefits gained from the Ancient of War Special Rule can affect units in a transport which are within 6” of a model with this Special Rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5205,7 +5462,7 @@ special rule.</description>
           <profiles>
             <profile id="7509-8e0b-38ff-5111" name="Regalia of the Shattered Sceptre" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" publicationId="9fab-fea7-a93c-2074" page="124">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Regalia of the Shattered Sceptre confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Regalia of the Shattered Sceptre also allows its bearer to automatically pass any Dangerous Terrain tests that model is called upon to take. In addition, The Regalia of the Shattered Sceptre confers the Bulky (2) Special Rule.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Regalia of the Shattered Sceptre confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Regalia of the Shattered Sceptre also allows its bearer to automatically pass any Dangerous Terrain tests that model is called upon to take. In addition, The Regalia of the Shattered Sceptre confers the Bulky (2) Special Rule, and a unit that includes Marduk Sedras may not make Sweeping Advances.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6422,6 +6679,516 @@ Legion and Legiones Astartes (Dark Angels) special rules is referred to as the r
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9290-c27f-7f1b-368f" name="Luther" hidden="false" collective="false" import="true" type="unit" page="99" publicationId="3970-79bb-bdc6-9599">
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f661-a4de-e5af-fe88" type="max"/>
+      </constraints>
+      <rules>
+      <rule id="81e1-67d9-a6e7-bd99" name="Secrets and Lies" hidden="false">
+        <description>Luther may not be selected as part of an army that also includes Lion El’Jonson.</description>
+      </rule>
+      <rule id="b3f8-b0c2-9cb2-6b4d" name="Damnation’s Destiny" hidden="false">
+        <description>An opponent may never claim any Victory Points from the Slay the Warlord secondary objective for Luther. In addition, Luther is never counted toward Attrition totals for units slain in missions where it is used.</description>
+      </rule>
+      </rules>
+      <infoLinks>
+      <infoLink id="3b23-c2d3-2eb5-dda9" name="Legiones Astartes (Dark Angels)" hidden="false" targetId="513e-0647-996a-6229" type="rule"/>
+      <infoLink id="f76d-b46b-8f5b-72b9" name="Master of the Legion" hidden="false" targetId="c772-87ea-d49c-c7ba" type="rule"></infoLink>
+      <infoLink id="2ff3-b759-b9b8-8f6c" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"></infoLink>
+      <infoLink id="e111-77ee-7c1c-7624" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"></infoLink>
+      </infoLinks>
+      <categoryLinks>
+      <categoryLink id="1d78-ac47-de64-1dab" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+      <categoryLink id="f2a7-e250-6fb5-595a" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+      <selectionEntry id="2835-3c31-2fb7-9df3" name="Luther" hidden="false" collective="false" import="true" type="model" page="99" publicationId="3970-79bb-bdc6-9599">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e57f-a504-18a8-1198" type="min"/>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a4-a628-f1e3-53c3" type="max"/>
+        </constraints>
+        <profiles>
+          <profile id="b5b0-545f-e385-12bc" name="Luther" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <characteristics>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Unique)</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntries>
+          <selectionEntry id="f06f-2eef-fde1-2d3f" name="Calibanite Greatsword" hidden="false" collective="false" import="true" type="upgrade" page="99" publicationId="3970-79bb-bdc6-9599">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c124-23f6-f35f-6549" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a84-eb58-cd72-fefe" type="min"/>
+            </constraints>
+            <profiles>
+              <profile id="8218-f989-bb00-af4b" name="Calibanite Greatsword" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+                <characteristics>
+                  <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                  <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+                  <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                  <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Rending (4+) Murderous Strike (5+)</characteristic>
+                </characteristics>
+              </profile>
+            </profiles>
+            <infoLinks>
+                <infoLink id="9c1a-73bc-a9fb-59f9" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"></infoLink>
+            </infoLinks>
+            <costs>
+              <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+            </costs>
+          </selectionEntry>
+        </selectionEntries>
+        <entryLinks>
+          <entryLink id="4ab5-8222-8212-6e5c" name="Artificer Armour" hidden="false" collective="false" import="true" targetId="583e-62cb-53f1-f952" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a354-5513-e4d4-660d" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99a5-d097-1a3b-fc35" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="f996-1050-e637-b4ae" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a9-6698-5983-a59f" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5473-2b6e-b177-ba83" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="eef0-45ae-5fef-904b" name="Iron Halo" hidden="false" collective="false" import="true" targetId="b081-bf3c-f43d-4bd5" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3027-e07d-dfae-e27b" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a3d-a635-dd8d-18bb" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="691e-ac10-35d6-a39d" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a0-238b-9bee-9be1" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b96e-5660-ee6d-d661" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="c0a5-8f05-2821-9c5e" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="99df-2421-acf7-a5ad" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8346-3b05-12cb-806c" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a8-47dd-b8f5-a07f" type="max"/>
+            </constraints>
+          </entryLink>
+        </entryLinks>
+        <categoryLinks>
+          <categoryLink id="721e-26a5-706c-3d90" name="Infantry" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+          <categoryLink id="dfbb-8aec-cedd-2058" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+          <categoryLink id="9944-74c5-f2e6-9f92" name="Unique" hidden="false" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+          <categoryLink id="fe4d-61ec-5e70-4010" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+        </categoryLinks>
+      </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5816-efaa-cbb2-1d19" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="119e-771d-aa7a-6901" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="bd11-9a9f-aae3-9191" name="Warlord: The Fallen" hidden="false">
+        <description>If chosen as the army's Warlord, Luther automatically has The Fallen as his Warlord Trait and may not select any other Warlord Trait. Luther and any units with the Legiones Astartes (Dark Angels) Special Rule in a Detachment he is selected in gains the Hatred (Dark Angels) Special Rule. Additionally, an army with Luther as its Warlord may make an additional Reaction during the opponent’s Assault phase as long as Luther has not been removed as a casualty.</description>
+      </rule>
+          </rules>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="906d-7511-216e-81a0" name="Merir Astelan" hidden="false" collective="false" import="true" type="unit" page="100" publicationId="3970-79bb-bdc6-9599">
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97e8-3962-8bbb-7780" type="max"/>
+      </constraints>
+      <rules>
+      <rule id="1940-efb3-5586-71ac" name="Fortress of the Mind" hidden="false">
+        <description>Any Psychic Power, whether friendly or enemy, that targets Astelan or a unit he has joined suffer a -2 penalty to the Psychic Check.</description>
+      </rule>
+      </rules>
+      <infoLinks>
+      <infoLink id="e93f-eb2c-d436-f844" name="Legiones Astartes (Dark Angels)" hidden="false" targetId="513e-0647-996a-6229" type="rule"/>
+      <infoLink id="edb9-ec51-84aa-4fc4" name="Master of the Legion" hidden="false" targetId="c772-87ea-d49c-c7ba" type="rule"></infoLink>
+      <infoLink id="d4e6-f61a-a4dc-72f5" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"></infoLink>
+      <infoLink id="ca7b-bab1-b281-4752" name="Adamantium Will (X+)" hidden="false" targetId="4380-44a5-f01a-d964" type="rule"></infoLink>
+      </infoLinks>
+      <categoryLinks>
+      <categoryLink id="5a8c-7da5-4737-3435" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+      <categoryLink id="1594-1328-4e6f-b3df" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+      <selectionEntry id="a06a-f883-fd3e-8d84" name="Astelan" hidden="false" collective="false" import="true" type="model" page="100" publicationId="3970-79bb-bdc6-9599">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f26-413b-582c-8f64" type="min"/>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ef0-f3d0-c2cd-9c14" type="max"/>
+        </constraints>
+        <profiles>
+          <profile id="dab5-63c6-fa43-442d" name="Astelan" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <characteristics>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Unique, Stormwing)</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <entryLinks>
+          <entryLink id="9437-b39f-8a63-3888" name="Artificer Armour" hidden="false" collective="false" import="true" targetId="583e-62cb-53f1-f952" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3352-631c-24ac-fbc8" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="588b-544a-5d1f-7d28" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="3816-f64f-9e9e-a7bf" name="Terranic Greatsword" hidden="false" collective="false" import="true" targetId="68b3-a64c-a609-6615" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81c6-a188-3afd-2628" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8625-d5f3-2252-66d8" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="28ef-72f5-fdc4-bab8" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1b-cebb-4380-ad18" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3166-b48e-ee07-2b0c" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="aa49-5bfe-8676-b98d" name="Iron Halo" hidden="false" collective="false" import="true" targetId="b081-bf3c-f43d-4bd5" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a069-7ec7-9a0e-be18" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfc-d9ea-7035-1a91" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="12d6-4300-f9cb-6919" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3428-f1b0-3a4b-7d98" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f30-ceba-6c63-d810" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="55ae-bd27-db9b-1fa6" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="99df-2421-acf7-a5ad" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e308-b786-7a54-8807" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5029-2063-64a9-1f54" type="max"/>
+            </constraints>
+          </entryLink>
+        </entryLinks>
+        <categoryLinks>
+          <categoryLink id="b3f0-5701-bf5f-ef16" name="Infantry" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+          <categoryLink id="946e-1736-30ab-ad5b" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+          <categoryLink id="edfc-21ca-dacf-27f1" name="Unique" hidden="false" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+          <categoryLink id="fd08-a425-3ded-b8fb" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+        </categoryLinks>
+      </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="719f-e34c-e168-9f96" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf7b-a1ab-2edd-dde7" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="b0a6-507a-899f-7323" name="Warlord: Inspirational Leader" hidden="false">
+        <description>If chosen as the army's Warlord, Astelan automatically has Inspirational Leader as his Warlord Trait and may not select any other Warlord Trait. Any friendly unit which has the Legiones Astartes (Dark Angels) Special Rule with line of sight to Astelan may add +1 to their Leadership Characteristic. Additionally, an army with Astelan as its Warlord may make a single additional Reaction during the opponent’s turn in any phase as long as Astelan has not been removed as a casualty.</description>
+      </rule>
+          </rules>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4010-77ea-953c-7e43" name="Inner Circle Indomitus Squad" hidden="false" collective="false" import="true" type="unit" page="101" publicationId="3970-79bb-bdc6-9599">
+      <rules>
+      <rule id="934d-3036-5adf-4948" name="Order Exemplars" hidden="false">
+        <description>Within the First Legion there are innumerable separate Orders, each dedicated to a singular creed of war. The Cenobium stand as the greatest exemplars of these Orders, their champions and foremost warriors each a keeper of the secrets held by that Order and a practitioner of the form of war they embody.
+
+When an Inner Circle Knights Cenobium (or any other unit with this special rule, such as an Inner Circle Indomitus Squad) is selected as part of a Detachment, during army selection, a single option from the Orders of the Hekatonystika must be selected for the unit. All models in that unit gain the chosen option for no additional points cost.</description>
+      </rule>
+      </rules>
+      <infoLinks>
+      <infoLink id="ed4b-e001-3cc9-b6f8" name="Legiones Astartes (Dark Angels)" hidden="false" targetId="513e-0647-996a-6229" type="rule"/>
+      <infoLink id="a380-9364-540e-9001" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"></infoLink>
+      <infoLink id="8a78-675d-f969-b81e" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
+        <modifiers>
+          <modifier type="set" field="name" value="Bulky (2)"/>
+        </modifiers>
+      </infoLink>
+      <infoLink id="e01a-b3f6-fa71-ba67" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"></infoLink>
+      <infoLink id="400b-f843-ed2d-504c" name="Adamantium Will (X+)" hidden="false" targetId="4380-44a5-f01a-d964" type="rule">
+        <modifiers>
+          <modifier type="set" field="name" value="Adamantium Will (3+)"/>
+        </modifiers>
+      </infoLink>
+      <infoLink id="c176-b6c3-e3a5-8a33" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule"></infoLink>
+      </infoLinks>
+      <categoryLinks>
+      <categoryLink id="dc98-3456-e694-3edc" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+      <selectionEntry id="80b7-91fb-e593-a2ef" name="Order Cenobite Indomitus" hidden="false" collective="false" import="true" type="model" page="101" publicationId="3970-79bb-bdc6-9599">
+        <constraints>
+          <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c99-d2f0-f23a-b8cf" type="min"/><constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f41-9835-6244-e018" type="max"/>
+        </constraints>
+        <profiles>
+          <profile id="7ced-f5a3-c5c9-d7f6" name="Order Cenobite Indomitus" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <characteristics>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+            <selectionEntryGroup id="fab9-1edb-3d9c-c291" name="Orders of the Hekatonystika (Order Exemplars)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8619-635f-66d9-1b0e" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6365-8314-d91e-8379" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="b52c-e32d-6a55-a0a0" name="Augurs of Weakness" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="fe6a-89bf-8b16-b2b2" name="Augurs of Weakness" hidden="false">
+                      <description>When making an Armour Penetration roll against a target with Armour 11 or more on the facing targeted, a model with this special rule may add +1 to the Strength of the weapon used to make the attack.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="56c7-8cad-8e31-a9d6" name="Icons of Resolve" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="c638-efaa-3c25-f729" name="Icons of Resolve" hidden="false">
+                      <description>This model gains +1 Leadership (to a maximum of 10) on any turn in which it, or a unit it is part of, is Charged by one or more enemy units.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="aaa6-5820-a965-494e" name="Slayers of Kings" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="9777-9613-7131-4c56" name="Slayers of Kings" hidden="false">
+                      <description>This model may re-roll failed To Hit rolls of ‘1’ when Engaged in combat with any model with a Weapon Skill of 5 or higher or in a Challenge with any model with a Weapon Skill of 5 or higher.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e3eb-6430-82aa-fdae" name="Hunters of Beasts" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="3d9e-3ffc-6a50-4957" name="Hunters of Beasts" hidden="false">
+                      <description>This model may re-roll failed To Wound rolls of ‘1’ when any enemy unit it is Engaged in combat with includes one or more models with a Toughness of 5, or any failed To Wound roll if the target’s Toughness is 6 or higher.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9174-a926-19c9-e084" name="Reapers of Hosts" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="19f4-1457-5a2b-94e6" name="Reapers of Hosts" hidden="false">
+                      <description>This model gains +1 Attack in any Fight sub-phase which they begin in base contact with more than one enemy model.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ddc3-1a71-c5f0-bee0" name="Breakers of Witches" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="da98-487b-c80b-11d6" name="Breakers of Witches" hidden="false">
+                      <description>This model may re-roll all To Hit and To Wound rolls in close combat when attacking an enemy unit that includes one or more models with the Daemon Unit Type or the Psyker or Corrupted Sub-type.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ae5c-dc8d-a7de-b693" name="One Order Cenobite Indomitus may take a:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c1-1ddf-ee7d-4bf8" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="accd-51eb-54d5-7823" name="Legion Vexilla" hidden="false" collective="false" import="true" targetId="21b1-2a90-9826-1782" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8fce-d27c-afcd-e26d" name="Any model in the unit may exchange its Terranic Greatsword and Plasma-Caster for a:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67be-7fdd-5399-6850" type="max"/>
+              </constraints>
+              <entryLinks>
+                <selectionEntry id="24df-252c-38b2-f1f5" name="Thunder Hammer and Proteus Pattern Storm Shield" hidden="false" collective="false" import="true" type="upgrade" page="101" publicationId="3970-79bb-bdc6-9599">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3a7a-6b49-f4c1-6b37" name="Any model in the unit may exchange its Terranic Greatsword for a:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4a-622c-3339-6681" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="e145-3b70-fff6-f861" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+        </selectionEntryGroups>
+        <entryLinks>
+          <entryLink id="ada3-c123-9eab-ac5d" name="Terranic Greatsword" hidden="false" collective="false" import="true" targetId="68b3-a64c-a609-6615" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5488-4e05-7256-816b" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd13-6fc9-3c17-9290" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="233c-a7b8-f398-f157" name="Plasma-Caster" hidden="false" collective="false" import="true" targetId="1951-78d7-bb2c-6219" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f6-5b56-f945-7e44" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6600-d614-a641-4506" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="90ea-e337-3927-2250" name="Legion Indomitus Terminator Armour" hidden="false" collective="false" import="true" targetId="289a-3c8d-4151-83af" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c3-d5b3-b5f8-1685" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b66e-2419-bb36-9223" type="max"/>
+            </constraints>
+          </entryLink>
+        </entryLinks>
+        <categoryLinks>
+          <categoryLink id="2497-2705-f509-bbaa" name="Infantry" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+          <categoryLink id="be3e-99cf-c8e8-6f00" name="Heavy" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
+        </costs>
+      </selectionEntry>
+      <selectionEntry id="5799-7cb5-9a0f-b22f" name="Order Preceptor Indomitus" hidden="false" collective="false" import="true" type="model" page="101" publicationId="3970-79bb-bdc6-9599">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1097-ba6e-85f3-4833" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca8-97eb-8a9d-3bfd" type="max"/>
+        </constraints>
+        <profiles>
+          <profile id="719a-31a9-cd18-b501" name="Order Preceptor Indomitus" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <characteristics>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Heavy)</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+            <selectionEntryGroup id="1381-fdc1-9ff3-6ea0" name="Any model in the unit may exchange its Terranic Greatsword and Plasma-Caster for a:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3555-cce3-1179-3e31" type="max"/>
+              </constraints>
+              <entryLinks>
+                <selectionEntry id="d118-2928-1a85-5fdb" name="Thunder Hammer and Proteus Pattern Storm Shield" hidden="false" collective="false" import="true" type="upgrade" page="101" publicationId="3970-79bb-bdc6-9599">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2cfa-b510-68cf-7986" name="Any model in the unit may exchange its Terranic Greatsword for a:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ca-d54d-a812-22d9" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="c3a9-98da-a802-2d7e" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3f8c-ffd1-7c5a-7079" name="The Order Preceptor Indomitus may take a:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6313-9851-1c7a-3ba7" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4f66-76e8-58d5-37fd" name="Grenade Harness" hidden="false" collective="false" import="true" targetId="251a-860d-2c4d-62cc" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+        </selectionEntryGroups>
+        <entryLinks>
+          <entryLink id="8ed3-a915-c5fe-ff04" name="Terranic Greatsword" hidden="false" collective="false" import="true" targetId="68b3-a64c-a609-6615" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e34c-a37b-8be4-5000" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c4-17e5-15d0-952e" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="e9e8-2c0e-db84-eb18" name="Plasma-Caster" hidden="false" collective="false" import="true" targetId="1951-78d7-bb2c-6219" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1d-179d-32af-5b91" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="543c-cf09-bd5b-bb43" type="max"/>
+            </constraints>
+          </entryLink>
+          <entryLink id="19ba-b7d4-fd53-a2a0" name="Legion Indomitus Terminator Armour" hidden="false" collective="false" import="true" targetId="289a-3c8d-4151-83af" type="selectionEntry">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df98-3f7a-2e17-3f3d" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c330-ee74-3798-df74" type="max"/>
+            </constraints>
+          </entryLink>
+        </entryLinks>
+        <categoryLinks>
+          <categoryLink id="bda7-a951-9ea6-85ef" name="Infantry" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+          <categoryLink id="3b72-b173-a973-c7b3" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+          <categoryLink id="9312-cffe-b8d8-d6a5" name="Heavy" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
+        </categoryLinks>
+        <costs>
+          <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        </costs>
+      </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+    <selectionEntryGroups>
+        <selectionEntryGroup id="7f2a-7984-3a12-347c" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fce-efce-ca95-f0ef" type="max"/>
+          </constraints>
+          <entryLinks>
+          <entryLink id="bbc7-aa9e-eb47-e29b" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry"><modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="4010-77ea-953c-7e43" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/></conditions></modifier></modifiers></entryLink>
+          <entryLink id="4f3a-98c9-254b-7924" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry"><modifiers><modifier type="set" field="hidden" value="true"><conditions><condition field="selections" scope="4010-77ea-953c-7e43" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/></conditions></modifier></modifiers></entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="66e9-e8f8-5eb6-1cf6" name="Retinue" hidden="false" collective="false" import="true">
@@ -6610,5 +7377,6 @@ This additional Reaction may on be made as long as the Warlord has not been remo
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink name="[Centura] Legiones Astartes" targetId="d76-4e81-2fef-caa1" type="catalogue" id="e822-f73c-bd7a-75c0"/>
   </catalogueLinks>
 </catalogue>

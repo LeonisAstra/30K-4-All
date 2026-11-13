@@ -324,10 +324,29 @@
         <categoryLink id="2f0a-873a-7cb6-acd4" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Questoris Knight Moirax Talon" hidden="false" id="6059-a067-b5c7-8802" type="selectionEntry" targetId="1057-b62a-4343-9be8">
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="d7a9-4bb5-993d-7ae1" primary="true" name="Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="2962-3587-6637-4145" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Knight Maeliviax" hidden="false" id="9bd5-3e14-3586-f3a0" type="selectionEntry" targetId="1a0b-82a7-4c82-9fe0">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="8a57-5834-9d73-3938" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5547-ebf1-3e88-92f0" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Knight Dominus" hidden="false" id="c4e3-4d1d-4e42-82e5" type="selectionEntry" targetId="9bba-0f55-47ac-8530">
+      <categoryLinks>
+        <categoryLink targetId="c658-dc6b-727b-c488" id="8142-75cd-bbbd-4e13" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8c45-ad02-97be-573b" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="f98f-e172-8ed2-4bef" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="e123-456e-507c-5trb" name="Daemons - Bound Daemons" targetId="d114-c205-18d5-4e95" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="d37a-a16f-fc51-2b60" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
+    <catalogueLink name="[Ingenium] Knights" targetId="ee7c-1a71-edb-acbd" type="catalogue" id="29ab-3ecf-e939-d5fb"/>
   </catalogueLinks>
 </catalogue>
